@@ -59,3 +59,17 @@ Owner-written. One entry per decision. Format: Decision · Options considered ·
 - **Choice and why:** _(owner)_ one definition for docs, checks and DDL; COPY loads 36k rows in ~3 s.
 - **Trade-off:** no migration history (drop/recreate is fine for a generated dataset).
 - **Requirement link:** Step 9 schema export, no label leakage.
+
+## D-009 — Analysis is independent of the generator (policy R4) and tuned on train only
+- **Decision:** `analyze/` may import only `generate.contract`/`generate.config`; lexicons in `analyze/lexicon.py` are hand-written. Rules were tuned by looking at TRAIN-split errors only; the eval split is reported once (Step 5). Each `pipeline_run` stores a hash of the rule files.
+- **Options considered:** reuse the generator's phrase banks; tune on all data; independent lexicon + train-only tuning.
+- **Choice and why:** _(owner)_ otherwise accuracy would just measure "the generator reversed itself".
+- **Trade-off:** template text is still cleaner than real text; train numbers are optimistic, eval/slice metrics are the honest ones.
+- **Requirement link:** no label leakage, measurable metrics, explainability.
+
+## D-010 — Confidence + abstention instead of forced labels
+- **Decision:** every prediction has confidence, evidence tokens and rule ids. Routed to human review if confidence < tau (0.6 default, chosen later from the accuracy-vs-coverage curve), sarcasm, no theme, rating-vs-text conflict, or input-label conflict. PII is redacted before analysis (PII_LEAK exception); input labels that contradict confident predictions raise LABEL_CONTRADICTS_TEXT.
+- **Options considered:** always auto-label; abstain on low confidence only.
+- **Choice and why:** _(owner)_ honest AI: show coverage and accuracy together; humans see the hard cases.
+- **Trade-off:** ~16% of items need human review.
+- **Requirement link:** human review loop, explainability, edge cases.

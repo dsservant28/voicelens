@@ -22,7 +22,7 @@ from .models import APP, RAW, TABLES, foreign_keys, metadata, schema_of
 UNLOADABLE = {"PK_DUPLICATE", "TYPE_INVALID", "REQUIRED_MISSING", "ENUM_INVALID"}
 
 
-def _copy(conn, table: str, df: pd.DataFrame) -> None:
+def copy_df(conn, table: str, df: pd.DataFrame) -> None:
     buf = io.StringIO()
     df.to_csv(buf, index=False, header=False, lineterminator="\n")   # '' -> unquoted empty -> NULL
     cols = ", ".join(df.columns)
@@ -52,9 +52,9 @@ def load(data: Path = DEFAULT_OUT) -> list[dict]:
             skip = set(exc[(exc["table_name"] == t) & exc["exception_type"].isin(UNLOADABLE)]["record_key"])
             key = df[pk].astype(str).agg("|".join, axis=1)
             keep = df[~key.isin(skip) & ~df.duplicated(pk, keep="first")]
-            _copy(conn, t, keep[columns(t)])
+            copy_df(conn, t, keep[columns(t)])
             report.append({"table": f"{RAW}.{t}", "csv_rows": len(df), "skipped": len(df) - len(keep)})
-        _copy(conn, "data_exception", exc[columns("data_exception")])
+        copy_df(conn, "data_exception", exc[columns("data_exception")])
         report.append({"table": f"{APP}.data_exception", "csv_rows": len(exc), "skipped": 0})
         for stmt in foreign_keys():
             conn.execute(text(stmt))

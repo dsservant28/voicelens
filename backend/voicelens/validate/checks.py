@@ -298,9 +298,9 @@ def _feedback_ref(table: str, rows: pd.DataFrame) -> tuple[pd.Series, pd.Series]
     return empty, empty
 
 
-def run_checks(T: Tables) -> pd.DataFrame:
+def run_checks(T: Tables, only: set[str] | None = None) -> pd.DataFrame:
     parts = []
-    for chk in CHECKS:
+    for chk in [c for c in CHECKS if only is None or c.name in only]:
         for h in chk.fn(T):
             if h.rows.empty:
                 continue

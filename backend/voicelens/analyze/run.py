@@ -19,9 +19,12 @@ from . import route as R
 from .normalize import build_feedback
 from .sentiment import classify
 from .themes import ThemeClassifier
+from . import actions as A, detect as D, prioritize as P
+from .insights import run_insights
 
 HERE = Path(__file__).resolve().parent
-RULE_FILES = ("lexicon.py", "sentiment.py", "themes.py", "normalize.py", "route.py")
+RULE_FILES = ("lexicon.py", "sentiment.py", "themes.py", "normalize.py", "route.py", "aggregate.py", "detect.py",
+              "prioritize.py", "actions.py")
 FMT = "%Y-%m-%d %H:%M:%S"
 
 
@@ -83,7 +86,9 @@ def analyze(engine: Engine, tau: float = R.TAU) -> dict:
     items = fb.assign(event_at=fb["event_at"].dt.strftime(FMT), week_start=fb["week_start"].astype(str),
                       run_id=run_id)[columns("feedback_item")]
     params = {"tau": tau, "rating_conflict": [R.RATING_LOW, R.RATING_HIGH],
-              "label_conflict_min_conf": R.LABEL_CONFLICT_MIN_CONF, "max_themes": 2}
+              "label_conflict_min_conf": R.LABEL_CONFLICT_MIN_CONF, "max_themes": 2,
+              "detect": D.PARAMS, "chronic": [P.CHRONIC_DAYS, P.CHRONIC_MIN_N, P.CHRONIC_MIN_SHARE],
+              "actions": {"p_min": A.P_MIN, "min_alert_days": A.MIN_ALERT_DAYS}}
     run = pd.DataFrame([{"run_id": run_id, "stage": "analyze", "params": json.dumps(params), "lexicon_hash": rules_hash(),
                          "n_items": len(pred), "n_auto": int((pred["route"] == "auto").sum()),
                          "n_review": int((pred["route"] == "review").sum()), "status": "SUCCEEDED",
@@ -105,4 +110,5 @@ def analyze(engine: Engine, tau: float = R.TAU) -> dict:
         c.execute(text("DELETE FROM app.data_exception WHERE detected_by = 'analysis'"))
         for t in ("pipeline_run", "feedback_item", "prediction", "data_exception"):
             copy_df(c, t, out[t].astype(object).where(out[t].notna(), None).replace({"": None}))
-    return {"run_id": run_id, "items": items, "pred": pred, "exceptions": exc, "run": run.iloc[0].to_dict()}
+    ins = run_insights(engine, run_id, items, pred)
+    return {"run_id": run_id, "items": items, "pred": pred, "exceptions": exc, "run": run.iloc[0].to_dict(), **ins}

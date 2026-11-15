@@ -27,6 +27,17 @@ def main(argv=None) -> int:
     print("review reasons:", reasons[reasons != ""].value_counts().to_dict())
     print("rules fired:", p["rules_fired"].str.split("|").explode().value_counts().to_dict())
     print("analysis exceptions:", res["exceptions"]["exception_type"].value_counts().to_dict())
+    print(f"\nweekly cells {len(res['cells']):,}  alerts {len(res['alerts'])}  "
+          f"action items new {len(res['new_actions'])} / refreshed {len(res['updated_actions'])}")
+    al = res["alerts"]
+    if len(al):
+        print(al[["alert_id", "product_id", "theme_id", "kind", "start_date", "detected_date", "end_date", "peak_z",
+                  "lead_channel", "first_support_date", "first_review_date", "first_survey_date",
+                  "evidence_count"]].to_string(index=False))
+    print("\npriority candidates:")
+    for c in res["candidates"][:10]:
+        print(f"  {c['kind']:<8}{c['product_id']} {c['theme_id']}  priority {c['priority']:>7}  "
+              f"vol {c['volume']:>3} neg {c['neg_share']:.0%} sev {c['severity_weight']} shift {c['shift']:+.2f}")
     return 0
 
 

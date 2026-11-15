@@ -78,3 +78,24 @@ def test_quality_and_evaluation():
     assert q["summary"]["status"] and q["by_type"] and q["exceptions"]
     ev = client.get("/evaluation").json()
     assert ev["incidents"]["detected"] >= 1 and "eval" in ev["splits"]
+
+
+def test_themes_ranked_with_priority_and_drilldown():
+    t = client.get("/themes").json()
+    assert t and t[0]["rank"] == 1 and all(t[i]["priority"] >= t[i + 1]["priority"] for i in range(len(t) - 1))
+    d = client.get(f"/themes/{t[0]['product_id']}/{t[0]['theme_id']}").json()
+    cell = d["weekly_cells"][0]
+    lin = client.get(f"/lineage/cell/{cell['cell_id']}").json()
+    assert len(lin["items"]) == cell["n_items"]                         # cell count reconciles with its records
+
+
+def test_trend_point_traces_to_records():
+    point = client.get("/overview").json()["trend"][0]
+    r = client.get(f"/trend/items?week_start={point['week_start']}&channel_type={point['channel_type']}&limit=200").json()
+    assert r["total"] == point["n"] and r["items"]
+
+
+def test_eval_review_set_is_blind():
+    q = client.get("/review-queue?set=eval&status=all&limit=200").json()
+    assert q["blind"] and q["total"] == 100
+    assert not ({"sentiment", "confidence", "rules_fired", "evidence"} & set(q["items"][0]))

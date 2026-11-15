@@ -30,6 +30,13 @@ Conventions: IDs are zero-padded and immutable and identical across files. Dates
 | action_item.product_id | product | N:1 | no |  |
 | action_item_event.action_item_id | action_item | N:1 | no |  |
 | label_review_event.source_id | review / survey_response / support_message | N:1 | no | polymorphic |
+| feedback_item.customer_id | customer | N:1 | no |  |
+| feedback_item.product_id | product | N:1 | no |  |
+| feedback_item.channel_id | channel | N:1 | no |  |
+| feedback_item.run_id | pipeline_run | N:1 | no |  |
+| feedback_item.source_id | review / survey_response / support_message | 1:1 | no | polymorphic |
+| prediction.run_id | pipeline_run | N:1 | no |  |
+| prediction.source_id | feedback_item | 1:1 | no | same (source_type, source_id) |
 
 Derived N:M: feedback N:M theme via `feedback_theme`. 1:N summary: customer 1:N reviews/responses/tickets; survey 1:N responses; ticket 1:N messages and 1:N status events; theme 1:N action items; action item 1:N events.
 
@@ -356,6 +363,77 @@ Exception path: every failed check / detected anomaly becomes a row; nothing cra
 | detected_at | datetime | yes |  |  |  |  |  |
 | resolution_status | enum | yes | OPEN, RESOLVED, ACCEPTED |  |  |  |  |
 
+### `pipeline_run`
+
+One execution of the analysis stages; parameters and lexicon hash make every prediction reproducible.
+
+- **Primary key:** run_id
+- **Effective dates:** started_at <= finished_at.
+- **Lifecycle:** SUCCEEDED | FAILED (append-only)
+- **Produced by:** analysis / validation pipeline
+
+| Field | Type | Required | Allowed values | Unit | Unique | FK | Validation rule |
+|---|---|---|---|---|---|---|---|
+| run_id | id | yes |  |  | yes |  | RUN-000001 |
+| stage | str | yes |  |  |  |  | e.g. analyze |
+| params | str | yes |  |  |  |  | JSON: tau, rule settings |
+| lexicon_hash | str | yes |  |  |  |  | SHA-256 (12 chars) of analyze/lexicon.py |
+| n_items | int | yes |  | records |  |  |  |
+| n_auto | int | yes |  | records |  |  |  |
+| n_review | int | yes |  | records |  |  |  |
+| status | enum | yes | SUCCEEDED, FAILED |  |  |  |  |
+| started_at | datetime | yes |  |  |  |  |  |
+| finished_at | datetime | yes |  |  |  |  |  |
+
+### `feedback_item`
+
+Curated, unified feedback (reviews + survey responses + customer support messages), PII-redacted. Quarantined rows excluded.
+
+- **Primary key:** source_type, source_id
+- **Effective dates:** event_at; week_start = Monday of the ISO week.
+- **Lifecycle:** none (immutable record)
+- **Produced by:** analysis / validation pipeline
+
+| Field | Type | Required | Allowed values | Unit | Unique | FK | Validation rule |
+|---|---|---|---|---|---|---|---|
+| source_type | enum | yes | review, survey_response, support_message |  |  |  |  |
+| source_id | id | yes |  |  |  |  |  |
+| customer_id | id | yes |  |  |  | customer.customer_id |  |
+| product_id | id | yes |  |  |  | product.product_id |  |
+| channel_id | id | yes |  |  |  | channel.channel_id |  |
+| channel_type | enum | yes | survey, review, support |  |  |  |  |
+| event_at | datetime | yes |  |  |  |  |  |
+| week_start | date | yes |  |  |  |  | Monday of event_at's ISO week |
+| score_norm | float | no |  | 0-1 |  |  | DERIVED: (rating-1)/4 or score/10; null for messages |
+| language | enum | yes | en, es, hi, te, hi-Latn |  |  |  | declared by the source |
+| language_detected | enum | yes | en, es, hi, te, hi-Latn |  |  |  | script + marker words |
+| code_mixed | int | yes | 0, 1 |  |  |  | 1 if Latin-script Hindi/English mix |
+| redacted_text | text | yes |  |  |  |  | emails, phones, known customer names replaced by [EMAIL]/[PHONE]/[NAME] |
+| pii_count | int | yes |  | redactions |  |  |  |
+| run_id | id | yes |  |  |  | pipeline_run.run_id |  |
+
+### `prediction`
+
+Explainable sentiment + theme prediction per feedback item, with confidence, evidence, rules and routing.
+
+- **Primary key:** source_type, source_id
+- **Effective dates:** valid for run_id.
+- **Lifecycle:** auto | review (human decision in label_review_event)
+- **Produced by:** analysis / validation pipeline
+
+| Field | Type | Required | Allowed values | Unit | Unique | FK | Validation rule |
+|---|---|---|---|---|---|---|---|
+| source_type | enum | yes | review, survey_response, support_message |  |  |  |  |
+| source_id | id | yes |  |  |  |  |  |
+| sentiment | enum | yes | positive, negative, neutral, mixed |  |  |  |  |
+| confidence | float | yes |  | 0-1 |  |  | rule-based certainty of the sentiment |
+| theme_ids | str | no |  |  |  |  | '|'-separated, most specific theme; null = unclassified |
+| evidence | str | no |  |  |  |  | '|'-separated matched cues, e.g. +recommend|-never arrives |
+| rules_fired | str | yes |  |  |  |  | '|'-separated rule ids, e.g. LEX|NEGATION|CONTRAST |
+| route | enum | yes | auto, review |  |  |  | review if confidence < tau or a risk rule fired |
+| route_reason | str | no |  |  |  |  |  |
+| run_id | id | yes |  |  |  | pipeline_run.run_id |  |
+
 ## Ground truth - evaluation only (data/output/ground_truth/)
 
 ### `gt_labels` -> `labels.csv`
@@ -448,5 +526,6 @@ The 5 planted edge-case types with the decision the pipeline is expected to take
 | event_id | `^(TSE|AIE|LRE)-\d{6}$` |
 | action_item_id | `^ACT-\d{6}$` |
 | exception_id | `^EXC-\d{6}$` |
+| run_id | `^RUN-\d{6}$` |
 | incident_id | `^INC-\d{2}$` |
 | anomaly_id | `^ANOM-\d{4}$` |

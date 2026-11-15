@@ -67,7 +67,7 @@ def lineage(kind: str, obj_id: str):
         kind, obj_id = "alert", act["alert_id"]
     if kind == "alert":
         a = _alert(obj_id)
-        chain.append({"level": "alert", "id": obj_id, "detected_date": a["detected_date"], "peak_z": a["peak_z"],
+        chain.append({"level": "alert", "id": obj_id, "detected_date": a["detected_date"], "peak_z": a["peak_z"], "magnitude": a["magnitude"],
                       "baseline_share": a["baseline_share"], "window_share": a["window_share"],
                       "lead_channel": a["lead_channel"], "test": "7-day window vs 28-day baseline, exact Poisson p<=1e-5, 3-day persistence"})
         return {"chain": chain, "items": _evidence(obj_id)}

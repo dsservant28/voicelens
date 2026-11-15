@@ -55,8 +55,8 @@ def overview():
     mix = db.rows("SELECT sentiment, count(*) AS n FROM app.prediction GROUP BY 1 ORDER BY 2 DESC")
     top = db.rows("""
         SELECT a.alert_id, a.kind, a.status, a.product_id, pr.name AS product_name, t.name AS theme_name,
-               a.detected_date, a.peak_z, a.shift, a.lead_channel, ai.action_item_id
+               a.detected_date, a.peak_z, a.magnitude, a.shift, a.lead_channel, ai.action_item_id
         FROM app.alert a JOIN raw.product pr USING (product_id) JOIN raw.theme t USING (theme_id)
         LEFT JOIN app.action_item ai ON ai.alert_id = a.alert_id
-        ORDER BY a.peak_z DESC LIMIT 5""")
+        ORDER BY a.magnitude DESC LIMIT 5""")
     return {"kpis": k, "trend": trend, "sentiment_mix": mix, "top_alerts": top}

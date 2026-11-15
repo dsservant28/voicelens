@@ -8,7 +8,7 @@ import pandas as pd
 
 P_MIN, MIN_ALERT_DAYS = 10.0, 7
 OWNER = {"delivery": "logistics_ops", "late_delivery": "logistics_ops", "billing": "billing_ops",
-         "double_charge": "billing_ops", "refunds": "billing_ops", "pricing": "product_manager",
+         "double_charge": "billing_ops", "refunds": "billing_ops", "pricing": "marketing_ops",
          "app_performance": "product_manager", "usability": "product_manager", "onboarding": "product_manager",
          "account_login": "product_manager", "product_quality": "product_manager", "customer_support": "support_lead"}
 NEXT_STEP = {

@@ -73,3 +73,24 @@ Owner-written. One entry per decision. Format: Decision · Options considered ·
 - **Choice and why:** _(owner)_ honest AI: show coverage and accuracy together; humans see the hard cases.
 - **Trade-off:** ~16% of items need human review.
 - **Requirement link:** human review loop, explainability, edge cases.
+
+## D-011 — Daily rolling detection with an exact Poisson test and persistence
+- **Decision:** every day, per product x theme, a 7-day window is compared with the 28 days before it. Worsen = excess negatives with exact Poisson tail p <= 1e-5 (~11k tests -> Bonferroni-style), >= 8 negatives and share +0.15; improve = share -0.30 with z >= 4. An alert is confirmed after 3 firing days and `detected_date` is that day (no hindsight). Per-channel series give the lead channel. Improve after a recent worsen = `recovery`.
+- **Options considered:** weekly buckets + z-score; daily rolling + z; daily rolling + exact tail + persistence.
+- **Choice and why:** _(owner)_ day-level time-to-detect; a small-count z-score fired ~190 times on noise, the exact tail + persistence fires only on real shifts. Thresholds come from the multiple-testing argument, not from the incidents.
+- **Trade-off:** the 3-day confirmation adds ~2 days to time-to-detect; first possible detection is 35 days into the data.
+- **Requirement link:** sentiment shifts, measurable time-to-detect, traceability (alert_evidence).
+
+## D-012 — Priority formula stored with inputs; action items upserted
+- **Decision:** priority = volume x neg_share x severity_weight x (1 + shift), inputs stored as JSON. Action item if priority >= 10 and the alert lasted >= 7 days, plus chronic issues (>= 60% negative over 28 days, >= 15 items). Upsert key (product, theme, kind): reruns refresh score/evidence; status history in `action_item_event` is never touched.
+- **Options considered:** drop and recreate each run; upsert.
+- **Choice and why:** _(owner)_ reruns must not erase human decisions.
+- **Trade-off:** items that stop qualifying are not auto-closed (a human decides).
+- **Requirement link:** prioritised action items, append-only history, traceability.
+
+## D-013 — Evaluation: eval split once, tau chosen on train, everything reported
+- **Decision:** `evaluate/` (the only package reading ground truth) reports sentiment/theme metrics on the untouched eval split next to train ("tuned on"), slices by style and language, the accuracy-vs-coverage curve, edge-case recall/precision and whether the expected decision was taken, and incident detection rate / false alarms / time-to-detect / measured vs designed channel lag / evidence precision. tau is recommended from the TRAIN curve (max coverage with auto accuracy >= target); the owner decides whether to apply it.
+- **Options considered:** single accuracy number; tune tau on eval.
+- **Choice and why:** _(owner)_ honest metrics: no decision is ever fitted on the eval split.
+- **Trade-off:** eval split at scale 0.25 is ~500 items, so small slices (hi, sarcastic) have wide error bars.
+- **Requirement link:** measurable outputs, evaluation set, edge-case handling, time-to-detect.

@@ -101,3 +101,10 @@ Owner-written. One entry per decision. Format: Decision · Options considered ·
 - **Choice and why:** _(owner)_ few, readable queries; a reviewer can go from `git clone` to a running API with one command.
 - **Trade-off:** no authentication or multi-user conflict handling (documented limitation).
 - **Requirement link:** end-to-end workflow, human review loop, traceability, reproducibility.
+
+## D-015 — Audit fixes: blind human-reviewed eval set, theme priorities, trend drill-down, marketing actor
+- **Decision:** (1) `evaluate/` builds a blind, stratified 100-item sample of the eval split (`eval_review_sample`, no label stored); the Review queue "Evaluation set" tab hides the model's answer; evaluation reports model-vs-human and human-vs-gold on reviewed items. (2) `GET /themes` ranks every product x theme over the last 4 weeks with the action-item priority formula. (3) `GET /trend/items` returns the records behind any trend point. (4) Pricing actions are owned by `marketing_ops`, so all 5 actors (customer, support agent, analyst, marketing/sales ops, admin) appear in the workflow.
+- **Options considered:** auto-generated "human" labels (rejected: dishonest); reviewing all 2,000 eval items (not feasible in a demo).
+- **Choice and why:** _(owner)_ meets the acceptance criterion with real human input, without exposing gold labels.
+- **Trade-off:** the human-reviewed set is small (<= 100) and must be filled by a person through the UI.
+- **Requirement link:** acceptance criteria (human-reviewed labels, traceable trends), service priorities, actors.

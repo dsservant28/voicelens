@@ -5,6 +5,9 @@
   R2  Determinism: generator code (backend/voicelens/generate/) must not use the global `random`
       module, global numpy.random functions, or the wall clock.
   R3  No secrets: no hard-coded API keys, passwords or DB URLs with passwords.
+  R4  Independent analysis: analysis code may import only generate.contract / generate.config (schema, fixed
+      dates) - never the generator's templates, world, taxonomy, build or edge cases, and never evaluate/.
+      Lexicons are written independently, so accuracy is not "reverse-engineering the generator".
 
 A line ending with "# policy: allow" is skipped (only with the owner's approval).
 
@@ -30,6 +33,10 @@ SKIPPED_DIRS = {".git", ".venv", "venv", "node_modules", "__pycache__", "data", 
 ALLOW_MARKER = "# policy: allow"
 
 LEAK_TERMS = re.compile(r"\b(ground_truth|issue_type|true_sentiment|true_theme|gold_label|human_label)\b")
+
+GENERATOR_IMPORT = re.compile(
+    r"^\s*(?:from|import)\s+(?:voicelens|\.\.)\.?(?:generate(?:\.(?!contract\b|config\b)\w+|\s+import\s+(?!contract\b|config\b)\w)"
+    r"|evaluate\b)")
 
 NONDET_RULES = [
     (re.compile(r"^\s*(import\s+random\b|from\s+random\s+import\b)"),
@@ -93,6 +100,9 @@ def check_file(path: Path, root: Path = ROOT) -> list[Violation]:
             if m:
                 found.append(Violation("R1-leakage", rel_str, n,
                                        f"analysis code mentions '{m.group(1)}'; analysis must never use ground truth"))
+            if GENERATOR_IMPORT.search(line):
+                found.append(Violation("R4-independence", rel_str, n,
+                                       "analysis imports generator internals or evaluate/; only generate.contract/config allowed"))
         if is_generate and path.suffix == ".py":
             for pattern, msg in NONDET_RULES:
                 if pattern.search(line):

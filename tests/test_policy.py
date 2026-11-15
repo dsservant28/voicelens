@@ -64,3 +64,17 @@ def test_hard_coded_db_password_is_caught(tmp_path):
 def test_allow_marker_skips_line(tmp_path):
     f = _write(tmp_path, f"{PKG}/analyze/doc.py", "# never read ground_truth here  # policy: allow\n")
     assert policy_check.check_file(f, tmp_path) == []
+
+
+
+def test_analysis_importing_generator_internals_is_caught(tmp_path):
+    for code in ("from ..generate.templates import EN_FRAMES\n", "from voicelens.generate import world\n",
+                 "from ..generate.taxonomy import THEMES\n", "from ..evaluate.metrics import f1\n"):
+        f = _write(tmp_path, f"{PKG}/analyze/sentiment.py", code)
+        assert "R4-independence" in _rules(policy_check.check_file(f, tmp_path)), code
+
+
+def test_analysis_may_import_contract_and_config(tmp_path):
+    code = "from ..generate.contract import SENT\nfrom ..generate import config\nfrom ..db.engine import get_engine\n"
+    f = _write(tmp_path, f"{PKG}/analyze/sentiment.py", code)
+    assert policy_check.check_file(f, tmp_path) == []

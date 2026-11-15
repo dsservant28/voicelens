@@ -37,6 +37,16 @@ Conventions: IDs are zero-padded and immutable and identical across files. Dates
 | feedback_item.source_id | review / survey_response / support_message | 1:1 | no | polymorphic |
 | prediction.run_id | pipeline_run | N:1 | no |  |
 | prediction.source_id | feedback_item | 1:1 | no | same (source_type, source_id) |
+| weekly_cell.product_id | product | N:1 | no |  |
+| weekly_cell.theme_id | theme | N:1 | no |  |
+| weekly_cell.run_id | pipeline_run | N:1 | no |  |
+| cell_member.cell_id | weekly_cell | N:1 | no |  |
+| cell_member.source_id | feedback_item | N:1 | no | polymorphic via source_type |
+| alert.product_id | product | N:1 | no |  |
+| alert.theme_id | theme | N:1 | no |  |
+| alert.run_id | pipeline_run | N:1 | no |  |
+| alert_evidence.alert_id | alert | N:1 | no |  |
+| alert_evidence.source_id | feedback_item | N:1 | no | polymorphic via source_type |
 
 Derived N:M: feedback N:M theme via `feedback_theme`. 1:N summary: customer 1:N reviews/responses/tickets; survey 1:N responses; ticket 1:N messages and 1:N status events; theme 1:N action items; action item 1:N events.
 
@@ -294,6 +304,10 @@ Prioritised action created by the analysis rule from a recurring negative theme 
 | evidence_count | int | yes |  | records |  |  | DERIVED = number of evidence_ids |
 | evidence_ids | str | yes |  |  |  |  | '|'-separated source ids (traceability) |
 | created_from_rule | str | yes |  |  |  |  | rule id + parameters that fired |
+| kind | enum | yes | alert, chronic |  |  |  | upsert key = (product_id, theme_id, kind) |
+| alert_id | id | no |  |  |  | alert.alert_id | null for chronic items |
+| priority_inputs | str | yes |  |  |  |  | JSON: volume, neg_share, severity_weight, shift |
+| recommendation | str | yes |  |  |  |  | rule-based next step per theme |
 | created_at | datetime | yes |  |  |  |  |  |
 | updated_at | datetime | yes |  |  |  |  |  |
 
@@ -434,6 +448,92 @@ Explainable sentiment + theme prediction per feedback item, with confidence, evi
 | route_reason | str | no |  |  |  |  |  |
 | run_id | id | yes |  |  |  | pipeline_run.run_id |  |
 
+### `weekly_cell`
+
+Aggregate cube: product x theme x channel_type x ISO week. Members listed in cell_member (lineage).
+
+- **Primary key:** cell_id
+- **Effective dates:** week_start (Monday).
+- **Lifecycle:** none (immutable record)
+- **Produced by:** analysis / validation pipeline
+
+| Field | Type | Required | Allowed values | Unit | Unique | FK | Validation rule |
+|---|---|---|---|---|---|---|---|
+| cell_id | id | yes |  |  | yes |  | CELL-<week_start>-<product_id>-<theme_id>-<channel_type> |
+| week_start | date | yes |  |  |  |  |  |
+| product_id | id | yes |  |  |  | product.product_id |  |
+| theme_id | id | yes |  |  |  | theme.theme_id |  |
+| channel_type | enum | yes | survey, review, support |  |  |  |  |
+| n_items | int | yes |  | records |  |  | DERIVED = members in cell_member |
+| n_negative | int | yes |  | records |  |  | DERIVED: predicted negative |
+| neg_share | float | yes |  | 0-1 |  |  | DERIVED = n_negative / n_items |
+| mean_score | float | no |  | 0-1 |  |  | DERIVED mean score_norm (null for support) |
+| run_id | id | yes |  |  |  | pipeline_run.run_id |  |
+
+### `cell_member`
+
+Lineage bridge: which feedback items make up each weekly cell (cell N:M feedback item).
+
+- **Primary key:** cell_id, source_type, source_id
+- **Effective dates:** -
+- **Lifecycle:** none (immutable record)
+- **Produced by:** analysis / validation pipeline
+
+| Field | Type | Required | Allowed values | Unit | Unique | FK | Validation rule |
+|---|---|---|---|---|---|---|---|
+| cell_id | id | yes |  |  |  | weekly_cell.cell_id |  |
+| source_type | enum | yes | review, survey_response, support_message |  |  |  |  |
+| source_id | id | yes |  |  |  |  |  |
+
+### `alert`
+
+Detected sentiment shift for a product x theme: rolling 7-day window vs 28-day baseline, evaluated daily.
+
+- **Primary key:** alert_id
+- **Effective dates:** start_date (first firing day) <= peak_date <= end_date.
+- **Lifecycle:** ACTIVE -> ENDED (DERIVED: ENDED if no firing in the last 3 days of data)
+- **Produced by:** analysis / validation pipeline
+
+| Field | Type | Required | Allowed values | Unit | Unique | FK | Validation rule |
+|---|---|---|---|---|---|---|---|
+| alert_id | id | yes |  |  | yes |  | ALR-000001, ordered by start_date |
+| product_id | id | yes |  |  |  | product.product_id |  |
+| theme_id | id | yes |  |  |  | theme.theme_id |  |
+| direction | enum | yes | worsen, improve |  |  |  |  |
+| kind | enum | yes | worsen, improve, recovery |  |  |  | recovery = improve on a key whose worsen alert ended within 28 days |
+| start_date | date | yes |  |  |  |  | first firing day of the run |
+| detected_date | date | yes |  |  |  |  | confirmation day (3rd firing day) - used for time-to-detect |
+| peak_date | date | yes |  |  |  |  |  |
+| end_date | date | yes |  |  |  |  |  |
+| status | enum | yes | ACTIVE, ENDED |  |  |  |  |
+| peak_z | float | yes |  | z |  |  | worsen: (obs-lam)/sqrt(lam) at peak (gate: exact Poisson p<=1e-5); improve: share drop / se |
+| baseline_share | float | yes |  | 0-1 |  |  |  |
+| window_share | float | yes |  | 0-1 |  |  |  |
+| shift | float | yes |  | share points |  |  | window_share - baseline_share at peak |
+| window_items | int | yes |  | records |  |  |  |
+| lead_channel | enum | no | support, review, survey |  |  |  | channel whose own series fired first |
+| first_support_date | date | no |  |  |  |  |  |
+| first_review_date | date | no |  |  |  |  |  |
+| first_survey_date | date | no |  |  |  |  |  |
+| evidence_count | int | yes |  | records |  |  | DERIVED = rows in alert_evidence |
+| run_id | id | yes |  |  |  | pipeline_run.run_id |  |
+
+### `alert_evidence`
+
+Lineage: the feedback items behind an alert (trigger window and peak window).
+
+- **Primary key:** alert_id, source_type, source_id
+- **Effective dates:** -
+- **Lifecycle:** none (immutable record)
+- **Produced by:** analysis / validation pipeline
+
+| Field | Type | Required | Allowed values | Unit | Unique | FK | Validation rule |
+|---|---|---|---|---|---|---|---|
+| alert_id | id | yes |  |  |  | alert.alert_id |  |
+| source_type | enum | yes | review, survey_response, support_message |  |  |  |  |
+| source_id | id | yes |  |  |  |  |  |
+| role | enum | yes | trigger, peak |  |  |  |  |
+
 ## Ground truth - evaluation only (data/output/ground_truth/)
 
 ### `gt_labels` -> `labels.csv`
@@ -527,5 +627,7 @@ The 5 planted edge-case types with the decision the pipeline is expected to take
 | action_item_id | `^ACT-\d{6}$` |
 | exception_id | `^EXC-\d{6}$` |
 | run_id | `^RUN-\d{6}$` |
+| alert_id | `^ALR-\d{6}$` |
+| cell_id | `^CELL-\d{4}-\d{2}-\d{2}-PROD-\d{4}-THEME-\d{6}-(survey|review|support)$` |
 | incident_id | `^INC-\d{2}$` |
 | anomaly_id | `^ANOM-\d{4}$` |

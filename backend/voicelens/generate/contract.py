@@ -254,7 +254,8 @@ ENTITIES: dict[str, dict] = {
             f("product_id", "id", fk="product.product_id"),
             f("priority_score", "float", unit="score", rule="DERIVED = volume x negative_share x severity_weight x (1 + shift)"),
             f("status", "enum", allowed=ACTION_STATUS, rule="= to_status of the latest action_item_event"),
-            f("owner_role", "enum", allowed=["support_lead", "product_manager", "billing_ops", "logistics_ops"]),
+            f("owner_role", "enum", allowed=["support_lead", "product_manager", "billing_ops", "logistics_ops",
+                                             "marketing_ops"], rule="actor that owns the fix (by theme)"),
             f("evidence_count", "int", unit="records", rule="DERIVED = number of evidence_ids"),
             f("evidence_ids", "str", rule="'|'-separated source ids (traceability)"),
             f("created_from_rule", "str", rule="rule id + parameters that fired"),
@@ -435,6 +436,15 @@ ENTITIES: dict[str, dict] = {
                    f("source_id", "id"), f("role", "enum", allowed=["trigger", "peak"])],
         "relationships": [rel("alert_id", "alert", "N:1"),
                           rel("source_id", "feedback_item", "N:1", note="polymorphic via source_type")],
+    },
+    "eval_review_sample": {
+        "group": "downstream", "pk": ["source_type", "source_id"], "generated": False,
+        "description": "Blind human-review sample of the eval split (stratified by gold sentiment, built by evaluate/). "
+                       "Holds NO label, so reviewers and the API never see the gold answer.",
+        "effective_dates": "-", "lifecycle": "pending -> reviewed (via label_review_event)",
+        "fields": [f("source_type", "enum", allowed=SOURCE_TYPES), f("source_id", "id"),
+                   f("sample_rank", "int", unique=True, rule="review order 1..n (shuffled)")],
+        "relationships": [rel("source_id", "feedback_item", "1:1", note="polymorphic via source_type")],
     },
     # ------------------------------------------------------------------ ground truth (evaluation only)
     "gt_labels": {

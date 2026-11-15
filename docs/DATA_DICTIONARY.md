@@ -47,6 +47,7 @@ Conventions: IDs are zero-padded and immutable and identical across files. Dates
 | alert.run_id | pipeline_run | N:1 | no |  |
 | alert_evidence.alert_id | alert | N:1 | no |  |
 | alert_evidence.source_id | feedback_item | N:1 | no | polymorphic via source_type |
+| eval_review_sample.source_id | feedback_item | 1:1 | no | polymorphic via source_type |
 
 Derived N:M: feedback N:M theme via `feedback_theme`. 1:N summary: customer 1:N reviews/responses/tickets; survey 1:N responses; ticket 1:N messages and 1:N status events; theme 1:N action items; action item 1:N events.
 
@@ -300,7 +301,7 @@ Prioritised action created by the analysis rule from a recurring negative theme 
 | product_id | id | yes |  |  |  | product.product_id |  |
 | priority_score | float | yes |  | score |  |  | DERIVED = volume x negative_share x severity_weight x (1 + shift) |
 | status | enum | yes | OPEN, IN_PROGRESS, DONE, DISMISSED |  |  |  | = to_status of the latest action_item_event |
-| owner_role | enum | yes | support_lead, product_manager, billing_ops, logistics_ops |  |  |  |  |
+| owner_role | enum | yes | support_lead, product_manager, billing_ops, logistics_ops, marketing_ops |  |  |  | actor that owns the fix (by theme) |
 | evidence_count | int | yes |  | records |  |  | DERIVED = number of evidence_ids |
 | evidence_ids | str | yes |  |  |  |  | '|'-separated source ids (traceability) |
 | created_from_rule | str | yes |  |  |  |  | rule id + parameters that fired |
@@ -533,6 +534,21 @@ Lineage: the feedback items behind an alert (trigger window and peak window).
 | source_type | enum | yes | review, survey_response, support_message |  |  |  |  |
 | source_id | id | yes |  |  |  |  |  |
 | role | enum | yes | trigger, peak |  |  |  |  |
+
+### `eval_review_sample`
+
+Blind human-review sample of the eval split (stratified by gold sentiment, built by evaluate/). Holds NO label, so reviewers and the API never see the gold answer.
+
+- **Primary key:** source_type, source_id
+- **Effective dates:** -
+- **Lifecycle:** pending -> reviewed (via label_review_event)
+- **Produced by:** analysis / validation pipeline
+
+| Field | Type | Required | Allowed values | Unit | Unique | FK | Validation rule |
+|---|---|---|---|---|---|---|---|
+| source_type | enum | yes | review, survey_response, support_message |  |  |  |  |
+| source_id | id | yes |  |  |  |  |  |
+| sample_rank | int | yes |  |  | yes |  | review order 1..n (shuffled) |
 
 ## Ground truth - evaluation only (data/output/ground_truth/)
 

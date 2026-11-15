@@ -1,0 +1,13 @@
+product_id,name,category,launched_at,status
+PROD-0001,Lumo Wallet,mobile_app,2023-03-01,ACTIVE
+PROD-0002,TrekTrack,mobile_app,2024-06-15,ACTIVE
+PROD-0003,Nestly Home,mobile_app,2025-02-01,ACTIVE
+PROD-0004,StreamNest Premium,subscription_plan,2022-09-01,ACTIVE
+PROD-0005,VaultBox Plus,subscription_plan,2023-11-01,ACTIVE
+PROD-0006,FitLoop Annual,subscription_plan,2024-01-10,ACTIVE
+PROD-0007,Aurelo Speaker,smart_device,2023-08-20,ACTIVE
+PROD-0008,Velto Watch,smart_device,2024-10-01,ACTIVE
+PROD-0009,Orbix Router,smart_device,2022-05-05,ACTIVE
+PROD-0010,QuickDrop Express,delivery_service,2021-07-01,ACTIVE
+PROD-0011,CrateFresh Weekly,delivery_service,2023-04-01,ACTIVE
+PROD-0012,ParcelPal Same-Day,delivery_service,2025-01-15,ACTIVE

@@ -29,7 +29,7 @@ PACKAGE = "voicelens"
 
 SCANNED_SUFFIXES = {".py", ".toml", ".yml", ".yaml", ".json", ".ini", ".cfg"}
 SKIPPED_DIRS = {".git", ".venv", "venv", "node_modules", "__pycache__", "data", "tests", ".claude",
-                "prompts", "dist", "build", "frontend"}
+                "dist", "build", "frontend"}
 ALLOW_MARKER = "# policy: allow"
 
 LEAK_TERMS = re.compile(r"\b(ground_truth|issue_type|true_sentiment|true_theme|gold_label|human_label)\b")

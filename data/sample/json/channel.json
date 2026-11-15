@@ -1,0 +1,32 @@
+[
+ {
+  "channel_id": "CHAN-01",
+  "name": "web_survey",
+  "channel_type": "survey"
+ },
+ {
+  "channel_id": "CHAN-02",
+  "name": "email_survey",
+  "channel_type": "survey"
+ },
+ {
+  "channel_id": "CHAN-03",
+  "name": "app_store",
+  "channel_type": "review"
+ },
+ {
+  "channel_id": "CHAN-04",
+  "name": "website_review",
+  "channel_type": "review"
+ },
+ {
+  "channel_id": "CHAN-05",
+  "name": "chat",
+  "channel_type": "support"
+ },
+ {
+  "channel_id": "CHAN-06",
+  "name": "email_support",
+  "channel_type": "support"
+ }
+]

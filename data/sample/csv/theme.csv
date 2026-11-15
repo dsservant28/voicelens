@@ -1,0 +1,13 @@
+theme_id,code,name,parent_theme_id,keywords,severity_weight,effective_from,effective_to
+THEME-000001,delivery,Delivery,,delivery|courier|package|parcel|box,2,2026-01-01,
+THEME-000002,billing,Billing,,invoice|bill|billing|fees|statement,2,2026-01-01,
+THEME-000003,app_performance,App performance,,app|crash|freeze|slow|load,2,2026-01-01,
+THEME-000004,customer_support,Customer support,,support|agent|hold|chat|ticket,2,2026-01-01,
+THEME-000005,product_quality,Product quality,,quality|broken|cracked|materials|build,2,2026-01-01,
+THEME-000006,pricing,Pricing,,price|expensive|value|discount|cost,1,2026-01-01,
+THEME-000007,usability,Usability,,interface|menu|settings|easy|confusing,1,2026-01-01,
+THEME-000008,account_login,Account & login,,login|password|locked|verification|account,3,2026-01-01,
+THEME-000009,refunds,Refunds,,refund|return|money back|reimburse,3,2026-01-01,
+THEME-000010,onboarding,Onboarding & setup,,setup|activation|getting started|pairing,1,2026-01-01,
+THEME-000011,late_delivery,Late delivery,THEME-000001,late|overdue|delayed|missed slot,3,2026-01-01,
+THEME-000012,double_charge,Double charge,THEME-000002,charged twice|double charge|duplicate charge,3,2026-01-01,

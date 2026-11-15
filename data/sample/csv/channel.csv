@@ -1,0 +1,7 @@
+channel_id,name,channel_type
+CHAN-01,web_survey,survey
+CHAN-02,email_survey,survey
+CHAN-03,app_store,review
+CHAN-04,website_review,review
+CHAN-05,chat,support
+CHAN-06,email_support,support

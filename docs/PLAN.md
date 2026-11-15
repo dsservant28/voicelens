@@ -100,7 +100,7 @@ Failing rows go to `data_exception` (exception path) — nothing crashes. Reprod
 | 1:30–2:00 | Validation + reproducibility + exports + load into Postgres |
 | 2:00–3:00 | Analysis pipeline + evaluation metrics |
 | 3:00–4:30 | FastAPI endpoints + React screens |
-| 4:30–5:15 | Full-scale run, README, DECISIONS, AI disclosure, prompts README |
+| 4:30–5:15 | Full-scale run, README, DECISIONS, AI disclosure |
 | 5:15–5:45 | Fresh-run test, demo rehearsal |
 | 5:45–6:00 | Buffer + submit |
 

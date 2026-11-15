@@ -1,0 +1,2002 @@
+[
+ {
+  "customer_id": "CUST-000001",
+  "display_name": "Arjun Rao",
+  "email": "arjun.rao1@example.com",
+  "phone": "+1-555-0169",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2025-11-14"
+ },
+ {
+  "customer_id": "CUST-000002",
+  "display_name": "Kiran Rao",
+  "email": "kiran.rao2@example.com",
+  "phone": "+1-555-0174",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2024-05-09"
+ },
+ {
+  "customer_id": "CUST-000003",
+  "display_name": "Mateo Khan",
+  "email": "mateo.khan3@example.com",
+  "phone": "+1-555-0173",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2026-03-22"
+ },
+ {
+  "customer_id": "CUST-000004",
+  "display_name": "Emma Brown",
+  "email": "emma.brown4@example.com",
+  "phone": "+1-555-0162",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "hi-Latn",
+  "created_at": "2026-02-06"
+ },
+ {
+  "customer_id": "CUST-000005",
+  "display_name": "Liam Reddy",
+  "email": "liam.reddy5@example.com",
+  "phone": "+1-555-0197",
+  "segment": "smb",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2024-04-13"
+ },
+ {
+  "customer_id": "CUST-000006",
+  "display_name": "Liam Khan",
+  "email": "liam.khan6@example.com",
+  "phone": "+1-555-0130",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2024-06-15"
+ },
+ {
+  "customer_id": "CUST-000007",
+  "display_name": "Vikram Brown",
+  "email": "vikram.brown7@example.com",
+  "phone": "+1-555-0151",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-10-18"
+ },
+ {
+  "customer_id": "CUST-000008",
+  "display_name": "Diya Menon",
+  "email": "diya.menon8@example.com",
+  "phone": "+1-555-0107",
+  "segment": "smb",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2024-11-16"
+ },
+ {
+  "customer_id": "CUST-000009",
+  "display_name": "Aarav Rao",
+  "email": "aarav.rao9@example.com",
+  "phone": "+1-555-0107",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2024-07-23"
+ },
+ {
+  "customer_id": "CUST-000010",
+  "display_name": "Priya Nair",
+  "email": "priya.nair10@example.com",
+  "phone": "+1-555-0112",
+  "segment": "smb",
+  "region": "IN-South",
+  "preferred_language": "te",
+  "created_at": "2024-08-16"
+ },
+ {
+  "customer_id": "CUST-000011",
+  "display_name": "Lucia Iyer",
+  "email": "lucia.iyer11@example.com",
+  "phone": "+1-555-0103",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2025-01-31"
+ },
+ {
+  "customer_id": "CUST-000012",
+  "display_name": "Sofia Rao",
+  "email": "sofia.rao12@example.com",
+  "phone": "+1-555-0124",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2024-01-10"
+ },
+ {
+  "customer_id": "CUST-000013",
+  "display_name": "Kiran Sharma",
+  "email": "kiran.sharma13@example.com",
+  "phone": "+1-555-0173",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2026-03-10"
+ },
+ {
+  "customer_id": "CUST-000014",
+  "display_name": "Meera Joshi",
+  "email": "meera.joshi14@example.com",
+  "phone": "+1-555-0115",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2024-02-21"
+ },
+ {
+  "customer_id": "CUST-000015",
+  "display_name": "Ravi Menon",
+  "email": "ravi.menon15@example.com",
+  "phone": "+1-555-0197",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2025-03-31"
+ },
+ {
+  "customer_id": "CUST-000016",
+  "display_name": "Diya Smith",
+  "email": "diya.smith16@example.com",
+  "phone": "+1-555-0179",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2024-05-25"
+ },
+ {
+  "customer_id": "CUST-000017",
+  "display_name": "Mateo Reddy",
+  "email": "mateo.reddy17@example.com",
+  "phone": "+1-555-0155",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-09-05"
+ },
+ {
+  "customer_id": "CUST-000018",
+  "display_name": "Diya Garcia",
+  "email": "diya.garcia18@example.com",
+  "phone": "+1-555-0110",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2024-10-06"
+ },
+ {
+  "customer_id": "CUST-000019",
+  "display_name": "Diya Patel",
+  "email": "diya.patel19@example.com",
+  "phone": "+1-555-0193",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2024-10-18"
+ },
+ {
+  "customer_id": "CUST-000020",
+  "display_name": "Sofia Rao",
+  "email": "sofia.rao20@example.com",
+  "phone": "+1-555-0111",
+  "segment": "smb",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2024-10-27"
+ },
+ {
+  "customer_id": "CUST-000021",
+  "display_name": "Arjun Das",
+  "email": "arjun.das21@example.com",
+  "phone": "+1-555-0163",
+  "segment": "smb",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-08-24"
+ },
+ {
+  "customer_id": "CUST-000022",
+  "display_name": "Lakshmi Iyer",
+  "email": "lakshmi.iyer22@example.com",
+  "phone": "+1-555-0184",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "hi",
+  "created_at": "2024-04-27"
+ },
+ {
+  "customer_id": "CUST-000023",
+  "display_name": "Lucia Joshi",
+  "email": "lucia.joshi23@example.com",
+  "phone": "+1-555-0189",
+  "segment": "smb",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2024-02-05"
+ },
+ {
+  "customer_id": "CUST-000024",
+  "display_name": "Meera Garcia",
+  "email": "meera.garcia24@example.com",
+  "phone": "+1-555-0116",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "te",
+  "created_at": "2026-02-08"
+ },
+ {
+  "customer_id": "CUST-000025",
+  "display_name": "Anjali Sharma",
+  "email": "anjali.sharma25@example.com",
+  "phone": "+1-555-0114",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2024-04-10"
+ },
+ {
+  "customer_id": "CUST-000026",
+  "display_name": "Liam Brown",
+  "email": "liam.brown26@example.com",
+  "phone": "+1-555-0105",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "es",
+  "created_at": "2024-12-07"
+ },
+ {
+  "customer_id": "CUST-000027",
+  "display_name": "Meera Sharma",
+  "email": "meera.sharma27@example.com",
+  "phone": "+1-555-0161",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2025-03-04"
+ },
+ {
+  "customer_id": "CUST-000028",
+  "display_name": "Priya Gupta",
+  "email": "priya.gupta28@example.com",
+  "phone": "+1-555-0154",
+  "segment": "enterprise",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2025-09-26"
+ },
+ {
+  "customer_id": "CUST-000029",
+  "display_name": "Sofia Khan",
+  "email": "sofia.khan29@example.com",
+  "phone": "+1-555-0169",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2024-02-24"
+ },
+ {
+  "customer_id": "CUST-000030",
+  "display_name": "Priya Das",
+  "email": "priya.das30@example.com",
+  "phone": "+1-555-0112",
+  "segment": "smb",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-10-03"
+ },
+ {
+  "customer_id": "CUST-000031",
+  "display_name": "Priya Sharma",
+  "email": "priya.sharma31@example.com",
+  "phone": "+1-555-0103",
+  "segment": "enterprise",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2025-06-28"
+ },
+ {
+  "customer_id": "CUST-000032",
+  "display_name": "Arjun Rao",
+  "email": "arjun.rao32@example.com",
+  "phone": "+1-555-0125",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "te",
+  "created_at": "2024-01-10"
+ },
+ {
+  "customer_id": "CUST-000033",
+  "display_name": "Olivia Garcia",
+  "email": "olivia.garcia33@example.com",
+  "phone": "+1-555-0192",
+  "segment": "smb",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2026-01-24"
+ },
+ {
+  "customer_id": "CUST-000034",
+  "display_name": "Rohan Varma",
+  "email": "rohan.varma34@example.com",
+  "phone": "+1-555-0195",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2024-04-29"
+ },
+ {
+  "customer_id": "CUST-000035",
+  "display_name": "Aarav Das",
+  "email": "aarav.das35@example.com",
+  "phone": "+1-555-0167",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-07-02"
+ },
+ {
+  "customer_id": "CUST-000036",
+  "display_name": "Anjali Menon",
+  "email": "anjali.menon36@example.com",
+  "phone": "+1-555-0191",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-11-15"
+ },
+ {
+  "customer_id": "CUST-000037",
+  "display_name": "Meera Das",
+  "email": "meera.das37@example.com",
+  "phone": "+1-555-0179",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "es",
+  "created_at": "2024-03-26"
+ },
+ {
+  "customer_id": "CUST-000038",
+  "display_name": "Noah Smith",
+  "email": "noah.smith38@example.com",
+  "phone": "+1-555-0107",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2024-02-23"
+ },
+ {
+  "customer_id": "CUST-000039",
+  "display_name": "Sofia Brown",
+  "email": "sofia.brown39@example.com",
+  "phone": "+1-555-0178",
+  "segment": "smb",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-07-17"
+ },
+ {
+  "customer_id": "CUST-000040",
+  "display_name": "Priya Joshi",
+  "email": "priya.joshi40@example.com",
+  "phone": "+1-555-0156",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2024-05-15"
+ },
+ {
+  "customer_id": "CUST-000041",
+  "display_name": "Olivia Khan",
+  "email": "olivia.khan41@example.com",
+  "phone": "+1-555-0145",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2025-07-24"
+ },
+ {
+  "customer_id": "CUST-000042",
+  "display_name": "Rohan Smith",
+  "email": "rohan.smith42@example.com",
+  "phone": "+1-555-0163",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2024-11-10"
+ },
+ {
+  "customer_id": "CUST-000043",
+  "display_name": "Sofia Brown",
+  "email": "sofia.brown43@example.com",
+  "phone": "+1-555-0192",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2024-11-07"
+ },
+ {
+  "customer_id": "CUST-000044",
+  "display_name": "Liam Brown",
+  "email": "liam.brown44@example.com",
+  "phone": "+1-555-0132",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2024-11-28"
+ },
+ {
+  "customer_id": "CUST-000045",
+  "display_name": "Noah Gupta",
+  "email": "noah.gupta45@example.com",
+  "phone": "+1-555-0172",
+  "segment": "smb",
+  "region": "IN-North",
+  "preferred_language": "hi",
+  "created_at": "2026-01-07"
+ },
+ {
+  "customer_id": "CUST-000046",
+  "display_name": "Anjali Reddy",
+  "email": "anjali.reddy46@example.com",
+  "phone": "+1-555-0174",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "hi-Latn",
+  "created_at": "2024-01-19"
+ },
+ {
+  "customer_id": "CUST-000047",
+  "display_name": "Ravi Varma",
+  "email": "ravi.varma47@example.com",
+  "phone": "+1-555-0151",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2025-01-02"
+ },
+ {
+  "customer_id": "CUST-000048",
+  "display_name": "Lakshmi Iyer",
+  "email": "lakshmi.iyer48@example.com",
+  "phone": "+1-555-0123",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2025-07-17"
+ },
+ {
+  "customer_id": "CUST-000049",
+  "display_name": "Liam Patel",
+  "email": "liam.patel49@example.com",
+  "phone": "+1-555-0118",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "es",
+  "created_at": "2024-02-01"
+ },
+ {
+  "customer_id": "CUST-000050",
+  "display_name": "Kiran Rao",
+  "email": "kiran.rao50@example.com",
+  "phone": "+1-555-0126",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-09-06"
+ },
+ {
+  "customer_id": "CUST-000051",
+  "display_name": "Kiran Smith",
+  "email": "kiran.smith51@example.com",
+  "phone": "+1-555-0160",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2025-09-07"
+ },
+ {
+  "customer_id": "CUST-000052",
+  "display_name": "Aarav Patel",
+  "email": "aarav.patel52@example.com",
+  "phone": "+1-555-0190",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "hi-Latn",
+  "created_at": "2025-06-28"
+ },
+ {
+  "customer_id": "CUST-000053",
+  "display_name": "Liam Khan",
+  "email": "liam.khan53@example.com",
+  "phone": "+1-555-0137",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "hi-Latn",
+  "created_at": "2026-02-27"
+ },
+ {
+  "customer_id": "CUST-000054",
+  "display_name": "Sana Smith",
+  "email": "sana.smith54@example.com",
+  "phone": "+1-555-0123",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2025-02-28"
+ },
+ {
+  "customer_id": "CUST-000055",
+  "display_name": "Rohan Sharma",
+  "email": "rohan.sharma55@example.com",
+  "phone": "+1-555-0147",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "hi-Latn",
+  "created_at": "2026-03-05"
+ },
+ {
+  "customer_id": "CUST-000056",
+  "display_name": "Lakshmi Garcia",
+  "email": "lakshmi.garcia56@example.com",
+  "phone": "+1-555-0164",
+  "segment": "smb",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2026-03-16"
+ },
+ {
+  "customer_id": "CUST-000057",
+  "display_name": "Arjun Menon",
+  "email": "arjun.menon57@example.com",
+  "phone": "+1-555-0167",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2024-11-03"
+ },
+ {
+  "customer_id": "CUST-000058",
+  "display_name": "Arjun Patel",
+  "email": "arjun.patel58@example.com",
+  "phone": "+1-555-0158",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2025-01-03"
+ },
+ {
+  "customer_id": "CUST-000059",
+  "display_name": "Priya Menon",
+  "email": "priya.menon59@example.com",
+  "phone": "+1-555-0110",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "te",
+  "created_at": "2025-08-12"
+ },
+ {
+  "customer_id": "CUST-000060",
+  "display_name": "Kiran Nair",
+  "email": "kiran.nair60@example.com",
+  "phone": "+1-555-0186",
+  "segment": "smb",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2024-10-03"
+ },
+ {
+  "customer_id": "CUST-000061",
+  "display_name": "Ravi Lopez",
+  "email": "ravi.lopez61@example.com",
+  "phone": "+1-555-0138",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "es",
+  "created_at": "2025-10-18"
+ },
+ {
+  "customer_id": "CUST-000062",
+  "display_name": "Lucia Sharma",
+  "email": "lucia.sharma62@example.com",
+  "phone": "+1-555-0167",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2024-08-21"
+ },
+ {
+  "customer_id": "CUST-000063",
+  "display_name": "Lucia Rao",
+  "email": "lucia.rao63@example.com",
+  "phone": "+1-555-0117",
+  "segment": "smb",
+  "region": "IN-West",
+  "preferred_language": "hi",
+  "created_at": "2026-01-06"
+ },
+ {
+  "customer_id": "CUST-000064",
+  "display_name": "Emma Joshi",
+  "email": "emma.joshi64@example.com",
+  "phone": "+1-555-0181",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2024-01-18"
+ },
+ {
+  "customer_id": "CUST-000065",
+  "display_name": "Aarav Sharma",
+  "email": "aarav.sharma65@example.com",
+  "phone": "+1-555-0111",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2026-01-02"
+ },
+ {
+  "customer_id": "CUST-000066",
+  "display_name": "Anjali Khan",
+  "email": "anjali.khan66@example.com",
+  "phone": "+1-555-0178",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2024-11-30"
+ },
+ {
+  "customer_id": "CUST-000067",
+  "display_name": "Emma Garcia",
+  "email": "emma.garcia67@example.com",
+  "phone": "+1-555-0101",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2024-07-08"
+ },
+ {
+  "customer_id": "CUST-000068",
+  "display_name": "Sofia Joshi",
+  "email": "sofia.joshi68@example.com",
+  "phone": "+1-555-0113",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2024-03-30"
+ },
+ {
+  "customer_id": "CUST-000069",
+  "display_name": "Vikram Joshi",
+  "email": "vikram.joshi69@example.com",
+  "phone": "+1-555-0187",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2025-09-04"
+ },
+ {
+  "customer_id": "CUST-000070",
+  "display_name": "Sana Das",
+  "email": "sana.das70@example.com",
+  "phone": "+1-555-0143",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2024-02-28"
+ },
+ {
+  "customer_id": "CUST-000071",
+  "display_name": "Sofia Sharma",
+  "email": "sofia.sharma71@example.com",
+  "phone": "+1-555-0124",
+  "segment": "smb",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2024-12-21"
+ },
+ {
+  "customer_id": "CUST-000072",
+  "display_name": "Sofia Lopez",
+  "email": "sofia.lopez72@example.com",
+  "phone": "+1-555-0129",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "te",
+  "created_at": "2025-05-01"
+ },
+ {
+  "customer_id": "CUST-000073",
+  "display_name": "Aarav Smith",
+  "email": "aarav.smith73@example.com",
+  "phone": "+1-555-0172",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2025-10-04"
+ },
+ {
+  "customer_id": "CUST-000074",
+  "display_name": "Vikram Gupta",
+  "email": "vikram.gupta74@example.com",
+  "phone": "+1-555-0192",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2025-04-23"
+ },
+ {
+  "customer_id": "CUST-000075",
+  "display_name": "Priya Reddy",
+  "email": "priya.reddy75@example.com",
+  "phone": "+1-555-0188",
+  "segment": "smb",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2025-03-29"
+ },
+ {
+  "customer_id": "CUST-000076",
+  "display_name": "Diya Reddy",
+  "email": "diya.reddy76@example.com",
+  "phone": "+1-555-0150",
+  "segment": "smb",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2024-12-13"
+ },
+ {
+  "customer_id": "CUST-000077",
+  "display_name": "Carlos Menon",
+  "email": "carlos.menon77@example.com",
+  "phone": "+1-555-0134",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2024-07-01"
+ },
+ {
+  "customer_id": "CUST-000078",
+  "display_name": "Arjun Das",
+  "email": "arjun.das78@example.com",
+  "phone": "+1-555-0194",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2025-04-02"
+ },
+ {
+  "customer_id": "CUST-000079",
+  "display_name": "Lakshmi Lopez",
+  "email": "lakshmi.lopez79@example.com",
+  "phone": "+1-555-0111",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2025-09-11"
+ },
+ {
+  "customer_id": "CUST-000080",
+  "display_name": "Aarav Gupta",
+  "email": "aarav.gupta80@example.com",
+  "phone": "+1-555-0194",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "es",
+  "created_at": "2024-05-12"
+ },
+ {
+  "customer_id": "CUST-000081",
+  "display_name": "Liam Sharma",
+  "email": "liam.sharma81@example.com",
+  "phone": "+1-555-0120",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2024-04-14"
+ },
+ {
+  "customer_id": "CUST-000082",
+  "display_name": "Vikram Sharma",
+  "email": "vikram.sharma82@example.com",
+  "phone": "+1-555-0143",
+  "segment": "smb",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-11-22"
+ },
+ {
+  "customer_id": "CUST-000083",
+  "display_name": "Aarav Das",
+  "email": "aarav.das83@example.com",
+  "phone": "+1-555-0182",
+  "segment": "smb",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2025-12-09"
+ },
+ {
+  "customer_id": "CUST-000084",
+  "display_name": "Anjali Joshi",
+  "email": "anjali.joshi84@example.com",
+  "phone": "+1-555-0199",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "hi-Latn",
+  "created_at": "2025-04-04"
+ },
+ {
+  "customer_id": "CUST-000085",
+  "display_name": "Sofia Joshi",
+  "email": "sofia.joshi85@example.com",
+  "phone": "+1-555-0114",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2024-07-17"
+ },
+ {
+  "customer_id": "CUST-000086",
+  "display_name": "Sana Menon",
+  "email": "sana.menon86@example.com",
+  "phone": "+1-555-0158",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2025-01-04"
+ },
+ {
+  "customer_id": "CUST-000087",
+  "display_name": "Olivia Rao",
+  "email": "olivia.rao87@example.com",
+  "phone": "+1-555-0196",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-01-17"
+ },
+ {
+  "customer_id": "CUST-000088",
+  "display_name": "Ravi Patel",
+  "email": "ravi.patel88@example.com",
+  "phone": "+1-555-0164",
+  "segment": "enterprise",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2024-01-10"
+ },
+ {
+  "customer_id": "CUST-000089",
+  "display_name": "Meera Brown",
+  "email": "meera.brown89@example.com",
+  "phone": "+1-555-0193",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2024-01-09"
+ },
+ {
+  "customer_id": "CUST-000090",
+  "display_name": "Lucia Rao",
+  "email": "lucia.rao90@example.com",
+  "phone": "+1-555-0139",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2025-08-09"
+ },
+ {
+  "customer_id": "CUST-000091",
+  "display_name": "Aarav Menon",
+  "email": "aarav.menon91@example.com",
+  "phone": "+1-555-0162",
+  "segment": "smb",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2025-11-01"
+ },
+ {
+  "customer_id": "CUST-000092",
+  "display_name": "Diya Patel",
+  "email": "diya.patel92@example.com",
+  "phone": "+1-555-0113",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2025-09-12"
+ },
+ {
+  "customer_id": "CUST-000093",
+  "display_name": "Vikram Das",
+  "email": "vikram.das93@example.com",
+  "phone": "+1-555-0166",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-08-19"
+ },
+ {
+  "customer_id": "CUST-000094",
+  "display_name": "Meera Garcia",
+  "email": "meera.garcia94@example.com",
+  "phone": "+1-555-0169",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2025-01-07"
+ },
+ {
+  "customer_id": "CUST-000095",
+  "display_name": "Arjun Brown",
+  "email": "arjun.brown95@example.com",
+  "phone": "+1-555-0103",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "hi",
+  "created_at": "2024-09-22"
+ },
+ {
+  "customer_id": "CUST-000096",
+  "display_name": "Mateo Iyer",
+  "email": "mateo.iyer96@example.com",
+  "phone": "+1-555-0111",
+  "segment": "smb",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2024-08-19"
+ },
+ {
+  "customer_id": "CUST-000097",
+  "display_name": "Kiran Reddy",
+  "email": "kiran.reddy97@example.com",
+  "phone": "+1-555-0101",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2025-03-08"
+ },
+ {
+  "customer_id": "CUST-000098",
+  "display_name": "Priya Reddy",
+  "email": "priya.reddy98@example.com",
+  "phone": "+1-555-0198",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2024-06-11"
+ },
+ {
+  "customer_id": "CUST-000099",
+  "display_name": "Ravi Brown",
+  "email": "ravi.brown99@example.com",
+  "phone": "+1-555-0197",
+  "segment": "smb",
+  "region": "International",
+  "preferred_language": "es",
+  "created_at": "2025-06-12"
+ },
+ {
+  "customer_id": "CUST-000100",
+  "display_name": "Ravi Menon",
+  "email": "ravi.menon100@example.com",
+  "phone": "+1-555-0194",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "hi-Latn",
+  "created_at": "2026-01-05"
+ },
+ {
+  "customer_id": "CUST-000101",
+  "display_name": "Ravi Brown",
+  "email": "ravi.brown101@example.com",
+  "phone": "+1-555-0147",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2025-11-03"
+ },
+ {
+  "customer_id": "CUST-000102",
+  "display_name": "Liam Rao",
+  "email": "liam.rao102@example.com",
+  "phone": "+1-555-0186",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2025-11-19"
+ },
+ {
+  "customer_id": "CUST-000103",
+  "display_name": "Lakshmi Garcia",
+  "email": "lakshmi.garcia103@example.com",
+  "phone": "+1-555-0163",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "te",
+  "created_at": "2024-05-23"
+ },
+ {
+  "customer_id": "CUST-000104",
+  "display_name": "Aarav Rao",
+  "email": "aarav.rao104@example.com",
+  "phone": "+1-555-0124",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "te",
+  "created_at": "2025-08-01"
+ },
+ {
+  "customer_id": "CUST-000105",
+  "display_name": "Carlos Nair",
+  "email": "carlos.nair105@example.com",
+  "phone": "+1-555-0109",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2026-01-01"
+ },
+ {
+  "customer_id": "CUST-000106",
+  "display_name": "Carlos Joshi",
+  "email": "carlos.joshi106@example.com",
+  "phone": "+1-555-0151",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2025-08-15"
+ },
+ {
+  "customer_id": "CUST-000107",
+  "display_name": "Ravi Rao",
+  "email": "ravi.rao107@example.com",
+  "phone": "+1-555-0139",
+  "segment": "enterprise",
+  "region": "International",
+  "preferred_language": "es",
+  "created_at": "2024-03-13"
+ },
+ {
+  "customer_id": "CUST-000108",
+  "display_name": "Anjali Das",
+  "email": "anjali.das108@example.com",
+  "phone": "+1-555-0137",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-07-18"
+ },
+ {
+  "customer_id": "CUST-000109",
+  "display_name": "Carlos Brown",
+  "email": "carlos.brown109@example.com",
+  "phone": "+1-555-0129",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2026-02-11"
+ },
+ {
+  "customer_id": "CUST-000110",
+  "display_name": "Lakshmi Nair",
+  "email": "lakshmi.nair110@example.com",
+  "phone": "+1-555-0181",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "es",
+  "created_at": "2024-07-08"
+ },
+ {
+  "customer_id": "CUST-000111",
+  "display_name": "Mateo Smith",
+  "email": "mateo.smith111@example.com",
+  "phone": "+1-555-0154",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2026-03-22"
+ },
+ {
+  "customer_id": "CUST-000112",
+  "display_name": "Meera Brown",
+  "email": "meera.brown112@example.com",
+  "phone": "+1-555-0120",
+  "segment": "smb",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2024-12-04"
+ },
+ {
+  "customer_id": "CUST-000113",
+  "display_name": "Olivia Iyer",
+  "email": "olivia.iyer113@example.com",
+  "phone": "+1-555-0143",
+  "segment": "smb",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2026-01-18"
+ },
+ {
+  "customer_id": "CUST-000114",
+  "display_name": "Meera Nair",
+  "email": "meera.nair114@example.com",
+  "phone": "+1-555-0142",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "hi",
+  "created_at": "2025-08-04"
+ },
+ {
+  "customer_id": "CUST-000115",
+  "display_name": "Sana Joshi",
+  "email": "sana.joshi115@example.com",
+  "phone": "+1-555-0176",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2024-10-08"
+ },
+ {
+  "customer_id": "CUST-000116",
+  "display_name": "Rohan Sharma",
+  "email": "rohan.sharma116@example.com",
+  "phone": "+1-555-0154",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-12-21"
+ },
+ {
+  "customer_id": "CUST-000117",
+  "display_name": "Meera Smith",
+  "email": "meera.smith117@example.com",
+  "phone": "+1-555-0181",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2025-12-18"
+ },
+ {
+  "customer_id": "CUST-000118",
+  "display_name": "Lakshmi Brown",
+  "email": "lakshmi.brown118@example.com",
+  "phone": "+1-555-0184",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2025-01-11"
+ },
+ {
+  "customer_id": "CUST-000119",
+  "display_name": "Aarav Sharma",
+  "email": "aarav.sharma119@example.com",
+  "phone": "+1-555-0178",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2025-08-01"
+ },
+ {
+  "customer_id": "CUST-000120",
+  "display_name": "Meera Reddy",
+  "email": "meera.reddy120@example.com",
+  "phone": "+1-555-0185",
+  "segment": "smb",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2025-01-12"
+ },
+ {
+  "customer_id": "CUST-000121",
+  "display_name": "Rohan Reddy",
+  "email": "rohan.reddy121@example.com",
+  "phone": "+1-555-0169",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2024-07-04"
+ },
+ {
+  "customer_id": "CUST-000122",
+  "display_name": "Carlos Rao",
+  "email": "carlos.rao122@example.com",
+  "phone": "+1-555-0146",
+  "segment": "enterprise",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2024-09-02"
+ },
+ {
+  "customer_id": "CUST-000123",
+  "display_name": "Olivia Rao",
+  "email": "olivia.rao123@example.com",
+  "phone": "+1-555-0119",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2024-03-04"
+ },
+ {
+  "customer_id": "CUST-000124",
+  "display_name": "Kiran Iyer",
+  "email": "kiran.iyer124@example.com",
+  "phone": "+1-555-0171",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "es",
+  "created_at": "2024-08-16"
+ },
+ {
+  "customer_id": "CUST-000125",
+  "display_name": "Meera Garcia",
+  "email": "meera.garcia125@example.com",
+  "phone": "+1-555-0174",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-01-13"
+ },
+ {
+  "customer_id": "CUST-000126",
+  "display_name": "Rohan Varma",
+  "email": "rohan.varma126@example.com",
+  "phone": "+1-555-0181",
+  "segment": "enterprise",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2024-10-08"
+ },
+ {
+  "customer_id": "CUST-000127",
+  "display_name": "Noah Joshi",
+  "email": "noah.joshi127@example.com",
+  "phone": "+1-555-0151",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2024-11-05"
+ },
+ {
+  "customer_id": "CUST-000128",
+  "display_name": "Arjun Lopez",
+  "email": "arjun.lopez128@example.com",
+  "phone": "+1-555-0116",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "hi-Latn",
+  "created_at": "2024-05-02"
+ },
+ {
+  "customer_id": "CUST-000129",
+  "display_name": "Anjali Sharma",
+  "email": "anjali.sharma129@example.com",
+  "phone": "+1-555-0180",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "es",
+  "created_at": "2024-02-18"
+ },
+ {
+  "customer_id": "CUST-000130",
+  "display_name": "Anjali Iyer",
+  "email": "anjali.iyer130@example.com",
+  "phone": "+1-555-0185",
+  "segment": "smb",
+  "region": "IN-North",
+  "preferred_language": "hi-Latn",
+  "created_at": "2026-01-19"
+ },
+ {
+  "customer_id": "CUST-000131",
+  "display_name": "Lucia Khan",
+  "email": "lucia.khan131@example.com",
+  "phone": "+1-555-0109",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2025-10-31"
+ },
+ {
+  "customer_id": "CUST-000132",
+  "display_name": "Lucia Garcia",
+  "email": "lucia.garcia132@example.com",
+  "phone": "+1-555-0105",
+  "segment": "enterprise",
+  "region": "IN-South",
+  "preferred_language": "te",
+  "created_at": "2025-08-28"
+ },
+ {
+  "customer_id": "CUST-000133",
+  "display_name": "Emma Lopez",
+  "email": "emma.lopez133@example.com",
+  "phone": "+1-555-0195",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2025-03-10"
+ },
+ {
+  "customer_id": "CUST-000134",
+  "display_name": "Emma Smith",
+  "email": "emma.smith134@example.com",
+  "phone": "+1-555-0184",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2024-06-13"
+ },
+ {
+  "customer_id": "CUST-000135",
+  "display_name": "Noah Varma",
+  "email": "noah.varma135@example.com",
+  "phone": "+1-555-0180",
+  "segment": "smb",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2025-02-14"
+ },
+ {
+  "customer_id": "CUST-000136",
+  "display_name": "Sana Patel",
+  "email": "sana.patel136@example.com",
+  "phone": "+1-555-0190",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-04-26"
+ },
+ {
+  "customer_id": "CUST-000137",
+  "display_name": "Emma Iyer",
+  "email": "emma.iyer137@example.com",
+  "phone": "+1-555-0105",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2024-01-30"
+ },
+ {
+  "customer_id": "CUST-000138",
+  "display_name": "Sana Varma",
+  "email": "sana.varma138@example.com",
+  "phone": "+1-555-0101",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2025-12-31"
+ },
+ {
+  "customer_id": "CUST-000139",
+  "display_name": "Lakshmi Varma",
+  "email": "lakshmi.varma139@example.com",
+  "phone": "+1-555-0110",
+  "segment": "enterprise",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2024-08-25"
+ },
+ {
+  "customer_id": "CUST-000140",
+  "display_name": "Lucia Das",
+  "email": "lucia.das140@example.com",
+  "phone": "+1-555-0151",
+  "segment": "smb",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2025-10-27"
+ },
+ {
+  "customer_id": "CUST-000141",
+  "display_name": "Lucia Garcia",
+  "email": "lucia.garcia141@example.com",
+  "phone": "+1-555-0191",
+  "segment": "enterprise",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2024-11-05"
+ },
+ {
+  "customer_id": "CUST-000142",
+  "display_name": "Emma Reddy",
+  "email": "emma.reddy142@example.com",
+  "phone": "+1-555-0122",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2025-05-03"
+ },
+ {
+  "customer_id": "CUST-000143",
+  "display_name": "Sofia Nair",
+  "email": "sofia.nair143@example.com",
+  "phone": "+1-555-0121",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2024-08-30"
+ },
+ {
+  "customer_id": "CUST-000144",
+  "display_name": "Lakshmi Gupta",
+  "email": "lakshmi.gupta144@example.com",
+  "phone": "+1-555-0115",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "hi",
+  "created_at": "2024-05-29"
+ },
+ {
+  "customer_id": "CUST-000145",
+  "display_name": "Lucia Joshi",
+  "email": "lucia.joshi145@example.com",
+  "phone": "+1-555-0199",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2024-09-30"
+ },
+ {
+  "customer_id": "CUST-000146",
+  "display_name": "Olivia Patel",
+  "email": "olivia.patel146@example.com",
+  "phone": "+1-555-0184",
+  "segment": "enterprise",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-01-26"
+ },
+ {
+  "customer_id": "CUST-000147",
+  "display_name": "Aarav Smith",
+  "email": "aarav.smith147@example.com",
+  "phone": "+1-555-0184",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "es",
+  "created_at": "2025-04-23"
+ },
+ {
+  "customer_id": "CUST-000148",
+  "display_name": "Noah Garcia",
+  "email": "noah.garcia148@example.com",
+  "phone": "+1-555-0120",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2025-12-23"
+ },
+ {
+  "customer_id": "CUST-000149",
+  "display_name": "Sofia Sharma",
+  "email": "sofia.sharma149@example.com",
+  "phone": "+1-555-0159",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "te",
+  "created_at": "2024-02-21"
+ },
+ {
+  "customer_id": "CUST-000150",
+  "display_name": "Noah Gupta",
+  "email": "noah.gupta150@example.com",
+  "phone": "+1-555-0129",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2025-02-02"
+ },
+ {
+  "customer_id": "CUST-000151",
+  "display_name": "Liam Sharma",
+  "email": "liam.sharma151@example.com",
+  "phone": "+1-555-0163",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2024-08-11"
+ },
+ {
+  "customer_id": "CUST-000152",
+  "display_name": "Noah Garcia",
+  "email": "noah.garcia152@example.com",
+  "phone": "+1-555-0196",
+  "segment": "smb",
+  "region": "IN-South",
+  "preferred_language": "hi-Latn",
+  "created_at": "2025-12-10"
+ },
+ {
+  "customer_id": "CUST-000153",
+  "display_name": "Sofia Iyer",
+  "email": "sofia.iyer153@example.com",
+  "phone": "+1-555-0170",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2024-01-31"
+ },
+ {
+  "customer_id": "CUST-000154",
+  "display_name": "Carlos Rao",
+  "email": "carlos.rao154@example.com",
+  "phone": "+1-555-0185",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2024-08-16"
+ },
+ {
+  "customer_id": "CUST-000155",
+  "display_name": "Liam Garcia",
+  "email": "liam.garcia155@example.com",
+  "phone": "+1-555-0156",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-12-03"
+ },
+ {
+  "customer_id": "CUST-000156",
+  "display_name": "Noah Garcia",
+  "email": "noah.garcia156@example.com",
+  "phone": "+1-555-0138",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2026-01-27"
+ },
+ {
+  "customer_id": "CUST-000157",
+  "display_name": "Lucia Lopez",
+  "email": "lucia.lopez157@example.com",
+  "phone": "+1-555-0199",
+  "segment": "smb",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2026-02-03"
+ },
+ {
+  "customer_id": "CUST-000158",
+  "display_name": "Priya Rao",
+  "email": "priya.rao158@example.com",
+  "phone": "+1-555-0132",
+  "segment": "smb",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2025-01-31"
+ },
+ {
+  "customer_id": "CUST-000159",
+  "display_name": "Kiran Lopez",
+  "email": "kiran.lopez159@example.com",
+  "phone": "+1-555-0195",
+  "segment": "enterprise",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2025-09-27"
+ },
+ {
+  "customer_id": "CUST-000160",
+  "display_name": "Noah Lopez",
+  "email": "noah.lopez160@example.com",
+  "phone": "+1-555-0162",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2025-06-29"
+ },
+ {
+  "customer_id": "CUST-000161",
+  "display_name": "Diya Garcia",
+  "email": "diya.garcia161@example.com",
+  "phone": "+1-555-0167",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2024-09-05"
+ },
+ {
+  "customer_id": "CUST-000162",
+  "display_name": "Mateo Menon",
+  "email": "mateo.menon162@example.com",
+  "phone": "+1-555-0180",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2024-07-10"
+ },
+ {
+  "customer_id": "CUST-000163",
+  "display_name": "Diya Khan",
+  "email": "diya.khan163@example.com",
+  "phone": "+1-555-0189",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2024-10-28"
+ },
+ {
+  "customer_id": "CUST-000164",
+  "display_name": "Emma Patel",
+  "email": "emma.patel164@example.com",
+  "phone": "+1-555-0169",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2025-12-09"
+ },
+ {
+  "customer_id": "CUST-000165",
+  "display_name": "Anjali Iyer",
+  "email": "anjali.iyer165@example.com",
+  "phone": "+1-555-0181",
+  "segment": "enterprise",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2024-07-02"
+ },
+ {
+  "customer_id": "CUST-000166",
+  "display_name": "Priya Patel",
+  "email": "priya.patel166@example.com",
+  "phone": "+1-555-0170",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "hi-Latn",
+  "created_at": "2024-01-31"
+ },
+ {
+  "customer_id": "CUST-000167",
+  "display_name": "Sofia Gupta",
+  "email": "sofia.gupta167@example.com",
+  "phone": "+1-555-0176",
+  "segment": "smb",
+  "region": "International",
+  "preferred_language": "es",
+  "created_at": "2024-02-04"
+ },
+ {
+  "customer_id": "CUST-000168",
+  "display_name": "Noah Varma",
+  "email": "noah.varma168@example.com",
+  "phone": "+1-555-0192",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2025-04-21"
+ },
+ {
+  "customer_id": "CUST-000169",
+  "display_name": "Carlos Nair",
+  "email": "carlos.nair169@example.com",
+  "phone": "+1-555-0104",
+  "segment": "enterprise",
+  "region": "IN-East",
+  "preferred_language": "hi",
+  "created_at": "2024-03-08"
+ },
+ {
+  "customer_id": "CUST-000170",
+  "display_name": "Ravi Smith",
+  "email": "ravi.smith170@example.com",
+  "phone": "+1-555-0194",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "te",
+  "created_at": "2024-06-10"
+ },
+ {
+  "customer_id": "CUST-000171",
+  "display_name": "Kiran Varma",
+  "email": "kiran.varma171@example.com",
+  "phone": "+1-555-0171",
+  "segment": "enterprise",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2025-08-29"
+ },
+ {
+  "customer_id": "CUST-000172",
+  "display_name": "Anjali Joshi",
+  "email": "anjali.joshi172@example.com",
+  "phone": "+1-555-0139",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2026-02-12"
+ },
+ {
+  "customer_id": "CUST-000173",
+  "display_name": "Lucia Iyer",
+  "email": "lucia.iyer173@example.com",
+  "phone": "+1-555-0154",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2025-04-22"
+ },
+ {
+  "customer_id": "CUST-000174",
+  "display_name": "Liam Nair",
+  "email": "liam.nair174@example.com",
+  "phone": "+1-555-0152",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-08-02"
+ },
+ {
+  "customer_id": "CUST-000175",
+  "display_name": "Olivia Iyer",
+  "email": "olivia.iyer175@example.com",
+  "phone": "+1-555-0154",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2024-04-05"
+ },
+ {
+  "customer_id": "CUST-000176",
+  "display_name": "Diya Rao",
+  "email": "diya.rao176@example.com",
+  "phone": "+1-555-0183",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2025-05-18"
+ },
+ {
+  "customer_id": "CUST-000177",
+  "display_name": "Mateo Das",
+  "email": "mateo.das177@example.com",
+  "phone": "+1-555-0177",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2024-08-11"
+ },
+ {
+  "customer_id": "CUST-000178",
+  "display_name": "Arjun Khan",
+  "email": "arjun.khan178@example.com",
+  "phone": "+1-555-0159",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2025-07-18"
+ },
+ {
+  "customer_id": "CUST-000179",
+  "display_name": "Aarav Joshi",
+  "email": "aarav.joshi179@example.com",
+  "phone": "+1-555-0113",
+  "segment": "enterprise",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2024-06-18"
+ },
+ {
+  "customer_id": "CUST-000180",
+  "display_name": "Liam Gupta",
+  "email": "liam.gupta180@example.com",
+  "phone": "+1-555-0167",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2024-08-09"
+ },
+ {
+  "customer_id": "CUST-000181",
+  "display_name": "Lucia Patel",
+  "email": "lucia.patel181@example.com",
+  "phone": "+1-555-0143",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "hi-Latn",
+  "created_at": "2024-11-21"
+ },
+ {
+  "customer_id": "CUST-000182",
+  "display_name": "Sana Iyer",
+  "email": "sana.iyer182@example.com",
+  "phone": "+1-555-0157",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2026-03-14"
+ },
+ {
+  "customer_id": "CUST-000183",
+  "display_name": "Lucia Khan",
+  "email": "lucia.khan183@example.com",
+  "phone": "+1-555-0115",
+  "segment": "smb",
+  "region": "IN-West",
+  "preferred_language": "hi-Latn",
+  "created_at": "2024-03-05"
+ },
+ {
+  "customer_id": "CUST-000184",
+  "display_name": "Mateo Garcia",
+  "email": "mateo.garcia184@example.com",
+  "phone": "+1-555-0197",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2026-01-03"
+ },
+ {
+  "customer_id": "CUST-000185",
+  "display_name": "Arjun Iyer",
+  "email": "arjun.iyer185@example.com",
+  "phone": "+1-555-0101",
+  "segment": "enterprise",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-03-25"
+ },
+ {
+  "customer_id": "CUST-000186",
+  "display_name": "Mateo Das",
+  "email": "mateo.das186@example.com",
+  "phone": "+1-555-0137",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2025-03-09"
+ },
+ {
+  "customer_id": "CUST-000187",
+  "display_name": "Ravi Menon",
+  "email": "ravi.menon187@example.com",
+  "phone": "+1-555-0141",
+  "segment": "consumer",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2024-12-13"
+ },
+ {
+  "customer_id": "CUST-000188",
+  "display_name": "Arjun Brown",
+  "email": "arjun.brown188@example.com",
+  "phone": "+1-555-0104",
+  "segment": "smb",
+  "region": "International",
+  "preferred_language": "es",
+  "created_at": "2024-06-19"
+ },
+ {
+  "customer_id": "CUST-000189",
+  "display_name": "Liam Nair",
+  "email": "liam.nair189@example.com",
+  "phone": "+1-555-0191",
+  "segment": "smb",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2024-12-28"
+ },
+ {
+  "customer_id": "CUST-000190",
+  "display_name": "Lucia Rao",
+  "email": "lucia.rao190@example.com",
+  "phone": "+1-555-0134",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2024-05-07"
+ },
+ {
+  "customer_id": "CUST-000191",
+  "display_name": "Diya Das",
+  "email": "diya.das191@example.com",
+  "phone": "+1-555-0109",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "es",
+  "created_at": "2024-12-11"
+ },
+ {
+  "customer_id": "CUST-000192",
+  "display_name": "Kiran Varma",
+  "email": "kiran.varma192@example.com",
+  "phone": "+1-555-0149",
+  "segment": "consumer",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2025-12-01"
+ },
+ {
+  "customer_id": "CUST-000193",
+  "display_name": "Lakshmi Reddy",
+  "email": "lakshmi.reddy193@example.com",
+  "phone": "+1-555-0177",
+  "segment": "consumer",
+  "region": "IN-South",
+  "preferred_language": "en",
+  "created_at": "2024-01-03"
+ },
+ {
+  "customer_id": "CUST-000194",
+  "display_name": "Ravi Das",
+  "email": "ravi.das194@example.com",
+  "phone": "+1-555-0177",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "en",
+  "created_at": "2025-07-16"
+ },
+ {
+  "customer_id": "CUST-000195",
+  "display_name": "Ravi Patel",
+  "email": "ravi.patel195@example.com",
+  "phone": "+1-555-0109",
+  "segment": "enterprise",
+  "region": "IN-East",
+  "preferred_language": "en",
+  "created_at": "2025-08-22"
+ },
+ {
+  "customer_id": "CUST-000196",
+  "display_name": "Lakshmi Smith",
+  "email": "lakshmi.smith196@example.com",
+  "phone": "+1-555-0134",
+  "segment": "smb",
+  "region": "IN-North",
+  "preferred_language": "en",
+  "created_at": "2024-02-26"
+ },
+ {
+  "customer_id": "CUST-000197",
+  "display_name": "Sana Smith",
+  "email": "sana.smith197@example.com",
+  "phone": "+1-555-0129",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "hi-Latn",
+  "created_at": "2025-03-29"
+ },
+ {
+  "customer_id": "CUST-000198",
+  "display_name": "Olivia Garcia",
+  "email": "olivia.garcia198@example.com",
+  "phone": "+1-555-0156",
+  "segment": "enterprise",
+  "region": "International",
+  "preferred_language": "en",
+  "created_at": "2025-03-11"
+ },
+ {
+  "customer_id": "CUST-000199",
+  "display_name": "Mateo Gupta",
+  "email": "mateo.gupta199@example.com",
+  "phone": "+1-555-0186",
+  "segment": "consumer",
+  "region": "IN-West",
+  "preferred_language": "hi-Latn",
+  "created_at": "2025-05-08"
+ },
+ {
+  "customer_id": "CUST-000200",
+  "display_name": "Meera Das",
+  "email": "meera.das200@example.com",
+  "phone": "+1-555-0171",
+  "segment": "consumer",
+  "region": "IN-North",
+  "preferred_language": "hi",
+  "created_at": "2024-06-18"
+ }
+]

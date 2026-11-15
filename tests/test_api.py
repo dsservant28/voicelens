@@ -99,3 +99,30 @@ def test_eval_review_set_is_blind():
     q = client.get("/review-queue?set=eval&status=all&limit=200").json()
     assert q["blind"] and q["total"] == 100
     assert not ({"sentiment", "confidence", "rules_fired", "evidence"} & set(q["items"][0]))
+
+
+def test_flow_accounts_for_every_row():
+    r = client.get("/flow").json()["reconciliation"]
+    assert r["balanced"] and r["analysed_matches_items"] and r["routed_matches_items"]
+
+
+def test_plane_cells_match_queue_filter():
+    plane = client.get("/review/plane").json()
+    c = max(plane, key=lambda x: x["n"] if x["pos"] or x["neg"] else 0)
+    cell_total = sum(x["n"] for x in plane if x["pos"] == c["pos"] and x["neg"] == c["neg"])
+    q = client.get(f"/review-queue?pos={c['pos']}&neg={c['neg']}&status=all&limit=1").json()
+    assert q["total"] == cell_total
+
+
+def test_seismograph_point_reconciles_with_records():
+    pulse = client.get("/pulse").json()
+    day = max((p for p in pulse if p["channel_type"] == "support"), key=lambda p: p["negatives"])
+    r = client.get(f"/trend/items?date_from={day['day']}&date_to={day['day']}&channel_type=support&sentiment=negative&limit=1").json()
+    assert r["total"] == day["negatives"]
+    assert client.get("/trend/items").status_code == 422
+
+
+def test_quality_exposes_manifest_and_evaluation_reruns():
+    dq = client.get("/data-quality?limit=1").json()
+    assert len(dq["manifest"]["files"]) == 31 and dq["total"] >= 1
+    assert "human_reviewed" in client.post("/evaluation/run").json()

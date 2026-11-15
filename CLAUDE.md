@@ -49,7 +49,7 @@ backend/
 frontend/       # React + Vite + TypeScript + Tailwind
 tests/          # pytest (root pytest.ini sets pythonpath=backend)
 data/           # generated outputs (git-ignored except a small sample if decided)
-docs/  prompts/  scripts/
+docs/  scripts/
 ```
 
 ## 4. Stack

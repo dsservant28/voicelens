@@ -1,11 +1,11 @@
 # Validation summary - PASS_WITH_EXCEPTIONS
 
-Data `C:\CandidateWorkspace\voicelens\data\output` · seed 20261022 · scale 1.0 · validated 2026-11-15 17:07:01  
+Data `C:\CandidateWorkspace\voicelens\data\output` · seed 20261022 · scale 1.0 · validated 2026-11-15 17:47:10  
 145,976 rows checked · 132 exceptions · 120 rows quarantined (kept in DB, excluded from analysis)
 
 ## Reproducibility
 
-Skipped (--no-repro).
+Generated twice (seed 20261022, scale 1.0): 31 files, identical = **True**; matches validated data = **True** (55.3 s).
 
 ## File integrity (manifest reconciliation)
 

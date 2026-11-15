@@ -1,0 +1,320 @@
+{
+  "status": "PASS_WITH_EXCEPTIONS",
+  "validated_at": "2026-11-15 17:59:42",
+  "data_dir": "..\\data\\sample",
+  "seed": 20261022,
+  "scale": 0.02,
+  "total_rows": 2944,
+  "total_exceptions": 11,
+  "quarantined_rows": 9,
+  "file_integrity": [
+    {
+      "table": "customer",
+      "rows_manifest": 200,
+      "rows_file": 200,
+      "checksum_ok": true,
+      "columns_ok": true,
+      "ok": true
+    },
+    {
+      "table": "product",
+      "rows_manifest": 12,
+      "rows_file": 12,
+      "checksum_ok": true,
+      "columns_ok": true,
+      "ok": true
+    },
+    {
+      "table": "channel",
+      "rows_manifest": 6,
+      "rows_file": 6,
+      "checksum_ok": true,
+      "columns_ok": true,
+      "ok": true
+    },
+    {
+      "table": "survey",
+      "rows_manifest": 5,
+      "rows_file": 5,
+      "checksum_ok": true,
+      "columns_ok": true,
+      "ok": true
+    },
+    {
+      "table": "theme",
+      "rows_manifest": 12,
+      "rows_file": 12,
+      "checksum_ok": true,
+      "columns_ok": true,
+      "ok": true
+    },
+    {
+      "table": "survey_response",
+      "rows_manifest": 403,
+      "rows_file": 403,
+      "checksum_ok": true,
+      "columns_ok": true,
+      "ok": true
+    },
+    {
+      "table": "review",
+      "rows_manifest": 600,
+      "rows_file": 600,
+      "checksum_ok": true,
+      "columns_ok": true,
+      "ok": true
+    },
+    {
+      "table": "support_ticket",
+      "rows_manifest": 100,
+      "rows_file": 100,
+      "checksum_ok": true,
+      "columns_ok": true,
+      "ok": true
+    },
+    {
+      "table": "support_message",
+      "rows_manifest": 397,
+      "rows_file": 397,
+      "checksum_ok": true,
+      "columns_ok": true,
+      "ok": true
+    },
+    {
+      "table": "ticket_status_event",
+      "rows_manifest": 420,
+      "rows_file": 420,
+      "checksum_ok": true,
+      "columns_ok": true,
+      "ok": true
+    },
+    {
+      "table": "sentiment_label",
+      "rows_manifest": 354,
+      "rows_file": 354,
+      "checksum_ok": true,
+      "columns_ok": true,
+      "ok": true
+    },
+    {
+      "table": "feedback_theme",
+      "rows_manifest": 435,
+      "rows_file": 435,
+      "checksum_ok": true,
+      "columns_ok": true,
+      "ok": true
+    }
+  ],
+  "tables": [
+    {
+      "table": "customer",
+      "rows": 200,
+      "rows_with_exceptions": 0,
+      "quarantined_rows": 0,
+      "clean_rows": 200
+    },
+    {
+      "table": "product",
+      "rows": 12,
+      "rows_with_exceptions": 0,
+      "quarantined_rows": 0,
+      "clean_rows": 12
+    },
+    {
+      "table": "channel",
+      "rows": 6,
+      "rows_with_exceptions": 0,
+      "quarantined_rows": 0,
+      "clean_rows": 6
+    },
+    {
+      "table": "survey",
+      "rows": 5,
+      "rows_with_exceptions": 0,
+      "quarantined_rows": 0,
+      "clean_rows": 5
+    },
+    {
+      "table": "theme",
+      "rows": 12,
+      "rows_with_exceptions": 0,
+      "quarantined_rows": 0,
+      "clean_rows": 12
+    },
+    {
+      "table": "survey_response",
+      "rows": 403,
+      "rows_with_exceptions": 3,
+      "quarantined_rows": 3,
+      "clean_rows": 400
+    },
+    {
+      "table": "review",
+      "rows": 600,
+      "rows_with_exceptions": 5,
+      "quarantined_rows": 3,
+      "clean_rows": 595
+    },
+    {
+      "table": "support_ticket",
+      "rows": 100,
+      "rows_with_exceptions": 0,
+      "quarantined_rows": 0,
+      "clean_rows": 100
+    },
+    {
+      "table": "support_message",
+      "rows": 397,
+      "rows_with_exceptions": 0,
+      "quarantined_rows": 0,
+      "clean_rows": 397
+    },
+    {
+      "table": "ticket_status_event",
+      "rows": 420,
+      "rows_with_exceptions": 0,
+      "quarantined_rows": 0,
+      "clean_rows": 420
+    },
+    {
+      "table": "sentiment_label",
+      "rows": 354,
+      "rows_with_exceptions": 0,
+      "quarantined_rows": 0,
+      "clean_rows": 354
+    },
+    {
+      "table": "feedback_theme",
+      "rows": 435,
+      "rows_with_exceptions": 3,
+      "quarantined_rows": 3,
+      "clean_rows": 432
+    }
+  ],
+  "checks": [
+    {
+      "check": "REQUIRED_MISSING",
+      "category": "validity",
+      "disposition": "QUARANTINE",
+      "description": "required field is empty",
+      "exceptions": 0
+    },
+    {
+      "check": "TYPE_INVALID",
+      "category": "validity",
+      "disposition": "QUARANTINE",
+      "description": "value does not parse as the contract type (int/float/date/datetime)",
+      "exceptions": 0
+    },
+    {
+      "check": "ENUM_INVALID",
+      "category": "validity",
+      "disposition": "QUARANTINE",
+      "description": "value not in the contract's allowed list",
+      "exceptions": 0
+    },
+    {
+      "check": "ID_FORMAT",
+      "category": "validity",
+      "disposition": "QUARANTINE",
+      "description": "ID does not match its zero-padded pattern",
+      "exceptions": 0
+    },
+    {
+      "check": "TAG_UNKNOWN",
+      "category": "validity",
+      "disposition": "FLAG",
+      "description": "tags contains a value outside the source-tag vocabulary",
+      "exceptions": 3
+    },
+    {
+      "check": "PK_DUPLICATE",
+      "category": "integrity",
+      "disposition": "QUARANTINE",
+      "description": "primary key repeats (first occurrence kept)",
+      "exceptions": 0
+    },
+    {
+      "check": "UNIQUE_VIOLATION",
+      "category": "integrity",
+      "disposition": "FLAG",
+      "description": "a unique non-key field repeats",
+      "exceptions": 0
+    },
+    {
+      "check": "FK_MISSING",
+      "category": "integrity",
+      "disposition": "QUARANTINE",
+      "description": "foreign key (incl. polymorphic source_id) has no parent row",
+      "exceptions": 3
+    },
+    {
+      "check": "DATE_ORDER",
+      "category": "temporal",
+      "disposition": "FLAG",
+      "description": "dates out of order or outside the feedback window",
+      "exceptions": 0
+    },
+    {
+      "check": "DERIVED_MISMATCH",
+      "category": "reconciliation",
+      "disposition": "FLAG",
+      "description": "a derived value does not equal its recomputation",
+      "exceptions": 0
+    },
+    {
+      "check": "LIFECYCLE_ILLEGAL",
+      "category": "lifecycle",
+      "disposition": "FLAG",
+      "description": "status transition not allowed by the contract lifecycle",
+      "exceptions": 0
+    },
+    {
+      "check": "DUPLICATE_RESPONSE",
+      "category": "duplicate",
+      "disposition": "QUARANTINE",
+      "description": "same customer answered the same survey again (first kept)",
+      "exceptions": 3
+    },
+    {
+      "check": "DUPLICATE_REVIEW",
+      "category": "duplicate",
+      "disposition": "FLAG",
+      "description": "same customer posted the same text for the same product",
+      "exceptions": 2
+    }
+  ],
+  "exceptions_by_type": [
+    {
+      "exception_type": "DUPLICATE_RESPONSE",
+      "disposition": "QUARANTINE",
+      "count": 3
+    },
+    {
+      "exception_type": "TEST_LABEL_IN_MODEL_INPUT",
+      "disposition": "QUARANTINE",
+      "count": 3
+    },
+    {
+      "exception_type": "THEME_OUTSIDE_TAXONOMY",
+      "disposition": "QUARANTINE",
+      "count": 3
+    },
+    {
+      "exception_type": "DUPLICATE_REVIEW",
+      "disposition": "FLAG",
+      "count": 2
+    }
+  ],
+  "reproducibility": {
+    "seed": 20261022,
+    "scale": 0.02,
+    "files_compared": 31,
+    "runs_identical": true,
+    "differing_files": [],
+    "seconds": 5.7,
+    "matches_validated_data": true,
+    "differing_from_validated_data": [],
+    "passed": true
+  }
+}

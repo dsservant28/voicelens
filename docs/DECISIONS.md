@@ -108,3 +108,12 @@ Owner-written. One entry per decision. Format: Decision · Options considered ·
 - **Choice and why:** _(owner)_ meets the acceptance criterion with real human input, without exposing gold labels.
 - **Trade-off:** the human-reviewed set is small (<= 100) and must be filled by a person through the UI.
 - **Requirement link:** acceptance criteria (human-reviewed labels, traceable trends), service priorities, actors.
+
+## D-016 — UI built on the system's own math; 5 screens
+- **Decision:** five screens (Pulse, Priorities, Review, Data flow, Proof) instead of the planned six/seven. Visuals use the real quantities: alert magnitude M = −log₁₀(p) (rings per doubling), a per-channel wavefront from the alert's own first-firing dates, iso-priority hyperbolas (priority = x × y), the classifier's (positive, negative) cue-weight plane with its decision regions, a Sankey reconciled in the backend, and a τ slider on the accuracy-vs-coverage frontier. Any id opens a "Why?" lineage drawer; an "acting as" selector records the actor on every event. Business rules the UI needs (lifecycle transitions) are served from the contract, never hard-coded.
+- **Options considered:** a standard KPI dashboard with stock charts; more, thinner pages.
+- **Choice and why:** _(owner)_ every visual can be explained in one sentence and is backed by a number that reconciles.
+- **Trade-off:** custom SVG (d3) takes more code than stock charts; the blind review set needs a person to fill it.
+- **Requirement link:** traceability, exposed decisions and exceptions, measurable outputs, actors.
+
+> Note: `docs/ARCHITECTURE.md` supersedes the earlier route and screen lists in `docs/PLAN.md` (kept as the original plan).

@@ -1,0 +1,404 @@
+response_id,survey_id,customer_id,product_id,score,text,language,submitted_at,tags
+RESP-SUR-2026-000001-001,SUR-2026-000001,CUST-000036,PROD-0001,8,"The billing could be better, could be worse.",en,2026-04-06 04:44:28,promo
+RESP-SUR-2026-000001-002,SUR-2026-000001,CUST-000157,PROD-0001,5,Billing added fees nobody explained. This is unacceptable.,en,2026-04-06 04:55:35,verified_purchase
+RESP-SUR-2026-000001-003,SUR-2026-000001,CUST-000008,PROD-0001,9,Five stars: billing is transparent with no hidden fees.,en,2026-04-06 08:14:46,
+RESP-SUR-2026-000001-004,SUR-2026-000001,CUST-000074,PROD-0001,7,Using Lumo Wallet for a while now. There are three price tiers.,en,2026-04-07 07:17:00,verified_purchase
+RESP-SUR-2026-000001-005,SUR-2026-000001,CUST-000121,PROD-0001,9,Five stars: billing is transparent with no hidden fees.,en,2026-04-07 10:58:14,
+RESP-SUR-2026-000001-006,SUR-2026-000001,CUST-000147,PROD-0001,2,"Estoy harto, el inicio de sesión es un desastre.",es,2026-04-08 09:12:09,verified_purchase
+RESP-SUR-2026-000001-007,SUR-2026-000001,CUST-000088,PROD-0001,7,"Mixed feelings about Lumo Wallet: the return and refund were completely hassle free, yet the app crashes every time I open it.",en,2026-04-08 15:47:42,verified_purchase
+RESP-SUR-2026-000001-008,SUR-2026-000001,CUST-000165,PROD-0001,8,Using Lumo Wallet for a while now. The settings are under the profile icon.,en,2026-04-10 14:45:45,
+RESP-SUR-2026-000001-009,SUR-2026-000001,CUST-000167,PROD-0001,8,"La facturación es normal, nada especial.",es,2026-04-10 16:24:09,promo
+RESP-SUR-2026-000001-010,SUR-2026-000001,CUST-000023,PROD-0001,5,"Wow, I am still waiting for my refund after a month. Exactly what I wanted from Lumo Wallet.",en,2026-04-10 17:45:17,
+RESP-SUR-2026-000001-011,SUR-2026-000001,CUST-000176,PROD-0001,2,Screens take forever to load. Very disappointed with Lumo Wallet.,en,2026-04-11 00:20:41,
+RESP-SUR-2026-000001-012,SUR-2026-000001,CUST-000053,PROD-0001,2,"Yaar interface ka bahut bura haal hai, totally fed up.",hi-Latn,2026-04-11 04:27:20,
+RESP-SUR-2026-000001-013,SUR-2026-000001,CUST-000006,PROD-0001,1,"Oh great, the refund was rejected for no reason. Just perfect.",en,2026-04-12 01:05:29,promo
+RESP-SUR-2026-000001-014,SUR-2026-000001,CUST-000007,PROD-0001,5,"Logging in with my fingerprint is effortless, but it is far too expensive for what it does.",en,2026-04-13 13:12:45,
+RESP-SUR-2026-000001-015,SUR-2026-000001,CUST-000029,PROD-0001,0,Simple tasks take far too many steps. Very disappointed with Lumo Wallet.,en,2026-04-13 18:16:41,
+RESP-SUR-2026-000001-016,SUR-2026-000001,CUST-000043,PROD-0001,7,Using Lumo Wallet for a while now. The app was updated to version 5 last week.,en,2026-04-15 22:00:50,
+RESP-SUR-2026-000001-017,SUR-2026-000001,CUST-000166,PROD-0001,1,"Yaar payment ka bahut bura haal hai, totally fed up.",hi-Latn,2026-04-17 15:31:34,verified_purchase
+RESP-SUR-2026-000001-018,SUR-2026-000001,CUST-000061,PROD-0001,4,"El inicio de sesión es terrible, muy decepcionado.",es,2026-04-18 14:10:27,
+RESP-SUR-2026-000001-019,SUR-2026-000001,CUST-000177,PROD-0001,7,"Mixed feelings about Lumo Wallet: the chat agent went above and beyond, yet screens take forever to load.",en,2026-04-18 21:47:50,promo
+RESP-SUR-2026-000001-020,SUR-2026-000001,CUST-000066,PROD-0001,7,Login? It is what it is.,en,2026-04-19 03:22:13,promo
+RESP-SUR-2026-000001-021,SUR-2026-000001,CUST-000062,PROD-0001,6,"Mixed feelings about Lumo Wallet: logging in with my fingerprint is effortless, yet they promised a refund and then went silent.",en,2026-04-19 09:27:14,promo
+RESP-SUR-2026-000001-022,SUR-2026-000001,CUST-000070,PROD-0001,7,Using Lumo Wallet for a while now. The payment shows as processing on my statement.,en,2026-04-20 02:37:36,
+RESP-SUR-2026-000001-023,SUR-2026-000001,CUST-000115,PROD-0001,8,Just noting that the app takes a few seconds to start.,en,2026-04-20 10:35:06,
+RESP-SUR-2026-000001-024,SUR-2026-000001,CUST-000038,PROD-0001,2,The agent closed my ticket without fixing anything. I expected much better from Lumo Wallet.,en,2026-04-20 11:04:31,verified_purchase
+RESP-SUR-2026-000001-025,SUR-2026-000001,CUST-000077,PROD-0001,10,"Honestly, the support agent solved my problem in one call. Great job.",en,2026-04-20 21:20:01,verified_purchase
+RESP-SUR-2026-000001-026,SUR-2026-000001,CUST-000194,PROD-0001,8,"Simple tasks take far too many steps, although logging in with my fingerprint is effortless.",en,2026-04-21 02:53:54,
+RESP-SUR-2026-000001-027,SUR-2026-000001,CUST-000169,PROD-0001,7,लॉगिन ठीक-ठाक है।,hi,2026-04-21 16:52:48,
+RESP-SUR-2026-000001-028,SUR-2026-000001,CUST-000140,PROD-0001,5,The menus are confusing and badly organised. This is unacceptable.,en,2026-04-21 18:55:36,verified_purchase
+RESP-SUR-2026-000001-029,SUR-2026-000001,CUST-000080,PROD-0001,9,"El precio de Lumo Wallet es genial, lo recomiendo.",es,2026-04-22 13:31:21,verified_purchase
+RESP-SUR-2026-000001-030,SUR-2026-000001,CUST-000191,PROD-0001,1,"El soporte al cliente es terrible, muy decepcionado.",es,2026-04-22 14:53:33,
+RESP-SUR-2026-000001-031,SUR-2026-000001,CUST-000059,PROD-0001,9,కస్టమర్ సపోర్ట్ తో చాలా సంతోషంగా ఉన్నాను.,te,2026-04-24 21:23:24,promo
+RESP-SUR-2026-000001-032,SUR-2026-000001,CUST-000146,PROD-0001,5,"Mixed feelings about Lumo Wallet: my refund arrived within two days, yet I keep getting locked out of my account.",en,2026-04-26 06:26:16,
+RESP-SUR-2026-000001-033,SUR-2026-000001,CUST-000135,PROD-0001,6,"Fantastic, I can never find the settings I need. Ten out of ten, would suffer again.",en,2026-04-27 08:59:36,
+RESP-SUR-2026-000001-034,SUR-2026-000001,CUST-000068,PROD-0001,5,"Oh great, my card shows a double charge for one subscription. Just perfect.",en,2026-04-27 11:56:51,
+RESP-SUR-2026-000001-035,SUR-2026-000001,CUST-000083,PROD-0001,6,"The welcome guide made getting started easy, but simple tasks take far too many steps.",en,2026-04-28 06:46:30,verified_purchase
+RESP-SUR-2026-000001-036,SUR-2026-000001,CUST-000185,PROD-0001,8,"The setup failed three times before it worked, although the app loads instantly and never freezes.",en,2026-04-28 07:56:13,
+RESP-SUR-2026-000001-037,SUR-2026-000001,CUST-000082,PROD-0001,8,Using Lumo Wallet for a while now. The login requires a one-time code.,en,2026-04-28 13:07:24,
+RESP-SUR-2026-000001-038,SUR-2026-000001,CUST-000193,PROD-0001,5,"Mixed feelings about Lumo Wallet: setup took less than five minutes, yet I keep getting locked out of my account.",en,2026-04-29 13:14:29,
+RESP-SUR-2026-000001-039,SUR-2026-000001,CUST-000144,PROD-0001,9,"सेटअप शानदार है, सबको सलाह दूँगा।",hi,2026-04-29 16:24:24,
+RESP-SUR-2026-000001-040,SUR-2026-000001,CUST-000142,PROD-0001,8,Using Lumo Wallet for a while now. The settings are under the profile icon.,en,2026-05-01 08:17:07,promo
+RESP-SUR-2026-000001-041,SUR-2026-000001,CUST-000102,PROD-0001,0,"Fantastic, the setup failed three times before it worked. Ten out of ten, would suffer again.",en,2026-05-01 17:08:49,verified_purchase
+RESP-SUR-2026-000001-042,SUR-2026-000001,CUST-000084,PROD-0001,8,"Setup normal hai, kuch special nahi.",hi-Latn,2026-05-02 21:49:33,
+RESP-SUR-2026-000001-043,SUR-2026-000001,CUST-000131,PROD-0001,2,The app freezes in the middle of checkout. I expected much better from Lumo Wallet.,en,2026-05-02 22:07:13,verified_purchase
+RESP-SUR-2026-000001-044,SUR-2026-000001,CUST-000106,PROD-0001,7,"The refund was rejected for no reason, although billing is transparent with no hidden fees.",en,2026-05-02 23:56:47,beta_user
+RESP-SUR-2026-000001-045,SUR-2026-000001,CUST-000168,PROD-0001,0,"The support team is not good, not even close.",en,2026-05-03 13:59:01,verified_purchase
+RESP-SUR-2026-000001-046,SUR-2026-000001,CUST-000100,PROD-0001,9,Lumo Wallet ka interface ekdum mast hai yaar.,hi-Latn,2026-05-04 06:50:06,
+RESP-SUR-2026-000001-047,SUR-2026-000001,CUST-000065,PROD-0001,3,Really frustrated: it is far too expensive for what it does.,en,2026-05-04 16:03:40,verified_purchase
+RESP-SUR-2026-000001-048,SUR-2026-000001,CUST-000081,PROD-0001,3,The setup failed three times before it worked. I expected much better from Lumo Wallet.,en,2026-05-04 19:48:21,
+RESP-SUR-2026-000001-049,SUR-2026-000001,CUST-000178,PROD-0001,6,"They refunded me without any argument, but billing added fees nobody explained.",en,2026-05-04 20:41:04,promo
+RESP-SUR-2026-000001-050,SUR-2026-000001,CUST-000087,PROD-0001,6,"The invoice was clear and easy to understand, but it is far too expensive for what it does.",en,2026-05-04 23:15:29,promo
+RESP-SUR-2026-000001-051,SUR-2026-000001,CUST-000005,PROD-0001,9,"Honestly, billing is transparent with no hidden fees. Great job.",en,2026-05-05 03:01:14,beta_user
+RESP-SUR-2026-000001-052,SUR-2026-000001,CUST-000182,PROD-0001,5,"The password reset worked in seconds, but billing added fees nobody explained.",en,2026-05-05 21:26:35,verified_purchase
+RESP-SUR-2026-000001-053,SUR-2026-000001,CUST-000164,PROD-0001,4,"Fantastic, the app freezes in the middle of checkout. Ten out of ten, would suffer again.",en,2026-05-06 05:13:46,verified_purchase
+RESP-SUR-2026-000001-054,SUR-2026-000001,CUST-000175,PROD-0001,10,"The login is not bad at all, to be honest.",en,2026-05-06 15:45:02,
+RESP-SUR-2026-000001-055,SUR-2026-000001,CUST-000132,PROD-0001,5,పేమెంట్ తో చాలా ఇబ్బందిగా ఉంది.,te,2026-05-07 02:42:17,promo
+RESP-SUR-2026-000001-056,SUR-2026-000001,CUST-000196,PROD-0001,8,Not sure how I feel about the price yet.,en,2026-05-09 02:59:26,
+RESP-SUR-2026-000001-057,SUR-2026-000001,CUST-000192,PROD-0001,10,My card was charged the correct amount. Really happy with Lumo Wallet.,en,2026-05-09 07:17:28,promo
+RESP-SUR-2026-000001-058,SUR-2026-000001,CUST-000012,PROD-0001,8,"I was billed for a plan I never chose, although even my parents figured it out quickly.",en,2026-05-10 10:27:56,beta_user
+RESP-SUR-2026-000001-059,SUR-2026-000001,CUST-000172,PROD-0001,9,"Can't complain about the support team, no issues whatsoever.",en,2026-05-11 23:24:00,
+RESP-SUR-2026-000001-060,SUR-2026-000001,CUST-000150,PROD-0001,4,Love it when the refund was rejected for no reason. Truly a premium experience.,en,2026-05-12 08:40:56,
+RESP-SUR-2026-000001-061,SUR-2026-000001,CUST-000113,PROD-0001,6,"The login page rejects my correct password, although the app runs smoothly even on my old phone.",en,2026-05-13 10:36:17,
+RESP-SUR-2026-000001-062,SUR-2026-000001,CUST-000019,PROD-0001,7,Setup asks for your email and a password.,en,2026-05-13 16:11:29,
+RESP-SUR-2026-000001-063,SUR-2026-000001,CUST-000063,PROD-0001,5,रिफंड से मैं बहुत परेशान हूँ।,hi,2026-05-14 13:55:49,
+RESP-SUR-2026-000001-064,SUR-2026-000001,CUST-000111,PROD-0001,9,Five stars: support replied within minutes and was very kind.,en,2026-05-14 15:08:47,promo
+RESP-SUR-2026-000001-065,SUR-2026-000001,CUST-000109,PROD-0001,6,"The app is not good, not even close.",en,2026-05-15 08:49:31,
+RESP-SUR-2026-000001-066,SUR-2026-000001,CUST-000011,PROD-0001,9,Five stars: the support agent solved my problem in one call.,en,2026-05-15 11:00:20,
+RESP-SUR-2026-000001-067,SUR-2026-000001,CUST-000048,PROD-0001,8,Setup asks for your email and a password.,en,2026-05-15 13:19:18,beta_user
+RESP-SUR-2026-000001-068,SUR-2026-000001,CUST-000004,PROD-0001,6,"Interface mast hai, lekin login ne pareshan kar diya.",hi-Latn,2026-05-16 01:25:43,
+RESP-SUR-2026-000001-069,SUR-2026-000001,CUST-000148,PROD-0001,5,I was billed for a plan I never chose. This is unacceptable.,en,2026-05-16 19:13:38,verified_purchase
+RESP-SUR-2026-000001-070,SUR-2026-000001,CUST-000042,PROD-0001,9,"The monthly statement is simple and accurate, would recommend Lumo Wallet.",en,2026-05-17 10:58:38,verified_purchase
+RESP-SUR-2026-000001-071,SUR-2026-000001,CUST-000133,PROD-0001,1,I keep getting locked out of my account. This is unacceptable.,en,2026-05-18 05:40:46,
+RESP-SUR-2026-000001-072,SUR-2026-000001,CUST-000153,PROD-0001,2,I keep getting locked out of my account. I expected much better from Lumo Wallet.,en,2026-05-19 08:32:01,
+RESP-SUR-2026-000001-073,SUR-2026-000001,CUST-000145,PROD-0001,2,The login page rejects my correct password. Very disappointed with Lumo Wallet.,en,2026-05-19 08:57:30,verified_purchase
+RESP-SUR-2026-000001-074,SUR-2026-000001,CUST-000119,PROD-0001,5,I keep getting locked out of my account. Very disappointed with Lumo Wallet.,en,2026-05-19 12:55:16,
+RESP-SUR-2026-000001-075,SUR-2026-000001,CUST-000180,PROD-0001,7,Using Lumo Wallet for a while now. The bill is generated on the first of each month.,en,2026-05-21 05:56:56,verified_purchase
+RESP-SUR-2026-000001-076,SUR-2026-000001,CUST-000173,PROD-0001,6,The login page rejects my correct password. Very disappointed with Lumo Wallet.,en,2026-05-21 13:04:12,
+RESP-SUR-2026-000001-077,SUR-2026-000001,CUST-000137,PROD-0001,9,A duplicate charge was caught and reversed before I even noticed. Really happy with Lumo Wallet.,en,2026-05-23 00:07:23,
+RESP-SUR-2026-000001-078,SUR-2026-000001,CUST-000034,PROD-0001,10,"The price is not bad at all, to be honest.",en,2026-05-23 10:48:33,
+RESP-SUR-2026-000001-079,SUR-2026-000001,CUST-000122,PROD-0001,7,The main menu has five tabs.,en,2026-05-23 14:14:35,
+RESP-SUR-2026-000001-080,SUR-2026-000001,CUST-000160,PROD-0001,4,"Wow, the login page rejects my correct password. Exactly what I wanted from Lumo Wallet.",en,2026-05-23 16:29:18,promo
+RESP-SUR-2026-000001-081,SUR-2026-000001,CUST-000117,PROD-0001,7,Not sure how I feel about the setup yet.,en,2026-05-23 23:41:04,verified_purchase
+RESP-SUR-2026-000001-082,SUR-2026-000001,CUST-000181,PROD-0001,6,"Login bilkul bekaar hai, very disappointed.",hi-Latn,2026-05-24 06:25:11,
+RESP-SUR-2026-000001-083,SUR-2026-000001,CUST-000040,PROD-0001,7,The login requires a one-time code.,en,2026-05-24 11:53:00,
+RESP-SUR-2026-000001-084,SUR-2026-000001,CUST-000085,PROD-0001,6,I keep getting locked out of my account. This is unacceptable.,en,2026-05-24 15:58:11,beta_user
+RESP-SUR-2026-000001-085,SUR-2026-000001,CUST-000025,PROD-0001,5,I keep getting locked out of my account. Very disappointed with Lumo Wallet.,en,2026-05-25 11:10:39,promo
+RESP-SUR-2026-000001-086,SUR-2026-000001,CUST-000047,PROD-0001,6,"I explained the issue three times to three different agents, although a duplicate charge was caught and reversed before I even noticed.",en,2026-05-25 16:03:06,
+RESP-SUR-2026-000001-087,SUR-2026-000001,CUST-000003,PROD-0001,6,The verification code never arrives. Very disappointed with Lumo Wallet.,en,2026-05-26 14:51:24,promo
+RESP-SUR-2026-000001-088,SUR-2026-000001,CUST-000162,PROD-0001,7,"They promised a refund and then went silent, although billing is transparent with no hidden fees.",en,2026-05-27 13:56:36,verified_purchase
+RESP-SUR-2026-000001-089,SUR-2026-000001,CUST-000189,PROD-0001,0,Really frustrated: the login page rejects my correct password.,en,2026-05-29 21:50:22,
+RESP-SUR-2026-000001-090,SUR-2026-000001,CUST-000055,PROD-0001,10,"Refund super hai, sabko recommend karunga.",hi-Latn,2026-05-30 08:01:35,
+RESP-SUR-2026-000001-091,SUR-2026-000001,CUST-000024,PROD-0001,7,"రీఫండ్ అద్భుతంగా ఉంది, కానీ ఇంటర్‌ఫేస్ అస్సలు బాగాలేదు.",te,2026-05-30 23:34:15,
+RESP-SUR-2026-000001-092,SUR-2026-000001,CUST-000058,PROD-0001,3,"The setup is not good, not even close.",en,2026-05-31 00:10:13,verified_purchase
+RESP-SUR-2026-000001-093,SUR-2026-000001,CUST-000116,PROD-0001,5,"It is great value for money, but the login page rejects my correct password.",en,2026-05-31 11:35:10,
+RESP-SUR-2026-000001-094,SUR-2026-000001,CUST-000072,PROD-0001,1,"కస్టమర్ సపోర్ట్ చాలా ఘోరంగా ఉంది, చాలా నిరాశ చెందాను.",te,2026-05-31 14:09:02,
+RESP-SUR-2026-000001-095,SUR-2026-000001,CUST-000064,PROD-0001,6,"Mixed feelings about Lumo Wallet: the payment went through exactly once, yet the agent closed my ticket without fixing anything.",en,2026-06-01 04:10:14,
+RESP-SUR-2026-000001-096,SUR-2026-000001,CUST-000161,PROD-0001,10,"The support agent solved my problem in one call, would recommend Lumo Wallet.",en,2026-06-01 07:16:14,verified_purchase
+RESP-SUR-2026-000001-097,SUR-2026-000001,CUST-000054,PROD-0001,9,"The interface is not bad at all, to be honest.",en,2026-06-01 09:19:39,promo
+RESP-SUR-2026-000001-098,SUR-2026-000001,CUST-000016,PROD-0001,7,"My card shows a double charge for one subscription, although pairing the device worked the first time.",en,2026-06-02 16:38:38,promo
+RESP-SUR-2026-000001-099,SUR-2026-000001,CUST-000152,PROD-0001,8,Setup se khush hoon par app third class hai.,hi-Latn,2026-06-03 03:32:33,
+RESP-SUR-2026-000001-100,SUR-2026-000001,CUST-000184,PROD-0001,7,The app was updated to version 5 last week.,en,2026-06-03 23:24:26,
+RESP-SUR-2026-000001-101,SUR-2026-000001,CUST-000001,PROD-0001,8,Using Lumo Wallet for a while now. Setup asks for your email and a password.,en,2026-06-03 23:59:32,verified_purchase
+RESP-SUR-2026-000001-102,SUR-2026-000001,CUST-000188,PROD-0001,7,"El inicio de sesión es normal, nada especial.",es,2026-06-04 16:52:31,
+RESP-SUR-2026-000001-103,SUR-2026-000001,CUST-000046,PROD-0001,9,"Interface bahut achha hai, full satisfied.",hi-Latn,2026-06-05 22:48:51,
+RESP-SUR-2026-000001-104,SUR-2026-000001,CUST-000094,PROD-0001,9,Five stars: my refund arrived within two days.,en,2026-06-06 01:17:11,
+RESP-SUR-2026-000001-105,SUR-2026-000001,CUST-000156,PROD-0001,2,Really frustrated: I keep getting locked out of my account.,en,2026-06-07 18:24:41,verified_purchase
+RESP-SUR-2026-000001-106,SUR-2026-000001,CUST-000017,PROD-0001,10,"The welcome guide made getting started easy, would recommend Lumo Wallet.",en,2026-06-07 22:11:21,verified_purchase
+RESP-SUR-2026-000001-107,SUR-2026-000001,CUST-000126,PROD-0001,8,"My card was charged the correct amount, but the agent closed my ticket without fixing anything.",en,2026-06-08 19:55:16,
+RESP-SUR-2026-000001-108,SUR-2026-000001,CUST-000103,PROD-0001,9,సెటప్ చాలా బాగుంది.,te,2026-06-11 04:37:22,
+RESP-SUR-2026-000001-109,SUR-2026-000001,CUST-000095,PROD-0001,7,इंटरफ़ेस के बारे में कुछ खास कहने को नहीं है।,hi,2026-06-11 07:02:14,
+RESP-SUR-2026-000001-110,SUR-2026-000001,CUST-000089,PROD-0001,9,"Honestly, the app runs smoothly even on my old phone. Great job.",en,2026-06-11 11:20:50,
+RESP-SUR-2026-000001-111,SUR-2026-000001,CUST-000170,PROD-0001,8,ఇంటర్‌ఫేస్ మామూలుగా ఉంది.,te,2026-06-11 20:00:25,verified_purchase
+RESP-SUR-2026-000001-112,SUR-2026-000001,CUST-000163,PROD-0001,0,Activation got stuck on the first screen. Very disappointed with Lumo Wallet.,en,2026-06-13 09:49:04,
+RESP-SUR-2026-000001-113,SUR-2026-000001,CUST-000097,PROD-0001,6,The app crashes every time I open it. Very disappointed with Lumo Wallet.,en,2026-06-15 23:00:46,
+RESP-SUR-2026-000001-114,SUR-2026-000001,CUST-000051,PROD-0001,1,"Fantastic, activation got stuck on the first screen. Ten out of ten, would suffer again.",en,2026-06-15 23:17:49,promo
+RESP-SUR-2026-000001-115,SUR-2026-000001,CUST-000104,PROD-0001,10,"సెటప్ అద్భుతంగా ఉంది, అందరికీ సిఫార్సు చేస్తాను.",te,2026-06-16 07:20:01,
+RESP-SUR-2026-000001-116,SUR-2026-000001,CUST-000093,PROD-0001,6,"They promised a refund and then went silent, although the welcome guide made getting started easy.",en,2026-06-16 19:47:47,verified_purchase
+RESP-SUR-2026-000001-117,SUR-2026-000001,CUST-000152,PROD-0001,8,Setup se khush hoon par app third class hai.,hi-Latn,2026-06-03 03:35:33,
+RESP-SUR-2026-000002-001,SUR-2026-000002,CUST-000183,PROD-0001,7,Interface ke baare mein kuch khaas nahi kehna.,hi-Latn,2026-05-22 09:20:50,verified_purchase
+RESP-SUR-2026-000002-002,SUR-2026-000002,CUST-000035,PROD-0009,0,My order arrived three days late. I expected much better from Orbix Router.,en,2026-05-22 17:22:39,
+RESP-SUR-2026-000002-003,SUR-2026-000002,CUST-000155,PROD-0004,7,"The login could be better, could be worse.",en,2026-05-23 03:43:30,
+RESP-SUR-2026-000002-004,SUR-2026-000002,CUST-000118,PROD-0012,9,"Honestly, it still works perfectly after months of daily use. Great job.",en,2026-05-23 07:20:05,
+RESP-SUR-2026-000002-005,SUR-2026-000002,CUST-000078,PROD-0006,7,"The price is very fair for what you get, but the refund was rejected for no reason.",en,2026-05-23 22:20:42,
+RESP-SUR-2026-000002-006,SUR-2026-000002,CUST-000186,PROD-0003,7,"The invoice was wrong again this month, although my refund arrived within two days.",en,2026-05-25 10:02:19,
+RESP-SUR-2026-000002-007,SUR-2026-000002,CUST-000143,PROD-0010,2,The delivery was handled carelessly and the box was crushed. This is unacceptable.,en,2026-05-26 00:28:42,verified_purchase
+RESP-SUR-2026-000002-008,SUR-2026-000002,CUST-000100,PROD-0005,9,"Interface bahut achha hai, full satisfied.",hi-Latn,2026-05-26 21:44:33,verified_purchase
+RESP-SUR-2026-000002-009,SUR-2026-000002,CUST-000020,PROD-0006,7,"Logging in with my fingerprint is effortless, but they promised a refund and then went silent.",en,2026-05-27 03:30:13,verified_purchase
+RESP-SUR-2026-000002-010,SUR-2026-000002,CUST-000040,PROD-0001,2,Really frustrated: billing added fees nobody explained.,en,2026-05-28 02:46:43,verified_purchase
+RESP-SUR-2026-000002-011,SUR-2026-000002,CUST-000013,PROD-0008,9,Five stars: the express slot was honoured to the minute.,en,2026-05-28 03:42:14,
+RESP-SUR-2026-000002-012,SUR-2026-000002,CUST-000169,PROD-0012,10,बिलिंग के साथ मेरा अनुभव बहुत अच्छा रहा।,hi,2026-05-29 01:17:11,
+RESP-SUR-2026-000002-013,SUR-2026-000002,CUST-000127,PROD-0002,9,"The interface is not bad at all, to be honest.",en,2026-05-29 21:54:40,
+RESP-SUR-2026-000002-014,SUR-2026-000002,CUST-000057,PROD-0009,8,"They refunded me without any argument, but it is far too expensive for what it does.",en,2026-05-30 01:30:55,verified_purchase
+RESP-SUR-2026-000002-015,SUR-2026-000002,CUST-000053,PROD-0002,5,Price se khush hoon par setup third class hai.,hi-Latn,2026-05-30 03:28:20,
+RESP-SUR-2026-000002-016,SUR-2026-000002,CUST-000156,PROD-0009,1,The refund was rejected for no reason. I expected much better from Orbix Router.,en,2026-06-01 04:12:08,verified_purchase
+RESP-SUR-2026-000002-017,SUR-2026-000002,CUST-000103,PROD-0011,7,ధర మామూలుగా ఉంది.,te,2026-06-01 14:19:14,
+RESP-SUR-2026-000002-018,SUR-2026-000002,CUST-000130,PROD-0012,6,"Yaar product quality ka bahut bura haal hai, totally fed up.",hi-Latn,2026-06-01 22:01:40,
+RESP-SUR-2026-000002-019,SUR-2026-000002,CUST-000166,PROD-0008,8,Delivery time se khush hoon par product quality third class hai.,hi-Latn,2026-06-01 22:31:53,promo
+RESP-SUR-2026-000002-020,SUR-2026-000002,CUST-000072,PROD-0002,8,"సెటప్ అద్భుతంగా ఉంది, కానీ ఇంటర్‌ఫేస్ అస్సలు బాగాలేదు.",te,2026-06-02 11:40:41,
+RESP-SUR-2026-000002-021,SUR-2026-000002,CUST-000132,PROD-0004,7,రీఫండ్ గురించి ప్రత్యేకంగా చెప్పడానికి ఏమీ లేదు.,te,2026-06-02 17:00:55,
+RESP-SUR-2026-000002-022,SUR-2026-000002,CUST-000189,PROD-0011,9,"Billing is transparent with no hidden fees, would recommend CrateFresh Weekly.",en,2026-06-02 21:34:32,verified_purchase
+RESP-SUR-2026-000002-023,SUR-2026-000002,CUST-000114,PROD-0007,7,"कस्टमर सपोर्ट के साथ अनुभव अच्छा रहा, लेकिन इंटरफ़ेस बेकार है।",hi,2026-06-03 07:46:53,
+RESP-SUR-2026-000002-024,SUR-2026-000002,CUST-000124,PROD-0010,8,"Me gusta la facturación, aunque el soporte al cliente deja mucho que desear.",es,2026-06-03 08:42:21,
+RESP-SUR-2026-000002-025,SUR-2026-000002,CUST-000120,PROD-0012,8,Using ParcelPal Same-Day for a while now. The bill is generated on the first of each month.,en,2026-06-04 03:03:11,beta_user
+RESP-SUR-2026-000002-026,SUR-2026-000002,CUST-000092,PROD-0003,7,"The app could be better, could be worse.",en,2026-06-04 14:41:03,
+RESP-SUR-2026-000002-027,SUR-2026-000002,CUST-000083,PROD-0007,10,It is great value for money. Really happy with Aurelo Speaker.,en,2026-06-07 14:47:32,verified_purchase
+RESP-SUR-2026-000002-028,SUR-2026-000002,CUST-000065,PROD-0006,5,"Billing added fees nobody explained, although the chat agent went above and beyond.",en,2026-06-07 17:02:23,verified_purchase
+RESP-SUR-2026-000002-029,SUR-2026-000002,CUST-000003,PROD-0010,7,"The courier left the parcel out in the rain, although the interface is clean and easy to use.",en,2026-06-09 01:42:10,promo
+RESP-SUR-2026-000002-030,SUR-2026-000002,CUST-000006,PROD-0010,7,Just noting that the estimated delivery date moved by one day.,en,2026-06-10 01:10:57,verified_purchase
+RESP-SUR-2026-000002-031,SUR-2026-000002,CUST-000055,PROD-0003,9,Nestly Home ka setup ekdum mast hai yaar.,hi-Latn,2026-06-11 04:51:00,verified_purchase
+RESP-SUR-2026-000002-032,SUR-2026-000002,CUST-000097,PROD-0002,0,The app freezes in the middle of checkout. I expected much better from TrekTrack.,en,2026-06-13 19:25:13,
+RESP-SUR-2026-000002-033,SUR-2026-000002,CUST-000176,PROD-0006,10,The support agent solved my problem in one call. Really happy with FitLoop Annual.,en,2026-06-14 06:26:23,
+RESP-SUR-2026-000002-034,SUR-2026-000002,CUST-000088,PROD-0007,7,Just noting that delivery took the usual five days.,en,2026-06-14 11:51:39,
+RESP-SUR-2026-000002-035,SUR-2026-000002,CUST-000101,PROD-0008,9,The courier was polite and careful. Really happy with Velto Watch.,en,2026-06-14 14:18:57,
+RESP-SUR-2026-000002-036,SUR-2026-000002,CUST-000148,PROD-0002,4,I would not call the support team acceptable.,en,2026-06-14 21:29:52,verified_purchase
+RESP-SUR-2026-000002-037,SUR-2026-000002,CUST-000076,PROD-0003,5,"The invoice was clear and easy to understand, but I am still waiting for my refund after a month.",en,2026-06-15 06:12:32,verified_purchase
+RESP-SUR-2026-000002-038,SUR-2026-000002,CUST-000153,PROD-0004,7,The main menu has five tabs.,en,2026-06-15 06:20:33,
+RESP-SUR-2026-000002-039,SUR-2026-000002,CUST-000147,PROD-0009,5,El reembolso de Orbix Router deja mucho que desear.,es,2026-06-15 22:58:53,
+RESP-SUR-2026-000002-040,SUR-2026-000002,CUST-000073,PROD-0004,0,"The login is not good, not even close.",en,2026-06-16 06:48:46,
+RESP-SUR-2026-000002-041,SUR-2026-000002,CUST-000061,PROD-0002,5,"Estoy harto, la app es un desastre.",es,2026-06-17 01:44:51,
+RESP-SUR-2026-000002-042,SUR-2026-000002,CUST-000051,PROD-0008,2,I can never find the settings I need. I expected much better from Velto Watch.,en,2026-06-18 05:17:04,verified_purchase
+RESP-SUR-2026-000002-043,SUR-2026-000002,CUST-000075,PROD-0004,7,Just noting that the price is listed per month.,en,2026-06-18 17:32:26,verified_purchase
+RESP-SUR-2026-000002-044,SUR-2026-000002,CUST-000172,PROD-0003,8,"The support agent solved my problem in one call, but billing added fees nobody explained.",en,2026-06-19 06:59:00,verified_purchase
+RESP-SUR-2026-000002-045,SUR-2026-000002,CUST-000195,PROD-0004,1,I would not call the payment acceptable.,en,2026-06-19 14:23:26,
+RESP-SUR-2026-000002-046,SUR-2026-000002,CUST-000173,PROD-0007,5,"The item arrived broken and feels cheap, although setup took less than five minutes.",en,2026-06-20 14:59:15,
+RESP-SUR-2026-000002-047,SUR-2026-000002,CUST-000107,PROD-0011,7,La entrega es aceptable.,es,2026-06-22 16:20:46,verified_purchase
+RESP-SUR-2026-000002-048,SUR-2026-000002,CUST-000199,PROD-0010,7,Interface theek-thaak hai.,hi-Latn,2026-06-24 16:17:08,
+RESP-SUR-2026-000002-049,SUR-2026-000002,CUST-000047,PROD-0007,4,The app freezes in the middle of checkout. Very disappointed with Aurelo Speaker.,en,2026-06-25 02:32:34,verified_purchase
+RESP-SUR-2026-000002-050,SUR-2026-000002,CUST-000163,PROD-0005,9,"The welcome guide made getting started easy, would recommend VaultBox Plus.",en,2026-06-25 13:44:27,
+RESP-SUR-2026-000002-051,SUR-2026-000002,CUST-000196,PROD-0009,7,The app takes a few seconds to start.,en,2026-06-25 15:12:31,promo
+RESP-SUR-2026-000002-052,SUR-2026-000002,CUST-000105,PROD-0007,10,"The app loads instantly and never freezes, would recommend Aurelo Speaker.",en,2026-06-26 12:14:24,
+RESP-SUR-2026-000002-053,SUR-2026-000002,CUST-000042,PROD-0001,6,Support kept me on hold for an hour. This is unacceptable.,en,2026-06-27 18:11:03,verified_purchase
+RESP-SUR-2026-000002-054,SUR-2026-000002,CUST-000098,PROD-0003,8,"The onboarding instructions are missing steps, although the price is very fair for what you get.",en,2026-06-28 13:41:06,promo
+RESP-SUR-2026-000002-055,SUR-2026-000002,CUST-000024,PROD-0001,3,యాప్ అస్సలు బాగాలేదు.,te,2026-06-28 18:22:12,
+RESP-SUR-2026-000002-056,SUR-2026-000002,CUST-000079,PROD-0010,0,"The billing is not good, not even close.",en,2026-06-28 22:12:18,promo
+RESP-SUR-2026-000002-057,SUR-2026-000002,CUST-000117,PROD-0007,9,"Same-day delivery actually arrived the same day, would recommend Aurelo Speaker.",en,2026-06-30 00:05:45,promo
+RESP-SUR-2026-000002-058,SUR-2026-000002,CUST-000095,PROD-0008,6,"सेटअप शानदार है, लेकिन डिलीवरी का समय बिल्कुल बेकार है।",hi,2026-06-30 16:16:22,
+RESP-SUR-2026-000002-059,SUR-2026-000002,CUST-000059,PROD-0007,9,ధర చాలా బాగుంది.,te,2026-07-02 00:29:52,verified_purchase
+RESP-SUR-2026-000002-060,SUR-2026-000002,CUST-000165,PROD-0001,9,"Honestly, setup took less than five minutes. Great job.",en,2026-07-02 02:34:16,verified_purchase
+RESP-SUR-2026-000002-061,SUR-2026-000002,CUST-000126,PROD-0012,9,Five stars: the courier was polite and careful.,en,2026-07-02 20:25:55,
+RESP-SUR-2026-000002-062,SUR-2026-000002,CUST-000027,PROD-0005,5,"Oh great, billing added fees nobody explained. Just perfect.",en,2026-07-02 23:54:06,
+RESP-SUR-2026-000002-063,SUR-2026-000002,CUST-000152,PROD-0009,8,Interface ke baare mein kuch khaas nahi kehna.,hi-Latn,2026-07-03 16:14:17,
+RESP-SUR-2026-000002-064,SUR-2026-000002,CUST-000131,PROD-0003,8,"The refund could be better, could be worse.",en,2026-07-04 07:57:09,verified_purchase
+RESP-SUR-2026-000002-065,SUR-2026-000002,CUST-000086,PROD-0012,8,I contacted support through chat.,en,2026-07-04 22:21:47,
+RESP-SUR-2026-000002-066,SUR-2026-000002,CUST-000033,PROD-0005,9,"The welcome guide made getting started easy, would recommend VaultBox Plus.",en,2026-07-05 09:44:17,
+RESP-SUR-2026-000002-067,SUR-2026-000002,CUST-000025,PROD-0009,7,Just noting that the delivery came on Tuesday.,en,2026-07-05 14:26:46,
+RESP-SUR-2026-000002-068,SUR-2026-000002,CUST-000067,PROD-0003,9,Five stars: setup took less than five minutes.,en,2026-07-06 02:06:43,
+RESP-SUR-2026-000002-069,SUR-2026-000002,CUST-000190,PROD-0002,10,Support replied within minutes and was very kind. Really happy with TrekTrack.,en,2026-07-06 05:59:03,promo
+RESP-SUR-2026-000002-070,SUR-2026-000002,CUST-000060,PROD-0009,8,The main menu has five tabs.,en,2026-07-06 13:20:58,promo
+RESP-SUR-2026-000002-071,SUR-2026-000002,CUST-000074,PROD-0004,5,My card shows a double charge for one subscription. I expected much better from StreamNest Premium.,en,2026-07-06 19:00:37,beta_user
+RESP-SUR-2026-000002-072,SUR-2026-000002,CUST-000015,PROD-0010,1,The agent closed my ticket without fixing anything. I expected much better from QuickDrop Express.,en,2026-07-07 17:21:30,
+RESP-SUR-2026-000002-073,SUR-2026-000002,CUST-000037,PROD-0010,9,"El precio de QuickDrop Express es genial, lo recomiendo.",es,2026-07-08 03:50:33,
+RESP-SUR-2026-000002-074,SUR-2026-000002,CUST-000109,PROD-0004,1,I would not call the setup acceptable.,en,2026-07-09 04:29:31,verified_purchase
+RESP-SUR-2026-000002-075,SUR-2026-000002,CUST-000070,PROD-0009,9,The discount made it a real bargain. Really happy with Orbix Router.,en,2026-07-10 00:49:47,verified_purchase
+RESP-SUR-2026-000002-076,SUR-2026-000002,CUST-000030,PROD-0005,6,The payment was taken two times and nobody can explain why. I expected much better from VaultBox Plus.,en,2026-07-10 05:17:35,
+RESP-SUR-2026-000002-077,SUR-2026-000002,CUST-000093,PROD-0006,6,"Pairing the device worked the first time, but they promised a refund and then went silent.",en,2026-07-10 08:38:39,beta_user
+RESP-SUR-2026-000002-078,SUR-2026-000002,CUST-000157,PROD-0007,7,"The delivery is... well, it's the delivery.",en,2026-07-11 00:48:09,
+RESP-SUR-2026-000002-079,SUR-2026-000002,CUST-000197,PROD-0010,8,Product quality se khush hoon par billing third class hai.,hi-Latn,2026-07-11 07:30:19,verified_purchase
+RESP-SUR-2026-000002-080,SUR-2026-000002,CUST-000019,PROD-0010,2,Love it when I explained the issue three times to three different agents. Truly a premium experience.,en,2026-07-11 09:12:34,beta_user
+RESP-SUR-2026-000002-081,SUR-2026-000002,CUST-000045,PROD-0005,0,"सेटअप बिल्कुल बेकार है, बहुत निराशा हुई।",hi,2026-07-11 23:17:07,
+RESP-SUR-2026-000002-082,SUR-2026-000002,CUST-000048,PROD-0006,7,The settings are under the profile icon.,en,2026-07-13 15:43:08,
+RESP-SUR-2026-000002-083,SUR-2026-000002,CUST-000102,PROD-0001,4,Love it when the verification code never arrives. Truly a premium experience.,en,2026-07-13 15:56:11,
+RESP-SUR-2026-000002-084,SUR-2026-000002,CUST-000177,PROD-0005,7,Just noting that there are three price tiers.,en,2026-07-14 15:54:10,verified_purchase
+RESP-SUR-2026-000002-085,SUR-2026-000002,CUST-000032,PROD-0011,10,డెలివరీ తో చాలా సంతోషంగా ఉన్నాను.,te,2026-07-15 12:54:42,promo
+RESP-SUR-2026-000002-086,SUR-2026-000002,CUST-000036,PROD-0004,3,Support kept me on hold for an hour. This is unacceptable.,en,2026-07-15 20:45:12,beta_user
+RESP-SUR-2026-000002-087,SUR-2026-000002,CUST-000136,PROD-0003,1,The setup failed three times before it worked. This is unacceptable.,en,2026-07-15 23:03:30,
+RESP-SUR-2026-000002-088,SUR-2026-000002,CUST-000081,PROD-0004,1,I am still waiting for my refund after a month. This is unacceptable.,en,2026-07-16 17:57:02,verified_purchase
+RESP-SUR-2026-000002-089,SUR-2026-000002,CUST-000134,PROD-0009,10,Five stars: delivery came right on the promised day.,en,2026-07-17 20:24:02,beta_user
+RESP-SUR-2026-000002-090,SUR-2026-000002,CUST-000029,PROD-0009,6,"The courier was polite and careful, but the agent closed my ticket without fixing anything.",en,2026-07-18 21:52:55,beta_user
+RESP-SUR-2026-000002-091,SUR-2026-000002,CUST-000104,PROD-0012,6,"ప్రొడక్ట్ క్వాలిటీ తో సంతోషం, కానీ ధర తో చాలా ఇబ్బంది.",te,2026-07-18 22:58:38,
+RESP-SUR-2026-000002-092,SUR-2026-000002,CUST-000129,PROD-0012,9,"La calidad del producto es excelente, estoy muy satisfecho.",es,2026-07-19 17:20:26,verified_purchase
+RESP-SUR-2026-000002-093,SUR-2026-000002,CUST-000049,PROD-0002,9,"El inicio de sesión es excelente, estoy muy satisfecho.",es,2026-07-20 23:33:56,
+RESP-SUR-2026-000002-094,SUR-2026-000002,CUST-000125,PROD-0006,1,They promised a refund and then went silent. Very disappointed with FitLoop Annual.,en,2026-07-21 05:22:41,
+RESP-SUR-2026-000002-095,SUR-2026-000002,CUST-000016,PROD-0008,10,The app loads instantly and never freezes. Really happy with Velto Watch.,en,2026-07-21 19:37:34,verified_purchase
+RESP-SUR-2026-000002-096,SUR-2026-000002,CUST-000158,PROD-0008,9,Five stars: the welcome guide made getting started easy.,en,2026-07-23 16:10:27,promo
+RESP-SUR-2026-000002-097,SUR-2026-000002,CUST-000014,PROD-0009,8,"The build quality is... well, it's the build quality.",en,2026-07-24 19:14:41,verified_purchase
+RESP-SUR-2026-000002-098,SUR-2026-000002,CUST-000085,PROD-0012,9,Five stars: delivery came right on the promised day.,en,2026-07-24 21:29:26,verified_purchase
+RESP-SUR-2026-000002-099,SUR-2026-000002,CUST-000110,PROD-0001,5,"El precio está bien, pero el cobro es un desastre.",es,2026-07-25 05:59:04,
+RESP-SUR-2026-000002-100,SUR-2026-000002,CUST-000011,PROD-0009,7,"The courier left the parcel out in the rain, although the discount made it a real bargain.",en,2026-07-25 16:15:41,promo
+RESP-SUR-2026-000002-101,SUR-2026-000002,CUST-000108,PROD-0003,8,Just noting that the refund goes back to the original payment method.,en,2026-07-25 22:08:28,beta_user
+RESP-SUR-2026-000002-102,SUR-2026-000002,CUST-000150,PROD-0002,1,The app crashes every time I open it. This is unacceptable.,en,2026-07-28 01:14:21,verified_purchase
+RESP-SUR-2026-000002-103,SUR-2026-000002,CUST-000089,PROD-0010,10,"The build quality is not bad at all, to be honest.",en,2026-07-28 14:16:07,promo
+RESP-SUR-2026-000002-104,SUR-2026-000002,CUST-000050,PROD-0008,8,Just noting that the package was handed to the building reception.,en,2026-07-28 22:02:15,
+RESP-SUR-2026-000002-105,SUR-2026-000002,CUST-000087,PROD-0011,7,"Mixed feelings about CrateFresh Weekly: the materials are sturdy and well finished, yet billing added fees nobody explained.",en,2026-07-30 19:47:50,verified_purchase
+RESP-SUR-2026-000002-106,SUR-2026-000002,CUST-000179,PROD-0011,1,It is far too expensive for what it does. This is unacceptable.,en,2026-07-31 01:26:45,
+RESP-SUR-2026-000002-107,SUR-2026-000002,CUST-000174,PROD-0010,6,My order arrived three days late. I expected much better from QuickDrop Express.,en,2026-07-31 03:06:50,
+RESP-SUR-2026-000002-108,SUR-2026-000002,CUST-000175,PROD-0008,10,Delivery came right on the promised day. Really happy with Velto Watch.,en,2026-07-31 04:25:32,promo
+RESP-SUR-2026-000002-109,SUR-2026-000002,CUST-000021,PROD-0003,5,"My card shows a double charge for one subscription, although the chat agent went above and beyond.",en,2026-08-01 00:06:50,verified_purchase
+RESP-SUR-2026-000002-110,SUR-2026-000002,CUST-000068,PROD-0012,5,The courier left the parcel out in the rain. I expected much better from ParcelPal Same-Day.,en,2026-08-02 06:48:09,promo
+RESP-SUR-2026-000002-111,SUR-2026-000002,CUST-000191,PROD-0012,9,"La entrega es excelente, estoy muy satisfecho.",es,2026-08-02 08:39:35,
+RESP-SUR-2026-000002-112,SUR-2026-000002,CUST-000043,PROD-0003,6,Cheaper alternatives do exactly the same thing. I expected much better from Nestly Home.,en,2026-08-03 01:23:52,promo
+RESP-SUR-2026-000002-113,SUR-2026-000002,CUST-000046,PROD-0005,10,"Payment bahut achha hai, full satisfied.",hi-Latn,2026-08-03 15:02:16,
+RESP-SUR-2026-000002-114,SUR-2026-000002,CUST-000058,PROD-0006,8,Just noting that the settings are under the profile icon.,en,2026-08-04 13:54:03,
+RESP-SUR-2026-000002-115,SUR-2026-000002,CUST-000004,PROD-0003,7,"Customer support normal hai, kuch special nahi.",hi-Latn,2026-08-04 14:26:22,beta_user
+RESP-SUR-2026-000002-116,SUR-2026-000002,CUST-000038,PROD-0008,6,I would not call the setup acceptable.,en,2026-08-05 11:55:59,verified_purchase
+RESP-SUR-2026-000002-117,SUR-2026-000002,CUST-000187,PROD-0010,10,"Support replied within minutes and was very kind, would recommend QuickDrop Express.",en,2026-08-06 02:54:14,
+RESP-SUR-2026-000002-118,SUR-2026-000002,CUST-000009,PROD-0001,7,"I was billed for a plan I never chose, although the welcome guide made getting started easy.",en,2026-08-08 10:23:50,
+RESP-SUR-2026-000002-119,SUR-2026-000002,CUST-000113,PROD-0004,9,"Support replied within minutes and was very kind, would recommend StreamNest Premium.",en,2026-08-08 12:31:30,verified_purchase
+RESP-SUR-2026-000002-120,SUR-2026-000002,CUST-000162,PROD-0008,0,The app crashes every time I open it. I expected much better from Velto Watch.,en,2026-08-08 17:05:22,
+RESP-SUR-2026-000002-121,SUR-2026-000002,CUST-000168,PROD-0012,8,"Mixed feelings about ParcelPal Same-Day: the delivery was quick and the box arrived intact, yet I was billed for a plan I never chose.",en,2026-08-09 06:22:49,promo
+RESP-SUR-2026-000002-122,SUR-2026-000002,CUST-000094,PROD-0006,10,"Logging in with my fingerprint is effortless, would recommend FitLoop Annual.",en,2026-08-09 18:46:40,
+RESP-SUR-2026-000002-123,SUR-2026-000002,CUST-000135,PROD-0010,0,The delivery slot was missed twice in a row. Very disappointed with QuickDrop Express.,en,2026-08-10 09:17:51,
+RESP-SUR-2026-000002-124,SUR-2026-000002,CUST-000159,PROD-0010,0,The delivery slot was missed twice in a row. I expected much better from QuickDrop Express.,en,2026-08-10 17:58:13,promo
+RESP-SUR-2026-000002-125,SUR-2026-000002,CUST-000194,PROD-0001,6,"Mixed feelings about Lumo Wallet: billing is transparent with no hidden fees, yet support kept me on hold for an hour.",en,2026-08-10 21:43:48,
+RESP-SUR-2026-000002-126,SUR-2026-000002,CUST-000182,PROD-0005,7,"Mixed feelings about VaultBox Plus: billing is transparent with no hidden fees, yet the setup failed three times before it worked.",en,2026-08-11 15:50:05,promo
+RESP-SUR-2026-000002-127,SUR-2026-000002,CUST-000046,PROD-0005,10,"Payment bahut achha hai, full satisfied.",hi-Latn,2026-08-03 15:05:16,
+RESP-SUR-2026-000003-001,SUR-2026-000003,CUST-000028,PROD-0010,10,"Honestly, they refunded me without any argument. Great job.",en,2026-07-08 15:54:27,
+RESP-SUR-2026-000003-002,SUR-2026-000003,CUST-000190,PROD-0008,8,Just noting that support asked for my order number.,en,2026-07-08 20:28:07,
+RESP-SUR-2026-000003-003,SUR-2026-000003,CUST-000044,PROD-0011,10,"The interface is not bad at all, to be honest.",en,2026-07-09 03:06:30,
+RESP-SUR-2026-000003-004,SUR-2026-000003,CUST-000055,PROD-0011,10,CrateFresh Weekly ka product quality ekdum mast hai yaar.,hi-Latn,2026-07-10 05:09:32,verified_purchase
+RESP-SUR-2026-000003-005,SUR-2026-000003,CUST-000068,PROD-0009,3,It is far too expensive for what it does. Very disappointed with Orbix Router.,en,2026-07-11 10:44:09,
+RESP-SUR-2026-000003-006,SUR-2026-000003,CUST-000003,PROD-0011,4,I can never find the settings I need. I expected much better from CrateFresh Weekly.,en,2026-07-11 16:46:10,
+RESP-SUR-2026-000003-007,SUR-2026-000003,CUST-000009,PROD-0010,10,"The discount made it a real bargain, would recommend QuickDrop Express.",en,2026-07-13 10:29:27,verified_purchase
+RESP-SUR-2026-000003-008,SUR-2026-000003,CUST-000196,PROD-0001,1,Really frustrated: I keep getting locked out of my account.,en,2026-07-13 23:42:05,
+RESP-SUR-2026-000003-009,SUR-2026-000003,CUST-000176,PROD-0006,7,Not sure how I feel about the billing yet.,en,2026-07-14 00:59:30,
+RESP-SUR-2026-000003-010,SUR-2026-000003,CUST-000098,PROD-0005,8,There are three price tiers.,en,2026-07-14 09:29:24,
+RESP-SUR-2026-000003-011,SUR-2026-000003,CUST-000180,PROD-0004,8,Just noting that setup asks for your email and a password.,en,2026-07-16 00:08:46,
+RESP-SUR-2026-000003-012,SUR-2026-000003,CUST-000145,PROD-0008,7,"Delivery came right on the promised day, but the setup failed three times before it worked.",en,2026-07-16 07:32:39,
+RESP-SUR-2026-000003-013,SUR-2026-000003,CUST-000041,PROD-0007,9,Five stars: the delivery was quick and the box arrived intact.,en,2026-07-17 06:17:12,verified_purchase
+RESP-SUR-2026-000003-014,SUR-2026-000003,CUST-000040,PROD-0006,8,The price is listed per month.,en,2026-07-21 22:29:12,
+RESP-SUR-2026-000003-015,SUR-2026-000003,CUST-000143,PROD-0009,10,"It still works perfectly after months of daily use, would recommend Orbix Router.",en,2026-07-22 15:21:02,promo
+RESP-SUR-2026-000003-016,SUR-2026-000003,CUST-000161,PROD-0003,6,Really frustrated: I keep getting locked out of my account.,en,2026-07-23 22:11:24,
+RESP-SUR-2026-000003-017,SUR-2026-000003,CUST-000081,PROD-0001,7,Just noting that the app takes a few seconds to start.,en,2026-07-24 14:14:49,
+RESP-SUR-2026-000003-018,SUR-2026-000003,CUST-000099,PROD-0008,9,"Muy contento con la configuración inicial, funciona de maravilla.",es,2026-07-25 00:43:47,promo
+RESP-SUR-2026-000003-019,SUR-2026-000003,CUST-000108,PROD-0010,8,Not sure how I feel about the price yet.,en,2026-07-25 05:51:35,
+RESP-SUR-2026-000003-020,SUR-2026-000003,CUST-000023,PROD-0011,8,"Mixed feelings about CrateFresh Weekly: the build quality feels premium and solid, yet the refund was rejected for no reason.",en,2026-07-26 11:10:08,verified_purchase
+RESP-SUR-2026-000003-021,SUR-2026-000003,CUST-000158,PROD-0011,8,"It stopped working after two weeks, although it is great value for money.",en,2026-07-26 11:21:20,
+RESP-SUR-2026-000003-022,SUR-2026-000003,CUST-000022,PROD-0010,1,"इंटरफ़ेस बिल्कुल बेकार है, बहुत निराशा हुई।",hi,2026-07-26 12:44:55,
+RESP-SUR-2026-000003-023,SUR-2026-000003,CUST-000065,PROD-0008,8,"Screens take forever to load, although it still works perfectly after months of daily use.",en,2026-07-27 02:17:39,verified_purchase
+RESP-SUR-2026-000003-024,SUR-2026-000003,CUST-000174,PROD-0012,10,Five stars: it is great value for money.,en,2026-07-27 05:48:30,
+RESP-SUR-2026-000003-025,SUR-2026-000003,CUST-000163,PROD-0007,7,Just noting that the setup guide has six steps.,en,2026-07-27 10:19:11,verified_purchase
+RESP-SUR-2026-000003-026,SUR-2026-000003,CUST-000130,PROD-0011,0,"Interface bilkul bekaar hai, very disappointed.",hi-Latn,2026-07-27 18:44:07,
+RESP-SUR-2026-000003-027,SUR-2026-000003,CUST-000155,PROD-0007,10,"Honestly, support replied within minutes and was very kind. Great job.",en,2026-07-28 13:42:46,verified_purchase
+RESP-SUR-2026-000003-028,SUR-2026-000003,CUST-000102,PROD-0001,10,The interface is clean and easy to use. Really happy with Lumo Wallet.,en,2026-07-29 11:22:53,
+RESP-SUR-2026-000003-029,SUR-2026-000003,CUST-000043,PROD-0009,9,Five stars: the discount made it a real bargain.,en,2026-08-01 13:53:31,
+RESP-SUR-2026-000003-030,SUR-2026-000003,CUST-000051,PROD-0003,10,"Can't complain about the refund, no issues whatsoever.",en,2026-08-02 05:07:17,
+RESP-SUR-2026-000003-031,SUR-2026-000003,CUST-000031,PROD-0006,9,"Honestly, support replied within minutes and was very kind. Great job.",en,2026-08-03 17:11:29,
+RESP-SUR-2026-000003-032,SUR-2026-000003,CUST-000151,PROD-0009,0,Screens take forever to load. Very disappointed with Orbix Router.,en,2026-08-03 22:47:52,
+RESP-SUR-2026-000003-033,SUR-2026-000003,CUST-000169,PROD-0005,8,"रिफंड के साथ अनुभव अच्छा रहा, लेकिन लॉगिन बेकार है।",hi,2026-08-04 11:35:10,verified_purchase
+RESP-SUR-2026-000003-034,SUR-2026-000003,CUST-000187,PROD-0010,7,Not sure how I feel about the price yet.,en,2026-08-04 13:27:46,
+RESP-SUR-2026-000003-035,SUR-2026-000003,CUST-000042,PROD-0005,3,Simple tasks take far too many steps. Very disappointed with VaultBox Plus.,en,2026-08-04 13:44:06,
+RESP-SUR-2026-000003-036,SUR-2026-000003,CUST-000027,PROD-0010,1,The delivery slot was missed twice in a row. I expected much better from QuickDrop Express.,en,2026-08-06 01:46:25,promo
+RESP-SUR-2026-000003-037,SUR-2026-000003,CUST-000140,PROD-0007,8,"Mixed feelings about Aurelo Speaker: the price is very fair for what you get, yet the setup failed three times before it worked.",en,2026-08-07 10:08:45,promo
+RESP-SUR-2026-000003-038,SUR-2026-000003,CUST-000171,PROD-0010,4,The package is a week overdue with no update. I expected much better from QuickDrop Express.,en,2026-08-11 14:05:35,
+RESP-SUR-2026-000003-039,SUR-2026-000003,CUST-000135,PROD-0003,7,Refunds are processed within ten working days.,en,2026-08-12 02:27:07,verified_purchase
+RESP-SUR-2026-000003-040,SUR-2026-000003,CUST-000019,PROD-0010,3,My order arrived three days late. This is unacceptable.,en,2026-08-12 09:11:55,verified_purchase
+RESP-SUR-2026-000003-041,SUR-2026-000003,CUST-000008,PROD-0008,9,"The express slot was honoured to the minute, would recommend Velto Watch.",en,2026-08-12 12:03:27,
+RESP-SUR-2026-000003-042,SUR-2026-000003,CUST-000014,PROD-0012,8,Using ParcelPal Same-Day for a while now. It is about the size of a paperback book.,en,2026-08-13 01:03:28,
+RESP-SUR-2026-000003-043,SUR-2026-000003,CUST-000074,PROD-0002,9,"The invoice was clear and easy to understand, would recommend TrekTrack.",en,2026-08-13 06:12:13,
+RESP-SUR-2026-000003-044,SUR-2026-000003,CUST-000010,PROD-0010,0,డెలివరీ సమయం తో చాలా ఇబ్బందిగా ఉంది.,te,2026-08-13 19:59:22,beta_user
+RESP-SUR-2026-000003-045,SUR-2026-000003,CUST-000082,PROD-0003,10,Five stars: the monthly statement is simple and accurate.,en,2026-08-14 07:10:04,
+RESP-SUR-2026-000003-046,SUR-2026-000003,CUST-000036,PROD-0006,10,Five stars: setup took less than five minutes.,en,2026-08-14 07:50:00,verified_purchase
+RESP-SUR-2026-000003-047,SUR-2026-000003,CUST-000049,PROD-0001,5,"Me gusta el inicio de sesión, aunque la app deja mucho que desear.",es,2026-08-15 03:01:17,
+RESP-SUR-2026-000003-048,SUR-2026-000003,CUST-000083,PROD-0009,4,Cheaper alternatives do exactly the same thing. I expected much better from Orbix Router.,en,2026-08-15 08:52:13,promo
+RESP-SUR-2026-000003-049,SUR-2026-000003,CUST-000025,PROD-0010,8,Just noting that the main menu has five tabs.,en,2026-08-15 19:10:53,verified_purchase
+RESP-SUR-2026-000003-050,SUR-2026-000003,CUST-000127,PROD-0004,9,"Can't complain about the refund, no issues whatsoever.",en,2026-08-17 19:47:14,
+RESP-SUR-2026-000003-051,SUR-2026-000003,CUST-000149,PROD-0002,5,"యాప్ చాలా ఘోరంగా ఉంది, చాలా నిరాశ చెందాను.",te,2026-08-18 02:08:32,
+RESP-SUR-2026-000003-052,SUR-2026-000003,CUST-000038,PROD-0011,7,"Same-day delivery actually arrived the same day, but the agent closed my ticket without fixing anything.",en,2026-08-18 02:49:10,verified_purchase
+RESP-SUR-2026-000003-053,SUR-2026-000003,CUST-000122,PROD-0003,7,I contacted support through chat.,en,2026-08-18 07:32:46,
+RESP-SUR-2026-000003-054,SUR-2026-000003,CUST-000057,PROD-0011,5,"Same-day delivery actually arrived the same day, but the menus are confusing and badly organised.",en,2026-08-20 06:38:30,promo
+RESP-SUR-2026-000003-055,SUR-2026-000003,CUST-000062,PROD-0004,9,My refund arrived within two days. Really happy with StreamNest Premium.,en,2026-08-20 17:25:52,
+RESP-SUR-2026-000003-056,SUR-2026-000003,CUST-000096,PROD-0003,10,"Can't complain about the payment, no issues whatsoever.",en,2026-08-20 23:02:03,
+RESP-SUR-2026-000003-057,SUR-2026-000003,CUST-000054,PROD-0001,8,Using Lumo Wallet for a while now. There are three price tiers.,en,2026-08-21 03:39:47,
+RESP-SUR-2026-000003-058,SUR-2026-000003,CUST-000066,PROD-0009,10,Five stars: it is great value for money.,en,2026-08-22 19:25:57,verified_purchase
+RESP-SUR-2026-000003-059,SUR-2026-000003,CUST-000138,PROD-0002,7,Just noting that there are three price tiers.,en,2026-08-23 10:01:20,verified_purchase
+RESP-SUR-2026-000003-060,SUR-2026-000003,CUST-000154,PROD-0011,7,"Mixed feelings about CrateFresh Weekly: the support agent solved my problem in one call, yet the courier left the parcel out in the rain.",en,2026-08-23 13:59:03,
+RESP-SUR-2026-000003-061,SUR-2026-000003,CUST-000071,PROD-0008,10,"Honestly, delivery came right on the promised day. Great job.",en,2026-08-23 17:06:17,verified_purchase
+RESP-SUR-2026-000003-062,SUR-2026-000003,CUST-000052,PROD-0008,7,Setup ke baare mein kuch khaas nahi kehna.,hi-Latn,2026-08-24 14:56:20,
+RESP-SUR-2026-000003-063,SUR-2026-000003,CUST-000006,PROD-0011,2,The delivery was handled carelessly and the box was crushed. Very disappointed with CrateFresh Weekly.,en,2026-08-24 21:26:11,
+RESP-SUR-2026-000003-064,SUR-2026-000003,CUST-000072,PROD-0005,8,కస్టమర్ సపోర్ట్ గురించి ప్రత్యేకంగా చెప్పడానికి ఏమీ లేదు.,te,2026-08-24 23:24:32,verified_purchase
+RESP-SUR-2026-000003-065,SUR-2026-000003,CUST-000128,PROD-0006,9,"Price super hai, sabko recommend karunga.",hi-Latn,2026-08-26 05:09:35,
+RESP-SUR-2026-000003-066,SUR-2026-000003,CUST-000162,PROD-0006,10,"Honestly, the monthly statement is simple and accurate. Great job.",en,2026-08-26 23:44:49,verified_purchase
+RESP-SUR-2026-000003-067,SUR-2026-000003,CUST-000060,PROD-0010,6,"The courier left the parcel out in the rain, although billing is transparent with no hidden fees.",en,2026-08-27 06:40:18,
+RESP-SUR-2026-000003-068,SUR-2026-000003,CUST-000001,PROD-0011,2,"Fantastic, I explained the issue three times to three different agents. Ten out of ten, would suffer again.",en,2026-08-28 08:07:58,
+RESP-SUR-2026-000003-069,SUR-2026-000003,CUST-000035,PROD-0007,6,I would not call the support team acceptable.,en,2026-08-28 15:01:53,
+RESP-SUR-2026-000003-070,SUR-2026-000003,CUST-000017,PROD-0001,1,Really frustrated: I explained the issue three times to three different agents.,en,2026-08-28 19:17:12,verified_purchase
+RESP-SUR-2026-000003-071,SUR-2026-000003,CUST-000124,PROD-0004,2,"Estoy harto, el inicio de sesión es un desastre.",es,2026-08-29 03:50:10,verified_purchase
+RESP-SUR-2026-000003-072,SUR-2026-000003,CUST-000200,PROD-0006,8,सेटअप ठीक-ठाक है।,hi,2026-08-29 13:42:46,
+RESP-SUR-2026-000003-073,SUR-2026-000003,CUST-000067,PROD-0012,8,It is about the size of a paperback book.,en,2026-08-29 23:18:09,verified_purchase
+RESP-SUR-2026-000003-074,SUR-2026-000003,CUST-000112,PROD-0012,10,"The delivery was quick and the box arrived intact, would recommend ParcelPal Same-Day.",en,2026-08-30 15:32:59,
+RESP-SUR-2026-000003-075,SUR-2026-000003,CUST-000165,PROD-0012,8,I receive the invoice by email.,en,2026-08-30 17:48:24,verified_purchase
+RESP-SUR-2026-000003-076,SUR-2026-000003,CUST-000178,PROD-0004,6,"It is great value for money, but I am still waiting for my refund after a month.",en,2026-08-30 17:49:23,
+RESP-SUR-2026-000003-077,SUR-2026-000003,CUST-000107,PROD-0009,5,"Estoy harto, la calidad del producto es un desastre.",es,2026-08-30 18:47:17,
+RESP-SUR-2026-000003-078,SUR-2026-000003,CUST-000095,PROD-0007,7,प्रोडक्ट की क्वालिटी के बारे में कुछ खास कहने को नहीं है।,hi,2026-08-30 20:07:28,verified_purchase
+RESP-SUR-2026-000003-079,SUR-2026-000003,CUST-000020,PROD-0009,9,"Honestly, the latest update made everything much faster. Great job.",en,2026-08-31 04:35:32,beta_user
+RESP-SUR-2026-000003-080,SUR-2026-000003,CUST-000092,PROD-0007,9,"Same-day delivery actually arrived the same day, would recommend Aurelo Speaker.",en,2026-09-02 12:23:52,
+RESP-SUR-2026-000003-081,SUR-2026-000003,CUST-000147,PROD-0003,8,"El reembolso es normal, nada especial.",es,2026-09-02 20:34:21,
+RESP-SUR-2026-000003-082,SUR-2026-000003,CUST-000132,PROD-0012,5,"ఇంటర్‌ఫేస్ చాలా ఘోరంగా ఉంది, చాలా నిరాశ చెందాను.",te,2026-09-03 23:32:20,verified_purchase
+RESP-SUR-2026-000003-083,SUR-2026-000003,CUST-000157,PROD-0004,8,The price is listed per month.,en,2026-09-04 01:13:41,
+RESP-SUR-2026-000003-084,SUR-2026-000003,CUST-000156,PROD-0006,7,"Mixed feelings about FitLoop Annual: the password reset worked in seconds, yet billing added fees nobody explained.",en,2026-09-04 01:40:00,
+RESP-SUR-2026-000003-085,SUR-2026-000003,CUST-000111,PROD-0002,9,My card was charged the correct amount. Really happy with TrekTrack.,en,2026-09-04 20:27:29,
+RESP-SUR-2026-000003-086,SUR-2026-000003,CUST-000177,PROD-0005,7,Using VaultBox Plus for a while now. Support asked for my order number. You can reach me at mateo.das177@example.com or +1-555-0177. - Mateo Das,en,2026-09-04 21:05:39,promo
+RESP-SUR-2026-000003-087,SUR-2026-000003,CUST-000101,PROD-0006,6,"Support replied within minutes and was very kind, but activation got stuck on the first screen.",en,2026-09-04 22:02:58,
+RESP-SUR-2026-000003-088,SUR-2026-000003,CUST-000058,PROD-0009,9,The support agent solved my problem in one call. Really happy with Orbix Router.,en,2026-09-06 01:16:44,promo
+RESP-SUR-2026-000003-089,SUR-2026-000003,CUST-000116,PROD-0005,7,"The login page rejects my correct password, although the return and refund were completely hassle free.",en,2026-09-06 23:50:52,verified_purchase
+RESP-SUR-2026-000003-090,SUR-2026-000003,CUST-000086,PROD-0006,3,I was billed for a plan I never chose. Very disappointed with FitLoop Annual.,en,2026-09-08 22:14:23,promo
+RESP-SUR-2026-000003-091,SUR-2026-000003,CUST-000018,PROD-0011,5,I can never find the settings I need. I expected much better from CrateFresh Weekly.,en,2026-09-11 01:25:56,
+RESP-SUR-2026-000003-092,SUR-2026-000003,CUST-000199,PROD-0007,8,Price ke baare mein kuch khaas nahi kehna.,hi-Latn,2026-09-11 15:06:51,verified_purchase
+RESP-SUR-2026-000003-093,SUR-2026-000003,CUST-000059,PROD-0006,0,పేమెంట్ తో చాలా ఇబ్బందిగా ఉంది.,te,2026-09-11 16:04:37,verified_purchase
+RESP-SUR-2026-000003-094,SUR-2026-000003,CUST-000148,PROD-0009,10,Five stars: the support agent solved my problem in one call.,en,2026-09-12 22:21:16,
+RESP-SUR-2026-000003-095,SUR-2026-000003,CUST-000172,PROD-0005,10,The price is very fair for what you get. Really happy with VaultBox Plus.,en,2026-09-13 07:34:13,verified_purchase
+RESP-SUR-2026-000003-096,SUR-2026-000003,CUST-000192,PROD-0012,4,The delivery was handled carelessly and the box was crushed. Very disappointed with ParcelPal Same-Day.,en,2026-09-13 13:49:39,
+RESP-SUR-2026-000003-097,SUR-2026-000003,CUST-000026,PROD-0006,7,"El inicio de sesión es excelente, pero el cobro es terrible.",es,2026-09-13 15:32:15,
+RESP-SUR-2026-000003-098,SUR-2026-000003,CUST-000087,PROD-0007,6,"The onboarding instructions are missing steps, although the discount made it a real bargain.",en,2026-09-13 19:50:29,
+RESP-SUR-2026-000003-099,SUR-2026-000003,CUST-000089,PROD-0010,6,"Mixed feelings about QuickDrop Express: I found every setting without a manual, yet it stopped working after two weeks.",en,2026-09-13 20:25:34,
+RESP-SUR-2026-000003-100,SUR-2026-000003,CUST-000011,PROD-0002,9,"The app runs smoothly even on my old phone, would recommend TrekTrack.",en,2026-09-14 02:42:55,
+RESP-SUR-2026-000003-101,SUR-2026-000003,CUST-000188,PROD-0006,10,"La facturación es excelente, estoy muy satisfecho.",es,2026-09-14 13:44:44,
+RESP-SUR-2026-000003-102,SUR-2026-000003,CUST-000119,PROD-0001,6,"The login is not good, not even close.",en,2026-09-14 22:31:13,
+RESP-SUR-2026-000003-103,SUR-2026-000003,CUST-000069,PROD-0008,8,Just noting that the delivery came on Tuesday.,en,2026-09-15 07:54:17,
+RESP-SUR-2026-000003-104,SUR-2026-000003,CUST-000030,PROD-0007,9,"The price is very fair for what you get, would recommend Aurelo Speaker.",en,2026-09-15 17:15:58,promo
+RESP-SUR-2026-000003-105,SUR-2026-000003,CUST-000103,PROD-0009,7,యాప్ గురించి ప్రత్యేకంగా చెప్పడానికి ఏమీ లేదు.,te,2026-09-15 23:33:36,beta_user
+RESP-SUR-2026-000003-106,SUR-2026-000003,CUST-000084,PROD-0007,8,Customer support ke baare mein kuch khaas nahi kehna.,hi-Latn,2026-09-16 03:42:03,
+RESP-SUR-2026-000003-107,SUR-2026-000003,CUST-000167,PROD-0010,8,"El precio es normal, nada especial.",es,2026-09-16 05:24:26,beta_user
+RESP-SUR-2026-000003-108,SUR-2026-000003,CUST-000137,PROD-0011,7,The delivery came on Tuesday.,en,2026-09-16 10:27:28,verified_purchase
+RESP-SUR-2026-000003-109,SUR-2026-000003,CUST-000029,PROD-0009,9,The chat agent went above and beyond. Really happy with Orbix Router.,en,2026-09-17 13:12:03,
+RESP-SUR-2026-000003-110,SUR-2026-000003,CUST-000174,PROD-0012,10,Five stars: it is great value for money.,en,2026-07-27 05:51:30,
+RESP-SUR-2026-000004-001,SUR-2026-000004,CUST-000042,PROD-0001,8,Not sure how I feel about the setup yet.,en,2026-08-23 23:16:25,
+RESP-SUR-2026-000004-002,SUR-2026-000004,CUST-000130,PROD-0004,5,"Price mast hai, lekin customer support ne pareshan kar diya.",hi-Latn,2026-08-24 13:08:16,
+RESP-SUR-2026-000004-003,SUR-2026-000004,CUST-000018,PROD-0009,6,I would not call the setup acceptable.,en,2026-08-25 20:13:18,
+RESP-SUR-2026-000004-004,SUR-2026-000004,CUST-000052,PROD-0007,6,Delivery time se khush hoon par refund third class hai.,hi-Latn,2026-08-25 23:07:21,
+RESP-SUR-2026-000004-005,SUR-2026-000004,CUST-000117,PROD-0011,4,"Oh great, the delivery slot was missed twice in a row. Just perfect.",en,2026-08-27 01:14:20,verified_purchase
+RESP-SUR-2026-000004-006,SUR-2026-000004,CUST-000175,PROD-0005,10,"Honestly, the password reset worked in seconds. Great job.",en,2026-08-27 14:00:29,promo
+RESP-SUR-2026-000004-007,SUR-2026-000004,CUST-000162,PROD-0006,10,"Even my parents figured it out quickly, would recommend FitLoop Annual.",en,2026-08-29 01:41:58,verified_purchase
+RESP-SUR-2026-000004-008,SUR-2026-000004,CUST-000076,PROD-0010,3,I would not call the delivery time acceptable.,en,2026-08-29 06:51:19,
+RESP-SUR-2026-000004-009,SUR-2026-000004,CUST-000015,PROD-0009,2,The delivery slot was missed twice in a row. Very disappointed with Orbix Router.,en,2026-08-30 03:13:13,
+RESP-SUR-2026-000004-010,SUR-2026-000004,CUST-000089,PROD-0002,9,"The latest update made everything much faster, would recommend TrekTrack.",en,2026-08-31 05:29:04,
+RESP-SUR-2026-000004-011,SUR-2026-000004,CUST-000061,PROD-0003,8,"El reembolso es normal, nada especial.",es,2026-08-31 23:00:07,
+RESP-SUR-2026-000004-012,SUR-2026-000004,CUST-000190,PROD-0002,5,"Setup took less than five minutes, but the verification code never arrives.",en,2026-09-01 17:46:42,
+RESP-SUR-2026-000004-013,SUR-2026-000004,CUST-000094,PROD-0009,2,The casing cracked on the first day. This is unacceptable.,en,2026-09-02 06:14:16,
+RESP-SUR-2026-000004-014,SUR-2026-000004,CUST-000159,PROD-0011,10,My refund arrived within two days. Really happy with CrateFresh Weekly.,en,2026-09-02 10:32:59,
+RESP-SUR-2026-000004-015,SUR-2026-000004,CUST-000110,PROD-0011,9,"Muy contento con la interfaz, funciona de maravilla.",es,2026-09-03 00:07:42,
+RESP-SUR-2026-000004-016,SUR-2026-000004,CUST-000024,PROD-0004,10,బిల్లింగ్ చాలా బాగుంది.,te,2026-09-03 21:25:50,verified_purchase
+RESP-SUR-2026-000004-017,SUR-2026-000004,CUST-000051,PROD-0005,10,Even my parents figured it out quickly. Really happy with VaultBox Plus.,en,2026-09-05 09:28:04,verified_purchase
+RESP-SUR-2026-000004-018,SUR-2026-000004,CUST-000023,PROD-0008,8,"Mixed feelings about Velto Watch: setup took less than five minutes, yet the agent closed my ticket without fixing anything.",en,2026-09-05 15:48:23,
+RESP-SUR-2026-000004-019,SUR-2026-000004,CUST-000098,PROD-0001,9,"Can't complain about the interface, no issues whatsoever.",en,2026-09-05 15:55:06,
+RESP-SUR-2026-000004-020,SUR-2026-000004,CUST-000176,PROD-0010,8,Just noting that support asked for my order number.,en,2026-09-06 23:59:46,beta_user
+RESP-SUR-2026-000004-021,SUR-2026-000004,CUST-000039,PROD-0003,9,"Honestly, the password reset worked in seconds. Great job.",en,2026-09-07 23:34:18,
+RESP-SUR-2026-000004-022,SUR-2026-000004,CUST-000092,PROD-0008,2,Really frustrated: my order arrived three days late.,en,2026-09-08 10:22:54,
+RESP-SUR-2026-000004-023,SUR-2026-000004,CUST-000033,PROD-0002,6,Really frustrated: I was charged twice for the same order.,en,2026-09-09 05:06:18,beta_user
+RESP-SUR-2026-000004-024,SUR-2026-000004,CUST-000151,PROD-0012,1,The refund was rejected for no reason. Very disappointed with ParcelPal Same-Day.,en,2026-09-09 22:04:29,beta_user
+RESP-SUR-2026-000004-025,SUR-2026-000004,CUST-000002,PROD-0001,4,The invoice was wrong again this month. This is unacceptable.,en,2026-09-10 12:29:18,promo
+RESP-SUR-2026-000004-026,SUR-2026-000004,CUST-000084,PROD-0012,7,"Refund normal hai, kuch special nahi.",hi-Latn,2026-09-10 15:04:48,
+RESP-SUR-2026-000004-027,SUR-2026-000004,CUST-000131,PROD-0011,10,"Can't complain about the price, no issues whatsoever.",en,2026-09-10 16:28:27,verified_purchase
+RESP-SUR-2026-000004-028,SUR-2026-000004,CUST-000090,PROD-0010,9,"The monthly statement is simple and accurate, would recommend QuickDrop Express.",en,2026-09-11 05:57:54,
+RESP-SUR-2026-000004-029,SUR-2026-000004,CUST-000073,PROD-0006,9,The monthly statement is simple and accurate. Really happy with FitLoop Annual.,en,2026-09-11 11:05:54,
+RESP-SUR-2026-000004-030,SUR-2026-000004,CUST-000194,PROD-0009,4,Really frustrated: the casing cracked on the first day.,en,2026-09-11 22:14:09,verified_purchase
+RESP-SUR-2026-000004-031,SUR-2026-000004,CUST-000049,PROD-0002,1,La facturación de TrekTrack deja mucho que desear.,es,2026-09-13 01:10:33,promo
+RESP-SUR-2026-000004-032,SUR-2026-000004,CUST-000009,PROD-0001,7,"The discount made it a real bargain, but the refund was rejected for no reason.",en,2026-09-14 04:39:20,verified_purchase
+RESP-SUR-2026-000004-033,SUR-2026-000004,CUST-000116,PROD-0007,3,"Fantastic, screens take forever to load. Ten out of ten, would suffer again.",en,2026-09-14 06:25:28,
+RESP-SUR-2026-000004-034,SUR-2026-000004,CUST-000048,PROD-0012,8,"The delivery was handled carelessly and the box was crushed, although support replied within minutes and was very kind.",en,2026-09-15 16:43:42,verified_purchase
+RESP-SUR-2026-000004-035,SUR-2026-000004,CUST-000082,PROD-0005,6,"Mixed feelings about VaultBox Plus: the return and refund were completely hassle free, yet my card shows a double charge for one subscription.",en,2026-09-17 00:08:39,
+RESP-SUR-2026-000004-036,SUR-2026-000004,CUST-000154,PROD-0012,8,Just noting that the delivery came on Tuesday.,en,2026-09-17 12:56:34,verified_purchase
+RESP-SUR-2026-000004-037,SUR-2026-000004,CUST-000112,PROD-0001,4,Really frustrated: cheaper alternatives do exactly the same thing.,en,2026-09-18 05:20:13,verified_purchase
+RESP-SUR-2026-000004-038,SUR-2026-000004,CUST-000199,PROD-0006,8,Billing ke baare mein kuch khaas nahi kehna.,hi-Latn,2026-09-19 14:50:04,verified_purchase
+RESP-SUR-2026-000004-039,SUR-2026-000004,CUST-000032,PROD-0012,8,ప్రొడక్ట్ క్వాలిటీ పర్వాలేదు.,te,2026-09-19 21:56:48,verified_purchase
+RESP-SUR-2026-000004-040,SUR-2026-000004,CUST-000086,PROD-0005,10,The price is very fair for what you get. Really happy with VaultBox Plus.,en,2026-09-21 05:40:24,verified_purchase
+RESP-SUR-2026-000004-041,SUR-2026-000004,CUST-000141,PROD-0008,10,The welcome guide made getting started easy. Really happy with Velto Watch.,en,2026-09-21 06:57:17,verified_purchase
+RESP-SUR-2026-000004-042,SUR-2026-000004,CUST-000030,PROD-0005,7,Two pending charges appeared and one later dropped off.,en,2026-09-22 17:12:31,beta_user
+RESP-SUR-2026-000004-043,SUR-2026-000004,CUST-000029,PROD-0009,0,Simple tasks take far too many steps. Very disappointed with Orbix Router.,en,2026-09-24 00:28:20,promo
+RESP-SUR-2026-000004-044,SUR-2026-000004,CUST-000055,PROD-0012,8,"Interface normal hai, kuch special nahi.",hi-Latn,2026-09-24 10:29:46,verified_purchase
+RESP-SUR-2026-000004-045,SUR-2026-000004,CUST-000137,PROD-0001,10,"Honestly, the interface is clean and easy to use. Great job.",en,2026-09-25 19:01:11,
+RESP-SUR-2026-000004-046,SUR-2026-000004,CUST-000135,PROD-0008,7,Not sure how I feel about the price yet.,en,2026-09-26 02:13:19,
+RESP-SUR-2026-000004-047,SUR-2026-000004,CUST-000099,PROD-0003,1,"La facturación es terrible, muy decepcionado.",es,2026-09-26 20:54:21,beta_user
+RESP-SUR-2026-000004-048,SUR-2026-000004,CUST-000088,PROD-0005,6,"The interface is clean and easy to use, but I explained the issue three times to three different agents.",en,2026-09-26 23:20:44,
+RESP-SUR-2026-000004-049,SUR-2026-000004,CUST-000079,PROD-0002,7,"Activation got stuck on the first screen, although the interface is clean and easy to use.",en,2026-09-27 02:14:00,verified_purchase

@@ -108,7 +108,7 @@ def classify(text: str, lang: str, code_mixed: bool = False, lang_mismatch: bool
     if lang_mismatch:
         conf -= 0.1
         rules.add("LANG_MISMATCH")
-    return {"sentiment": label, "confidence": round(max(0.05, min(conf, 0.95)), 3),
+    return {"sentiment": label, "confidence": round(max(0.05, min(conf, 0.95)), 3), "pos": round(pos, 2), "neg": round(neg, 2),
             "evidence": evidence, "rules": sorted(rules)}
 
 

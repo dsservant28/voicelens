@@ -68,7 +68,7 @@ def analyze(engine: Engine, tau: float = R.TAU) -> dict:
                                         f"(conf {p['confidence']}, evidence {' '.join(p['evidence'])})"})
         rt, why = R.route(p, len(theme_ids), r.score_norm, conflict, tau)
         preds.append({"source_type": r.source_type, "source_id": r.source_id, "sentiment": p["sentiment"],
-                      "confidence": p["confidence"], "theme_ids": "|".join(theme_ids),
+                      "confidence": p["confidence"], "pos_score": p["pos"], "neg_score": p["neg"], "theme_ids": "|".join(theme_ids),
                       "evidence": "|".join(p["evidence"] + t_ev), "rules_fired": "|".join(p["rules"]) or "NONE",
                       "route": rt, "route_reason": why, "run_id": run_id})
     pred = pd.DataFrame(preds)

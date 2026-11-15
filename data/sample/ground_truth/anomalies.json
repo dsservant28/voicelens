@@ -1,0 +1,122 @@
+[
+ {
+  "anomaly_id": "ANOM-0001",
+  "issue_type": "LABEL_CONTRADICTS_TEXT",
+  "source_type": "review",
+  "source_id": "REV-2026-000398",
+  "detail": "input label=positive but text template EN-PLAIN-NEG-03 is negative; no label_note",
+  "expected_decision": "flag_for_human_review"
+ },
+ {
+  "anomaly_id": "ANOM-0002",
+  "issue_type": "LABEL_CONTRADICTS_TEXT",
+  "source_type": "survey_response",
+  "source_id": "RESP-SUR-2026-000001-076",
+  "detail": "input label=positive but text template EN-PLAIN-NEG-01 is negative; no label_note",
+  "expected_decision": "flag_for_human_review"
+ },
+ {
+  "anomaly_id": "ANOM-0003",
+  "issue_type": "LABEL_CONTRADICTS_TEXT",
+  "source_type": "survey_response",
+  "source_id": "RESP-SUR-2026-000002-049",
+  "detail": "input label=positive but text template EN-PLAIN-NEG-01 is negative; no label_note",
+  "expected_decision": "flag_for_human_review"
+ },
+ {
+  "anomaly_id": "ANOM-0004",
+  "issue_type": "DUPLICATE_RESPONSE",
+  "source_type": "survey_response",
+  "source_id": "RESP-SUR-2026-000001-117",
+  "detail": "duplicate of RESP-SUR-2026-000001-099 (same customer, survey and text, +3 min)",
+  "expected_decision": "drop_duplicate_keep_first"
+ },
+ {
+  "anomaly_id": "ANOM-0005",
+  "issue_type": "DUPLICATE_RESPONSE",
+  "source_type": "survey_response",
+  "source_id": "RESP-SUR-2026-000002-127",
+  "detail": "duplicate of RESP-SUR-2026-000002-113 (same customer, survey and text, +3 min)",
+  "expected_decision": "drop_duplicate_keep_first"
+ },
+ {
+  "anomaly_id": "ANOM-0006",
+  "issue_type": "DUPLICATE_RESPONSE",
+  "source_type": "survey_response",
+  "source_id": "RESP-SUR-2026-000003-110",
+  "detail": "duplicate of RESP-SUR-2026-000003-024 (same customer, survey and text, +3 min)",
+  "expected_decision": "drop_duplicate_keep_first"
+ },
+ {
+  "anomaly_id": "ANOM-0007",
+  "issue_type": "PII_LEAK",
+  "source_type": "review",
+  "source_id": "REV-2026-000004",
+  "detail": "text contains name/email/phone of CUST-000133",
+  "expected_decision": "redact_before_analysis"
+ },
+ {
+  "anomaly_id": "ANOM-0008",
+  "issue_type": "PII_LEAK",
+  "source_type": "review",
+  "source_id": "REV-2026-000257",
+  "detail": "text contains name/email/phone of CUST-000034",
+  "expected_decision": "redact_before_analysis"
+ },
+ {
+  "anomaly_id": "ANOM-0009",
+  "issue_type": "PII_LEAK",
+  "source_type": "survey_response",
+  "source_id": "RESP-SUR-2026-000003-086",
+  "detail": "text contains name/email/phone of CUST-000177",
+  "expected_decision": "redact_before_analysis"
+ },
+ {
+  "anomaly_id": "ANOM-0010",
+  "issue_type": "THEME_OUTSIDE_TAXONOMY",
+  "source_type": "review",
+  "source_id": "REV-2026-000056",
+  "detail": "feedback_theme links to THEME-000999, which is not in the taxonomy",
+  "expected_decision": "reject_link_and_log_exception"
+ },
+ {
+  "anomaly_id": "ANOM-0011",
+  "issue_type": "THEME_OUTSIDE_TAXONOMY",
+  "source_type": "review",
+  "source_id": "REV-2026-000146",
+  "detail": "feedback_theme links to THEME-000999, which is not in the taxonomy",
+  "expected_decision": "reject_link_and_log_exception"
+ },
+ {
+  "anomaly_id": "ANOM-0012",
+  "issue_type": "THEME_OUTSIDE_TAXONOMY",
+  "source_type": "survey_response",
+  "source_id": "RESP-SUR-2026-000001-069",
+  "detail": "feedback_theme links to THEME-000999, which is not in the taxonomy",
+  "expected_decision": "reject_link_and_log_exception"
+ },
+ {
+  "anomaly_id": "ANOM-0013",
+  "issue_type": "TEST_LABEL_IN_MODEL_INPUT",
+  "source_type": "review",
+  "source_id": "REV-2026-000387",
+  "detail": "eval-split label copied into input column tags",
+  "expected_decision": "strip_tag_and_exclude_from_eval"
+ },
+ {
+  "anomaly_id": "ANOM-0014",
+  "issue_type": "TEST_LABEL_IN_MODEL_INPUT",
+  "source_type": "review",
+  "source_id": "REV-2026-000425",
+  "detail": "eval-split label copied into input column tags",
+  "expected_decision": "strip_tag_and_exclude_from_eval"
+ },
+ {
+  "anomaly_id": "ANOM-0015",
+  "issue_type": "TEST_LABEL_IN_MODEL_INPUT",
+  "source_type": "review",
+  "source_id": "REV-2026-000446",
+  "detail": "eval-split label copied into input column tags",
+  "expected_decision": "strip_tag_and_exclude_from_eval"
+ }
+]

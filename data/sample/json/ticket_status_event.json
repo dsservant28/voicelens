@@ -1,0 +1,3362 @@
+[
+ {
+  "event_id": "TSE-000001",
+  "ticket_id": "TKT-2026-000001",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-04-06 02:49:20"
+ },
+ {
+  "event_id": "TSE-000002",
+  "ticket_id": "TKT-2026-000001",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-04-06 10:54:01"
+ },
+ {
+  "event_id": "TSE-000003",
+  "ticket_id": "TKT-2026-000001",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-04-08 16:32:23"
+ },
+ {
+  "event_id": "TSE-000004",
+  "ticket_id": "TKT-2026-000001",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-04-10 16:32:23"
+ },
+ {
+  "event_id": "TSE-000005",
+  "ticket_id": "TKT-2026-000002",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-04-07 05:00:50"
+ },
+ {
+  "event_id": "TSE-000006",
+  "ticket_id": "TKT-2026-000002",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-04-08 09:24:43"
+ },
+ {
+  "event_id": "TSE-000007",
+  "ticket_id": "TKT-2026-000002",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-04-10 23:57:45"
+ },
+ {
+  "event_id": "TSE-000008",
+  "ticket_id": "TKT-2026-000002",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-04-12 23:57:45"
+ },
+ {
+  "event_id": "TSE-000009",
+  "ticket_id": "TKT-2026-000003",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-04-07 10:13:00"
+ },
+ {
+  "event_id": "TSE-000010",
+  "ticket_id": "TKT-2026-000003",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-04-07 19:25:30"
+ },
+ {
+  "event_id": "TSE-000011",
+  "ticket_id": "TKT-2026-000003",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-04-10 09:06:59"
+ },
+ {
+  "event_id": "TSE-000012",
+  "ticket_id": "TKT-2026-000003",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-04-12 09:06:59"
+ },
+ {
+  "event_id": "TSE-000013",
+  "ticket_id": "TKT-2026-000004",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-04-10 15:40:39"
+ },
+ {
+  "event_id": "TSE-000014",
+  "ticket_id": "TKT-2026-000004",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-04-11 00:14:22"
+ },
+ {
+  "event_id": "TSE-000015",
+  "ticket_id": "TKT-2026-000004",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-04-12 01:01:52"
+ },
+ {
+  "event_id": "TSE-000016",
+  "ticket_id": "TKT-2026-000004",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-04-14 01:01:52"
+ },
+ {
+  "event_id": "TSE-000017",
+  "ticket_id": "TKT-2026-000005",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-04-11 19:29:37"
+ },
+ {
+  "event_id": "TSE-000018",
+  "ticket_id": "TKT-2026-000005",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-04-12 14:00:47"
+ },
+ {
+  "event_id": "TSE-000019",
+  "ticket_id": "TKT-2026-000005",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-04-14 12:55:06"
+ },
+ {
+  "event_id": "TSE-000020",
+  "ticket_id": "TKT-2026-000005",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-04-16 12:55:06"
+ },
+ {
+  "event_id": "TSE-000021",
+  "ticket_id": "TKT-2026-000006",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-04-14 10:37:10"
+ },
+ {
+  "event_id": "TSE-000022",
+  "ticket_id": "TKT-2026-000006",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-04-15 13:41:39"
+ },
+ {
+  "event_id": "TSE-000023",
+  "ticket_id": "TKT-2026-000006",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-04-17 19:44:57"
+ },
+ {
+  "event_id": "TSE-000024",
+  "ticket_id": "TKT-2026-000006",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-04-19 19:44:57"
+ },
+ {
+  "event_id": "TSE-000025",
+  "ticket_id": "TKT-2026-000007",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-04-14 13:03:30"
+ },
+ {
+  "event_id": "TSE-000026",
+  "ticket_id": "TKT-2026-000007",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-04-15 15:19:34"
+ },
+ {
+  "event_id": "TSE-000027",
+  "ticket_id": "TKT-2026-000007",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-04-17 07:56:29"
+ },
+ {
+  "event_id": "TSE-000028",
+  "ticket_id": "TKT-2026-000007",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-04-19 07:56:29"
+ },
+ {
+  "event_id": "TSE-000029",
+  "ticket_id": "TKT-2026-000008",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-04-16 17:28:32"
+ },
+ {
+  "event_id": "TSE-000030",
+  "ticket_id": "TKT-2026-000008",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-04-17 01:15:28"
+ },
+ {
+  "event_id": "TSE-000031",
+  "ticket_id": "TKT-2026-000008",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-04-19 17:10:49"
+ },
+ {
+  "event_id": "TSE-000032",
+  "ticket_id": "TKT-2026-000008",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-04-21 17:10:49"
+ },
+ {
+  "event_id": "TSE-000033",
+  "ticket_id": "TKT-2026-000009",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-04-17 20:48:20"
+ },
+ {
+  "event_id": "TSE-000034",
+  "ticket_id": "TKT-2026-000009",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-04-18 13:37:32"
+ },
+ {
+  "event_id": "TSE-000035",
+  "ticket_id": "TKT-2026-000009",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-04-19 03:38:39"
+ },
+ {
+  "event_id": "TSE-000036",
+  "ticket_id": "TKT-2026-000009",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-04-21 03:38:39"
+ },
+ {
+  "event_id": "TSE-000037",
+  "ticket_id": "TKT-2026-000010",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-04-19 10:10:17"
+ },
+ {
+  "event_id": "TSE-000038",
+  "ticket_id": "TKT-2026-000010",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-04-19 13:09:26"
+ },
+ {
+  "event_id": "TSE-000039",
+  "ticket_id": "TKT-2026-000010",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-04-22 03:49:16"
+ },
+ {
+  "event_id": "TSE-000040",
+  "ticket_id": "TKT-2026-000010",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-04-24 03:49:16"
+ },
+ {
+  "event_id": "TSE-000041",
+  "ticket_id": "TKT-2026-000011",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-04-20 22:15:12"
+ },
+ {
+  "event_id": "TSE-000042",
+  "ticket_id": "TKT-2026-000011",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-04-21 17:00:23"
+ },
+ {
+  "event_id": "TSE-000043",
+  "ticket_id": "TKT-2026-000011",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-04-21 18:29:40"
+ },
+ {
+  "event_id": "TSE-000044",
+  "ticket_id": "TKT-2026-000011",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-04-23 18:29:40"
+ },
+ {
+  "event_id": "TSE-000045",
+  "ticket_id": "TKT-2026-000012",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-04-21 00:18:14"
+ },
+ {
+  "event_id": "TSE-000046",
+  "ticket_id": "TKT-2026-000012",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-04-21 01:19:05"
+ },
+ {
+  "event_id": "TSE-000047",
+  "ticket_id": "TKT-2026-000012",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-04-22 04:27:03"
+ },
+ {
+  "event_id": "TSE-000048",
+  "ticket_id": "TKT-2026-000012",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-04-24 04:27:03"
+ },
+ {
+  "event_id": "TSE-000049",
+  "ticket_id": "TKT-2026-000013",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-04-22 01:40:04"
+ },
+ {
+  "event_id": "TSE-000050",
+  "ticket_id": "TKT-2026-000013",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-04-22 12:48:20"
+ },
+ {
+  "event_id": "TSE-000051",
+  "ticket_id": "TKT-2026-000013",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-04-22 17:41:51"
+ },
+ {
+  "event_id": "TSE-000052",
+  "ticket_id": "TKT-2026-000013",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-04-24 17:41:51"
+ },
+ {
+  "event_id": "TSE-000053",
+  "ticket_id": "TKT-2026-000014",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-04-24 08:54:53"
+ },
+ {
+  "event_id": "TSE-000054",
+  "ticket_id": "TKT-2026-000014",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-04-24 20:20:48"
+ },
+ {
+  "event_id": "TSE-000055",
+  "ticket_id": "TKT-2026-000014",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-04-25 13:09:42"
+ },
+ {
+  "event_id": "TSE-000056",
+  "ticket_id": "TKT-2026-000014",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-04-27 13:09:42"
+ },
+ {
+  "event_id": "TSE-000057",
+  "ticket_id": "TKT-2026-000015",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-04-29 00:02:58"
+ },
+ {
+  "event_id": "TSE-000058",
+  "ticket_id": "TKT-2026-000015",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-04-29 02:08:41"
+ },
+ {
+  "event_id": "TSE-000059",
+  "ticket_id": "TKT-2026-000015",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-05-02 21:10:39"
+ },
+ {
+  "event_id": "TSE-000060",
+  "ticket_id": "TKT-2026-000015",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-05-04 21:10:39"
+ },
+ {
+  "event_id": "TSE-000061",
+  "ticket_id": "TKT-2026-000016",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-04-29 04:35:33"
+ },
+ {
+  "event_id": "TSE-000062",
+  "ticket_id": "TKT-2026-000016",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-04-29 11:43:32"
+ },
+ {
+  "event_id": "TSE-000063",
+  "ticket_id": "TKT-2026-000016",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-05-02 20:03:35"
+ },
+ {
+  "event_id": "TSE-000064",
+  "ticket_id": "TKT-2026-000016",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-05-04 20:03:35"
+ },
+ {
+  "event_id": "TSE-000065",
+  "ticket_id": "TKT-2026-000017",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-05-03 08:38:40"
+ },
+ {
+  "event_id": "TSE-000066",
+  "ticket_id": "TKT-2026-000017",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-05-04 03:34:16"
+ },
+ {
+  "event_id": "TSE-000067",
+  "ticket_id": "TKT-2026-000017",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-05-05 02:19:23"
+ },
+ {
+  "event_id": "TSE-000068",
+  "ticket_id": "TKT-2026-000017",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-05-07 02:19:23"
+ },
+ {
+  "event_id": "TSE-000069",
+  "ticket_id": "TKT-2026-000018",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-05-03 11:20:16"
+ },
+ {
+  "event_id": "TSE-000070",
+  "ticket_id": "TKT-2026-000018",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-05-03 22:01:46"
+ },
+ {
+  "event_id": "TSE-000071",
+  "ticket_id": "TKT-2026-000018",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-05-05 03:59:14"
+ },
+ {
+  "event_id": "TSE-000072",
+  "ticket_id": "TKT-2026-000018",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-05-07 03:59:14"
+ },
+ {
+  "event_id": "TSE-000073",
+  "ticket_id": "TKT-2026-000019",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-05-04 23:25:51"
+ },
+ {
+  "event_id": "TSE-000074",
+  "ticket_id": "TKT-2026-000019",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-05-05 22:55:24"
+ },
+ {
+  "event_id": "TSE-000075",
+  "ticket_id": "TKT-2026-000019",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-05-06 20:30:00"
+ },
+ {
+  "event_id": "TSE-000076",
+  "ticket_id": "TKT-2026-000019",
+  "from_status": "RESOLVED",
+  "to_status": "REOPENED",
+  "actor": "customer",
+  "event_at": "2026-05-09 04:35:55"
+ },
+ {
+  "event_id": "TSE-000077",
+  "ticket_id": "TKT-2026-000019",
+  "from_status": "REOPENED",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-05-09 06:08:17"
+ },
+ {
+  "event_id": "TSE-000078",
+  "ticket_id": "TKT-2026-000019",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-05-10 20:13:36"
+ },
+ {
+  "event_id": "TSE-000079",
+  "ticket_id": "TKT-2026-000019",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-05-12 20:13:36"
+ },
+ {
+  "event_id": "TSE-000080",
+  "ticket_id": "TKT-2026-000020",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-05-05 06:13:25"
+ },
+ {
+  "event_id": "TSE-000081",
+  "ticket_id": "TKT-2026-000020",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-05-06 01:26:18"
+ },
+ {
+  "event_id": "TSE-000082",
+  "ticket_id": "TKT-2026-000020",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-05-09 09:09:12"
+ },
+ {
+  "event_id": "TSE-000083",
+  "ticket_id": "TKT-2026-000020",
+  "from_status": "RESOLVED",
+  "to_status": "REOPENED",
+  "actor": "customer",
+  "event_at": "2026-05-12 00:13:32"
+ },
+ {
+  "event_id": "TSE-000084",
+  "ticket_id": "TKT-2026-000020",
+  "from_status": "REOPENED",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-05-12 01:19:28"
+ },
+ {
+  "event_id": "TSE-000085",
+  "ticket_id": "TKT-2026-000020",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-05-13 15:04:08"
+ },
+ {
+  "event_id": "TSE-000086",
+  "ticket_id": "TKT-2026-000020",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-05-15 15:04:08"
+ },
+ {
+  "event_id": "TSE-000087",
+  "ticket_id": "TKT-2026-000021",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-05-06 08:46:08"
+ },
+ {
+  "event_id": "TSE-000088",
+  "ticket_id": "TKT-2026-000021",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-05-07 14:16:06"
+ },
+ {
+  "event_id": "TSE-000089",
+  "ticket_id": "TKT-2026-000021",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-05-10 03:35:10"
+ },
+ {
+  "event_id": "TSE-000090",
+  "ticket_id": "TKT-2026-000021",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-05-12 03:35:10"
+ },
+ {
+  "event_id": "TSE-000091",
+  "ticket_id": "TKT-2026-000022",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-05-07 20:42:42"
+ },
+ {
+  "event_id": "TSE-000092",
+  "ticket_id": "TKT-2026-000022",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-05-08 01:05:17"
+ },
+ {
+  "event_id": "TSE-000093",
+  "ticket_id": "TKT-2026-000022",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-05-08 10:25:37"
+ },
+ {
+  "event_id": "TSE-000094",
+  "ticket_id": "TKT-2026-000022",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-05-10 10:25:37"
+ },
+ {
+  "event_id": "TSE-000095",
+  "ticket_id": "TKT-2026-000023",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-05-07 22:25:23"
+ },
+ {
+  "event_id": "TSE-000096",
+  "ticket_id": "TKT-2026-000023",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-05-08 02:28:14"
+ },
+ {
+  "event_id": "TSE-000097",
+  "ticket_id": "TKT-2026-000023",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-05-10 12:35:47"
+ },
+ {
+  "event_id": "TSE-000098",
+  "ticket_id": "TKT-2026-000023",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-05-12 12:35:47"
+ },
+ {
+  "event_id": "TSE-000099",
+  "ticket_id": "TKT-2026-000024",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-05-12 14:22:12"
+ },
+ {
+  "event_id": "TSE-000100",
+  "ticket_id": "TKT-2026-000024",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-05-13 02:21:23"
+ },
+ {
+  "event_id": "TSE-000101",
+  "ticket_id": "TKT-2026-000024",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-05-13 15:18:53"
+ },
+ {
+  "event_id": "TSE-000102",
+  "ticket_id": "TKT-2026-000024",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-05-15 15:18:53"
+ },
+ {
+  "event_id": "TSE-000103",
+  "ticket_id": "TKT-2026-000025",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-05-13 06:49:47"
+ },
+ {
+  "event_id": "TSE-000104",
+  "ticket_id": "TKT-2026-000025",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-05-13 15:06:46"
+ },
+ {
+  "event_id": "TSE-000105",
+  "ticket_id": "TKT-2026-000025",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-05-14 02:07:39"
+ },
+ {
+  "event_id": "TSE-000106",
+  "ticket_id": "TKT-2026-000025",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-05-16 02:07:39"
+ },
+ {
+  "event_id": "TSE-000107",
+  "ticket_id": "TKT-2026-000026",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-05-15 05:43:09"
+ },
+ {
+  "event_id": "TSE-000108",
+  "ticket_id": "TKT-2026-000026",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-05-15 20:23:19"
+ },
+ {
+  "event_id": "TSE-000109",
+  "ticket_id": "TKT-2026-000026",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-05-16 06:14:07"
+ },
+ {
+  "event_id": "TSE-000110",
+  "ticket_id": "TKT-2026-000026",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-05-18 06:14:07"
+ },
+ {
+  "event_id": "TSE-000111",
+  "ticket_id": "TKT-2026-000027",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-05-16 21:18:37"
+ },
+ {
+  "event_id": "TSE-000112",
+  "ticket_id": "TKT-2026-000027",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-05-17 16:12:08"
+ },
+ {
+  "event_id": "TSE-000113",
+  "ticket_id": "TKT-2026-000027",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-05-21 07:29:41"
+ },
+ {
+  "event_id": "TSE-000114",
+  "ticket_id": "TKT-2026-000027",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-05-23 07:29:41"
+ },
+ {
+  "event_id": "TSE-000115",
+  "ticket_id": "TKT-2026-000028",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-05-17 02:34:06"
+ },
+ {
+  "event_id": "TSE-000116",
+  "ticket_id": "TKT-2026-000028",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-05-18 04:58:41"
+ },
+ {
+  "event_id": "TSE-000117",
+  "ticket_id": "TKT-2026-000028",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-05-18 23:53:39"
+ },
+ {
+  "event_id": "TSE-000118",
+  "ticket_id": "TKT-2026-000028",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-05-20 23:53:39"
+ },
+ {
+  "event_id": "TSE-000119",
+  "ticket_id": "TKT-2026-000029",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-05-17 13:53:30"
+ },
+ {
+  "event_id": "TSE-000120",
+  "ticket_id": "TKT-2026-000029",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-05-18 10:40:11"
+ },
+ {
+  "event_id": "TSE-000121",
+  "ticket_id": "TKT-2026-000029",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-05-21 18:41:11"
+ },
+ {
+  "event_id": "TSE-000122",
+  "ticket_id": "TKT-2026-000029",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-05-23 18:41:11"
+ },
+ {
+  "event_id": "TSE-000123",
+  "ticket_id": "TKT-2026-000030",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-05-25 00:38:47"
+ },
+ {
+  "event_id": "TSE-000124",
+  "ticket_id": "TKT-2026-000030",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-05-25 12:08:48"
+ },
+ {
+  "event_id": "TSE-000125",
+  "ticket_id": "TKT-2026-000030",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-05-27 09:21:22"
+ },
+ {
+  "event_id": "TSE-000126",
+  "ticket_id": "TKT-2026-000030",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-05-29 09:21:22"
+ },
+ {
+  "event_id": "TSE-000127",
+  "ticket_id": "TKT-2026-000031",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-05-27 09:45:14"
+ },
+ {
+  "event_id": "TSE-000128",
+  "ticket_id": "TKT-2026-000031",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-05-28 06:51:37"
+ },
+ {
+  "event_id": "TSE-000129",
+  "ticket_id": "TKT-2026-000031",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-05-29 22:42:38"
+ },
+ {
+  "event_id": "TSE-000130",
+  "ticket_id": "TKT-2026-000031",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-05-31 22:42:38"
+ },
+ {
+  "event_id": "TSE-000131",
+  "ticket_id": "TKT-2026-000032",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-05-30 08:24:43"
+ },
+ {
+  "event_id": "TSE-000132",
+  "ticket_id": "TKT-2026-000032",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-05-31 00:25:40"
+ },
+ {
+  "event_id": "TSE-000133",
+  "ticket_id": "TKT-2026-000032",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-01 01:34:34"
+ },
+ {
+  "event_id": "TSE-000134",
+  "ticket_id": "TKT-2026-000032",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-06-03 01:34:34"
+ },
+ {
+  "event_id": "TSE-000135",
+  "ticket_id": "TKT-2026-000033",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-05-30 10:57:23"
+ },
+ {
+  "event_id": "TSE-000136",
+  "ticket_id": "TKT-2026-000033",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-05-31 12:27:11"
+ },
+ {
+  "event_id": "TSE-000137",
+  "ticket_id": "TKT-2026-000033",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-01 01:19:28"
+ },
+ {
+  "event_id": "TSE-000138",
+  "ticket_id": "TKT-2026-000033",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-06-03 01:19:28"
+ },
+ {
+  "event_id": "TSE-000139",
+  "ticket_id": "TKT-2026-000034",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-03 02:30:51"
+ },
+ {
+  "event_id": "TSE-000140",
+  "ticket_id": "TKT-2026-000034",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-03 19:42:18"
+ },
+ {
+  "event_id": "TSE-000141",
+  "ticket_id": "TKT-2026-000034",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-05 16:18:13"
+ },
+ {
+  "event_id": "TSE-000142",
+  "ticket_id": "TKT-2026-000034",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-06-07 16:18:13"
+ },
+ {
+  "event_id": "TSE-000143",
+  "ticket_id": "TKT-2026-000035",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-03 19:29:32"
+ },
+ {
+  "event_id": "TSE-000144",
+  "ticket_id": "TKT-2026-000035",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-04 08:42:39"
+ },
+ {
+  "event_id": "TSE-000145",
+  "ticket_id": "TKT-2026-000035",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-05 08:07:08"
+ },
+ {
+  "event_id": "TSE-000146",
+  "ticket_id": "TKT-2026-000035",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-06-07 08:07:08"
+ },
+ {
+  "event_id": "TSE-000147",
+  "ticket_id": "TKT-2026-000036",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-04 20:31:51"
+ },
+ {
+  "event_id": "TSE-000148",
+  "ticket_id": "TKT-2026-000036",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-05 06:11:56"
+ },
+ {
+  "event_id": "TSE-000149",
+  "ticket_id": "TKT-2026-000036",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-06 00:59:21"
+ },
+ {
+  "event_id": "TSE-000150",
+  "ticket_id": "TKT-2026-000036",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-06-08 00:59:21"
+ },
+ {
+  "event_id": "TSE-000151",
+  "ticket_id": "TKT-2026-000037",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-06 15:51:46"
+ },
+ {
+  "event_id": "TSE-000152",
+  "ticket_id": "TKT-2026-000037",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-06 17:45:06"
+ },
+ {
+  "event_id": "TSE-000153",
+  "ticket_id": "TKT-2026-000037",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-07 06:39:39"
+ },
+ {
+  "event_id": "TSE-000154",
+  "ticket_id": "TKT-2026-000037",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-06-09 06:39:39"
+ },
+ {
+  "event_id": "TSE-000155",
+  "ticket_id": "TKT-2026-000038",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-06 23:14:05"
+ },
+ {
+  "event_id": "TSE-000156",
+  "ticket_id": "TKT-2026-000038",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-07 18:28:02"
+ },
+ {
+  "event_id": "TSE-000157",
+  "ticket_id": "TKT-2026-000038",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-10 10:44:44"
+ },
+ {
+  "event_id": "TSE-000158",
+  "ticket_id": "TKT-2026-000038",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-06-12 10:44:44"
+ },
+ {
+  "event_id": "TSE-000159",
+  "ticket_id": "TKT-2026-000039",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-07 07:39:56"
+ },
+ {
+  "event_id": "TSE-000160",
+  "ticket_id": "TKT-2026-000039",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-07 19:23:45"
+ },
+ {
+  "event_id": "TSE-000161",
+  "ticket_id": "TKT-2026-000039",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-08 08:45:17"
+ },
+ {
+  "event_id": "TSE-000162",
+  "ticket_id": "TKT-2026-000039",
+  "from_status": "RESOLVED",
+  "to_status": "REOPENED",
+  "actor": "customer",
+  "event_at": "2026-06-10 07:06:24"
+ },
+ {
+  "event_id": "TSE-000163",
+  "ticket_id": "TKT-2026-000039",
+  "from_status": "REOPENED",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-10 12:12:33"
+ },
+ {
+  "event_id": "TSE-000164",
+  "ticket_id": "TKT-2026-000039",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-11 17:44:38"
+ },
+ {
+  "event_id": "TSE-000165",
+  "ticket_id": "TKT-2026-000039",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-06-13 17:44:38"
+ },
+ {
+  "event_id": "TSE-000166",
+  "ticket_id": "TKT-2026-000040",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-07 16:18:41"
+ },
+ {
+  "event_id": "TSE-000167",
+  "ticket_id": "TKT-2026-000040",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-07 20:07:36"
+ },
+ {
+  "event_id": "TSE-000168",
+  "ticket_id": "TKT-2026-000040",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-08 23:12:32"
+ },
+ {
+  "event_id": "TSE-000169",
+  "ticket_id": "TKT-2026-000040",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-06-10 23:12:32"
+ },
+ {
+  "event_id": "TSE-000170",
+  "ticket_id": "TKT-2026-000041",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-08 17:10:34"
+ },
+ {
+  "event_id": "TSE-000171",
+  "ticket_id": "TKT-2026-000041",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-09 03:05:33"
+ },
+ {
+  "event_id": "TSE-000172",
+  "ticket_id": "TKT-2026-000041",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-12 21:29:21"
+ },
+ {
+  "event_id": "TSE-000173",
+  "ticket_id": "TKT-2026-000041",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-06-14 21:29:21"
+ },
+ {
+  "event_id": "TSE-000174",
+  "ticket_id": "TKT-2026-000042",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-10 13:49:02"
+ },
+ {
+  "event_id": "TSE-000175",
+  "ticket_id": "TKT-2026-000042",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-10 20:33:35"
+ },
+ {
+  "event_id": "TSE-000176",
+  "ticket_id": "TKT-2026-000042",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-12 22:29:19"
+ },
+ {
+  "event_id": "TSE-000177",
+  "ticket_id": "TKT-2026-000042",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-06-14 22:29:19"
+ },
+ {
+  "event_id": "TSE-000178",
+  "ticket_id": "TKT-2026-000043",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-11 12:01:02"
+ },
+ {
+  "event_id": "TSE-000179",
+  "ticket_id": "TKT-2026-000043",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-11 22:52:32"
+ },
+ {
+  "event_id": "TSE-000180",
+  "ticket_id": "TKT-2026-000043",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-14 07:59:07"
+ },
+ {
+  "event_id": "TSE-000181",
+  "ticket_id": "TKT-2026-000043",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-06-16 07:59:07"
+ },
+ {
+  "event_id": "TSE-000182",
+  "ticket_id": "TKT-2026-000044",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-12 14:44:47"
+ },
+ {
+  "event_id": "TSE-000183",
+  "ticket_id": "TKT-2026-000044",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-13 19:54:49"
+ },
+ {
+  "event_id": "TSE-000184",
+  "ticket_id": "TKT-2026-000044",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-14 12:43:47"
+ },
+ {
+  "event_id": "TSE-000185",
+  "ticket_id": "TKT-2026-000044",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-06-16 12:43:47"
+ },
+ {
+  "event_id": "TSE-000186",
+  "ticket_id": "TKT-2026-000045",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-12 15:31:26"
+ },
+ {
+  "event_id": "TSE-000187",
+  "ticket_id": "TKT-2026-000045",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-12 18:55:16"
+ },
+ {
+  "event_id": "TSE-000188",
+  "ticket_id": "TKT-2026-000045",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-17 09:33:13"
+ },
+ {
+  "event_id": "TSE-000189",
+  "ticket_id": "TKT-2026-000045",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-06-19 09:33:13"
+ },
+ {
+  "event_id": "TSE-000190",
+  "ticket_id": "TKT-2026-000046",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-13 16:55:00"
+ },
+ {
+  "event_id": "TSE-000191",
+  "ticket_id": "TKT-2026-000046",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-13 18:38:39"
+ },
+ {
+  "event_id": "TSE-000192",
+  "ticket_id": "TKT-2026-000046",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-14 12:23:27"
+ },
+ {
+  "event_id": "TSE-000193",
+  "ticket_id": "TKT-2026-000046",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-06-16 12:23:27"
+ },
+ {
+  "event_id": "TSE-000194",
+  "ticket_id": "TKT-2026-000047",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-18 06:39:50"
+ },
+ {
+  "event_id": "TSE-000195",
+  "ticket_id": "TKT-2026-000047",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-19 03:21:19"
+ },
+ {
+  "event_id": "TSE-000196",
+  "ticket_id": "TKT-2026-000047",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-21 16:19:28"
+ },
+ {
+  "event_id": "TSE-000197",
+  "ticket_id": "TKT-2026-000047",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-06-23 16:19:28"
+ },
+ {
+  "event_id": "TSE-000198",
+  "ticket_id": "TKT-2026-000048",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-19 22:23:56"
+ },
+ {
+  "event_id": "TSE-000199",
+  "ticket_id": "TKT-2026-000048",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-21 03:06:27"
+ },
+ {
+  "event_id": "TSE-000200",
+  "ticket_id": "TKT-2026-000048",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-22 05:07:40"
+ },
+ {
+  "event_id": "TSE-000201",
+  "ticket_id": "TKT-2026-000048",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-06-24 05:07:40"
+ },
+ {
+  "event_id": "TSE-000202",
+  "ticket_id": "TKT-2026-000049",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-20 17:22:58"
+ },
+ {
+  "event_id": "TSE-000203",
+  "ticket_id": "TKT-2026-000049",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-20 18:28:28"
+ },
+ {
+  "event_id": "TSE-000204",
+  "ticket_id": "TKT-2026-000049",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-21 01:34:18"
+ },
+ {
+  "event_id": "TSE-000205",
+  "ticket_id": "TKT-2026-000049",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-06-23 01:34:18"
+ },
+ {
+  "event_id": "TSE-000206",
+  "ticket_id": "TKT-2026-000050",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-26 08:10:41"
+ },
+ {
+  "event_id": "TSE-000207",
+  "ticket_id": "TKT-2026-000050",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-26 10:46:37"
+ },
+ {
+  "event_id": "TSE-000208",
+  "ticket_id": "TKT-2026-000050",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-29 02:37:31"
+ },
+ {
+  "event_id": "TSE-000209",
+  "ticket_id": "TKT-2026-000050",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-07-01 02:37:31"
+ },
+ {
+  "event_id": "TSE-000210",
+  "ticket_id": "TKT-2026-000051",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-27 07:45:09"
+ },
+ {
+  "event_id": "TSE-000211",
+  "ticket_id": "TKT-2026-000051",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-27 20:33:36"
+ },
+ {
+  "event_id": "TSE-000212",
+  "ticket_id": "TKT-2026-000051",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-06-29 08:57:54"
+ },
+ {
+  "event_id": "TSE-000213",
+  "ticket_id": "TKT-2026-000051",
+  "from_status": "RESOLVED",
+  "to_status": "REOPENED",
+  "actor": "customer",
+  "event_at": "2026-06-30 21:48:59"
+ },
+ {
+  "event_id": "TSE-000214",
+  "ticket_id": "TKT-2026-000051",
+  "from_status": "REOPENED",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-30 23:55:20"
+ },
+ {
+  "event_id": "TSE-000215",
+  "ticket_id": "TKT-2026-000051",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-07-02 05:28:38"
+ },
+ {
+  "event_id": "TSE-000216",
+  "ticket_id": "TKT-2026-000051",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-07-04 05:28:38"
+ },
+ {
+  "event_id": "TSE-000217",
+  "ticket_id": "TKT-2026-000052",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-29 18:02:27"
+ },
+ {
+  "event_id": "TSE-000218",
+  "ticket_id": "TKT-2026-000052",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-30 23:57:02"
+ },
+ {
+  "event_id": "TSE-000219",
+  "ticket_id": "TKT-2026-000052",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-07-03 23:40:28"
+ },
+ {
+  "event_id": "TSE-000220",
+  "ticket_id": "TKT-2026-000052",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-07-05 23:40:28"
+ },
+ {
+  "event_id": "TSE-000221",
+  "ticket_id": "TKT-2026-000053",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-29 21:34:24"
+ },
+ {
+  "event_id": "TSE-000222",
+  "ticket_id": "TKT-2026-000053",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-30 14:16:02"
+ },
+ {
+  "event_id": "TSE-000223",
+  "ticket_id": "TKT-2026-000053",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-07-02 05:51:39"
+ },
+ {
+  "event_id": "TSE-000224",
+  "ticket_id": "TKT-2026-000053",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-07-04 05:51:39"
+ },
+ {
+  "event_id": "TSE-000225",
+  "ticket_id": "TKT-2026-000054",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-30 05:37:17"
+ },
+ {
+  "event_id": "TSE-000226",
+  "ticket_id": "TKT-2026-000054",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-06-30 13:32:42"
+ },
+ {
+  "event_id": "TSE-000227",
+  "ticket_id": "TKT-2026-000054",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-07-03 07:43:59"
+ },
+ {
+  "event_id": "TSE-000228",
+  "ticket_id": "TKT-2026-000054",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-07-05 07:43:59"
+ },
+ {
+  "event_id": "TSE-000229",
+  "ticket_id": "TKT-2026-000055",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-30 05:56:04"
+ },
+ {
+  "event_id": "TSE-000230",
+  "ticket_id": "TKT-2026-000055",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-07-01 08:47:11"
+ },
+ {
+  "event_id": "TSE-000231",
+  "ticket_id": "TKT-2026-000055",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-07-02 03:46:13"
+ },
+ {
+  "event_id": "TSE-000232",
+  "ticket_id": "TKT-2026-000055",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-07-04 03:46:13"
+ },
+ {
+  "event_id": "TSE-000233",
+  "ticket_id": "TKT-2026-000056",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-06-30 18:21:57"
+ },
+ {
+  "event_id": "TSE-000234",
+  "ticket_id": "TKT-2026-000056",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-07-01 18:36:08"
+ },
+ {
+  "event_id": "TSE-000235",
+  "ticket_id": "TKT-2026-000056",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-07-02 14:28:26"
+ },
+ {
+  "event_id": "TSE-000236",
+  "ticket_id": "TKT-2026-000056",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-07-04 14:28:26"
+ },
+ {
+  "event_id": "TSE-000237",
+  "ticket_id": "TKT-2026-000057",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-07-03 11:57:53"
+ },
+ {
+  "event_id": "TSE-000238",
+  "ticket_id": "TKT-2026-000057",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-07-04 17:08:10"
+ },
+ {
+  "event_id": "TSE-000239",
+  "ticket_id": "TKT-2026-000057",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-07-07 05:49:30"
+ },
+ {
+  "event_id": "TSE-000240",
+  "ticket_id": "TKT-2026-000057",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-07-09 05:49:30"
+ },
+ {
+  "event_id": "TSE-000241",
+  "ticket_id": "TKT-2026-000058",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-07-03 22:04:38"
+ },
+ {
+  "event_id": "TSE-000242",
+  "ticket_id": "TKT-2026-000058",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-07-05 00:52:20"
+ },
+ {
+  "event_id": "TSE-000243",
+  "ticket_id": "TKT-2026-000058",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-07-06 17:45:42"
+ },
+ {
+  "event_id": "TSE-000244",
+  "ticket_id": "TKT-2026-000058",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-07-08 17:45:42"
+ },
+ {
+  "event_id": "TSE-000245",
+  "ticket_id": "TKT-2026-000059",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-07-05 10:21:49"
+ },
+ {
+  "event_id": "TSE-000246",
+  "ticket_id": "TKT-2026-000059",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-07-06 13:26:50"
+ },
+ {
+  "event_id": "TSE-000247",
+  "ticket_id": "TKT-2026-000059",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-07-09 21:15:32"
+ },
+ {
+  "event_id": "TSE-000248",
+  "ticket_id": "TKT-2026-000059",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-07-11 21:15:32"
+ },
+ {
+  "event_id": "TSE-000249",
+  "ticket_id": "TKT-2026-000060",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-07-07 14:02:15"
+ },
+ {
+  "event_id": "TSE-000250",
+  "ticket_id": "TKT-2026-000060",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-07-07 20:03:56"
+ },
+ {
+  "event_id": "TSE-000251",
+  "ticket_id": "TKT-2026-000060",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-07-10 09:32:27"
+ },
+ {
+  "event_id": "TSE-000252",
+  "ticket_id": "TKT-2026-000060",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-07-12 09:32:27"
+ },
+ {
+  "event_id": "TSE-000253",
+  "ticket_id": "TKT-2026-000061",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-07-10 16:02:09"
+ },
+ {
+  "event_id": "TSE-000254",
+  "ticket_id": "TKT-2026-000061",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-07-11 18:05:40"
+ },
+ {
+  "event_id": "TSE-000255",
+  "ticket_id": "TKT-2026-000061",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-07-13 02:21:51"
+ },
+ {
+  "event_id": "TSE-000256",
+  "ticket_id": "TKT-2026-000061",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-07-15 02:21:51"
+ },
+ {
+  "event_id": "TSE-000257",
+  "ticket_id": "TKT-2026-000062",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-07-11 09:30:55"
+ },
+ {
+  "event_id": "TSE-000258",
+  "ticket_id": "TKT-2026-000062",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-07-12 08:42:26"
+ },
+ {
+  "event_id": "TSE-000259",
+  "ticket_id": "TKT-2026-000062",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-07-14 08:22:00"
+ },
+ {
+  "event_id": "TSE-000260",
+  "ticket_id": "TKT-2026-000062",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-07-16 08:22:00"
+ },
+ {
+  "event_id": "TSE-000261",
+  "ticket_id": "TKT-2026-000063",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-07-11 15:30:33"
+ },
+ {
+  "event_id": "TSE-000262",
+  "ticket_id": "TKT-2026-000063",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-07-12 16:57:44"
+ },
+ {
+  "event_id": "TSE-000263",
+  "ticket_id": "TKT-2026-000063",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-07-16 02:52:12"
+ },
+ {
+  "event_id": "TSE-000264",
+  "ticket_id": "TKT-2026-000063",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-07-18 02:52:12"
+ },
+ {
+  "event_id": "TSE-000265",
+  "ticket_id": "TKT-2026-000064",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-07-14 21:03:35"
+ },
+ {
+  "event_id": "TSE-000266",
+  "ticket_id": "TKT-2026-000064",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-07-15 03:11:27"
+ },
+ {
+  "event_id": "TSE-000267",
+  "ticket_id": "TKT-2026-000064",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-07-15 04:49:14"
+ },
+ {
+  "event_id": "TSE-000268",
+  "ticket_id": "TKT-2026-000064",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-07-17 04:49:14"
+ },
+ {
+  "event_id": "TSE-000269",
+  "ticket_id": "TKT-2026-000065",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-07-15 03:23:16"
+ },
+ {
+  "event_id": "TSE-000270",
+  "ticket_id": "TKT-2026-000065",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-07-15 14:11:04"
+ },
+ {
+  "event_id": "TSE-000271",
+  "ticket_id": "TKT-2026-000065",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-07-16 02:47:19"
+ },
+ {
+  "event_id": "TSE-000272",
+  "ticket_id": "TKT-2026-000065",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-07-18 02:47:19"
+ },
+ {
+  "event_id": "TSE-000273",
+  "ticket_id": "TKT-2026-000066",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-07-15 12:14:23"
+ },
+ {
+  "event_id": "TSE-000274",
+  "ticket_id": "TKT-2026-000066",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-07-16 03:42:09"
+ },
+ {
+  "event_id": "TSE-000275",
+  "ticket_id": "TKT-2026-000066",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-07-19 08:29:01"
+ },
+ {
+  "event_id": "TSE-000276",
+  "ticket_id": "TKT-2026-000066",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-07-21 08:29:01"
+ },
+ {
+  "event_id": "TSE-000277",
+  "ticket_id": "TKT-2026-000067",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-07-23 01:33:35"
+ },
+ {
+  "event_id": "TSE-000278",
+  "ticket_id": "TKT-2026-000067",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-07-24 03:07:42"
+ },
+ {
+  "event_id": "TSE-000279",
+  "ticket_id": "TKT-2026-000067",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-07-27 03:18:00"
+ },
+ {
+  "event_id": "TSE-000280",
+  "ticket_id": "TKT-2026-000067",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-07-29 03:18:00"
+ },
+ {
+  "event_id": "TSE-000281",
+  "ticket_id": "TKT-2026-000068",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-07-28 05:55:35"
+ },
+ {
+  "event_id": "TSE-000282",
+  "ticket_id": "TKT-2026-000068",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-07-28 08:55:04"
+ },
+ {
+  "event_id": "TSE-000283",
+  "ticket_id": "TKT-2026-000068",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-07-28 19:05:07"
+ },
+ {
+  "event_id": "TSE-000284",
+  "ticket_id": "TKT-2026-000068",
+  "from_status": "RESOLVED",
+  "to_status": "REOPENED",
+  "actor": "customer",
+  "event_at": "2026-07-30 00:59:38"
+ },
+ {
+  "event_id": "TSE-000285",
+  "ticket_id": "TKT-2026-000068",
+  "from_status": "REOPENED",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-07-30 05:25:51"
+ },
+ {
+  "event_id": "TSE-000286",
+  "ticket_id": "TKT-2026-000068",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-07-31 06:03:29"
+ },
+ {
+  "event_id": "TSE-000287",
+  "ticket_id": "TKT-2026-000068",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-08-02 06:03:29"
+ },
+ {
+  "event_id": "TSE-000288",
+  "ticket_id": "TKT-2026-000069",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-08-01 13:31:29"
+ },
+ {
+  "event_id": "TSE-000289",
+  "ticket_id": "TKT-2026-000069",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-08-02 02:36:32"
+ },
+ {
+  "event_id": "TSE-000290",
+  "ticket_id": "TKT-2026-000069",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-08-02 21:45:45"
+ },
+ {
+  "event_id": "TSE-000291",
+  "ticket_id": "TKT-2026-000069",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-08-04 21:45:45"
+ },
+ {
+  "event_id": "TSE-000292",
+  "ticket_id": "TKT-2026-000070",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-08-04 02:31:36"
+ },
+ {
+  "event_id": "TSE-000293",
+  "ticket_id": "TKT-2026-000070",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-08-05 08:14:01"
+ },
+ {
+  "event_id": "TSE-000294",
+  "ticket_id": "TKT-2026-000070",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-08-07 19:54:40"
+ },
+ {
+  "event_id": "TSE-000295",
+  "ticket_id": "TKT-2026-000070",
+  "from_status": "RESOLVED",
+  "to_status": "REOPENED",
+  "actor": "customer",
+  "event_at": "2026-08-08 20:20:02"
+ },
+ {
+  "event_id": "TSE-000296",
+  "ticket_id": "TKT-2026-000070",
+  "from_status": "REOPENED",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-08-08 23:09:38"
+ },
+ {
+  "event_id": "TSE-000297",
+  "ticket_id": "TKT-2026-000070",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-08-10 02:02:37"
+ },
+ {
+  "event_id": "TSE-000298",
+  "ticket_id": "TKT-2026-000070",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-08-12 02:02:37"
+ },
+ {
+  "event_id": "TSE-000299",
+  "ticket_id": "TKT-2026-000071",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-08-06 19:19:48"
+ },
+ {
+  "event_id": "TSE-000300",
+  "ticket_id": "TKT-2026-000071",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-08-07 10:20:16"
+ },
+ {
+  "event_id": "TSE-000301",
+  "ticket_id": "TKT-2026-000071",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-08-10 23:04:36"
+ },
+ {
+  "event_id": "TSE-000302",
+  "ticket_id": "TKT-2026-000071",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-08-12 23:04:36"
+ },
+ {
+  "event_id": "TSE-000303",
+  "ticket_id": "TKT-2026-000072",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-08-09 19:44:19"
+ },
+ {
+  "event_id": "TSE-000304",
+  "ticket_id": "TKT-2026-000072",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-08-10 17:54:03"
+ },
+ {
+  "event_id": "TSE-000305",
+  "ticket_id": "TKT-2026-000072",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-08-11 13:48:12"
+ },
+ {
+  "event_id": "TSE-000306",
+  "ticket_id": "TKT-2026-000072",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-08-13 13:48:12"
+ },
+ {
+  "event_id": "TSE-000307",
+  "ticket_id": "TKT-2026-000073",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-08-10 11:47:19"
+ },
+ {
+  "event_id": "TSE-000308",
+  "ticket_id": "TKT-2026-000073",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-08-10 23:25:29"
+ },
+ {
+  "event_id": "TSE-000309",
+  "ticket_id": "TKT-2026-000073",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-08-11 16:23:16"
+ },
+ {
+  "event_id": "TSE-000310",
+  "ticket_id": "TKT-2026-000073",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-08-13 16:23:16"
+ },
+ {
+  "event_id": "TSE-000311",
+  "ticket_id": "TKT-2026-000074",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-08-11 10:53:34"
+ },
+ {
+  "event_id": "TSE-000312",
+  "ticket_id": "TKT-2026-000074",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-08-12 15:54:38"
+ },
+ {
+  "event_id": "TSE-000313",
+  "ticket_id": "TKT-2026-000074",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-08-14 03:45:57"
+ },
+ {
+  "event_id": "TSE-000314",
+  "ticket_id": "TKT-2026-000074",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-08-16 03:45:57"
+ },
+ {
+  "event_id": "TSE-000315",
+  "ticket_id": "TKT-2026-000075",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-08-16 05:24:42"
+ },
+ {
+  "event_id": "TSE-000316",
+  "ticket_id": "TKT-2026-000075",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-08-16 07:08:11"
+ },
+ {
+  "event_id": "TSE-000317",
+  "ticket_id": "TKT-2026-000075",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-08-19 05:20:23"
+ },
+ {
+  "event_id": "TSE-000318",
+  "ticket_id": "TKT-2026-000075",
+  "from_status": "RESOLVED",
+  "to_status": "REOPENED",
+  "actor": "customer",
+  "event_at": "2026-08-20 13:38:31"
+ },
+ {
+  "event_id": "TSE-000319",
+  "ticket_id": "TKT-2026-000075",
+  "from_status": "REOPENED",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-08-20 16:22:53"
+ },
+ {
+  "event_id": "TSE-000320",
+  "ticket_id": "TKT-2026-000075",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-08-22 08:05:24"
+ },
+ {
+  "event_id": "TSE-000321",
+  "ticket_id": "TKT-2026-000075",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-08-24 08:05:24"
+ },
+ {
+  "event_id": "TSE-000322",
+  "ticket_id": "TKT-2026-000076",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-08-18 21:22:08"
+ },
+ {
+  "event_id": "TSE-000323",
+  "ticket_id": "TKT-2026-000076",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-08-19 00:02:38"
+ },
+ {
+  "event_id": "TSE-000324",
+  "ticket_id": "TKT-2026-000076",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-08-21 20:59:52"
+ },
+ {
+  "event_id": "TSE-000325",
+  "ticket_id": "TKT-2026-000076",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-08-23 20:59:52"
+ },
+ {
+  "event_id": "TSE-000326",
+  "ticket_id": "TKT-2026-000077",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-08-20 05:11:31"
+ },
+ {
+  "event_id": "TSE-000327",
+  "ticket_id": "TKT-2026-000077",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-08-21 03:51:36"
+ },
+ {
+  "event_id": "TSE-000328",
+  "ticket_id": "TKT-2026-000077",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-08-23 17:42:06"
+ },
+ {
+  "event_id": "TSE-000329",
+  "ticket_id": "TKT-2026-000077",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-08-25 17:42:06"
+ },
+ {
+  "event_id": "TSE-000330",
+  "ticket_id": "TKT-2026-000078",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-08-21 07:02:36"
+ },
+ {
+  "event_id": "TSE-000331",
+  "ticket_id": "TKT-2026-000078",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-08-21 09:21:07"
+ },
+ {
+  "event_id": "TSE-000332",
+  "ticket_id": "TKT-2026-000078",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-08-23 02:58:08"
+ },
+ {
+  "event_id": "TSE-000333",
+  "ticket_id": "TKT-2026-000078",
+  "from_status": "RESOLVED",
+  "to_status": "REOPENED",
+  "actor": "customer",
+  "event_at": "2026-08-25 17:15:03"
+ },
+ {
+  "event_id": "TSE-000334",
+  "ticket_id": "TKT-2026-000078",
+  "from_status": "REOPENED",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-08-25 19:15:55"
+ },
+ {
+  "event_id": "TSE-000335",
+  "ticket_id": "TKT-2026-000078",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-08-27 15:05:57"
+ },
+ {
+  "event_id": "TSE-000336",
+  "ticket_id": "TKT-2026-000078",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-08-29 15:05:57"
+ },
+ {
+  "event_id": "TSE-000337",
+  "ticket_id": "TKT-2026-000079",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-08-21 16:37:55"
+ },
+ {
+  "event_id": "TSE-000338",
+  "ticket_id": "TKT-2026-000079",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-08-22 19:31:36"
+ },
+ {
+  "event_id": "TSE-000339",
+  "ticket_id": "TKT-2026-000079",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-08-24 14:39:02"
+ },
+ {
+  "event_id": "TSE-000340",
+  "ticket_id": "TKT-2026-000079",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-08-26 14:39:02"
+ },
+ {
+  "event_id": "TSE-000341",
+  "ticket_id": "TKT-2026-000080",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-08-24 03:19:22"
+ },
+ {
+  "event_id": "TSE-000342",
+  "ticket_id": "TKT-2026-000080",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-08-25 05:24:29"
+ },
+ {
+  "event_id": "TSE-000343",
+  "ticket_id": "TKT-2026-000080",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-08-27 00:29:37"
+ },
+ {
+  "event_id": "TSE-000344",
+  "ticket_id": "TKT-2026-000080",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-08-29 00:29:37"
+ },
+ {
+  "event_id": "TSE-000345",
+  "ticket_id": "TKT-2026-000081",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-08-24 12:48:25"
+ },
+ {
+  "event_id": "TSE-000346",
+  "ticket_id": "TKT-2026-000081",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-08-25 02:47:07"
+ },
+ {
+  "event_id": "TSE-000347",
+  "ticket_id": "TKT-2026-000081",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-08-27 12:26:35"
+ },
+ {
+  "event_id": "TSE-000348",
+  "ticket_id": "TKT-2026-000081",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-08-29 12:26:35"
+ },
+ {
+  "event_id": "TSE-000349",
+  "ticket_id": "TKT-2026-000082",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-08-24 21:32:08"
+ },
+ {
+  "event_id": "TSE-000350",
+  "ticket_id": "TKT-2026-000082",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-08-26 01:49:43"
+ },
+ {
+  "event_id": "TSE-000351",
+  "ticket_id": "TKT-2026-000082",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-08-29 08:32:32"
+ },
+ {
+  "event_id": "TSE-000352",
+  "ticket_id": "TKT-2026-000082",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-08-31 08:32:32"
+ },
+ {
+  "event_id": "TSE-000353",
+  "ticket_id": "TKT-2026-000083",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-08-29 09:38:11"
+ },
+ {
+  "event_id": "TSE-000354",
+  "ticket_id": "TKT-2026-000083",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-08-29 19:00:07"
+ },
+ {
+  "event_id": "TSE-000355",
+  "ticket_id": "TKT-2026-000083",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-08-31 14:20:34"
+ },
+ {
+  "event_id": "TSE-000356",
+  "ticket_id": "TKT-2026-000083",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-09-02 14:20:34"
+ },
+ {
+  "event_id": "TSE-000357",
+  "ticket_id": "TKT-2026-000084",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-09-01 17:38:50"
+ },
+ {
+  "event_id": "TSE-000358",
+  "ticket_id": "TKT-2026-000084",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-09-01 21:05:29"
+ },
+ {
+  "event_id": "TSE-000359",
+  "ticket_id": "TKT-2026-000084",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-09-04 14:59:56"
+ },
+ {
+  "event_id": "TSE-000360",
+  "ticket_id": "TKT-2026-000084",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-09-06 14:59:56"
+ },
+ {
+  "event_id": "TSE-000361",
+  "ticket_id": "TKT-2026-000085",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-09-06 03:36:18"
+ },
+ {
+  "event_id": "TSE-000362",
+  "ticket_id": "TKT-2026-000085",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-09-06 15:03:21"
+ },
+ {
+  "event_id": "TSE-000363",
+  "ticket_id": "TKT-2026-000085",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-09-08 10:29:35"
+ },
+ {
+  "event_id": "TSE-000364",
+  "ticket_id": "TKT-2026-000085",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-09-10 10:29:35"
+ },
+ {
+  "event_id": "TSE-000365",
+  "ticket_id": "TKT-2026-000086",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-09-07 20:35:06"
+ },
+ {
+  "event_id": "TSE-000366",
+  "ticket_id": "TKT-2026-000086",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-09-08 13:39:52"
+ },
+ {
+  "event_id": "TSE-000367",
+  "ticket_id": "TKT-2026-000086",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-09-11 02:03:57"
+ },
+ {
+  "event_id": "TSE-000368",
+  "ticket_id": "TKT-2026-000086",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-09-13 02:03:57"
+ },
+ {
+  "event_id": "TSE-000369",
+  "ticket_id": "TKT-2026-000087",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-09-08 10:55:05"
+ },
+ {
+  "event_id": "TSE-000370",
+  "ticket_id": "TKT-2026-000087",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-09-09 01:47:42"
+ },
+ {
+  "event_id": "TSE-000371",
+  "ticket_id": "TKT-2026-000087",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-09-09 22:33:12"
+ },
+ {
+  "event_id": "TSE-000372",
+  "ticket_id": "TKT-2026-000087",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-09-11 22:33:12"
+ },
+ {
+  "event_id": "TSE-000373",
+  "ticket_id": "TKT-2026-000088",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-09-10 20:25:49"
+ },
+ {
+  "event_id": "TSE-000374",
+  "ticket_id": "TKT-2026-000088",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-09-11 12:47:05"
+ },
+ {
+  "event_id": "TSE-000375",
+  "ticket_id": "TKT-2026-000088",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-09-12 08:57:13"
+ },
+ {
+  "event_id": "TSE-000376",
+  "ticket_id": "TKT-2026-000088",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-09-14 08:57:13"
+ },
+ {
+  "event_id": "TSE-000377",
+  "ticket_id": "TKT-2026-000089",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-09-11 18:03:47"
+ },
+ {
+  "event_id": "TSE-000378",
+  "ticket_id": "TKT-2026-000089",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-09-11 19:41:34"
+ },
+ {
+  "event_id": "TSE-000379",
+  "ticket_id": "TKT-2026-000089",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-09-13 16:38:49"
+ },
+ {
+  "event_id": "TSE-000380",
+  "ticket_id": "TKT-2026-000089",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-09-15 16:38:49"
+ },
+ {
+  "event_id": "TSE-000381",
+  "ticket_id": "TKT-2026-000090",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-09-14 20:53:37"
+ },
+ {
+  "event_id": "TSE-000382",
+  "ticket_id": "TKT-2026-000090",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-09-15 10:58:58"
+ },
+ {
+  "event_id": "TSE-000383",
+  "ticket_id": "TKT-2026-000090",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-09-16 06:03:59"
+ },
+ {
+  "event_id": "TSE-000384",
+  "ticket_id": "TKT-2026-000090",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-09-18 06:03:59"
+ },
+ {
+  "event_id": "TSE-000385",
+  "ticket_id": "TKT-2026-000091",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-09-15 05:16:48"
+ },
+ {
+  "event_id": "TSE-000386",
+  "ticket_id": "TKT-2026-000091",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-09-16 07:38:48"
+ },
+ {
+  "event_id": "TSE-000387",
+  "ticket_id": "TKT-2026-000091",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-09-19 01:26:24"
+ },
+ {
+  "event_id": "TSE-000388",
+  "ticket_id": "TKT-2026-000091",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-09-21 01:26:24"
+ },
+ {
+  "event_id": "TSE-000389",
+  "ticket_id": "TKT-2026-000092",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-09-17 00:30:26"
+ },
+ {
+  "event_id": "TSE-000390",
+  "ticket_id": "TKT-2026-000092",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-09-17 13:46:36"
+ },
+ {
+  "event_id": "TSE-000391",
+  "ticket_id": "TKT-2026-000092",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-09-19 21:47:14"
+ },
+ {
+  "event_id": "TSE-000392",
+  "ticket_id": "TKT-2026-000092",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-09-21 21:47:14"
+ },
+ {
+  "event_id": "TSE-000393",
+  "ticket_id": "TKT-2026-000093",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-09-20 08:09:58"
+ },
+ {
+  "event_id": "TSE-000394",
+  "ticket_id": "TKT-2026-000093",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-09-20 11:57:02"
+ },
+ {
+  "event_id": "TSE-000395",
+  "ticket_id": "TKT-2026-000093",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-09-22 22:54:08"
+ },
+ {
+  "event_id": "TSE-000396",
+  "ticket_id": "TKT-2026-000093",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-09-24 22:54:08"
+ },
+ {
+  "event_id": "TSE-000397",
+  "ticket_id": "TKT-2026-000094",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-09-22 19:51:55"
+ },
+ {
+  "event_id": "TSE-000398",
+  "ticket_id": "TKT-2026-000094",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-09-23 23:12:26"
+ },
+ {
+  "event_id": "TSE-000399",
+  "ticket_id": "TKT-2026-000094",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-09-26 05:06:42"
+ },
+ {
+  "event_id": "TSE-000400",
+  "ticket_id": "TKT-2026-000094",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-09-28 05:06:42"
+ },
+ {
+  "event_id": "TSE-000401",
+  "ticket_id": "TKT-2026-000095",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-09-22 22:36:23"
+ },
+ {
+  "event_id": "TSE-000402",
+  "ticket_id": "TKT-2026-000095",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-09-23 04:33:33"
+ },
+ {
+  "event_id": "TSE-000403",
+  "ticket_id": "TKT-2026-000095",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-09-25 06:54:36"
+ },
+ {
+  "event_id": "TSE-000404",
+  "ticket_id": "TKT-2026-000095",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-09-27 06:54:36"
+ },
+ {
+  "event_id": "TSE-000405",
+  "ticket_id": "TKT-2026-000096",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-09-25 00:03:02"
+ },
+ {
+  "event_id": "TSE-000406",
+  "ticket_id": "TKT-2026-000096",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-09-25 22:31:31"
+ },
+ {
+  "event_id": "TSE-000407",
+  "ticket_id": "TKT-2026-000096",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-09-26 14:38:39"
+ },
+ {
+  "event_id": "TSE-000408",
+  "ticket_id": "TKT-2026-000096",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-09-28 14:38:39"
+ },
+ {
+  "event_id": "TSE-000409",
+  "ticket_id": "TKT-2026-000097",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-09-26 03:13:54"
+ },
+ {
+  "event_id": "TSE-000410",
+  "ticket_id": "TKT-2026-000097",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-09-26 22:40:48"
+ },
+ {
+  "event_id": "TSE-000411",
+  "ticket_id": "TKT-2026-000097",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-09-28 17:06:38"
+ },
+ {
+  "event_id": "TSE-000412",
+  "ticket_id": "TKT-2026-000097",
+  "from_status": "RESOLVED",
+  "to_status": "CLOSED",
+  "actor": "system",
+  "event_at": "2026-09-30 17:06:38"
+ },
+ {
+  "event_id": "TSE-000413",
+  "ticket_id": "TKT-2026-000098",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-09-26 04:20:08"
+ },
+ {
+  "event_id": "TSE-000414",
+  "ticket_id": "TKT-2026-000098",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-09-26 13:04:49"
+ },
+ {
+  "event_id": "TSE-000415",
+  "ticket_id": "TKT-2026-000098",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-09-29 07:43:54"
+ },
+ {
+  "event_id": "TSE-000416",
+  "ticket_id": "TKT-2026-000099",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-09-26 18:20:52"
+ },
+ {
+  "event_id": "TSE-000417",
+  "ticket_id": "TKT-2026-000099",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-09-27 10:23:18"
+ },
+ {
+  "event_id": "TSE-000418",
+  "ticket_id": "TKT-2026-000100",
+  "from_status": null,
+  "to_status": "OPEN",
+  "actor": "customer",
+  "event_at": "2026-09-27 11:14:43"
+ },
+ {
+  "event_id": "TSE-000419",
+  "ticket_id": "TKT-2026-000100",
+  "from_status": "OPEN",
+  "to_status": "IN_PROGRESS",
+  "actor": "agent",
+  "event_at": "2026-09-27 21:54:41"
+ },
+ {
+  "event_id": "TSE-000420",
+  "ticket_id": "TKT-2026-000100",
+  "from_status": "IN_PROGRESS",
+  "to_status": "RESOLVED",
+  "actor": "agent",
+  "event_at": "2026-09-29 08:34:41"
+ }
+]

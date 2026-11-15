@@ -9,7 +9,7 @@ data comes from a simulated world with hidden incidents, we can measure **time-t
 ## 2. Three tiers
 - **Frontend:** React + Vite + TypeScript, Tailwind, react-query, recharts.
 - **Backend:** FastAPI (one router per stage) + Python pipeline package `voicelens`.
-- **Database:** PostgreSQL 18, schema layers `raw` → `curated` → `insight` → `event` (or table prefixes if schemas slow us down).
+- **Database:** PostgreSQL 18, two schemas: `raw` (input tables as loaded, FKs `NOT VALID`) and `app` (pipeline-owned: curated items, predictions, cells, alerts, actions, append-only events, exceptions). Ground truth is never loaded.
 
 ## 3. Pipeline (9 stages, each a pure function with a typed input/output)
 | # | Stage | Module | Input → Output | Key rule |
@@ -34,29 +34,29 @@ The human review loop: reviewer confirms/corrects a label in the UI → `label_r
 3. **"Why this number?" lineage** — every alert, priority and action item drills down to the weekly cell → feedback items → redacted text → rules fired.
    Stretch: closed-loop verification (after an action item is DONE, check whether sentiment recovered).
 
-## 5. API (FastAPI)
+## 5. API (FastAPI) — `uvicorn voicelens.api.main:app`, docs at `/docs`
 | Method | Path | Purpose |
 |---|---|---|
-| GET | `/health` | liveness + DB check |
-| GET | `/overview` | KPIs, sentiment trend, top alerts |
-| GET | `/alerts` · `/alerts/{id}` | detected shifts with evidence + lead channel |
-| GET | `/lineage/{kind}/{id}` | "Why?" chain for alert / action / cell |
-| GET | `/feedback/{source_type}/{id}` | one record, redacted text, prediction, rules fired |
-| GET | `/review-queue` · POST `/review/{source_type}/{id}` | abstained items; submit human label (event) |
-| GET | `/action-items` · POST `/action-items/{id}/status` | list; status change (event) |
-| GET | `/data-quality` | validation summary + exceptions by type |
-| GET | `/evaluation` | all metrics incl. slices, coverage curve, time-to-detect |
-| POST | `/pipeline/run` | admin: rerun stages 2–9 (idempotent) |
+| GET | `/health` · `/meta` | liveness + data loaded; products, themes, channels, latest run, lifecycle transitions (from the contract) |
+| GET | `/overview` · `/pulse` | KPIs, weekly trend, top alerts; daily negatives per channel (seismograph) |
+| GET | `/trend/items` | the source records behind a trend point (ISO week or day range) |
+| GET | `/alerts` · `/alerts/{id}` | alerts with magnitude; daily per-channel series + evidence |
+| GET | `/lineage/{kind}/{id}` · `/trace/{id}` | "Why?" chain for action / alert / cell; any id resolved up and down the lineage |
+| GET | `/themes` · `/themes/{product}/{theme}` | ranked product × theme priorities; weekly cells |
+| GET | `/feedback/{source_type}/{id}` | one record: redacted text, prediction, rules, exceptions, reviews |
+| GET/POST | `/review-queue` · `/review/plane` · `/review/{source_type}/{id}` | uncertain queue or blind eval set; decision plane; human label (append-only event) |
+| GET/POST | `/action-items` · `/action-items/{id}` · `/action-items/{id}/status` | list, detail + history, lifecycle-checked status change (409 if illegal) |
+| GET | `/data-quality` · `/flow` | validation summary, manifest, exceptions; reconciled Sankey of every row |
+| GET/POST | `/evaluation` · `/evaluation/run` · `/pipeline/run` | metrics; recompute evaluation; rerun analysis + evaluation |
 
-## 6. Screens (React)
-1. **Overview** — KPIs, sentiment trend by channel, top alerts.
-2. **Alerts & root cause** — alert list, lead-lag chart (tickets vs reviews vs surveys), "Why?" drawer.
-3. **Review queue** — abstained/flagged items, confirm or correct (writes events).
-4. **Action items** — table with status buttons and event history.
-5. **Data quality** — validation results, exceptions by type with expected vs actual decision.
-6. **Evaluation** — metrics, confusion matrix, slice table, accuracy-vs-coverage chart, incident detection table.
+## 6. Screens (React + d3 + motion)
+1. **Pulse** — three-channel seismograph, alert epicenters with magnitude, wavefront, click-through to records.
+2. **Priorities** — iso-priority map, ranked factor table, theme drill-down, action board as a state machine.
+3. **Review** — blind evaluation set; uncertain queue on the sentiment decision plane.
+4. **Data flow** — reconciled Sankey, 13 checks, exceptions, reproducibility, file integrity, exports.
+5. **Proof** — metrics, τ frontier, confusion matrix, slices, incident time-to-detect, edge cases, requirements checklist.
 
 ## 7. Build order (cut from the bottom if late)
-1. Generator (in progress) → 2. Validate + load to Postgres → 3. Normalize + analyze + abstain →
-4. Aggregate + detect + prioritize + act → 5. Evaluate → 6. API → 7. Screens 1, 2, 6 → 8. Screens 3, 4, 5 → 9. Docs.
+1. Generator → 2. Validate + load to Postgres → 3. Normalize + analyze + abstain →
+4. Aggregate + detect + prioritize + act → 5. Evaluate → 6. API → 7. Screens → 8. Docs. (All done; one command runs stages 1–9: `python -m voicelens.pipeline`.)
 Never cut: edge cases + ground truth, validation, evaluation numbers, lineage on alerts.

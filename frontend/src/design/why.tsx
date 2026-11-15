@@ -1,13 +1,12 @@
 // The "Why?" drawer: open any id from anywhere and see its lineage as a vertical drill core.
 import { AnimatePresence, motion } from 'motion/react'
-import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from 'react'
+import { useCallback, useEffect, useState, type ReactNode } from 'react'
 import { useTrace, type ChainLevel, type TraceResult } from '../api/client'
 import { RecordCard } from './record'
 import { CHANNEL, fmt } from './tokens'
 import { Flatline, IdChip, MagnitudeBadge } from './ui'
+import { WhyCtx } from './why-context'
 
-const Ctx = createContext<{ open: (id: string) => void; close: () => void }>({ open: () => {}, close: () => {} })
-export const useWhy = () => useContext(Ctx)
 
 export function WhyProvider({ children }: { children: ReactNode }) {
   const [stack, setStack] = useState<string[]>([])
@@ -21,7 +20,7 @@ export function WhyProvider({ children }: { children: ReactNode }) {
   }, [close])
   const id = stack[stack.length - 1] ?? null
   return (
-    <Ctx.Provider value={{ open, close }}>
+    <WhyCtx.Provider value={{ open, close }}>
       {children}
       <AnimatePresence>
         {id && (
@@ -41,7 +40,7 @@ export function WhyProvider({ children }: { children: ReactNode }) {
           </>
         )}
       </AnimatePresence>
-    </Ctx.Provider>
+    </WhyCtx.Provider>
   )
 }
 

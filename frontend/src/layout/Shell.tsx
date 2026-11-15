@@ -2,12 +2,13 @@
 import { useEffect, useRef, useState } from 'react'
 import { NavLink, Outlet, useNavigate } from 'react-router-dom'
 import { useEvaluation, useHealth, useMeta, useQuality } from '../api/client'
+import { RoleSelect } from '../design/role'
 import { SeismoLogo } from '../design/seismo'
 import { CHANNELS, M_GATE, fmt } from '../design/tokens'
 import { Flatline } from '../design/ui'
-import { useWhy } from '../design/why'
+import { useWhy } from '../design/why-context'
 
-export const NAV = [
+const NAV = [
   { to: '/', label: 'Pulse', icon: '◉', hint: 'signals, alerts & epicenters' },
   { to: '/priorities', label: 'Priorities', icon: '▣', hint: 'themes & action items' },
   { to: '/review', label: 'Review', icon: '⊕', hint: 'sentiment plane & human review' },
@@ -127,6 +128,7 @@ export function Shell() {
         </div>
         <TraceBox />
         <div className="ml-auto flex items-center gap-3 text-xs text-muted">
+          <RoleSelect />
           {meta.data?.run && (
             <span className="num rounded-full border border-line px-3 py-1" title={`rules hash ${meta.data.run.lexicon_hash}`}>
               {meta.data.run.run_id} · {fmt.int(meta.data.run.n_items)} items

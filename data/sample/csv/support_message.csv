@@ -1,0 +1,398 @@
+message_id,ticket_id,sender,text,language,sent_at
+MSG-TKT-2026-000001-001,TKT-2026-000001,customer,"La facturación es excelente, pero el soporte al cliente es terrible.",es,2026-04-06 02:49:20
+MSG-TKT-2026-000001-002,TKT-2026-000001,agent,Sorry for the trouble. Could you share your order number?,en,2026-04-06 10:54:01
+MSG-TKT-2026-000001-003,TKT-2026-000001,customer,"Muy contento con el cobro, funciona de maravilla.",es,2026-04-07 06:16:49
+MSG-TKT-2026-000001-004,TKT-2026-000001,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-04-08 08:24:49
+MSG-TKT-2026-000002-001,TKT-2026-000002,customer,Using VaultBox Plus for a while now. I contacted support through chat.,en,2026-04-07 05:00:50
+MSG-TKT-2026-000002-002,TKT-2026-000002,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-04-08 09:24:43
+MSG-TKT-2026-000002-003,TKT-2026-000002,customer,Using VaultBox Plus for a while now. Support asked for my order number.,en,2026-04-09 08:18:15
+MSG-TKT-2026-000002-004,TKT-2026-000002,agent,Thanks for reaching out. I'm looking into this now.,en,2026-04-10 12:21:01
+MSG-TKT-2026-000003-001,TKT-2026-000003,customer,The password reset worked in seconds. Really happy with StreamNest Premium.,en,2026-04-07 10:13:00
+MSG-TKT-2026-000003-002,TKT-2026-000003,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-04-07 19:25:30
+MSG-TKT-2026-000003-003,TKT-2026-000003,customer,"The password reset worked in seconds, but I was charged twice for the same order.",en,2026-04-08 13:03:39
+MSG-TKT-2026-000003-004,TKT-2026-000003,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-04-09 15:09:25
+MSG-TKT-2026-000004-001,TKT-2026-000004,customer,"Mixed feelings about StreamNest Premium: two-factor login is quick and reassuring, yet support kept me on hold for an hour.",en,2026-04-10 15:40:39
+MSG-TKT-2026-000004-002,TKT-2026-000004,agent,Thanks for reaching out. I'm looking into this now.,en,2026-04-11 00:14:22
+MSG-TKT-2026-000004-003,TKT-2026-000004,customer,"Even my parents figured it out quickly, but I keep getting locked out of my account.",en,2026-04-11 04:01:42
+MSG-TKT-2026-000004-004,TKT-2026-000004,agent,I've escalated this to our specialist team.,en,2026-04-11 23:02:23
+MSG-TKT-2026-000005-001,TKT-2026-000005,customer,"Price bilkul bekaar hai, very disappointed.",hi-Latn,2026-04-11 19:29:37
+MSG-TKT-2026-000005-002,TKT-2026-000005,agent,Sorry for the trouble. Could you share your order number?,en,2026-04-12 14:00:47
+MSG-TKT-2026-000005-003,TKT-2026-000005,customer,Velto Watch ka price ekdum third class hai.,hi-Latn,2026-04-13 12:16:59
+MSG-TKT-2026-000005-004,TKT-2026-000005,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-04-14 05:03:41
+MSG-TKT-2026-000006-001,TKT-2026-000006,customer,Just noting that the settings are under the profile icon.,en,2026-04-14 10:37:10
+MSG-TKT-2026-000006-002,TKT-2026-000006,agent,Sorry for the trouble. Could you share your order number?,en,2026-04-15 13:41:39
+MSG-TKT-2026-000006-003,TKT-2026-000006,customer,"Can't complain about the interface, no issues whatsoever.",en,2026-04-16 10:52:34
+MSG-TKT-2026-000006-004,TKT-2026-000006,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-04-16 22:39:46
+MSG-TKT-2026-000006-005,TKT-2026-000006,customer,"Mixed feelings about Orbix Router: the interface is clean and easy to use, yet I explained the issue three times to three different agents.",en,2026-04-17 12:15:45
+MSG-TKT-2026-000007-001,TKT-2026-000007,customer,I would not call the refund acceptable.,en,2026-04-14 13:03:30
+MSG-TKT-2026-000007-002,TKT-2026-000007,agent,Thank you for your patience while we investigate.,en,2026-04-15 15:19:34
+MSG-TKT-2026-000007-003,TKT-2026-000007,customer,"Mixed feelings about QuickDrop Express: the return and refund were completely hassle free, yet I was billed for a plan I never chose.",en,2026-04-16 20:06:38
+MSG-TKT-2026-000007-004,TKT-2026-000007,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-04-17 00:34:20
+MSG-TKT-2026-000008-001,TKT-2026-000008,customer,"The app is not good, not even close.",en,2026-04-16 17:28:32
+MSG-TKT-2026-000008-002,TKT-2026-000008,agent,Thanks for reaching out. I'm looking into this now.,en,2026-04-17 01:15:28
+MSG-TKT-2026-000008-003,TKT-2026-000008,customer,Not sure how I feel about the app yet.,en,2026-04-17 13:34:12
+MSG-TKT-2026-000008-004,TKT-2026-000008,agent,Sorry for the trouble. Could you share your order number?,en,2026-04-18 08:39:52
+MSG-TKT-2026-000008-005,TKT-2026-000008,customer,"The app runs smoothly even on my old phone, but the login page rejects my correct password.",en,2026-04-18 15:14:49
+MSG-TKT-2026-000008-006,TKT-2026-000008,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-04-19 12:07:06
+MSG-TKT-2026-000009-001,TKT-2026-000009,customer,Five stars: the chat agent went above and beyond.,en,2026-04-17 20:48:20
+MSG-TKT-2026-000009-002,TKT-2026-000009,agent,Thanks for reaching out. I'm looking into this now.,en,2026-04-18 13:37:32
+MSG-TKT-2026-000009-003,TKT-2026-000009,customer,I contacted support through chat.,en,2026-04-18 14:48:36
+MSG-TKT-2026-000010-001,TKT-2026-000010,customer,Simple tasks take far too many steps. Very disappointed with FitLoop Annual.,en,2026-04-19 10:10:17
+MSG-TKT-2026-000010-002,TKT-2026-000010,agent,Thank you for your patience while we investigate.,en,2026-04-19 13:09:26
+MSG-TKT-2026-000010-003,TKT-2026-000010,customer,The interface is clean and easy to use. Really happy with FitLoop Annual.,en,2026-04-19 21:37:57
+MSG-TKT-2026-000010-004,TKT-2026-000010,agent,I've escalated this to our specialist team.,en,2026-04-20 18:34:10
+MSG-TKT-2026-000010-005,TKT-2026-000010,customer,Five stars: even my parents figured it out quickly.,en,2026-04-21 12:24:50
+MSG-TKT-2026-000011-001,TKT-2026-000011,customer,"Can't complain about the setup, no issues whatsoever.",en,2026-04-20 22:15:12
+MSG-TKT-2026-000011-002,TKT-2026-000011,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-04-21 17:00:23
+MSG-TKT-2026-000012-001,TKT-2026-000012,customer,Not sure how I feel about the interface yet.,en,2026-04-21 00:18:14
+MSG-TKT-2026-000012-002,TKT-2026-000012,agent,Sorry for the trouble. Could you share your order number?,en,2026-04-21 01:19:05
+MSG-TKT-2026-000012-003,TKT-2026-000012,customer,"The interface is clean and easy to use, but cheaper alternatives do exactly the same thing.",en,2026-04-22 02:35:50
+MSG-TKT-2026-000013-001,TKT-2026-000013,customer,Using StreamNest Premium for a while now. Support asked for my order number.,en,2026-04-22 01:40:04
+MSG-TKT-2026-000013-002,TKT-2026-000013,agent,I've escalated this to our specialist team.,en,2026-04-22 12:48:20
+MSG-TKT-2026-000014-001,TKT-2026-000014,customer,The item arrived broken and feels cheap. Very disappointed with Aurelo Speaker.,en,2026-04-24 08:54:53
+MSG-TKT-2026-000014-002,TKT-2026-000014,agent,Thanks for reaching out. I'm looking into this now.,en,2026-04-24 20:20:48
+MSG-TKT-2026-000014-003,TKT-2026-000014,customer,"The build quality is... well, it's the build quality.",en,2026-04-25 05:13:08
+MSG-TKT-2026-000015-001,TKT-2026-000015,customer,"Mixed feelings about Orbix Router: it still works perfectly after months of daily use, yet the refund was rejected for no reason.",en,2026-04-29 00:02:58
+MSG-TKT-2026-000015-002,TKT-2026-000015,agent,I've escalated this to our specialist team.,en,2026-04-29 02:08:41
+MSG-TKT-2026-000015-003,TKT-2026-000015,customer,Just noting that refunds are processed within ten working days.,en,2026-04-30 06:08:47
+MSG-TKT-2026-000015-004,TKT-2026-000015,agent,Thank you for your patience while we investigate.,en,2026-05-01 08:54:43
+MSG-TKT-2026-000015-005,TKT-2026-000015,customer,Simple tasks take far too many steps. This is unacceptable.,en,2026-05-02 02:35:08
+MSG-TKT-2026-000015-006,TKT-2026-000015,agent,Thanks for reaching out. I'm looking into this now.,en,2026-05-02 04:37:52
+MSG-TKT-2026-000016-001,TKT-2026-000016,customer,"लॉगिन के साथ अनुभव अच्छा रहा, लेकिन बिलिंग बेकार है।",hi,2026-04-29 04:35:33
+MSG-TKT-2026-000016-002,TKT-2026-000016,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-04-29 11:43:32
+MSG-TKT-2026-000016-003,TKT-2026-000016,customer,बिलिंग से मैं बहुत खुश हूँ।,hi,2026-04-30 11:16:59
+MSG-TKT-2026-000016-004,TKT-2026-000016,agent,Sorry for the trouble. Could you share your order number?,en,2026-05-01 07:38:32
+MSG-TKT-2026-000016-005,TKT-2026-000016,customer,"ऐप बिल्कुल बेकार है, बहुत निराशा हुई।",hi,2026-05-02 01:28:43
+MSG-TKT-2026-000017-001,TKT-2026-000017,customer,The setup guide has six steps.,en,2026-05-03 08:38:40
+MSG-TKT-2026-000017-002,TKT-2026-000017,agent,Sorry for the trouble. Could you share your order number?,en,2026-05-04 03:34:16
+MSG-TKT-2026-000018-001,TKT-2026-000018,customer,The price is listed per month.,en,2026-05-03 11:20:16
+MSG-TKT-2026-000018-002,TKT-2026-000018,agent,Sorry for the trouble. Could you share your order number?,en,2026-05-03 22:01:46
+MSG-TKT-2026-000018-003,TKT-2026-000018,customer,There are three price tiers.,en,2026-05-04 20:16:48
+MSG-TKT-2026-000019-001,TKT-2026-000019,customer,"El tiempo de entrega es normal, nada especial.",es,2026-05-04 23:25:51
+MSG-TKT-2026-000019-002,TKT-2026-000019,agent,Thank you for your patience while we investigate.,en,2026-05-05 22:55:24
+MSG-TKT-2026-000019-003,TKT-2026-000019,customer,"Muy contento con el tiempo de entrega, funciona de maravilla.",es,2026-05-06 02:22:02
+MSG-TKT-2026-000019-004,TKT-2026-000019,agent,Sorry for the trouble. Could you share your order number?,en,2026-05-06 12:49:11
+MSG-TKT-2026-000020-001,TKT-2026-000020,customer,कस्टमर सपोर्ट के बारे में कुछ खास कहने को नहीं है।,hi,2026-05-05 06:13:25
+MSG-TKT-2026-000020-002,TKT-2026-000020,agent,Sorry for the trouble. Could you share your order number?,en,2026-05-06 01:26:18
+MSG-TKT-2026-000020-003,TKT-2026-000020,customer,कस्टमर सपोर्ट ठीक-ठाक है।,hi,2026-05-06 19:04:32
+MSG-TKT-2026-000020-004,TKT-2026-000020,agent,Sorry for the trouble. Could you share your order number?,en,2026-05-07 22:28:54
+MSG-TKT-2026-000020-005,TKT-2026-000020,customer,कस्टमर सपोर्ट के साथ मेरा अनुभव बहुत अच्छा रहा।,hi,2026-05-08 11:20:58
+MSG-TKT-2026-000021-001,TKT-2026-000021,customer,"Me gusta el reembolso, aunque la interfaz deja mucho que desear.",es,2026-05-06 08:46:08
+MSG-TKT-2026-000021-002,TKT-2026-000021,agent,Sorry for the trouble. Could you share your order number?,en,2026-05-07 14:16:06
+MSG-TKT-2026-000021-003,TKT-2026-000021,customer,"La facturación es excelente, pero la configuración inicial es terrible.",es,2026-05-08 13:51:09
+MSG-TKT-2026-000021-004,TKT-2026-000021,agent,Thanks for reaching out. I'm looking into this now.,en,2026-05-09 01:56:48
+MSG-TKT-2026-000021-005,TKT-2026-000021,customer,El soporte al cliente de Lumo Wallet deja mucho que desear.,es,2026-05-09 07:26:20
+MSG-TKT-2026-000022-001,TKT-2026-000022,customer,"Login super hai, sabko recommend karunga.",hi-Latn,2026-05-07 20:42:42
+MSG-TKT-2026-000022-002,TKT-2026-000022,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-05-08 01:05:17
+MSG-TKT-2026-000023-001,TKT-2026-000023,customer,డెలివరీ తో చాలా సంతోషంగా ఉన్నాను.,te,2026-05-07 22:25:23
+MSG-TKT-2026-000023-002,TKT-2026-000023,agent,I've escalated this to our specialist team.,en,2026-05-08 02:28:14
+MSG-TKT-2026-000023-003,TKT-2026-000023,customer,డెలివరీ తో చాలా సంతోషంగా ఉన్నాను.,te,2026-05-08 11:38:22
+MSG-TKT-2026-000023-004,TKT-2026-000023,agent,Thank you for your patience while we investigate.,en,2026-05-09 09:48:04
+MSG-TKT-2026-000023-005,TKT-2026-000023,customer,డెలివరీ తో చాలా సంతోషంగా ఉన్నాను.,te,2026-05-09 22:50:48
+MSG-TKT-2026-000024-001,TKT-2026-000024,customer,Really frustrated: the agent closed my ticket without fixing anything.,en,2026-05-12 14:22:12
+MSG-TKT-2026-000024-002,TKT-2026-000024,agent,Thanks for reaching out. I'm looking into this now.,en,2026-05-13 02:21:23
+MSG-TKT-2026-000025-001,TKT-2026-000025,customer,"Fantastic, I keep getting locked out of my account. Ten out of ten, would suffer again.",en,2026-05-13 06:49:47
+MSG-TKT-2026-000025-002,TKT-2026-000025,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-05-13 15:06:46
+MSG-TKT-2026-000026-001,TKT-2026-000026,customer,"The app runs smoothly even on my old phone, but my card shows a double charge for one subscription.",en,2026-05-15 05:43:09
+MSG-TKT-2026-000026-002,TKT-2026-000026,agent,Sorry for the trouble. Could you share your order number?,en,2026-05-15 20:23:19
+MSG-TKT-2026-000026-003,TKT-2026-000026,customer,I can never find the settings I need. Very disappointed with Lumo Wallet.,en,2026-05-16 04:52:48
+MSG-TKT-2026-000027-001,TKT-2026-000027,customer,Five stars: logging in with my fingerprint is effortless.,en,2026-05-16 21:18:37
+MSG-TKT-2026-000027-002,TKT-2026-000027,agent,Thank you for your patience while we investigate.,en,2026-05-17 16:12:08
+MSG-TKT-2026-000027-003,TKT-2026-000027,customer,"The password reset worked in seconds, but the invoice was wrong again this month.",en,2026-05-18 11:19:32
+MSG-TKT-2026-000027-004,TKT-2026-000027,agent,Thanks for reaching out. I'm looking into this now.,en,2026-05-19 14:20:33
+MSG-TKT-2026-000027-005,TKT-2026-000027,customer,"Logging in with my fingerprint is effortless, but my card shows a double charge for one subscription.",en,2026-05-20 12:01:24
+MSG-TKT-2026-000028-001,TKT-2026-000028,customer,कीमत के साथ मेरा अनुभव बहुत अच्छा रहा।,hi,2026-05-17 02:34:06
+MSG-TKT-2026-000028-002,TKT-2026-000028,agent,Thank you for your patience while we investigate.,en,2026-05-18 04:58:41
+MSG-TKT-2026-000028-003,TKT-2026-000028,customer,कीमत के साथ मेरा अनुभव बहुत अच्छा रहा।,hi,2026-05-18 07:16:13
+MSG-TKT-2026-000028-004,TKT-2026-000028,agent,I've escalated this to our specialist team.,en,2026-05-18 21:24:13
+MSG-TKT-2026-000029-001,TKT-2026-000029,customer,Pairing the device worked the first time. Really happy with Velto Watch.,en,2026-05-17 13:53:30
+MSG-TKT-2026-000029-002,TKT-2026-000029,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-05-18 10:40:11
+MSG-TKT-2026-000029-003,TKT-2026-000029,customer,"Wow, the setup failed three times before it worked. Exactly what I wanted from Velto Watch.",en,2026-05-19 09:49:15
+MSG-TKT-2026-000029-004,TKT-2026-000029,agent,Thank you for your patience while we investigate.,en,2026-05-19 15:58:01
+MSG-TKT-2026-000029-005,TKT-2026-000029,customer,Just noting that setup asks for your email and a password.,en,2026-05-20 14:55:57
+MSG-TKT-2026-000029-006,TKT-2026-000029,agent,Thanks for reaching out. I'm looking into this now.,en,2026-05-21 04:08:50
+MSG-TKT-2026-000030-001,TKT-2026-000030,customer,I was billed for a plan I never chose. I expected much better from StreamNest Premium.,en,2026-05-25 00:38:47
+MSG-TKT-2026-000030-002,TKT-2026-000030,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-05-25 12:08:48
+MSG-TKT-2026-000030-003,TKT-2026-000030,customer,Using StreamNest Premium for a while now. The bill is generated on the first of each month.,en,2026-05-26 17:28:26
+MSG-TKT-2026-000030-004,TKT-2026-000030,agent,I've escalated this to our specialist team.,en,2026-05-26 23:52:43
+MSG-TKT-2026-000031-001,TKT-2026-000031,customer,"The refund was rejected for no reason, although same-day delivery actually arrived the same day.",en,2026-05-27 09:45:14
+MSG-TKT-2026-000031-002,TKT-2026-000031,agent,Thank you for your patience while we investigate.,en,2026-05-28 06:51:37
+MSG-TKT-2026-000031-003,TKT-2026-000031,customer,"It is far too expensive for what it does, although the courier was polite and careful.",en,2026-05-29 01:31:49
+MSG-TKT-2026-000032-001,TKT-2026-000032,customer,I contacted support through chat.,en,2026-05-30 08:24:43
+MSG-TKT-2026-000032-002,TKT-2026-000032,agent,Thanks for reaching out. I'm looking into this now.,en,2026-05-31 00:25:40
+MSG-TKT-2026-000032-003,TKT-2026-000032,customer,The agent closed my ticket without fixing anything. This is unacceptable.,en,2026-05-31 13:25:18
+MSG-TKT-2026-000033-001,TKT-2026-000033,customer,"I found every setting without a manual, but it stopped working after two weeks.",en,2026-05-30 10:57:23
+MSG-TKT-2026-000033-002,TKT-2026-000033,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-05-31 12:27:11
+MSG-TKT-2026-000033-003,TKT-2026-000033,customer,"The materials are sturdy and well finished, would recommend Aurelo Speaker.",en,2026-05-31 19:15:12
+MSG-TKT-2026-000034-001,TKT-2026-000034,customer,"Can't complain about the refund, no issues whatsoever.",en,2026-06-03 02:30:51
+MSG-TKT-2026-000034-002,TKT-2026-000034,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-06-03 19:42:18
+MSG-TKT-2026-000034-003,TKT-2026-000034,customer,"Mixed feelings about StreamNest Premium: the return and refund were completely hassle free, yet simple tasks take far too many steps.",en,2026-06-03 21:29:50
+MSG-TKT-2026-000034-004,TKT-2026-000034,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-06-04 17:33:29
+MSG-TKT-2026-000034-005,TKT-2026-000034,customer,"The refund is not bad at all, to be honest.",en,2026-06-04 22:09:19
+MSG-TKT-2026-000035-001,TKT-2026-000035,customer,"పేమెంట్ అద్భుతంగా ఉంది, కానీ రీఫండ్ అస్సలు బాగాలేదు.",te,2026-06-03 19:29:32
+MSG-TKT-2026-000035-002,TKT-2026-000035,agent,I've escalated this to our specialist team.,en,2026-06-04 08:42:39
+MSG-TKT-2026-000035-003,TKT-2026-000035,customer,పేమెంట్ అస్సలు బాగాలేదు.,te,2026-06-04 13:56:17
+MSG-TKT-2026-000036-001,TKT-2026-000036,customer,"Honestly, pairing the device worked the first time. Great job.",en,2026-06-04 20:31:51
+MSG-TKT-2026-000036-002,TKT-2026-000036,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-06-05 06:11:56
+MSG-TKT-2026-000037-001,TKT-2026-000037,customer,"Mixed feelings about StreamNest Premium: logging in with my fingerprint is effortless, yet the price went up again without warning.",en,2026-06-06 15:51:46
+MSG-TKT-2026-000037-002,TKT-2026-000037,agent,I've escalated this to our specialist team.,en,2026-06-06 17:45:06
+MSG-TKT-2026-000037-003,TKT-2026-000037,customer,"Mixed feelings about StreamNest Premium: the password reset worked in seconds, yet they promised a refund and then went silent.",en,2026-06-06 23:23:30
+MSG-TKT-2026-000038-001,TKT-2026-000038,customer,Just noting that the setup guide has six steps.,en,2026-06-06 23:14:05
+MSG-TKT-2026-000038-002,TKT-2026-000038,agent,I've escalated this to our specialist team.,en,2026-06-07 18:28:02
+MSG-TKT-2026-000038-003,TKT-2026-000038,customer,Activation got stuck on the first screen. I expected much better from StreamNest Premium.,en,2026-06-07 23:02:56
+MSG-TKT-2026-000038-004,TKT-2026-000038,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-06-09 03:22:36
+MSG-TKT-2026-000038-005,TKT-2026-000038,customer,The setup failed three times before it worked. Very disappointed with StreamNest Premium.,en,2026-06-10 03:29:39
+MSG-TKT-2026-000039-001,TKT-2026-000039,customer,Support asked for my order number.,en,2026-06-07 07:39:56
+MSG-TKT-2026-000039-002,TKT-2026-000039,agent,Thanks for reaching out. I'm looking into this now.,en,2026-06-07 19:23:45
+MSG-TKT-2026-000040-001,TKT-2026-000040,customer,"They promised a refund and then went silent, although the price is very fair for what you get.",en,2026-06-07 16:18:41
+MSG-TKT-2026-000040-002,TKT-2026-000040,agent,Thanks for reaching out. I'm looking into this now.,en,2026-06-07 20:07:36
+MSG-TKT-2026-000040-003,TKT-2026-000040,customer,Even my parents figured it out quickly. Really happy with VaultBox Plus.,en,2026-06-07 23:35:09
+MSG-TKT-2026-000041-001,TKT-2026-000041,customer,"Fantastic, my card shows a double charge for one subscription. Ten out of ten, would suffer again.",en,2026-06-08 17:10:34
+MSG-TKT-2026-000041-002,TKT-2026-000041,agent,Sorry for the trouble. Could you share your order number?,en,2026-06-09 03:05:33
+MSG-TKT-2026-000041-003,TKT-2026-000041,customer,The payment went through exactly once. Really happy with VaultBox Plus.,en,2026-06-10 07:37:34
+MSG-TKT-2026-000041-004,TKT-2026-000041,agent,Thanks for reaching out. I'm looking into this now.,en,2026-06-11 05:18:46
+MSG-TKT-2026-000041-005,TKT-2026-000041,customer,Really frustrated: my card shows a double charge for one subscription.,en,2026-06-11 14:17:29
+MSG-TKT-2026-000041-006,TKT-2026-000041,agent,I've escalated this to our specialist team.,en,2026-06-12 08:50:05
+MSG-TKT-2026-000042-001,TKT-2026-000042,customer,Using FitLoop Annual for a while now. The main menu has five tabs.,en,2026-06-10 13:49:02
+MSG-TKT-2026-000042-002,TKT-2026-000042,agent,Thanks for reaching out. I'm looking into this now.,en,2026-06-10 20:33:35
+MSG-TKT-2026-000042-003,TKT-2026-000042,customer,"Mixed feelings about FitLoop Annual: even my parents figured it out quickly, yet I am still waiting for my refund after a month.",en,2026-06-11 12:57:39
+MSG-TKT-2026-000042-004,TKT-2026-000042,agent,Thank you for your patience while we investigate.,en,2026-06-12 13:54:24
+MSG-TKT-2026-000043-001,TKT-2026-000043,customer,The app crashes every time I open it. I expected much better from TrekTrack.,en,2026-06-11 12:01:02
+MSG-TKT-2026-000043-002,TKT-2026-000043,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-06-11 22:52:32
+MSG-TKT-2026-000043-003,TKT-2026-000043,customer,Really frustrated: screens take forever to load.,en,2026-06-12 21:31:25
+MSG-TKT-2026-000043-004,TKT-2026-000043,agent,I've escalated this to our specialist team.,en,2026-06-13 02:22:05
+MSG-TKT-2026-000043-005,TKT-2026-000043,customer,The app crashes every time I open it. I expected much better from TrekTrack.,en,2026-06-13 04:08:15
+MSG-TKT-2026-000043-006,TKT-2026-000043,agent,I've escalated this to our specialist team.,en,2026-06-13 16:21:57
+MSG-TKT-2026-000044-001,TKT-2026-000044,customer,"Delivery time super hai, sabko recommend karunga.",hi-Latn,2026-06-12 14:44:47
+MSG-TKT-2026-000044-002,TKT-2026-000044,agent,I've escalated this to our specialist team.,en,2026-06-13 19:54:49
+MSG-TKT-2026-000044-003,TKT-2026-000044,customer,Delivery time theek-thaak hai.,hi-Latn,2026-06-14 08:50:25
+MSG-TKT-2026-000045-001,TKT-2026-000045,customer,रिफंड के बारे में कुछ खास कहने को नहीं है।,hi,2026-06-12 15:31:26
+MSG-TKT-2026-000045-002,TKT-2026-000045,agent,Thank you for your patience while we investigate.,en,2026-06-12 18:55:16
+MSG-TKT-2026-000045-003,TKT-2026-000045,customer,रिफंड से मैं बहुत परेशान हूँ।,hi,2026-06-13 19:23:44
+MSG-TKT-2026-000045-004,TKT-2026-000045,agent,Thanks for reaching out. I'm looking into this now.,en,2026-06-15 00:29:07
+MSG-TKT-2026-000045-005,TKT-2026-000045,customer,"रिफंड शानदार है, सबको सलाह दूँगा।",hi,2026-06-15 22:14:19
+MSG-TKT-2026-000045-006,TKT-2026-000045,agent,Thanks for reaching out. I'm looking into this now.,en,2026-06-16 22:46:16
+MSG-TKT-2026-000046-001,TKT-2026-000046,customer,"The interface is not bad at all, to be honest.",en,2026-06-13 16:55:00
+MSG-TKT-2026-000046-002,TKT-2026-000046,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-06-13 18:38:39
+MSG-TKT-2026-000046-003,TKT-2026-000046,customer,Five stars: the interface is clean and easy to use.,en,2026-06-13 23:00:12
+MSG-TKT-2026-000046-004,TKT-2026-000046,agent,Thank you for your patience while we investigate.,en,2026-06-14 08:12:47
+MSG-TKT-2026-000047-001,TKT-2026-000047,customer,"Wow, the app freezes in the middle of checkout. Exactly what I wanted from Velto Watch.",en,2026-06-18 06:39:50
+MSG-TKT-2026-000047-002,TKT-2026-000047,agent,Thanks for reaching out. I'm looking into this now.,en,2026-06-19 03:21:19
+MSG-TKT-2026-000047-003,TKT-2026-000047,customer,Just noting that the app takes a few seconds to start.,en,2026-06-20 09:13:02
+MSG-TKT-2026-000047-004,TKT-2026-000047,agent,Thanks for reaching out. I'm looking into this now.,en,2026-06-20 12:19:04
+MSG-TKT-2026-000047-005,TKT-2026-000047,customer,"The app is not good, not even close.",en,2026-06-21 11:29:53
+MSG-TKT-2026-000047-006,TKT-2026-000047,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-06-21 14:48:05
+MSG-TKT-2026-000048-001,TKT-2026-000048,customer,The app freezes in the middle of checkout. I expected much better from TrekTrack.,en,2026-06-19 22:23:56
+MSG-TKT-2026-000048-002,TKT-2026-000048,agent,Thank you for your patience while we investigate.,en,2026-06-21 03:06:27
+MSG-TKT-2026-000048-003,TKT-2026-000048,customer,"The app is not good, not even close.",en,2026-06-21 20:24:12
+MSG-TKT-2026-000049-001,TKT-2026-000049,customer,Just noting that I contacted support through chat.,en,2026-06-20 17:22:58
+MSG-TKT-2026-000049-002,TKT-2026-000049,agent,Sorry for the trouble. Could you share your order number?,en,2026-06-20 18:28:28
+MSG-TKT-2026-000050-001,TKT-2026-000050,customer,"The payment went through exactly once, but the price went up again without warning.",en,2026-06-26 08:10:41
+MSG-TKT-2026-000050-002,TKT-2026-000050,agent,I've escalated this to our specialist team.,en,2026-06-26 10:46:37
+MSG-TKT-2026-000050-003,TKT-2026-000050,customer,Really frustrated: my card shows a double charge for one subscription.,en,2026-06-27 00:27:44
+MSG-TKT-2026-000050-004,TKT-2026-000050,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-06-28 05:30:01
+MSG-TKT-2026-000051-001,TKT-2026-000051,customer,They promised a refund and then went silent. I expected much better from Aurelo Speaker.,en,2026-06-27 07:45:09
+MSG-TKT-2026-000051-002,TKT-2026-000051,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-06-27 20:33:36
+MSG-TKT-2026-000051-003,TKT-2026-000051,customer,"They refunded me without any argument, would recommend Aurelo Speaker.",en,2026-06-28 10:41:00
+MSG-TKT-2026-000051-004,TKT-2026-000051,agent,Thank you for your patience while we investigate.,en,2026-06-28 21:57:47
+MSG-TKT-2026-000051-005,TKT-2026-000051,customer,My refund arrived within two days. Really happy with Aurelo Speaker.,en,2026-06-28 23:24:26
+MSG-TKT-2026-000051-006,TKT-2026-000051,agent,Thank you for your patience while we investigate.,en,2026-06-29 02:19:39
+MSG-TKT-2026-000052-001,TKT-2026-000052,customer,"Two-factor login is quick and reassuring, but support kept me on hold for an hour.",en,2026-06-29 18:02:27
+MSG-TKT-2026-000052-002,TKT-2026-000052,agent,Thank you for your patience while we investigate.,en,2026-06-30 23:57:02
+MSG-TKT-2026-000052-003,TKT-2026-000052,customer,Just noting that the main menu has five tabs.,en,2026-07-01 20:13:21
+MSG-TKT-2026-000052-004,TKT-2026-000052,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-07-02 17:09:07
+MSG-TKT-2026-000052-005,TKT-2026-000052,customer,"Mixed feelings about VaultBox Plus: they refunded me without any argument, yet the invoice was wrong again this month.",en,2026-07-03 05:39:56
+MSG-TKT-2026-000052-006,TKT-2026-000052,agent,Thanks for reaching out. I'm looking into this now.,en,2026-07-03 11:47:13
+MSG-TKT-2026-000053-001,TKT-2026-000053,customer,ధర తో చాలా సంతోషంగా ఉన్నాను.,te,2026-06-29 21:34:24
+MSG-TKT-2026-000053-002,TKT-2026-000053,agent,Sorry for the trouble. Could you share your order number?,en,2026-06-30 14:16:02
+MSG-TKT-2026-000053-003,TKT-2026-000053,customer,"ధర బాగుంది, కానీ రీఫండ్ చాలా ఘోరంగా ఉంది.",te,2026-07-01 03:53:05
+MSG-TKT-2026-000053-004,TKT-2026-000053,agent,Sorry for the trouble. Could you share your order number?,en,2026-07-01 16:32:06
+MSG-TKT-2026-000053-005,TKT-2026-000053,customer,ధర మామూలుగా ఉంది.,te,2026-07-02 04:09:08
+MSG-TKT-2026-000054-001,TKT-2026-000054,customer,"The price went up again without warning, although the support agent solved my problem in one call.",en,2026-06-30 05:37:17
+MSG-TKT-2026-000054-002,TKT-2026-000054,agent,Sorry for the trouble. Could you share your order number?,en,2026-06-30 13:32:42
+MSG-TKT-2026-000054-003,TKT-2026-000054,customer,Just noting that the refund goes back to the original payment method.,en,2026-07-01 15:25:33
+MSG-TKT-2026-000054-004,TKT-2026-000054,agent,Sorry for the trouble. Could you share your order number?,en,2026-07-02 00:24:07
+MSG-TKT-2026-000054-005,TKT-2026-000054,customer,I can never find the settings I need. I expected much better from FitLoop Annual.,en,2026-07-02 15:13:53
+MSG-TKT-2026-000055-001,TKT-2026-000055,customer,"The refund is not good, not even close.",en,2026-06-30 05:56:04
+MSG-TKT-2026-000055-002,TKT-2026-000055,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-07-01 08:47:11
+MSG-TKT-2026-000056-001,TKT-2026-000056,customer,"कीमत शानदार है, लेकिन बिलिंग बिल्कुल बेकार है।",hi,2026-06-30 18:21:57
+MSG-TKT-2026-000056-002,TKT-2026-000056,agent,I've escalated this to our specialist team.,en,2026-07-01 18:36:08
+MSG-TKT-2026-000056-003,TKT-2026-000056,customer,ऐप के साथ मेरा अनुभव बहुत खराब रहा।,hi,2026-07-02 08:32:09
+MSG-TKT-2026-000057-001,TKT-2026-000057,customer,Really frustrated: the payment was taken two times and nobody can explain why.,en,2026-07-03 11:57:53
+MSG-TKT-2026-000057-002,TKT-2026-000057,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-07-04 17:08:10
+MSG-TKT-2026-000057-003,TKT-2026-000057,customer,Really frustrated: I was charged twice for the same order.,en,2026-07-05 19:55:37
+MSG-TKT-2026-000057-004,TKT-2026-000057,agent,Thank you for your patience while we investigate.,en,2026-07-07 00:47:42
+MSG-TKT-2026-000058-001,TKT-2026-000058,customer,El cobro es aceptable.,es,2026-07-03 22:04:38
+MSG-TKT-2026-000058-002,TKT-2026-000058,agent,Thank you for your patience while we investigate.,en,2026-07-05 00:52:20
+MSG-TKT-2026-000058-003,TKT-2026-000058,customer,"El cobro de TrekTrack es genial, lo recomiendo.",es,2026-07-05 21:31:25
+MSG-TKT-2026-000058-004,TKT-2026-000058,agent,I've escalated this to our specialist team.,en,2026-07-06 07:14:06
+MSG-TKT-2026-000059-001,TKT-2026-000059,customer,Billing achha hai but customer support bilkul bekaar hai.,hi-Latn,2026-07-05 10:21:49
+MSG-TKT-2026-000059-002,TKT-2026-000059,agent,I've escalated this to our specialist team.,en,2026-07-06 13:26:50
+MSG-TKT-2026-000059-003,TKT-2026-000059,customer,VaultBox Plus ka price ekdum mast hai yaar.,hi-Latn,2026-07-07 12:16:22
+MSG-TKT-2026-000059-004,TKT-2026-000059,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-07-07 16:28:38
+MSG-TKT-2026-000059-005,TKT-2026-000059,customer,Customer support theek-thaak hai.,hi-Latn,2026-07-08 21:33:29
+MSG-TKT-2026-000060-001,TKT-2026-000060,customer,"La configuración inicial es excelente, estoy muy satisfecho.",es,2026-07-07 14:02:15
+MSG-TKT-2026-000060-002,TKT-2026-000060,agent,Thanks for reaching out. I'm looking into this now.,en,2026-07-07 20:03:56
+MSG-TKT-2026-000060-003,TKT-2026-000060,customer,"La configuración inicial es normal, nada especial.",es,2026-07-08 23:45:42
+MSG-TKT-2026-000060-004,TKT-2026-000060,agent,I've escalated this to our specialist team.,en,2026-07-09 17:53:49
+MSG-TKT-2026-000060-005,TKT-2026-000060,customer,"La configuración inicial está bien, pero el reembolso es un desastre.",es,2026-07-09 20:43:19
+MSG-TKT-2026-000061-001,TKT-2026-000061,customer,I contacted support through chat.,en,2026-07-10 16:02:09
+MSG-TKT-2026-000061-002,TKT-2026-000061,agent,Sorry for the trouble. Could you share your order number?,en,2026-07-11 18:05:40
+MSG-TKT-2026-000061-003,TKT-2026-000061,customer,"Support replied within minutes and was very kind, but the price went up again without warning.",en,2026-07-12 20:02:41
+MSG-TKT-2026-000062-001,TKT-2026-000062,customer,Really frustrated: I was billed for a plan I never chose.,en,2026-07-11 09:30:55
+MSG-TKT-2026-000062-002,TKT-2026-000062,agent,Sorry for the trouble. Could you share your order number?,en,2026-07-12 08:42:26
+MSG-TKT-2026-000062-003,TKT-2026-000062,customer,"I keep getting locked out of my account, although the invoice was clear and easy to understand.",en,2026-07-12 13:01:27
+MSG-TKT-2026-000062-004,TKT-2026-000062,agent,Sorry for the trouble. Could you share your order number?,en,2026-07-12 22:57:26
+MSG-TKT-2026-000062-005,TKT-2026-000062,customer,Using Lumo Wallet for a while now. The bill is generated on the first of each month.,en,2026-07-14 01:37:08
+MSG-TKT-2026-000063-001,TKT-2026-000063,customer,"Same-day delivery actually arrived the same day, but the casing cracked on the first day.",en,2026-07-11 15:30:33
+MSG-TKT-2026-000063-002,TKT-2026-000063,agent,I've escalated this to our specialist team.,en,2026-07-12 16:57:44
+MSG-TKT-2026-000063-003,TKT-2026-000063,customer,"It still works perfectly after months of daily use, would recommend QuickDrop Express.",en,2026-07-13 13:02:54
+MSG-TKT-2026-000063-004,TKT-2026-000063,agent,Thanks for reaching out. I'm looking into this now.,en,2026-07-14 01:43:33
+MSG-TKT-2026-000063-005,TKT-2026-000063,customer,"Mixed feelings about QuickDrop Express: the chat agent went above and beyond, yet the delivery was handled carelessly and the box was crushed.",en,2026-07-14 10:34:42
+MSG-TKT-2026-000063-006,TKT-2026-000063,agent,Thank you for your patience while we investigate.,en,2026-07-15 12:48:47
+MSG-TKT-2026-000064-001,TKT-2026-000064,customer,"The delivery slot was missed twice in a row, although the discount made it a real bargain.",en,2026-07-14 21:03:35
+MSG-TKT-2026-000064-002,TKT-2026-000064,agent,Thanks for reaching out. I'm looking into this now.,en,2026-07-15 03:11:27
+MSG-TKT-2026-000065-001,TKT-2026-000065,customer,Setup? It is what it is.,en,2026-07-15 03:23:16
+MSG-TKT-2026-000065-002,TKT-2026-000065,agent,Thank you for your patience while we investigate.,en,2026-07-15 14:11:04
+MSG-TKT-2026-000066-001,TKT-2026-000066,customer,Really frustrated: they promised a refund and then went silent.,en,2026-07-15 12:14:23
+MSG-TKT-2026-000066-002,TKT-2026-000066,agent,I've escalated this to our specialist team.,en,2026-07-16 03:42:09
+MSG-TKT-2026-000066-003,TKT-2026-000066,customer,"The refund is not bad at all, to be honest.",en,2026-07-16 09:23:29
+MSG-TKT-2026-000066-004,TKT-2026-000066,agent,Thank you for your patience while we investigate.,en,2026-07-17 09:00:24
+MSG-TKT-2026-000066-005,TKT-2026-000066,customer,Just noting that the refund goes back to the original payment method.,en,2026-07-18 14:32:06
+MSG-TKT-2026-000067-001,TKT-2026-000067,customer,"Oh great, the agent closed my ticket without fixing anything. Just perfect.",en,2026-07-23 01:33:35
+MSG-TKT-2026-000067-002,TKT-2026-000067,agent,Thanks for reaching out. I'm looking into this now.,en,2026-07-24 03:07:42
+MSG-TKT-2026-000067-003,TKT-2026-000067,customer,Not sure how I feel about the support team yet.,en,2026-07-25 00:02:22
+MSG-TKT-2026-000067-004,TKT-2026-000067,agent,I've escalated this to our specialist team.,en,2026-07-25 10:19:23
+MSG-TKT-2026-000067-005,TKT-2026-000067,customer,Five stars: support replied within minutes and was very kind.,en,2026-07-25 18:20:54
+MSG-TKT-2026-000067-006,TKT-2026-000067,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-07-26 21:15:08
+MSG-TKT-2026-000068-001,TKT-2026-000068,customer,The chat agent went above and beyond. Really happy with CrateFresh Weekly.,en,2026-07-28 05:55:35
+MSG-TKT-2026-000068-002,TKT-2026-000068,agent,Thank you for your patience while we investigate.,en,2026-07-28 08:55:04
+MSG-TKT-2026-000069-001,TKT-2026-000069,customer,Just noting that I receive the invoice by email.,en,2026-08-01 13:31:29
+MSG-TKT-2026-000069-002,TKT-2026-000069,agent,Thanks for reaching out. I'm looking into this now.,en,2026-08-02 02:36:32
+MSG-TKT-2026-000070-001,TKT-2026-000070,customer,"The setup is... well, it's the setup.",en,2026-08-04 02:31:36
+MSG-TKT-2026-000070-002,TKT-2026-000070,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-08-05 08:14:01
+MSG-TKT-2026-000070-003,TKT-2026-000070,customer,"The setup could be better, could be worse.",en,2026-08-05 13:03:33
+MSG-TKT-2026-000070-004,TKT-2026-000070,agent,I've escalated this to our specialist team.,en,2026-08-06 14:02:35
+MSG-TKT-2026-000070-005,TKT-2026-000070,customer,"Honestly, setup took less than five minutes. Great job.",en,2026-08-07 00:12:36
+MSG-TKT-2026-000071-001,TKT-2026-000071,customer,"The setup is... well, it's the setup.",en,2026-08-06 19:19:48
+MSG-TKT-2026-000071-002,TKT-2026-000071,agent,Sorry for the trouble. Could you share your order number?,en,2026-08-07 10:20:16
+MSG-TKT-2026-000071-003,TKT-2026-000071,customer,"Mixed feelings about TrekTrack: the welcome guide made getting started easy, yet the invoice was wrong again this month.",en,2026-08-08 03:14:08
+MSG-TKT-2026-000071-004,TKT-2026-000071,agent,Thank you for your patience while we investigate.,en,2026-08-09 03:27:34
+MSG-TKT-2026-000071-005,TKT-2026-000071,customer,The setup failed three times before it worked. I expected much better from TrekTrack.,en,2026-08-09 19:03:03
+MSG-TKT-2026-000071-006,TKT-2026-000071,agent,Sorry for the trouble. Could you share your order number?,en,2026-08-10 06:27:36
+MSG-TKT-2026-000072-001,TKT-2026-000072,customer,Interface? It is what it is.,en,2026-08-09 19:44:19
+MSG-TKT-2026-000072-002,TKT-2026-000072,agent,I've escalated this to our specialist team.,en,2026-08-10 17:54:03
+MSG-TKT-2026-000073-001,TKT-2026-000073,customer,"Can't complain about the refund, no issues whatsoever.",en,2026-08-10 11:47:19
+MSG-TKT-2026-000073-002,TKT-2026-000073,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-08-10 23:25:29
+MSG-TKT-2026-000074-001,TKT-2026-000074,customer,"Oh great, I keep getting locked out of my account. Just perfect.",en,2026-08-11 10:53:34
+MSG-TKT-2026-000074-002,TKT-2026-000074,agent,Sorry for the trouble. Could you share your order number?,en,2026-08-12 15:54:38
+MSG-TKT-2026-000074-003,TKT-2026-000074,customer,"The login is not bad at all, to be honest.",en,2026-08-13 12:33:30
+MSG-TKT-2026-000075-001,TKT-2026-000075,customer,Not sure how I feel about the build quality yet.,en,2026-08-16 05:24:42
+MSG-TKT-2026-000075-002,TKT-2026-000075,agent,Thank you for your patience while we investigate.,en,2026-08-16 07:08:11
+MSG-TKT-2026-000075-003,TKT-2026-000075,customer,"Mixed feelings about CrateFresh Weekly: it still works perfectly after months of daily use, yet support kept me on hold for an hour.",en,2026-08-16 10:28:10
+MSG-TKT-2026-000075-004,TKT-2026-000075,agent,Sorry for the trouble. Could you share your order number?,en,2026-08-17 10:41:48
+MSG-TKT-2026-000075-005,TKT-2026-000075,customer,"The materials are sturdy and well finished, but I am still waiting for my refund after a month.",en,2026-08-18 10:26:32
+MSG-TKT-2026-000076-001,TKT-2026-000076,customer,रिफंड सामान्य है।,hi,2026-08-18 21:22:08
+MSG-TKT-2026-000076-002,TKT-2026-000076,agent,I've escalated this to our specialist team.,en,2026-08-19 00:02:38
+MSG-TKT-2026-000076-003,TKT-2026-000076,customer,रिफंड के बारे में कुछ खास कहने को नहीं है।,hi,2026-08-19 22:24:06
+MSG-TKT-2026-000076-004,TKT-2026-000076,agent,Thank you for your patience while we investigate.,en,2026-08-20 21:05:33
+MSG-TKT-2026-000076-005,TKT-2026-000076,customer,रिफंड ठीक-ठाक है।,hi,2026-08-21 12:20:52
+MSG-TKT-2026-000077-001,TKT-2026-000077,customer,I would not call the login acceptable.,en,2026-08-20 05:11:31
+MSG-TKT-2026-000077-002,TKT-2026-000077,agent,I've escalated this to our specialist team.,en,2026-08-21 03:51:36
+MSG-TKT-2026-000077-003,TKT-2026-000077,customer,"The password reset worked in seconds, but it is far too expensive for what it does.",en,2026-08-21 16:11:54
+MSG-TKT-2026-000077-004,TKT-2026-000077,agent,I've escalated this to our specialist team.,en,2026-08-22 05:50:39
+MSG-TKT-2026-000077-005,TKT-2026-000077,customer,Love it when the login page rejects my correct password. Truly a premium experience.,en,2026-08-23 07:39:18
+MSG-TKT-2026-000078-001,TKT-2026-000078,customer,"Muy contento con la configuración inicial, funciona de maravilla.",es,2026-08-21 07:02:36
+MSG-TKT-2026-000078-002,TKT-2026-000078,agent,Thank you for your patience while we investigate.,en,2026-08-21 09:21:07
+MSG-TKT-2026-000078-003,TKT-2026-000078,customer,Sobre la configuración inicial: funciona como se espera.,es,2026-08-21 16:48:36
+MSG-TKT-2026-000078-004,TKT-2026-000078,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-08-22 14:23:58
+MSG-TKT-2026-000079-001,TKT-2026-000079,customer,"It is far too expensive for what it does, although the welcome guide made getting started easy.",en,2026-08-21 16:37:55
+MSG-TKT-2026-000079-002,TKT-2026-000079,agent,Thank you for your patience while we investigate.,en,2026-08-22 19:31:36
+MSG-TKT-2026-000079-003,TKT-2026-000079,customer,Just noting that the app was updated to version 5 last week.,en,2026-08-23 18:22:32
+MSG-TKT-2026-000080-001,TKT-2026-000080,customer,रिफंड से मैं बहुत परेशान हूँ।,hi,2026-08-24 03:19:22
+MSG-TKT-2026-000080-002,TKT-2026-000080,agent,Thank you for your patience while we investigate.,en,2026-08-25 05:24:29
+MSG-TKT-2026-000080-003,TKT-2026-000080,customer,"रिफंड के साथ अनुभव अच्छा रहा, लेकिन लॉगिन बेकार है।",hi,2026-08-25 18:03:06
+MSG-TKT-2026-000080-004,TKT-2026-000080,agent,Thank you for your patience while we investigate.,en,2026-08-26 02:47:19
+MSG-TKT-2026-000081-001,TKT-2026-000081,customer,The build quality feels premium and solid. Really happy with Orbix Router.,en,2026-08-24 12:48:25
+MSG-TKT-2026-000081-002,TKT-2026-000081,agent,I've escalated this to our specialist team.,en,2026-08-25 02:47:07
+MSG-TKT-2026-000081-003,TKT-2026-000081,customer,"Can't complain about the build quality, no issues whatsoever.",en,2026-08-25 19:53:23
+MSG-TKT-2026-000081-004,TKT-2026-000081,agent,Sorry for the trouble. Could you share your order number?,en,2026-08-26 00:04:36
+MSG-TKT-2026-000081-005,TKT-2026-000081,customer,Just noting that it is about the size of a paperback book.,en,2026-08-26 06:03:00
+MSG-TKT-2026-000081-006,TKT-2026-000081,agent,Thanks for reaching out. I'm looking into this now.,en,2026-08-26 23:25:41
+MSG-TKT-2026-000082-001,TKT-2026-000082,customer,"The build quality feels premium and solid, would recommend QuickDrop Express.",en,2026-08-24 21:32:08
+MSG-TKT-2026-000082-002,TKT-2026-000082,agent,Sorry for the trouble. Could you share your order number?,en,2026-08-26 01:49:43
+MSG-TKT-2026-000082-003,TKT-2026-000082,customer,"The invoice was wrong again this month, although the materials are sturdy and well finished.",en,2026-08-27 04:46:44
+MSG-TKT-2026-000082-004,TKT-2026-000082,agent,I've escalated this to our specialist team.,en,2026-08-28 04:05:21
+MSG-TKT-2026-000082-005,TKT-2026-000082,customer,"Mixed feelings about QuickDrop Express: the build quality feels premium and solid, yet the delivery slot was missed twice in a row.",en,2026-08-28 23:42:13
+MSG-TKT-2026-000083-001,TKT-2026-000083,customer,"Can't complain about the app, no issues whatsoever.",en,2026-08-29 09:38:11
+MSG-TKT-2026-000083-002,TKT-2026-000083,agent,Thanks for reaching out. I'm looking into this now.,en,2026-08-29 19:00:07
+MSG-TKT-2026-000083-003,TKT-2026-000083,customer,Just noting that the app takes a few seconds to start.,en,2026-08-30 00:13:52
+MSG-TKT-2026-000083-004,TKT-2026-000083,agent,I've escalated this to our specialist team.,en,2026-08-30 16:15:16
+MSG-TKT-2026-000083-005,TKT-2026-000083,customer,The app takes a few seconds to start.,en,2026-08-31 09:22:26
+MSG-TKT-2026-000084-001,TKT-2026-000084,customer,Using Aurelo Speaker for a while now. The estimated delivery date moved by one day.,en,2026-09-01 17:38:50
+MSG-TKT-2026-000084-002,TKT-2026-000084,agent,Thanks for reaching out. I'm looking into this now.,en,2026-09-01 21:05:29
+MSG-TKT-2026-000084-003,TKT-2026-000084,customer,The package is a week overdue with no update. This is unacceptable.,en,2026-09-02 20:55:04
+MSG-TKT-2026-000084-004,TKT-2026-000084,agent,Thank you for your patience while we investigate.,en,2026-09-03 05:08:25
+MSG-TKT-2026-000084-005,TKT-2026-000084,customer,Same-day delivery actually arrived the same day. Really happy with Aurelo Speaker.,en,2026-09-04 08:21:32
+MSG-TKT-2026-000084-006,TKT-2026-000084,agent,Thanks for reaching out. I'm looking into this now.,en,2026-09-04 12:09:45
+MSG-TKT-2026-000085-001,TKT-2026-000085,customer,"The app is not bad at all, to be honest.",en,2026-09-06 03:36:18
+MSG-TKT-2026-000085-002,TKT-2026-000085,agent,Thanks for reaching out. I'm looking into this now.,en,2026-09-06 15:03:21
+MSG-TKT-2026-000085-003,TKT-2026-000085,customer,"The app is not bad at all, to be honest.",en,2026-09-07 13:24:22
+MSG-TKT-2026-000086-001,TKT-2026-000086,customer,Billing added fees nobody explained. Very disappointed with StreamNest Premium.,en,2026-09-07 20:35:06
+MSG-TKT-2026-000086-002,TKT-2026-000086,agent,I've escalated this to our specialist team.,en,2026-09-08 13:39:52
+MSG-TKT-2026-000086-003,TKT-2026-000086,customer,The bill is generated on the first of each month.,en,2026-09-09 17:26:12
+MSG-TKT-2026-000086-004,TKT-2026-000086,agent,Sorry for the trouble. Could you share your order number?,en,2026-09-09 23:26:30
+MSG-TKT-2026-000086-005,TKT-2026-000086,customer,The bill is generated on the first of each month.,en,2026-09-10 10:34:48
+MSG-TKT-2026-000087-001,TKT-2026-000087,customer,Just noting that I contacted support through chat.,en,2026-09-08 10:55:05
+MSG-TKT-2026-000087-002,TKT-2026-000087,agent,Thank you for your patience while we investigate.,en,2026-09-09 01:47:42
+MSG-TKT-2026-000087-003,TKT-2026-000087,customer,I contacted support through chat.,en,2026-09-09 04:11:20
+MSG-TKT-2026-000088-001,TKT-2026-000088,customer,Just noting that the main menu has five tabs.,en,2026-09-10 20:25:49
+MSG-TKT-2026-000088-002,TKT-2026-000088,agent,Sorry for the trouble. Could you share your order number?,en,2026-09-11 12:47:05
+MSG-TKT-2026-000089-001,TKT-2026-000089,customer,"The login is not bad at all, to be honest.",en,2026-09-11 18:03:47
+MSG-TKT-2026-000089-002,TKT-2026-000089,agent,Thanks for reaching out. I'm looking into this now.,en,2026-09-11 19:41:34
+MSG-TKT-2026-000089-003,TKT-2026-000089,customer,Not sure how I feel about the login yet.,en,2026-09-12 22:36:07
+MSG-TKT-2026-000089-004,TKT-2026-000089,agent,Sorry for the trouble. Could you share your order number?,en,2026-09-13 07:28:35
+MSG-TKT-2026-000090-001,TKT-2026-000090,customer,"Honestly, the interface is clean and easy to use. Great job.",en,2026-09-14 20:53:37
+MSG-TKT-2026-000090-002,TKT-2026-000090,agent,Sorry for the trouble. Could you share your order number?,en,2026-09-15 10:58:58
+MSG-TKT-2026-000091-001,TKT-2026-000091,customer,The invoice was clear and easy to understand. Really happy with VaultBox Plus.,en,2026-09-15 05:16:48
+MSG-TKT-2026-000091-002,TKT-2026-000091,agent,I've escalated this to our specialist team.,en,2026-09-16 07:38:48
+MSG-TKT-2026-000091-003,TKT-2026-000091,customer,Using VaultBox Plus for a while now. The bill is generated on the first of each month.,en,2026-09-16 17:23:04
+MSG-TKT-2026-000091-004,TKT-2026-000091,agent,Thank you for your patience while we investigate.,en,2026-09-17 20:12:32
+MSG-TKT-2026-000091-005,TKT-2026-000091,customer,The bill is generated on the first of each month.,en,2026-09-18 06:40:04
+MSG-TKT-2026-000092-001,TKT-2026-000092,customer,The welcome guide made getting started easy. Really happy with VaultBox Plus.,en,2026-09-17 00:30:26
+MSG-TKT-2026-000092-002,TKT-2026-000092,agent,Sorry for the trouble. Could you share your order number?,en,2026-09-17 13:46:36
+MSG-TKT-2026-000092-003,TKT-2026-000092,customer,Just noting that setup asks for your email and a password.,en,2026-09-18 06:58:57
+MSG-TKT-2026-000092-004,TKT-2026-000092,agent,I've escalated this to our specialist team.,en,2026-09-18 20:01:25
+MSG-TKT-2026-000092-005,TKT-2026-000092,customer,Five stars: the welcome guide made getting started easy.,en,2026-09-19 01:51:50
+MSG-TKT-2026-000093-001,TKT-2026-000093,customer,"Honestly, support replied within minutes and was very kind. Great job.",en,2026-09-20 08:09:58
+MSG-TKT-2026-000093-002,TKT-2026-000093,agent,I've escalated this to our specialist team.,en,2026-09-20 11:57:02
+MSG-TKT-2026-000093-003,TKT-2026-000093,customer,The agent closed my ticket without fixing anything. I expected much better from FitLoop Annual.,en,2026-09-20 15:50:15
+MSG-TKT-2026-000093-004,TKT-2026-000093,agent,Thank you for your patience while we investigate.,en,2026-09-21 17:00:25
+MSG-TKT-2026-000093-005,TKT-2026-000093,customer,"I keep getting locked out of my account, although the chat agent went above and beyond.",en,2026-09-22 07:52:33
+MSG-TKT-2026-000093-006,TKT-2026-000093,agent,Thank you for your patience while we investigate.,en,2026-09-22 11:55:08
+MSG-TKT-2026-000094-001,TKT-2026-000094,customer,"Honestly, the support agent solved my problem in one call. Great job.",en,2026-09-22 19:51:55
+MSG-TKT-2026-000094-002,TKT-2026-000094,agent,Thank you for your patience while we investigate.,en,2026-09-23 23:12:26
+MSG-TKT-2026-000094-003,TKT-2026-000094,customer,Using Nestly Home for a while now. Support asked for my order number.,en,2026-09-24 16:12:58
+MSG-TKT-2026-000094-004,TKT-2026-000094,agent,Thank you for your patience while we investigate.,en,2026-09-25 06:42:57
+MSG-TKT-2026-000095-001,TKT-2026-000095,customer,పేమెంట్ తో చాలా సంతోషంగా ఉన్నాను.,te,2026-09-22 22:36:23
+MSG-TKT-2026-000095-002,TKT-2026-000095,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-09-23 04:33:33
+MSG-TKT-2026-000095-003,TKT-2026-000095,customer,"పేమెంట్ చాలా ఘోరంగా ఉంది, చాలా నిరాశ చెందాను.",te,2026-09-23 08:58:51
+MSG-TKT-2026-000095-004,TKT-2026-000095,agent,I've escalated this to our specialist team.,en,2026-09-24 11:58:17
+MSG-TKT-2026-000096-001,TKT-2026-000096,customer,"The interface is... well, it's the interface.",en,2026-09-25 00:03:02
+MSG-TKT-2026-000096-002,TKT-2026-000096,agent,I've escalated this to our specialist team.,en,2026-09-25 22:31:31
+MSG-TKT-2026-000097-001,TKT-2026-000097,customer,"The casing cracked on the first day, although the express slot was honoured to the minute.",en,2026-09-26 03:13:54
+MSG-TKT-2026-000097-002,TKT-2026-000097,agent,Thanks for reaching out. I'm looking into this now.,en,2026-09-26 22:40:48
+MSG-TKT-2026-000097-003,TKT-2026-000097,customer,Really frustrated: cheaper alternatives do exactly the same thing.,en,2026-09-27 17:26:22
+MSG-TKT-2026-000098-001,TKT-2026-000098,customer,"Mixed feelings about Velto Watch: the chat agent went above and beyond, yet the delivery slot was missed twice in a row.",en,2026-09-26 04:20:08
+MSG-TKT-2026-000098-002,TKT-2026-000098,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-09-26 13:04:49
+MSG-TKT-2026-000098-003,TKT-2026-000098,customer,The interface is clean and easy to use. Really happy with Velto Watch.,en,2026-09-27 09:13:08
+MSG-TKT-2026-000098-004,TKT-2026-000098,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-09-28 10:38:06
+MSG-TKT-2026-000099-001,TKT-2026-000099,customer,"They refunded me without any argument, but I was charged twice for the same order.",en,2026-09-26 18:20:52
+MSG-TKT-2026-000099-002,TKT-2026-000099,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-09-27 10:23:18
+MSG-TKT-2026-000099-003,TKT-2026-000099,customer,The bill is generated on the first of each month.,en,2026-09-28 05:35:24
+MSG-TKT-2026-000099-004,TKT-2026-000099,agent,I've escalated this to our specialist team.,en,2026-09-29 09:42:55
+MSG-TKT-2026-000099-005,TKT-2026-000099,customer,Five stars: support replied within minutes and was very kind.,en,2026-09-30 03:02:03
+MSG-TKT-2026-000100-001,TKT-2026-000100,customer,"Honestly, my refund arrived within two days. Great job.",en,2026-09-27 11:14:43
+MSG-TKT-2026-000100-002,TKT-2026-000100,agent,Thanks for reaching out. I'm looking into this now.,en,2026-09-27 21:54:41
+MSG-TKT-2026-000100-003,TKT-2026-000100,customer,The refund was rejected for no reason. Very disappointed with ParcelPal Same-Day.,en,2026-09-28 04:29:46
+MSG-TKT-2026-000100-004,TKT-2026-000100,agent,This should now be resolved. Please let us know if anything else comes up.,en,2026-09-28 15:55:56

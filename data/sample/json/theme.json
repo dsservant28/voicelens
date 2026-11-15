@@ -1,0 +1,122 @@
+[
+ {
+  "theme_id": "THEME-000001",
+  "code": "delivery",
+  "name": "Delivery",
+  "parent_theme_id": null,
+  "keywords": "delivery|courier|package|parcel|box",
+  "severity_weight": 2,
+  "effective_from": "2026-01-01",
+  "effective_to": null
+ },
+ {
+  "theme_id": "THEME-000002",
+  "code": "billing",
+  "name": "Billing",
+  "parent_theme_id": null,
+  "keywords": "invoice|bill|billing|fees|statement",
+  "severity_weight": 2,
+  "effective_from": "2026-01-01",
+  "effective_to": null
+ },
+ {
+  "theme_id": "THEME-000003",
+  "code": "app_performance",
+  "name": "App performance",
+  "parent_theme_id": null,
+  "keywords": "app|crash|freeze|slow|load",
+  "severity_weight": 2,
+  "effective_from": "2026-01-01",
+  "effective_to": null
+ },
+ {
+  "theme_id": "THEME-000004",
+  "code": "customer_support",
+  "name": "Customer support",
+  "parent_theme_id": null,
+  "keywords": "support|agent|hold|chat|ticket",
+  "severity_weight": 2,
+  "effective_from": "2026-01-01",
+  "effective_to": null
+ },
+ {
+  "theme_id": "THEME-000005",
+  "code": "product_quality",
+  "name": "Product quality",
+  "parent_theme_id": null,
+  "keywords": "quality|broken|cracked|materials|build",
+  "severity_weight": 2,
+  "effective_from": "2026-01-01",
+  "effective_to": null
+ },
+ {
+  "theme_id": "THEME-000006",
+  "code": "pricing",
+  "name": "Pricing",
+  "parent_theme_id": null,
+  "keywords": "price|expensive|value|discount|cost",
+  "severity_weight": 1,
+  "effective_from": "2026-01-01",
+  "effective_to": null
+ },
+ {
+  "theme_id": "THEME-000007",
+  "code": "usability",
+  "name": "Usability",
+  "parent_theme_id": null,
+  "keywords": "interface|menu|settings|easy|confusing",
+  "severity_weight": 1,
+  "effective_from": "2026-01-01",
+  "effective_to": null
+ },
+ {
+  "theme_id": "THEME-000008",
+  "code": "account_login",
+  "name": "Account & login",
+  "parent_theme_id": null,
+  "keywords": "login|password|locked|verification|account",
+  "severity_weight": 3,
+  "effective_from": "2026-01-01",
+  "effective_to": null
+ },
+ {
+  "theme_id": "THEME-000009",
+  "code": "refunds",
+  "name": "Refunds",
+  "parent_theme_id": null,
+  "keywords": "refund|return|money back|reimburse",
+  "severity_weight": 3,
+  "effective_from": "2026-01-01",
+  "effective_to": null
+ },
+ {
+  "theme_id": "THEME-000010",
+  "code": "onboarding",
+  "name": "Onboarding & setup",
+  "parent_theme_id": null,
+  "keywords": "setup|activation|getting started|pairing",
+  "severity_weight": 1,
+  "effective_from": "2026-01-01",
+  "effective_to": null
+ },
+ {
+  "theme_id": "THEME-000011",
+  "code": "late_delivery",
+  "name": "Late delivery",
+  "parent_theme_id": "THEME-000001",
+  "keywords": "late|overdue|delayed|missed slot",
+  "severity_weight": 3,
+  "effective_from": "2026-01-01",
+  "effective_to": null
+ },
+ {
+  "theme_id": "THEME-000012",
+  "code": "double_charge",
+  "name": "Double charge",
+  "parent_theme_id": "THEME-000002",
+  "keywords": "charged twice|double charge|duplicate charge",
+  "severity_weight": 3,
+  "effective_from": "2026-01-01",
+  "effective_to": null
+ }
+]

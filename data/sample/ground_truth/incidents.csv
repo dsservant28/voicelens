@@ -1,0 +1,5 @@
+incident_id,name,description,product_id,direction,theme_id,onset_date,end_date,lag_support_days,support_signal_start,lag_review_days,review_signal_start,lag_survey_days,survey_signal_start,volume_boost,override_prob,pre_onset_prob,n_support_items,n_review_items,n_survey_items
+INC-01,Carrier network outage,Regional carrier outage delays QuickDrop Express parcels.,PROD-0010,worsen,THEME-000011,2026-07-20,2026-08-09,0,2026-07-20,3,2026-07-23,7,2026-07-27,1.0,0.55,0.0,0,0,7
+INC-02,Billing release charges cards twice,A billing release charges StreamNest Premium subscribers twice.,PROD-0004,worsen,THEME-000012,2026-06-22,2026-07-05,0,2026-06-22,3,2026-06-25,7,2026-06-29,1.0,0.55,0.0,2,7,1
+INC-03,Login outage after app update,App update 4.2 breaks verification codes for Lumo Wallet users.,PROD-0001,worsen,THEME-000008,2026-05-11,2026-05-24,0,2026-05-11,3,2026-05-14,7,2026-05-18,1.0,0.55,0.0,1,4,11
+INC-04,Performance fix release,TrekTrack 6.0 fixes long-standing crashes; negative app_performance feedback falls.,PROD-0002,improve,THEME-000003,2026-08-24,2026-09-27,0,2026-08-24,3,2026-08-27,7,2026-08-31,0.0,0.45,0.35,2,4,2

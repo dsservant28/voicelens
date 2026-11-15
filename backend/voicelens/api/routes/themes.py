@@ -59,14 +59,20 @@ def theme_detail(product_id: str, theme_id: str):
 
 
 @router.get("/trend/items")
-def trend_items(week_start: str, channel_type: str | None = None, product_id: str | None = None,
-                theme_id: str | None = None, sentiment: str | None = None, limit: int = 50, offset: int = 0):
-    """The source records behind one trend point (week [+ channel, product, theme, sentiment])."""
-    where = """ WHERE f.week_start = CAST(:w AS date)
+def trend_items(week_start: str | None = None, date_from: str | None = None, date_to: str | None = None,
+                channel_type: str | None = None, product_id: str | None = None, theme_id: str | None = None,
+                sentiment: str | None = None, limit: int = 50, offset: int = 0):
+    """The source records behind one trend point: an ISO week (week_start) or a day range (date_from..date_to,
+    inclusive - e.g. the 7-day window behind a seismograph point) [+ channel, product, theme, sentiment]."""
+    if not week_start and not (date_from and date_to):
+        raise HTTPException(422, "give week_start or date_from + date_to")
+    where = """ WHERE (CAST(:w AS date) IS NULL OR f.week_start = CAST(:w AS date))
+        AND (CAST(:df AS date) IS NULL OR f.event_at::date BETWEEN CAST(:df AS date) AND CAST(:dt AS date))
         AND (CAST(:c AS text) IS NULL OR f.channel_type = :c) AND (CAST(:p AS text) IS NULL OR f.product_id = :p)
         AND (CAST(:t AS text) IS NULL OR :t = ANY(string_to_array(p.theme_ids, '|')))
         AND (CAST(:s AS text) IS NULL OR p.sentiment = :s)"""
-    params = {"w": week_start, "c": channel_type, "p": product_id, "t": theme_id, "s": sentiment}
+    params = {"w": week_start, "df": date_from, "dt": date_to, "c": channel_type, "p": product_id, "t": theme_id,
+              "s": sentiment}
     total = db.scalar("SELECT count(*) FROM app.feedback_item f JOIN app.prediction p USING (source_type, source_id)"
                       + where, **params)
     items = db.rows(db.ITEM_SQL + where + " ORDER BY f.event_at, f.source_id LIMIT :lim OFFSET :off",

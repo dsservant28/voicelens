@@ -442,6 +442,8 @@ Explainable sentiment + theme prediction per feedback item, with confidence, evi
 | source_id | id | yes |  |  |  |  |  |
 | sentiment | enum | yes | positive, negative, neutral, mixed |  |  |  |  |
 | confidence | float | yes |  | 0-1 |  |  | rule-based certainty of the sentiment |
+| pos_score | float | yes |  | cue weight |  |  | sum of positive cue weights after negation (intensifier x1.5, litotes 0.6) |
+| neg_score | float | yes |  | cue weight |  |  | sum of negative cue weights after negation; (pos_score, neg_score) = the sentiment plane |
 | theme_ids | str | no |  |  |  |  | '|'-separated, most specific theme; null = unclassified |
 | evidence | str | no |  |  |  |  | '|'-separated matched cues, e.g. +recommend|-never arrives |
 | rules_fired | str | yes |  |  |  |  | '|'-separated rule ids, e.g. LEX|NEGATION|CONTRAST |

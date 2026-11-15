@@ -43,24 +43,41 @@ def feedback(source_type: SourceType, source_id: str):
                                "ORDER BY event_at", st=source_type, sid=source_id)}
 
 
+PLANE_CAP = 4
+PLANE_POS = f"round(least(p.pos_score, {PLANE_CAP})::numeric, 1)"
+PLANE_NEG = f"round(least(p.neg_score, {PLANE_CAP})::numeric, 1)"
+
+
+@router.get("/review/plane")
+def sentiment_plane():
+    """Review-routed items aggregated on the classifier's own (positive score, negative score) plane, capped at 4."""
+    return db.rows(f"""
+        SELECT {PLANE_POS} AS pos, {PLANE_NEG} AS neg, p.sentiment, count(*) AS n,
+               sum((p.rules_fired LIKE '%SARCASM%')::int) AS sarcasm, sum((p.rules_fired LIKE '%AMBIGUOUS%')::int) AS hedged
+        FROM app.prediction p WHERE p.route = 'review' GROUP BY 1, 2, 3 ORDER BY 1, 2, 3""")
+
+
 BLIND = ("sentiment", "confidence", "theme_ids", "route", "route_reason", "rules_fired", "evidence")
 
 
 @router.get("/review-queue")
 def review_queue(set: Literal["uncertain", "eval"] = "uncertain", reason: str | None = None,
-                 status: Literal["pending", "reviewed", "all"] = "pending", limit: int = 50, offset: int = 0):
+                 status: Literal["pending", "reviewed", "all"] = "pending", limit: int = 50, offset: int = 0,
+                 pos: float | None = None, neg: float | None = None):
     """set=uncertain: items the model routed to review (with its prediction and reasons).
     set=eval: the blind human-review sample of the evaluation split - the model's answer is hidden."""
     reviewed = """(:status = 'all' OR (:status = 'pending') = NOT EXISTS (
              SELECT 1 FROM app.label_review_event r WHERE r.source_type = f.source_type AND r.source_id = f.source_id))"""
-    params = {"reason": reason, "status": status}
+    params = {"reason": reason, "status": status, "pos": pos, "neg": neg}
     if set == "eval":
         join = " JOIN app.eval_review_sample s ON s.source_type = f.source_type AND s.source_id = f.source_id "
         where, order = " WHERE " + reviewed, " ORDER BY s.sample_rank"
     else:
         join, order = "", " ORDER BY p.confidence, f.source_id"
         where = """ WHERE p.route = 'review'
-        AND (CAST(:reason AS text) IS NULL OR :reason = ANY(string_to_array(p.route_reason, '|'))) AND """ + reviewed
+        AND (CAST(:reason AS text) IS NULL OR :reason = ANY(string_to_array(p.route_reason, '|')))
+        AND (CAST(:pos AS numeric) IS NULL OR """ + PLANE_POS + """ = round(CAST(:pos AS numeric), 1))
+        AND (CAST(:neg AS numeric) IS NULL OR """ + PLANE_NEG + """ = round(CAST(:neg AS numeric), 1)) AND """ + reviewed
     total = db.scalar("SELECT count(*) FROM app.feedback_item f JOIN app.prediction p USING (source_type, source_id)"
                       + join + where, **params)
     items = db.rows(db.ITEM_SQL + join + where + order + " LIMIT :lim OFFSET :off",

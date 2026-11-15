@@ -100,3 +100,79 @@ export const useAction = (id: string | null) =>
   useQuery({ queryKey: ['action', id], queryFn: () => get<ActionDetail>(`/action-items/${id}`), enabled: !!id })
 export const setActionStatus = (id: string, to_status: ActionStatus, actor: string, note?: string) =>
   api.post<ActionDetail>(`/action-items/${id}/status`, { to_status, actor, note }).then((r) => r.data)
+
+// ---------------------------------------------------------------- Pulse drill-down
+export interface ItemPage { total: number; items: Item[] }
+export const useTrendItems = (q: { date_from: string; date_to: string; channel_type: Channel; sentiment?: Sentiment } | null) =>
+  useQuery({
+    queryKey: ['trend-items', q],
+    queryFn: () => get<ItemPage>(`/trend/items?${new URLSearchParams({ ...q!, limit: '200' } as Record<string, string>)}`),
+    enabled: !!q,
+  })
+
+// ---------------------------------------------------------------- Review
+export interface PlaneCell { pos: number; neg: number; sentiment: Sentiment; n: number; sarcasm: number; hedged: number }
+export interface Queue extends ItemPage { set: 'uncertain' | 'eval'; blind: boolean; reasons: { reason: string; n: number }[] }
+export interface ReviewEvent { event_id: string; old_sentiment: Sentiment; new_sentiment: Sentiment; decision: 'confirmed' | 'overridden'; reviewer: string }
+export const usePlane = () => useQuery({ queryKey: ['plane'], queryFn: () => get<PlaneCell[]>('/review/plane') })
+export const useQueue = (p: { set: 'uncertain' | 'eval'; status: string; reason?: string | null; pos?: number | null; neg?: number | null; limit?: number }) =>
+  useQuery({
+    queryKey: ['queue', p],
+    queryFn: () => {
+      const qs = new URLSearchParams({ set: p.set, status: p.status, limit: String(p.limit ?? 30) })
+      if (p.reason) qs.set('reason', p.reason)
+      if (p.pos != null) qs.set('pos', String(p.pos))
+      if (p.neg != null) qs.set('neg', String(p.neg))
+      return get<Queue>(`/review-queue?${qs}`)
+    },
+  })
+export const submitReview = (st: string, id: string, sentiment: Sentiment, reviewer: string, theme_ids: string[] = []) =>
+  api.post<ReviewEvent>(`/review/${st}/${id}`, { sentiment, reviewer, theme_ids }).then((r) => r.data)
+export const runEvaluation = () => api.post<{ human_reviewed: number; eval_accuracy: number }>('/evaluation/run').then((r) => r.data)
+
+// ---------------------------------------------------------------- Data flow
+export interface FlowData {
+  nodes: { name: string; stage: number }[]; links: { source: string; target: string; value: number }[]; tables: Record<string, number>
+  reconciliation: { rows_in: number; rows_out: number; balanced: boolean; analysed: number; feedback_items: number
+    analysed_matches_items: boolean; routed: number; routed_matches_items: boolean }
+}
+export interface Check { check: string; category: string; disposition: string; description: string; exceptions: number }
+export interface ExceptionRow { exception_id: string; table_name: string; record_key: string; source_type: string | null; source_id: string | null
+  exception_type: string; check_name: string; check_category: string; disposition: string; detail: string; detected_by: string }
+export interface DataQuality {
+  summary: { status: string; total_rows: number; total_exceptions: number; quarantined_rows: number; seed: number; scale: number; validated_at: string
+    checks: Check[]; tables: { table: string; rows: number; rows_with_exceptions: number; quarantined_rows: number; clean_rows: number }[]
+    file_integrity: { table: string; rows_manifest: number; rows_file: number; checksum_ok: boolean; columns_ok: boolean; ok: boolean }[]
+    reproducibility: { seed: number; scale: number; files_compared: number; runs_identical: boolean; matches_validated_data?: boolean; seconds: number; passed: boolean } | null }
+  manifest: { seed: number; scale: number; command: string; reference_date: string; window: string[]; files: { path: string; rows: number; sha256: string }[] }
+  by_type: { exception_type: string; check_category: string; disposition: string; detected_by: string; n: number }[]
+  total: number; exceptions: ExceptionRow[]
+}
+export const useFlow = () => useQuery({ queryKey: ['flow'], queryFn: () => get<FlowData>('/flow') })
+export const useDataQuality = (type: string | null) =>
+  useQuery({ queryKey: ['dq', type], queryFn: () => get<DataQuality>(`/data-quality?limit=60${type ? `&exception_type=${type}` : ''}`) })
+
+// ---------------------------------------------------------------- Proof
+export interface Cls { n: number; accuracy: number | null; macro_f1: number; per_class: Record<Sentiment, { precision: number; recall: number; f1: number; support: number }>
+  confusion: { labels: Sentiment[]; matrix: number[][] } }
+export interface Slice { n: number; accuracy: number; theme_exact: number; coverage: number; auto_accuracy: number | null; [k: string]: unknown }
+export interface CurvePoint { tau: number; coverage: number; auto_accuracy: number | null }
+export interface SplitMetrics { gold_items: number; evaluated_items: number; excluded_items: number; sentiment_all: Cls; sentiment_auto: Cls; coverage: number
+  themes: { exact_match: number; micro_precision: number; micro_recall: number; micro_f1: number }
+  by_style: Slice[]; by_language: Slice[]; by_source: Slice[]; coverage_curve: CurvePoint[] }
+export interface IncidentRow { incident_id: string; product_id: string; theme_id: string; direction: string; onset_date: string; detected: boolean
+  alert_id?: string; detected_date?: string; time_to_detect_days?: number; lead_channel?: Channel; lead_channel_correct?: boolean
+  support_lag_measured?: number | null; review_lag_measured?: number | null; survey_lag_measured?: number | null
+  support_lag_designed?: number; review_lag_designed?: number; survey_lag_designed?: number; evidence_precision?: number | null }
+export interface FullEvaluation {
+  run_id: string; rules_hash: string; evaluated_at: string; params: { tau: number }
+  splits: { train: SplitMetrics; eval: SplitMetrics }
+  tau: { rule: string; current: number; recommended: number; train: CurvePoint; eval: CurvePoint }
+  edge_cases: { issue_type: string; planted: number; detected: number; recall: number; precision: number; flagged_total: number
+    expected_decision: string; check: string; decision_correct: number }[]
+  incidents: { incidents: number; detected: number; detection_rate: number; false_alarms: number; recoveries: number
+    mean_time_to_detect_days: number | null; lead_channel_correct: number; per_incident: IncidentRow[] }
+  human_review: { events: number; sample_size: number; reviewed: number; model_vs_human?: Cls; model_vs_human_themes?: { exact_match: number }
+    human_vs_gold?: number; overridden?: number }
+}
+export const useFullEvaluation = () => useQuery({ queryKey: ['evaluation-full'], queryFn: () => get<FullEvaluation>('/evaluation') })

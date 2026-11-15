@@ -6,9 +6,11 @@ import { AnimatePresence, motion } from 'motion/react'
 import { useMemo, useState } from 'react'
 import { setActionStatus, useAction, useActions, useMeta, useThemeDetail, useThemes, type ActionItem, type ActionStatus, type ThemeRank } from '../api/client'
 import { useWidth } from '../design/hooks'
+import { RoleSelect } from '../design/role'
+import { useRole } from '../design/role-context'
 import { fmt } from '../design/tokens'
 import { Flatline, IdChip, MagnitudeBadge, Panel } from '../design/ui'
-import { useWhy } from '../design/why'
+import { useWhy } from '../design/why-context'
 
 const SEV = { 1: '#94a3b8', 2: '#fbbf24', 3: '#f43f5e' } as Record<number, string>
 const weighted = (r: ThemeRank) => Number(r.neg_share) * r.severity_weight * (1 + Math.max(Number(r.shift), 0))
@@ -235,13 +237,10 @@ function ActionCard({ a, next, actor }: { a: ActionItem; next: ActionStatus[]; a
 function ActionBoard() {
   const actions = useActions().data ?? []
   const transitions = useMeta().data?.action_transitions ?? []
-  const [actor, setActor] = useState(() => { try { return localStorage.getItem('vl-actor') ?? 'analyst' } catch { return 'analyst' } })
+  const { role: actor } = useRole()
   const counts = Object.fromEntries(ORDER.map((s) => [s, actions.filter((a) => a.status === s).length]))
   return (
-    <Panel title="Action items · state machine"
-      right={<label className="flex items-center gap-2 text-xs text-muted">acting as
-        <input value={actor} onChange={(e) => { setActor(e.target.value); try { localStorage.setItem('vl-actor', e.target.value) } catch { /* ignore */ } }}
-          className="w-32 rounded border border-line bg-ink px-2 py-1 text-fg focus:outline-none" /></label>}>
+    <Panel title="Action items · state machine" right={<RoleSelect />}>
       <StateMachine transitions={transitions} counts={counts} />
       <div className="mt-3 grid grid-cols-4 gap-3">
         {ORDER.map((s) => (

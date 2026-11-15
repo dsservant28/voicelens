@@ -362,6 +362,8 @@ ENTITIES: dict[str, dict] = {
             f("source_type", "enum", allowed=SOURCE_TYPES), f("source_id", "id"),
             f("sentiment", "enum", allowed=SENT),
             f("confidence", "float", unit="0-1", rule="rule-based certainty of the sentiment"),
+            f("pos_score", "float", unit="cue weight", rule="sum of positive cue weights after negation (intensifier x1.5, litotes 0.6)"),
+            f("neg_score", "float", unit="cue weight", rule="sum of negative cue weights after negation; (pos_score, neg_score) = the sentiment plane"),
             f("theme_ids", "str", req=False, rule="'|'-separated, most specific theme; null = unclassified"),
             f("evidence", "str", req=False, rule="'|'-separated matched cues, e.g. +recommend|-never arrives"),
             f("rules_fired", "str", rule="'|'-separated rule ids, e.g. LEX|NEGATION|CONTRAST"),

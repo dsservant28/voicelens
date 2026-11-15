@@ -3,7 +3,7 @@ import { motion } from 'motion/react'
 import type { ReactNode } from 'react'
 import type { Channel, Sentiment } from '../api/client'
 import { CHANNEL, M_GATE, SENTIMENT, fmt, magColor, magRings } from './tokens'
-import { useWhy } from './why'
+import { useWhy } from './why-context'
 
 export function Panel({ title, right, children, className = '' }: { title?: ReactNode; right?: ReactNode; children: ReactNode; className?: string }) {
   return (

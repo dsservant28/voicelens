@@ -2,12 +2,12 @@
 import { area, curveMonotoneX, line, max, scaleLinear, scaleTime, timeMonth } from 'd3'
 import { motion } from 'motion/react'
 import { useMemo, useState } from 'react'
-import { useAction, useAlert, useAlerts, useOverview, usePulse, type Alert, type Channel, type PulseRow } from '../api/client'
+import { useAction, useAlert, useAlerts, useOverview, usePulse, useTrendItems, type Alert, type Channel, type PulseRow } from '../api/client'
 import { DAY, daysBetween, toDate, useWidth } from '../design/hooks'
 import { RecordCard } from '../design/record'
 import { CHANNEL, CHANNELS, fmt, magColor } from '../design/tokens'
 import { Flatline, IdChip, Kpi, MagnitudeBadge, Panel } from '../design/ui'
-import { useWhy } from '../design/why'
+import { useWhy } from '../design/why-context'
 
 const GOOD = '#34d399'
 const alertColor = (a: Alert) => (a.direction === 'improve' ? GOOD : magColor(Number(a.magnitude)))
@@ -34,7 +34,9 @@ function useSeries(rows: PulseRow[] | undefined) {
   }, [rows])
 }
 
-function Seismograph({ alerts, selected, onSelect }: { alerts: Alert[]; selected: string | null; onSelect: (id: string) => void }) {
+export interface Pick { day: Date; channel: Channel; value: number }
+
+function Seismograph({ alerts, selected, onSelect, onPick }: { alerts: Alert[]; selected: string | null; onSelect: (id: string) => void; onPick: (p: Pick) => void }) {
   const { data } = usePulse()
   const s = useSeries(data)
   const [ref, w] = useWidth<HTMLDivElement>()
@@ -54,7 +56,15 @@ function Seismograph({ alerts, selected, onSelect }: { alerts: Alert[]; selected
           const i = Math.round((x.invert(px).getTime() - s.from.getTime()) / DAY)
           setHover(px >= L && px <= w - R ? Math.max(0, Math.min(n - 1, i)) : null)
         }}
-        onMouseLeave={() => setHover(null)}>
+        onMouseLeave={() => setHover(null)}
+        onClick={(e) => {
+          const py = e.clientY - e.currentTarget.getBoundingClientRect().top
+          const li = Math.floor((py - top) / lane)
+          if (hover == null || li < 0 || li > 2) return
+          const c = CHANNELS[li].key
+          onPick({ day: s.series[c][hover].d, channel: c, value: s.series[c][hover].v })
+        }}
+        style={{ cursor: hover != null ? 'crosshair' : 'default' }}>
         {timeMonth.range(s.from, s.to).map((m) => (
           <g key={m.toISOString()}>
             <line x1={x(m)} x2={x(m)} y1={top - 6} y2={top + lane * 3} stroke="var(--line)" />
@@ -207,6 +217,34 @@ function DailySignal({ a, series }: { a: Alert; series: { day: string; channel_t
   )
 }
 
+const iso = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
+
+/** The records behind one seismograph point: negatives of that channel in the 7 days ending that day. */
+function PointRecords({ p, onClose }: { p: Pick; onClose: () => void }) {
+  const from = new Date(p.day.getTime() - (ROLL - 1) * DAY)
+  const { data } = useTrendItems({ date_from: iso(from), date_to: iso(p.day), channel_type: p.channel, sentiment: 'negative' })
+  const ch = CHANNEL[p.channel]
+  return (
+    <Panel title={<>Records behind this point · <span style={{ color: ch.color }}>{ch.label}</span> · {fmt.date(iso(from))} – {fmt.date(iso(p.day))}</>}
+      right={<button onClick={onClose} className="text-xs text-muted hover:text-fg">close ✕</button>}>
+      {!data ? <Flatline label="fetching records…" /> : (
+        <>
+          <div className="mb-3 flex items-center gap-3 text-sm">
+            <span className="num">trace value <b>{p.value}</b> = <b>{fmt.int(data.total)}</b> negative records</span>
+            {data.total === p.value
+              ? <span className="rounded-full border border-pos/40 px-2 py-0.5 text-xs text-pos">✓ reconciled</span>
+              : <span className="rounded-full border border-neg/40 px-2 py-0.5 text-xs text-neg">✗ mismatch</span>}
+            {data.total > data.items.length && <span className="text-xs text-muted">showing first {data.items.length}</span>}
+          </div>
+          <div className="grid max-h-[480px] gap-2 overflow-y-auto pr-1 lg:grid-cols-2">
+            {data.items.map((it) => <RecordCard key={it.source_id} item={it} compact />)}
+          </div>
+        </>
+      )}
+    </Panel>
+  )
+}
+
 function Epicenter({ id }: { id: string }) {
   const { data } = useAlert(id)
   const act = useAction(data?.alert.action_item_id ?? null).data
@@ -257,6 +295,7 @@ export function Pulse() {
   const ov = useOverview().data
   const alerts = useAlerts().data ?? []
   const [sel, setSel] = useState<string | null>(null)
+  const [pick, setPick] = useState<Pick | null>(null)
   const strongest = [...alerts].sort((a, b) => Number(b.magnitude) - Number(a.magnitude))[0]?.alert_id ?? null
   const current = sel ?? strongest
   const k = ov?.kpis
@@ -277,8 +316,9 @@ export function Pulse() {
         <Kpi label="Alerts" value={fmt.int(k?.alerts)} sub={`${fmt.int(k?.active_alerts)} active now`} accent="#fbbf24" />
         <Kpi label="Auto-labelled" value={fmt.pct(k?.auto_coverage)} sub={`${fmt.int(k?.review_pending)} routed to humans`} />
       </div>
-      <Panel title="Seismograph · 7-day rolling negatives per channel" right={<span className="text-xs text-muted">click an epicenter</span>}>
-        <Seismograph alerts={alerts} selected={current} onSelect={setSel} />
+      <Panel title="Seismograph · 7-day rolling negatives per channel"
+        right={<span className="text-xs text-muted">click a trace → its records · click an epicenter → its wavefront</span>}>
+        <Seismograph alerts={alerts} selected={current} onSelect={setSel} onPick={setPick} />
         <div className="mt-2 flex flex-wrap gap-2">
           {[...alerts].sort((a, b) => a.detected_date.localeCompare(b.detected_date)).map((a) => (
             <button key={a.alert_id} onClick={() => setSel(a.alert_id)}
@@ -291,6 +331,7 @@ export function Pulse() {
           ))}
         </div>
       </Panel>
+      {pick && <PointRecords key={`${pick.channel}-${pick.day.getTime()}`} p={pick} onClose={() => setPick(null)} />}
       {current && <Epicenter id={current} />}
     </div>
   )

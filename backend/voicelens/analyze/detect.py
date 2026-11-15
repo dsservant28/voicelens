@@ -42,6 +42,30 @@ def poisson_sf(obs: float, lam: float) -> float:
     return float(max(0.0, 1.0 - np.exp(-lam + k * math.log(lam) - np.array([math.lgamma(i + 1) for i in k])).sum()))
 
 
+def poisson_log10_sf(obs: float, lam: float) -> float:
+    """log10 P(X >= obs), computed in log space so tiny tails do not underflow to 0."""
+    if obs <= 0:
+        return 0.0
+    ks = np.arange(int(obs), int(obs) + 400)
+    lp = -lam + ks * math.log(lam) - np.array([math.lgamma(k + 1) for k in ks])
+    m = lp.max()
+    return float((m + math.log(np.exp(lp - m).sum())) / math.log(10))
+
+
+def normal_log10_sf(z: float) -> float:
+    """log10 P(Z >= z) for a standard normal; asymptotic form for large z."""
+    if z < 30:
+        return math.log10(max(0.5 * math.erfc(z / math.sqrt(2)), 1e-300))
+    return -(z * z / 2 + math.log(z * math.sqrt(2 * math.pi))) / math.log(10)
+
+
+def magnitude(direction: str, row) -> float:
+    """M = -log10(p): Richter-style strength of the evidence. M >= 5 <=> p <= 1e-5 (the worsen gate)."""
+    if direction == "worsen":
+        return round(-poisson_log10_sf(row["w_neg"], (row["b_neg"] + 1) / BASELINE * WINDOW), 2)
+    return round(-normal_log10_sf(float(row["z_improve"])), 2)
+
+
 def _signals(d: pd.DataFrame, keys: list[str], z_min: float | None, min_neg: int) -> pd.DataFrame:
     d = d.sort_values(keys + ["date"]).copy()
     grp = d.groupby(keys, sort=False)
@@ -100,7 +124,7 @@ def detect(f: pd.DataFrame, run_id: str) -> tuple[pd.DataFrame, pd.DataFrame]:
                      "start_date": start, "detected_date": detected,
                      "peak_date": peak["date"], "end_date": end,
                      "status": "ACTIVE" if (last_day - end).days < 3 else "ENDED",
-                     "peak_z": round(float(peak[zcol]), 3), "baseline_share": round(float(peak["b_share"]), 4),
+                     "peak_z": round(float(peak[zcol]), 3), "magnitude": magnitude(direction, peak), "baseline_share": round(float(peak["b_share"]), 4),
                      "window_share": round(float(peak["w_share"]), 4), "shift": round(float(peak["shift"]), 4),
                      "window_items": int(peak["w_n"])}
                 ch = per_ch[(per_ch["product_id"] == pid) & (per_ch["theme_id"] == tid) & per_ch[flag]

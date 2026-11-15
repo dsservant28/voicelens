@@ -507,6 +507,7 @@ Detected sentiment shift for a product x theme: rolling 7-day window vs 28-day b
 | peak_date | date | yes |  |  |  |  |  |
 | end_date | date | yes |  |  |  |  |  |
 | status | enum | yes | ACTIVE, ENDED |  |  |  |  |
+| magnitude | float | yes |  | M |  |  | M = -log10(p) at peak; worsen: exact Poisson tail, improve: normal tail; M >= 5 <=> p <= 1e-5 |
 | peak_z | float | yes |  | z |  |  | worsen: (obs-lam)/sqrt(lam) at peak (gate: exact Poisson p<=1e-5); improve: share drop / se |
 | baseline_share | float | yes |  | 0-1 |  |  |  |
 | window_share | float | yes |  | 0-1 |  |  |  |

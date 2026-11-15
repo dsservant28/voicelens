@@ -414,6 +414,7 @@ ENTITIES: dict[str, dict] = {
             f("detected_date", "date", rule="confirmation day (3rd firing day) - used for time-to-detect"),
             f("peak_date", "date"), f("end_date", "date"),
             f("status", "enum", allowed=["ACTIVE", "ENDED"]),
+            f("magnitude", "float", unit="M", rule="M = -log10(p) at peak; worsen: exact Poisson tail, improve: normal tail; M >= 5 <=> p <= 1e-5"),
             f("peak_z", "float", unit="z", rule="worsen: (obs-lam)/sqrt(lam) at peak (gate: exact Poisson p<=1e-5); improve: share drop / se"),
             f("baseline_share", "float", unit="0-1"), f("window_share", "float", unit="0-1"),
             f("shift", "float", unit="share points", rule="window_share - baseline_share at peak"),

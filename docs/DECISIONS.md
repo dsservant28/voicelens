@@ -94,3 +94,10 @@ Owner-written. One entry per decision. Format: Decision · Options considered ·
 - **Choice and why:** _(owner)_ honest metrics: no decision is ever fitted on the eval split.
 - **Trade-off:** eval split at scale 0.25 is ~500 items, so small slices (hi, sarcastic) have wide error bars.
 - **Requirement link:** measurable outputs, evaluation set, edge-case handling, time-to-detect.
+
+## D-014 — API: plain SQL per router, append-only writes, one-command pipeline for a fresh clone
+- **Decision:** FastAPI routers (overview, alerts/lineage, feedback/review, action items, quality/evaluation) over parameterised SQL. POSTs only append events (`label_review_event`, `action_item_event`); action status transitions are checked against the contract's lifecycle (409 if illegal). `python -m voicelens.pipeline` runs generate -> validate -> load -> analyze -> evaluate and copies the reports to `docs/results/`. No auth: the app runs on the reviewer's own machine; nothing secret is in code.
+- **Options considered:** ORM models + repositories; auth tokens.
+- **Choice and why:** _(owner)_ few, readable queries; a reviewer can go from `git clone` to a running API with one command.
+- **Trade-off:** no authentication or multi-user conflict handling (documented limitation).
+- **Requirement link:** end-to-end workflow, human review loop, traceability, reproducibility.

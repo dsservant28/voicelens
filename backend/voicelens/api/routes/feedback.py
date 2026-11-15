@@ -43,21 +43,33 @@ def feedback(source_type: SourceType, source_id: str):
                                "ORDER BY event_at", st=source_type, sid=source_id)}
 
 
+BLIND = ("sentiment", "confidence", "theme_ids", "route", "route_reason", "rules_fired", "evidence")
+
+
 @router.get("/review-queue")
-def review_queue(reason: str | None = None, status: Literal["pending", "reviewed", "all"] = "pending",
-                 limit: int = 50, offset: int = 0):
-    where = """WHERE p.route = 'review'
-        AND (CAST(:reason AS text) IS NULL OR :reason = ANY(string_to_array(p.route_reason, '|')))
-        AND (:status = 'all' OR (:status = 'pending') = NOT EXISTS (
+def review_queue(set: Literal["uncertain", "eval"] = "uncertain", reason: str | None = None,
+                 status: Literal["pending", "reviewed", "all"] = "pending", limit: int = 50, offset: int = 0):
+    """set=uncertain: items the model routed to review (with its prediction and reasons).
+    set=eval: the blind human-review sample of the evaluation split - the model's answer is hidden."""
+    reviewed = """(:status = 'all' OR (:status = 'pending') = NOT EXISTS (
              SELECT 1 FROM app.label_review_event r WHERE r.source_type = f.source_type AND r.source_id = f.source_id))"""
     params = {"reason": reason, "status": status}
-    total = db.scalar("SELECT count(*) FROM app.feedback_item f JOIN app.prediction p USING (source_type, source_id) "
-                      + where, **params)
-    items = db.rows(db.ITEM_SQL + where + " ORDER BY p.confidence, f.source_id LIMIT :lim OFFSET :off",
+    if set == "eval":
+        join = " JOIN app.eval_review_sample s ON s.source_type = f.source_type AND s.source_id = f.source_id "
+        where, order = " WHERE " + reviewed, " ORDER BY s.sample_rank"
+    else:
+        join, order = "", " ORDER BY p.confidence, f.source_id"
+        where = """ WHERE p.route = 'review'
+        AND (CAST(:reason AS text) IS NULL OR :reason = ANY(string_to_array(p.route_reason, '|'))) AND """ + reviewed
+    total = db.scalar("SELECT count(*) FROM app.feedback_item f JOIN app.prediction p USING (source_type, source_id)"
+                      + join + where, **params)
+    items = db.rows(db.ITEM_SQL + join + where + order + " LIMIT :lim OFFSET :off",
                     lim=min(limit, 200), off=offset, **params)
+    if set == "eval":
+        items = [{k: v for k, v in it.items() if k not in BLIND} for it in items]
     reasons = db.rows("SELECT r AS reason, count(*) AS n FROM app.prediction, "
                       "unnest(string_to_array(route_reason, '|')) r WHERE route = 'review' GROUP BY 1 ORDER BY 2 DESC")
-    return {"total": total, "items": items, "reasons": reasons}
+    return {"set": set, "blind": set == "eval", "total": total, "items": items, "reasons": reasons}
 
 
 class ReviewIn(BaseModel):

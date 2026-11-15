@@ -13,8 +13,9 @@ from .. import db
 router = APIRouter(tags=["action items"])
 
 ACT_SQL = """
-SELECT ai.*, pr.name AS product_name, t.name AS theme_name, t.code AS theme_code
+SELECT ai.*, pr.name AS product_name, t.name AS theme_name, t.code AS theme_code, al.magnitude, al.kind AS alert_kind
 FROM app.action_item ai JOIN raw.product pr USING (product_id) JOIN raw.theme t USING (theme_id)
+LEFT JOIN app.alert al ON al.alert_id = ai.alert_id
 """
 
 

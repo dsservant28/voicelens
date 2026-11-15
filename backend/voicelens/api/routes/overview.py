@@ -4,6 +4,7 @@ from __future__ import annotations
 from fastapi import APIRouter
 from sqlalchemy.exc import SQLAlchemyError
 
+from ...generate.contract import TRANSITIONS
 from .. import db
 
 router = APIRouter(tags=["overview"])
@@ -24,7 +25,8 @@ def meta():
     return {"products": db.rows("SELECT product_id, name, category FROM raw.product ORDER BY product_id"),
             "themes": db.rows("SELECT theme_id, code, name, parent_theme_id, severity_weight FROM raw.theme ORDER BY theme_id"),
             "channels": db.rows("SELECT channel_id, name, channel_type FROM raw.channel ORDER BY channel_id"),
-            "run": db.one("SELECT * FROM app.pipeline_run ORDER BY run_id DESC LIMIT 1")}
+            "run": db.one("SELECT * FROM app.pipeline_run ORDER BY run_id DESC LIMIT 1"),
+            "action_transitions": sorted([f or "", t] for f, t in TRANSITIONS["action_item_event"])}
 
 
 @router.get("/overview")

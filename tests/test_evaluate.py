@@ -47,3 +47,12 @@ def test_incident_matching_parent_child_false_alarms_and_recovery():
     assert rows[0]["detected"] and rows[0]["time_to_detect_days"] == 5 and rows[0]["lead_channel_correct"]
     assert rows[0]["review_lag_measured"] == 3 and rows[0]["survey_lag_measured"] is None
     assert [f["alert_id"] for f in false] == ["A2"]
+
+
+def test_review_sample_is_stratified_blind_and_reproducible():
+    items = pd.DataFrame({"source_type": "review", "source_id": [f"R{i:03d}" for i in range(200)],
+                          "sentiment": ["positive", "negative", "neutral", "mixed"] * 50})
+    s1, s2 = M.review_sample(items, per_class=10), M.review_sample(items, per_class=10)
+    assert len(s1) == 40 and list(s1.columns) == ["source_type", "source_id", "sample_rank"]   # no label column
+    assert s1.equals(s2) and sorted(s1["sample_rank"]) == list(range(1, 41))
+    assert (items.set_index("source_id").loc[s1["source_id"], "sentiment"].value_counts() == 10).all()

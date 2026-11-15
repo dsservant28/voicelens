@@ -11,9 +11,16 @@ from pathlib import Path
 
 import pandas as pd
 
+from sqlalchemy import text
+
 from ..db.engine import get_engine
+from ..db.load import copy_df
+from ..db.models import TABLES, metadata
+from ..generate.contract import columns
 from ..generate.__main__ import DEFAULT_OUT
 from . import metrics as M
+
+SAMPLE_PER_CLASS = 25    # 4 sentiments x 25 = 100 items for blind human review
 
 EXPECTED = {  # expected_decision -> how we verify the pipeline took it
     "flag_for_human_review": "exception FLAG + prediction routed to review",
@@ -119,16 +126,28 @@ def evaluate(data: Path, target: float = 0.95) -> dict:
         m = ev.merge(labels[["source_type", "source_id", "incident_id"]], on=["source_type", "source_id"], how="left")
         r["evidence_precision"] = round(float((m["incident_id"] == r["incident_id"]).mean()), 4) if len(m) else None
 
-    res["human_review"] = {"events": len(reviews)}
+    # human-reviewed evaluation set: a blind, stratified sample of the eval split (no label exposed to the API/UI)
+    in_db = labels[labels["split"] == "eval"].merge(pred[["source_type", "source_id"]], on=["source_type", "source_id"])
+    sample = M.review_sample(in_db[["source_type", "source_id", "sentiment"]], per_class=SAMPLE_PER_CLASS)
+    with e.begin() as c:
+        metadata.create_all(c, tables=[TABLES["eval_review_sample"]], checkfirst=True)
+        c.execute(text("DELETE FROM app.eval_review_sample"))
+        copy_df(c, "eval_review_sample", sample[columns("eval_review_sample")])
+    res["human_review"] = {"events": len(reviews), "sample_size": len(sample), "reviewed": 0}
     if len(reviews):
-        h = reviews.sort_values("event_at").drop_duplicates(["source_type", "source_id"], keep="last")
-        h = h.merge(pred[["source_type", "source_id", "sentiment"]], on=["source_type", "source_id"]).merge(
-            labels[["source_type", "source_id", "sentiment"]].rename(columns={"sentiment": "gold"}),
-            on=["source_type", "source_id"])
-        res["human_review"].update({"items": len(h),
-                                    "model_vs_human": round(float((h["sentiment"] == h["new_sentiment"]).mean()), 4),
-                                    "human_vs_gold": round(float((h["new_sentiment"] == h["gold"]).mean()), 4),
-                                    "overridden": int((h["decision"] == "overridden").sum())})
+        h = reviews.sort_values(["event_at", "event_id"]).drop_duplicates(["source_type", "source_id"], keep="last")
+        h = h.merge(sample, on=["source_type", "source_id"]).merge(
+            pred[["source_type", "source_id", "sentiment", "theme_ids"]], on=["source_type", "source_id"]).merge(
+            labels[["source_type", "source_id", "sentiment", "theme_ids"]].rename(
+                columns={"sentiment": "gold", "theme_ids": "gold_themes"}), on=["source_type", "source_id"])
+        if len(h):
+            human_themes = h["new_theme_ids"].replace("-", "")
+            res["human_review"].update({
+                "reviewed": len(h),
+                "model_vs_human": M.classification(h["new_sentiment"], h["sentiment"]),
+                "model_vs_human_themes": M.theme_sets(human_themes, h["theme_ids"]),
+                "human_vs_gold": round(float((h["new_sentiment"] == h["gold"]).mean()), 4),
+                "overridden": int((h["decision"] == "overridden").sum())})
     out = Path(data) / "evaluation"
     out.mkdir(exist_ok=True)
     (out / "metrics.json").write_text(json.dumps(res, indent=2, default=str), encoding="utf-8")
@@ -185,9 +204,17 @@ def report(r: dict) -> str:
         else:
             L.append(f"| {x['incident_id']} | {x['direction']} | {x['onset_date']} | - | not detected | - | - | - | - |")
     h = r["human_review"]
-    L += ["", "## Human review", "", f"{h['events']} review events." + (
-        f" Model agrees with reviewers on {_pct(h['model_vs_human'])} of {h['items']} items; reviewers agree with gold on "
-        f"{_pct(h['human_vs_gold'])}." if h["events"] else " None yet - the review queue screen fills this section.")]
+    L += ["", "## Human-reviewed evaluation set", "",
+          f"Blind sample of {h['sample_size']} eval items (stratified by gold sentiment, label hidden from reviewers). "
+          f"Reviewed so far: **{h['reviewed']}** ({h['events']} review events in total)."]
+    if h["reviewed"]:
+        mh = h["model_vs_human"]
+        L += ["", f"- Model vs human labels: accuracy **{_pct(mh['accuracy'])}**, macro-F1 {mh['macro_f1']:.3f} "
+                  f"(n = {mh['n']}); themes exact {_pct(h['model_vs_human_themes']['exact_match'])}",
+              f"- Human vs generator gold: agreement {_pct(h['human_vs_gold'])}; reviewer overrode the model on "
+              f"{h['overridden']} items"]
+    else:
+        L.append("Open the Review queue -> 'Evaluation set' tab to label them; rerun evaluation to fill this section.")
     return "\n".join(L) + "\n"
 
 

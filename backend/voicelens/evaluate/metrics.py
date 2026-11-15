@@ -61,6 +61,19 @@ def choose_tau(curve: list[dict], target: float) -> dict:
     return max((c for c in curve if c["auto_accuracy"] is not None), key=lambda c: c["auto_accuracy"])
 
 
+def review_sample(eval_items: pd.DataFrame, per_class: int = 25, seed: int = 20261022) -> pd.DataFrame:
+    """Blind human-review sample: up to per_class eval items per gold sentiment, shuffled into one review order.
+    eval_items: source_type, source_id, sentiment (gold). Returns source_type, source_id, sample_rank (NO label)."""
+    rng = np.random.default_rng(seed)
+    parts = []
+    for _, g in eval_items.sort_values(["source_type", "source_id"]).groupby("sentiment"):
+        parts.append(g.iloc[rng.permutation(len(g))[:per_class]])
+    s = pd.concat(parts)[["source_type", "source_id"]]
+    s = s.iloc[rng.permutation(len(s))].reset_index(drop=True)
+    s["sample_rank"] = s.index + 1
+    return s
+
+
 def match_incidents(inc: pd.DataFrame, alerts: pd.DataFrame, parent: dict, grace_days: int = 14) -> tuple[list, list]:
     """An alert detects an incident if product, theme (or parent/child) and direction match and
     detected_date is within [onset, end + grace]. -> (per-incident rows, unmatched non-recovery alerts)."""

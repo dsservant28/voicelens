@@ -2,7 +2,7 @@ review_id,customer_id,product_id,channel_id,rating,text,language,posted_at,tags
 REV-2026-000001,CUST-000149,PROD-0010,CHAN-04,3,"ధర బాగుంది, కానీ ప్రొడక్ట్ క్వాలిటీ చాలా ఘోరంగా ఉంది.",te,2026-04-06 05:49:09,promo
 REV-2026-000002,CUST-000013,PROD-0008,CHAN-03,5,Five stars: pairing the device worked the first time.,en,2026-04-06 12:08:25,
 REV-2026-000003,CUST-000053,PROD-0007,CHAN-04,4,"Customer support super hai, sabko recommend karunga.",hi-Latn,2026-04-06 15:09:25,
-REV-2026-000004,CUST-000133,PROD-0003,CHAN-03,2,"A duplicate charge was caught and reversed before I even noticed, but the invoice was wrong again this month. You can reach me at emma.lopez133@example.com or +1-555-0195. - Emma Lopez",en,2026-04-06 19:01:45,promo
+REV-2026-000004,CUST-000133,PROD-0003,CHAN-03,2,"A duplicate charge was caught and reversed before I even noticed, but the invoice was wrong again this month.",en,2026-04-06 19:01:45,promo
 REV-2026-000005,CUST-000070,PROD-0011,CHAN-03,1,Really frustrated: nobody told me where my package was.,en,2026-04-07 08:12:05,
 REV-2026-000006,CUST-000167,PROD-0001,CHAN-03,1,"La facturación es terrible, muy decepcionado.",es,2026-04-07 10:10:52,
 REV-2026-000007,CUST-000043,PROD-0004,CHAN-03,1,I was billed for a plan I never chose. I expected much better from StreamNest Premium.,en,2026-04-07 17:09:14,
@@ -58,7 +58,7 @@ REV-2026-000056,CUST-000014,PROD-0010,CHAN-03,4,"The casing cracked on the first
 REV-2026-000057,CUST-000033,PROD-0003,CHAN-03,1,Really frustrated: cheaper alternatives do exactly the same thing.,en,2026-04-24 13:20:53,verified_purchase
 REV-2026-000058,CUST-000075,PROD-0002,CHAN-03,1,The app freezes in the middle of checkout. Very disappointed with TrekTrack.,en,2026-04-24 15:43:11,
 REV-2026-000059,CUST-000098,PROD-0004,CHAN-03,2,The onboarding instructions are missing steps. I expected much better from StreamNest Premium.,en,2026-04-24 16:32:39,verified_purchase
-REV-2026-000060,CUST-000076,PROD-0009,CHAN-04,3,Using Orbix Router for a while now. I contacted support through chat.,en,2026-04-24 19:53:26,verified_purchase
+REV-2026-000060,CUST-000076,PROD-0009,CHAN-04,3,Using Orbix Router for a while now. I contacted support through chat. You can reach me at diya.reddy76@example.com or +1-555-0150. - Diya Reddy,en,2026-04-24 19:53:26,verified_purchase
 REV-2026-000061,CUST-000034,PROD-0005,CHAN-03,5,Logging in with my fingerprint is effortless. Really happy with VaultBox Plus.,en,2026-04-24 20:07:09,verified_purchase
 REV-2026-000062,CUST-000076,PROD-0010,CHAN-04,4,"The delivery was handled carelessly and the box was crushed, although even my parents figured it out quickly.",en,2026-04-25 02:15:19,verified_purchase
 REV-2026-000063,CUST-000175,PROD-0003,CHAN-04,3,There are three price tiers.,en,2026-04-25 06:39:06,
@@ -69,7 +69,7 @@ REV-2026-000067,CUST-000034,PROD-0010,CHAN-03,3,Just noting that the product com
 REV-2026-000068,CUST-000192,PROD-0001,CHAN-03,2,"The price went up again without warning, although support replied within minutes and was very kind.",en,2026-04-26 09:02:42,
 REV-2026-000069,CUST-000013,PROD-0002,CHAN-03,2,"Mixed feelings about TrekTrack: billing is transparent with no hidden fees, yet screens take forever to load.",en,2026-04-26 11:33:55,
 REV-2026-000070,CUST-000118,PROD-0007,CHAN-04,2,"The discount made it a real bargain, but the app freezes in the middle of checkout.",en,2026-04-26 15:59:13,verified_purchase
-REV-2026-000071,CUST-000088,PROD-0001,CHAN-04,3,Using Lumo Wallet for a while now. The bill is generated on the first of each month.,en,2026-04-26 18:09:09,
+REV-2026-000071,CUST-000088,PROD-0001,CHAN-04,3,Using Lumo Wallet for a while now. The bill is generated on the first of each month.,en,2026-04-26 18:09:09,eval_label=neutral
 REV-2026-000072,CUST-000192,PROD-0008,CHAN-04,4,"Support kept me on hold for an hour, although the interface is clean and easy to use.",en,2026-04-27 03:49:31,
 REV-2026-000073,CUST-000106,PROD-0003,CHAN-04,2,"The password reset worked in seconds, but the menus are confusing and badly organised.",en,2026-04-27 04:36:05,
 REV-2026-000074,CUST-000123,PROD-0010,CHAN-04,4,"The chat agent went above and beyond, but simple tasks take far too many steps.",en,2026-04-27 08:21:20,
@@ -255,7 +255,7 @@ REV-2026-000253,CUST-000198,PROD-0011,CHAN-03,4,"The return and refund were comp
 REV-2026-000254,CUST-000049,PROD-0003,CHAN-04,1,"Estoy harto, la configuración inicial es un desastre.",es,2026-06-16 09:58:20,
 REV-2026-000255,CUST-000137,PROD-0009,CHAN-04,5,The discount made it a real bargain. Really happy with Orbix Router.,en,2026-06-16 17:23:57,verified_purchase
 REV-2026-000256,CUST-000084,PROD-0002,CHAN-04,1,TrekTrack ka customer support ekdum third class hai.,hi-Latn,2026-06-17 05:52:04,promo
-REV-2026-000257,CUST-000034,PROD-0005,CHAN-04,1,The agent closed my ticket without fixing anything. I expected much better from VaultBox Plus. You can reach me at rohan.varma34@example.com or +1-555-0195. - Rohan Varma,en,2026-06-17 15:34:21,promo
+REV-2026-000257,CUST-000034,PROD-0005,CHAN-04,1,The agent closed my ticket without fixing anything. I expected much better from VaultBox Plus.,en,2026-06-17 15:34:21,promo
 REV-2026-000258,CUST-000182,PROD-0005,CHAN-03,4,"Mixed feelings about VaultBox Plus: the price is very fair for what you get, yet billing added fees nobody explained.",en,2026-06-19 01:53:06,promo
 REV-2026-000259,CUST-000088,PROD-0012,CHAN-04,2,Really frustrated: I am still waiting for my refund after a month.,en,2026-06-19 08:16:47,
 REV-2026-000260,CUST-000173,PROD-0003,CHAN-04,2,"I explained the issue three times to three different agents, although the invoice was clear and easy to understand.",en,2026-06-19 17:48:46,
@@ -338,11 +338,11 @@ REV-2026-000336,CUST-000169,PROD-0010,CHAN-03,5,बिलिंग के सा
 REV-2026-000337,CUST-000178,PROD-0007,CHAN-03,4,"The setup failed three times before it worked, although the interface is clean and easy to use.",en,2026-07-11 02:42:55,verified_purchase
 REV-2026-000338,CUST-000015,PROD-0001,CHAN-03,2,"Activation got stuck on the first screen, although the app runs smoothly even on my old phone.",en,2026-07-11 07:49:59,beta_user
 REV-2026-000339,CUST-000072,PROD-0010,CHAN-03,3,డెలివరీ సమయం పర్వాలేదు.,te,2026-07-11 12:42:28,
-REV-2026-000340,CUST-000018,PROD-0001,CHAN-04,1,"The refund is not good, not even close.",en,2026-07-11 16:11:01,verified_purchase
+REV-2026-000340,CUST-000018,PROD-0001,CHAN-04,1,"The refund is not good, not even close. You can reach me at diya.garcia18@example.com or +1-555-0110. - Diya Garcia",en,2026-07-11 16:11:01,verified_purchase
 REV-2026-000341,CUST-000099,PROD-0009,CHAN-04,3,"La app está bien, pero el precio es un desastre.",es,2026-07-12 17:25:41,
 REV-2026-000342,CUST-000015,PROD-0001,CHAN-03,4,"Mixed feelings about Lumo Wallet: logging in with my fingerprint is effortless, yet the setup failed three times before it worked.",en,2026-07-13 07:07:14,verified_purchase
 REV-2026-000343,CUST-000126,PROD-0008,CHAN-04,1,"Fantastic, the app freezes in the middle of checkout. Ten out of ten, would suffer again.",en,2026-07-13 22:04:42,beta_user
-REV-2026-000344,CUST-000047,PROD-0004,CHAN-04,3,"The return and refund were completely hassle free, but I was billed for a plan I never chose.",en,2026-07-14 03:31:47,
+REV-2026-000344,CUST-000047,PROD-0004,CHAN-04,3,"The return and refund were completely hassle free, but I was billed for a plan I never chose.",en,2026-07-14 03:31:47,eval_label=mixed
 REV-2026-000345,CUST-000109,PROD-0012,CHAN-04,1,"The price is not good, not even close.",en,2026-07-14 04:49:56,
 REV-2026-000346,CUST-000094,PROD-0005,CHAN-04,4,Five stars: setup took less than five minutes.,en,2026-07-14 09:29:27,
 REV-2026-000347,CUST-000161,PROD-0006,CHAN-04,4,"Can't complain about the refund, no issues whatsoever.",en,2026-07-14 12:54:16,verified_purchase
@@ -385,7 +385,7 @@ REV-2026-000383,CUST-000060,PROD-0012,CHAN-03,2,Really frustrated: the casing cr
 REV-2026-000384,CUST-000035,PROD-0006,CHAN-04,2,The onboarding instructions are missing steps. I expected much better from FitLoop Annual.,en,2026-07-26 01:14:08,beta_user
 REV-2026-000385,CUST-000037,PROD-0003,CHAN-03,4,"La interfaz está bien, pero el soporte al cliente es un desastre.",es,2026-07-26 08:32:53,verified_purchase
 REV-2026-000386,CUST-000165,PROD-0005,CHAN-03,1,Really frustrated: the onboarding instructions are missing steps.,en,2026-07-26 09:01:08,verified_purchase
-REV-2026-000387,CUST-000103,PROD-0004,CHAN-03,2,లాగిన్ అస్సలు బాగాలేదు.,te,2026-07-26 10:14:50,promo;eval_label=negative
+REV-2026-000387,CUST-000103,PROD-0004,CHAN-03,2,లాగిన్ అస్సలు బాగాలేదు.,te,2026-07-26 10:14:50,promo
 REV-2026-000388,CUST-000054,PROD-0008,CHAN-04,4,The discount made it a real bargain. Really happy with Velto Watch.,en,2026-07-27 09:10:28,verified_purchase
 REV-2026-000389,CUST-000058,PROD-0006,CHAN-03,1,"Wow, the login page rejects my correct password. Exactly what I wanted from FitLoop Annual.",en,2026-07-28 04:41:26,
 REV-2026-000390,CUST-000101,PROD-0007,CHAN-04,1,The onboarding instructions are missing steps. I expected much better from Aurelo Speaker.,en,2026-07-28 15:14:14,verified_purchase
@@ -395,7 +395,7 @@ REV-2026-000393,CUST-000122,PROD-0001,CHAN-03,3,"The login is... well, it's the 
 REV-2026-000394,CUST-000187,PROD-0002,CHAN-03,1,"Fantastic, the app crashes every time I open it. Ten out of ten, would suffer again.",en,2026-07-29 11:46:15,promo
 REV-2026-000395,CUST-000159,PROD-0010,CHAN-04,3,"The delivery was quick and the box arrived intact, but cheaper alternatives do exactly the same thing.",en,2026-07-29 13:33:32,verified_purchase
 REV-2026-000396,CUST-000189,PROD-0007,CHAN-03,3,The app was updated to version 5 last week.,en,2026-07-29 14:58:18,verified_purchase
-REV-2026-000397,CUST-000012,PROD-0007,CHAN-03,3,The main menu has five tabs.,en,2026-07-30 04:01:23,verified_purchase
+REV-2026-000397,CUST-000012,PROD-0007,CHAN-03,3,The main menu has five tabs.,en,2026-07-30 04:01:23,verified_purchase;eval_label=neutral
 REV-2026-000398,CUST-000086,PROD-0004,CHAN-04,2,Really frustrated: the price went up again without warning.,en,2026-07-30 06:21:16,verified_purchase
 REV-2026-000399,CUST-000189,PROD-0001,CHAN-04,3,"My card was charged the correct amount, but it is far too expensive for what it does.",en,2026-07-30 12:30:26,promo
 REV-2026-000400,CUST-000055,PROD-0003,CHAN-04,2,"Refund bilkul bekaar hai, very disappointed.",hi-Latn,2026-07-30 15:53:13,
@@ -423,7 +423,7 @@ REV-2026-000421,CUST-000188,PROD-0009,CHAN-04,5,"La app de Orbix Router es genia
 REV-2026-000422,CUST-000164,PROD-0009,CHAN-04,4,"Same-day delivery actually arrived the same day, would recommend Orbix Router.",en,2026-08-10 01:35:16,
 REV-2026-000423,CUST-000181,PROD-0005,CHAN-04,4,"Setup mast hai, lekin customer support ne pareshan kar diya.",hi-Latn,2026-08-10 04:05:49,
 REV-2026-000424,CUST-000172,PROD-0004,CHAN-03,2,"Oh great, my card shows a double charge for one subscription. Just perfect.",en,2026-08-10 04:06:51,
-REV-2026-000425,CUST-000045,PROD-0005,CHAN-03,1,बिलिंग से मैं बहुत परेशान हूँ।,hi,2026-08-10 05:15:13,verified_purchase;eval_label=negative
+REV-2026-000425,CUST-000045,PROD-0005,CHAN-03,1,बिलिंग से मैं बहुत परेशान हूँ।,hi,2026-08-10 05:15:13,verified_purchase
 REV-2026-000426,CUST-000157,PROD-0010,CHAN-03,3,"Mixed feelings about QuickDrop Express: the discount made it a real bargain, yet billing added fees nobody explained.",en,2026-08-10 09:51:26,
 REV-2026-000427,CUST-000092,PROD-0009,CHAN-04,1,"Oh great, the delivery was handled carelessly and the box was crushed. Just perfect.",en,2026-08-10 11:14:56,verified_purchase
 REV-2026-000428,CUST-000038,PROD-0011,CHAN-04,2,"Delivery came right on the promised day, but I can never find the settings I need.",en,2026-08-10 15:05:34,verified_purchase
@@ -444,7 +444,7 @@ REV-2026-000442,CUST-000120,PROD-0008,CHAN-03,5,"The return and refund were comp
 REV-2026-000443,CUST-000044,PROD-0008,CHAN-04,3,Using Velto Watch for a while now. The app was updated to version 5 last week.,en,2026-08-13 22:38:19,promo
 REV-2026-000444,CUST-000055,PROD-0009,CHAN-03,2,"Customer support bilkul bekaar hai, very disappointed.",hi-Latn,2026-08-14 01:56:58,verified_purchase
 REV-2026-000445,CUST-000135,PROD-0007,CHAN-03,1,The setup failed three times before it worked. I expected much better from Aurelo Speaker.,en,2026-08-14 04:38:06,
-REV-2026-000446,CUST-000147,PROD-0009,CHAN-03,3,El reembolso es aceptable.,es,2026-08-14 09:48:01,eval_label=neutral
+REV-2026-000446,CUST-000147,PROD-0009,CHAN-03,3,El reembolso es aceptable.,es,2026-08-14 09:48:01,
 REV-2026-000447,CUST-000053,PROD-0006,CHAN-03,3,"Login normal hai, kuch special nahi.",hi-Latn,2026-08-14 11:37:44,
 REV-2026-000448,CUST-000187,PROD-0010,CHAN-03,2,Really frustrated: my order arrived three days late.,en,2026-08-14 17:39:16,verified_purchase
 REV-2026-000449,CUST-000161,PROD-0012,CHAN-04,5,Five stars: it is great value for money.,en,2026-08-14 18:05:34,verified_purchase

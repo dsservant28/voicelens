@@ -1278,13 +1278,24 @@
  {
   "response_id": "RESP-SUR-2026-000001-117",
   "survey_id": "SUR-2026-000001",
-  "customer_id": "CUST-000152",
+  "customer_id": "CUST-000146",
   "product_id": "PROD-0001",
-  "score": 8,
-  "text": "Setup se khush hoon par app third class hai.",
-  "language": "hi-Latn",
-  "submitted_at": "2026-06-03 03:35:33",
+  "score": 5,
+  "text": "Mixed feelings about Lumo Wallet: my refund arrived within two days, yet I keep getting locked out of my account.",
+  "language": "en",
+  "submitted_at": "2026-04-26 06:29:16",
   "tags": ""
+ },
+ {
+  "response_id": "RESP-SUR-2026-000001-118",
+  "survey_id": "SUR-2026-000001",
+  "customer_id": "CUST-000058",
+  "product_id": "PROD-0001",
+  "score": 3,
+  "text": "The setup is not good, not even close.",
+  "language": "en",
+  "submitted_at": "2026-05-31 00:13:13",
+  "tags": "verified_purchase"
  },
  {
   "response_id": "RESP-SUR-2026-000002-001",
@@ -2675,13 +2686,13 @@
  {
   "response_id": "RESP-SUR-2026-000002-127",
   "survey_id": "SUR-2026-000002",
-  "customer_id": "CUST-000046",
-  "product_id": "PROD-0005",
+  "customer_id": "CUST-000083",
+  "product_id": "PROD-0007",
   "score": 10,
-  "text": "Payment bahut achha hai, full satisfied.",
-  "language": "hi-Latn",
-  "submitted_at": "2026-08-03 15:05:16",
-  "tags": ""
+  "text": "It is great value for money. Really happy with Aurelo Speaker.",
+  "language": "en",
+  "submitted_at": "2026-06-07 14:50:32",
+  "tags": "verified_purchase"
  },
  {
   "response_id": "RESP-SUR-2026-000003-001",
@@ -3624,7 +3635,7 @@
   "customer_id": "CUST-000177",
   "product_id": "PROD-0005",
   "score": 7,
-  "text": "Using VaultBox Plus for a while now. Support asked for my order number. You can reach me at mateo.das177@example.com or +1-555-0177. - Mateo Das",
+  "text": "Using VaultBox Plus for a while now. Support asked for my order number.",
   "language": "en",
   "submitted_at": "2026-09-04 21:05:39",
   "tags": "promo"
@@ -3880,17 +3891,6 @@
   "text": "The chat agent went above and beyond. Really happy with Orbix Router.",
   "language": "en",
   "submitted_at": "2026-09-17 13:12:03",
-  "tags": ""
- },
- {
-  "response_id": "RESP-SUR-2026-000003-110",
-  "survey_id": "SUR-2026-000003",
-  "customer_id": "CUST-000174",
-  "product_id": "PROD-0012",
-  "score": 10,
-  "text": "Five stars: it is great value for money.",
-  "language": "en",
-  "submitted_at": "2026-07-27 05:51:30",
   "tags": ""
  },
  {

@@ -51,7 +51,8 @@ def volumes(scale: float) -> Volumes:
         reviews=n["reviews"],
         responses=responses,
         support_messages=n["support_messages"],
-        tickets=max(1, round(n["support_messages"] / 4)),   # 2-6 messages per ticket, mean 4
+        # 2-6 messages per ticket (mean ~4); dividing by 3.9 makes the total reliably reach the target (>= 20,000 at 1.0)
+        tickets=max(1, round(n["support_messages"] / 3.9)),
         surveys=surveys,
         eval_items=max(40, n["eval_items"]),
         anomalies_per_type=max(3, round(40 * scale)),

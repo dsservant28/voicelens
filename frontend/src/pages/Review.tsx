@@ -240,7 +240,8 @@ function Uncertain() {
 }
 
 export function Review() {
-  const [tab, setTab] = useState<'eval' | 'uncertain'>('eval')
+  const [tab, setTab] = useState<'eval' | 'uncertain'>(() =>
+    new URLSearchParams(window.location.search).get('tab') === 'uncertain' ? 'uncertain' : 'eval')
   const ev = useQueue({ set: 'eval', status: 'pending', limit: 1 }).data
   const un = useQueue({ set: 'uncertain', status: 'pending', limit: 1 }).data
   const tabs = [

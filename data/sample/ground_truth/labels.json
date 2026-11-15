@@ -244,7 +244,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0003",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "review",
@@ -920,7 +920,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0001",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "review",
@@ -1115,7 +1115,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0006",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "review",
@@ -1388,7 +1388,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0010",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "review",
@@ -1791,7 +1791,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0008",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "review",
@@ -1986,7 +1986,7 @@
   "incident_id": "INC-03",
   "incident_phase": "post",
   "product_id": "PROD-0001",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "review",
@@ -2025,7 +2025,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0011",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "review",
@@ -2207,7 +2207,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0010",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "review",
@@ -2610,7 +2610,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0008",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "review",
@@ -2688,7 +2688,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0008",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "review",
@@ -3156,7 +3156,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0001",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "review",
@@ -3507,7 +3507,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0011",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "review",
@@ -3637,7 +3637,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0012",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "review",
@@ -3689,7 +3689,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0003",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "review",
@@ -3819,7 +3819,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0001",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "review",
@@ -3884,7 +3884,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0001",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "review",
@@ -4391,7 +4391,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0001",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "review",
@@ -4469,7 +4469,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0004",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "review",
@@ -4625,7 +4625,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0002",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "review",
@@ -4664,7 +4664,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0006",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "review",
@@ -4716,7 +4716,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0012",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "review",
@@ -4781,7 +4781,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0008",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "review",
@@ -4833,7 +4833,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0005",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "review",
@@ -5028,7 +5028,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0004",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "review",
@@ -5054,7 +5054,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0006",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "review",
@@ -5158,7 +5158,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0007",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "review",
@@ -5470,7 +5470,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0009",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "review",
@@ -5522,7 +5522,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0005",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "review",
@@ -5639,7 +5639,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0003",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "review",
@@ -5795,7 +5795,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0009",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "review",
@@ -5847,7 +5847,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0006",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "review",
@@ -6757,7 +6757,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0003",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "review",
@@ -6835,7 +6835,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0010",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "review",
@@ -6991,7 +6991,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0009",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "review",
@@ -7069,7 +7069,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0003",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "review",
@@ -7394,7 +7394,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0009",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "review",
@@ -7802,86 +7802,21 @@
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000001-001",
-  "sentiment": "mixed",
-  "theme_ids": "THEME-000002|THEME-000004",
-  "style": "multilingual",
-  "language": "es",
-  "template_id": "ES-MIX-01",
+  "sentiment": "positive",
+  "theme_ids": "THEME-000009",
+  "style": "plain",
+  "language": "en",
+  "template_id": "EN-PLAIN-POS-04",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0001",
+  "product_id": "PROD-0004",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000001-003",
-  "sentiment": "positive",
-  "theme_ids": "THEME-000012",
-  "style": "multilingual",
-  "language": "es",
-  "template_id": "ES-POS-02",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0001",
-  "split": "train"
- },
- {
-  "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000002-001",
-  "sentiment": "neutral",
-  "theme_ids": "THEME-000004",
-  "style": "plain",
-  "language": "en",
-  "template_id": "EN-PLAIN-NEU-02",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0005",
-  "split": "train"
- },
- {
-  "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000002-003",
-  "sentiment": "neutral",
-  "theme_ids": "THEME-000004",
-  "style": "plain",
-  "language": "en",
-  "template_id": "EN-PLAIN-NEU-02",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0005",
-  "split": "train"
- },
- {
-  "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000003-001",
-  "sentiment": "positive",
-  "theme_ids": "THEME-000008",
-  "style": "plain",
-  "language": "en",
-  "template_id": "EN-PLAIN-POS-01",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0004",
-  "split": "train"
- },
- {
-  "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000003-003",
   "sentiment": "mixed",
-  "theme_ids": "THEME-000008|THEME-000012",
-  "style": "mixed",
-  "language": "en",
-  "template_id": "EN-MIXED-MIX-01",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0004",
-  "split": "train"
- },
- {
-  "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000004-001",
-  "sentiment": "mixed",
-  "theme_ids": "THEME-000008|THEME-000004",
+  "theme_ids": "THEME-000009|THEME-000002",
   "style": "mixed",
   "language": "en",
   "template_id": "EN-MIXED-MIX-03",
@@ -7892,12 +7827,103 @@
  },
  {
   "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000004-003",
+  "source_id": "MSG-TKT-2026-000002-001",
   "sentiment": "mixed",
-  "theme_ids": "THEME-000007|THEME-000008",
+  "theme_ids": "THEME-000005|THEME-000009",
+  "style": "mixed",
+  "language": "en",
+  "template_id": "EN-MIXED-MIX-02",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0010",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000002-003",
+  "sentiment": "positive",
+  "theme_ids": "THEME-000006",
+  "style": "plain",
+  "language": "en",
+  "template_id": "EN-PLAIN-POS-02",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0010",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000003-001",
+  "sentiment": "neutral",
+  "theme_ids": "THEME-000004",
+  "style": "plain",
+  "language": "en",
+  "template_id": "EN-PLAIN-NEU-02",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0003",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000003-003",
+  "sentiment": "mixed",
+  "theme_ids": "THEME-000004|THEME-000007",
   "style": "mixed",
   "language": "en",
   "template_id": "EN-MIXED-MIX-01",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0003",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000003-005",
+  "sentiment": "mixed",
+  "theme_ids": "THEME-000004|THEME-000002",
+  "style": "mixed",
+  "language": "en",
+  "template_id": "EN-MIXED-MIX-02",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0003",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000004-001",
+  "sentiment": "mixed",
+  "theme_ids": "THEME-000007|THEME-000002",
+  "style": "multilingual",
+  "language": "hi-Latn",
+  "template_id": "HI-LATN-MIX-03",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0001",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000004-003",
+  "sentiment": "negative",
+  "theme_ids": "THEME-000008",
+  "style": "multilingual",
+  "language": "hi-Latn",
+  "template_id": "HI-LATN-NEG-01",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0001",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000005-001",
+  "sentiment": "neutral",
+  "theme_ids": "THEME-000009",
+  "style": "plain",
+  "language": "en",
+  "template_id": "EN-PLAIN-NEU-03",
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0004",
@@ -7905,9 +7931,74 @@
  },
  {
   "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000005-001",
+  "source_id": "MSG-TKT-2026-000005-003",
+  "sentiment": "neutral",
+  "theme_ids": "THEME-000009",
+  "style": "plain",
+  "language": "en",
+  "template_id": "EN-PLAIN-NEU-03",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0004",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000005-005",
+  "sentiment": "positive",
+  "theme_ids": "THEME-000009",
+  "style": "negation",
+  "language": "en",
+  "template_id": "EN-NEGATION-POS-02",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0004",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000006-001",
+  "sentiment": "mixed",
+  "theme_ids": "THEME-000006|THEME-000002",
+  "style": "mixed",
+  "language": "en",
+  "template_id": "EN-MIXED-MIX-03",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0005",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000006-003",
+  "sentiment": "positive",
+  "theme_ids": "THEME-000010",
+  "style": "plain",
+  "language": "en",
+  "template_id": "EN-PLAIN-POS-04",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0005",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000007-001",
+  "sentiment": "neutral",
+  "theme_ids": "THEME-000004",
+  "style": "multilingual",
+  "language": "hi-Latn",
+  "template_id": "HI-LATN-NEU-01",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0008",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000007-003",
   "sentiment": "negative",
-  "theme_ids": "THEME-000006",
+  "theme_ids": "THEME-000004",
   "style": "multilingual",
   "language": "hi-Latn",
   "template_id": "HI-LATN-NEG-01",
@@ -7918,12 +8009,12 @@
  },
  {
   "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000005-003",
-  "sentiment": "negative",
-  "theme_ids": "THEME-000006",
+  "source_id": "MSG-TKT-2026-000007-005",
+  "sentiment": "neutral",
+  "theme_ids": "THEME-000004",
   "style": "multilingual",
   "language": "hi-Latn",
-  "template_id": "HI-LATN-NEG-03",
+  "template_id": "HI-LATN-NEU-03",
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0008",
@@ -7931,7 +8022,33 @@
  },
  {
   "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000006-001",
+  "source_id": "MSG-TKT-2026-000008-001",
+  "sentiment": "negative",
+  "theme_ids": "THEME-000007",
+  "style": "plain",
+  "language": "en",
+  "template_id": "EN-PLAIN-NEG-03",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0007",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000008-003",
+  "sentiment": "neutral",
+  "theme_ids": "THEME-000007",
+  "style": "plain",
+  "language": "en",
+  "template_id": "EN-PLAIN-NEU-02",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0007",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000008-005",
   "sentiment": "neutral",
   "theme_ids": "THEME-000007",
   "style": "plain",
@@ -7939,209 +8056,131 @@
   "template_id": "EN-PLAIN-NEU-03",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0009",
-  "split": "train"
- },
- {
-  "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000006-003",
-  "sentiment": "positive",
-  "theme_ids": "THEME-000007",
-  "style": "negation",
-  "language": "en",
-  "template_id": "EN-NEGATION-POS-02",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0009",
-  "split": "train"
- },
- {
-  "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000006-005",
-  "sentiment": "mixed",
-  "theme_ids": "THEME-000007|THEME-000004",
-  "style": "mixed",
-  "language": "en",
-  "template_id": "EN-MIXED-MIX-03",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0009",
-  "split": "train"
- },
- {
-  "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000007-001",
-  "sentiment": "negative",
-  "theme_ids": "THEME-000009",
-  "style": "negation",
-  "language": "en",
-  "template_id": "EN-NEGATION-NEG-02",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0010",
-  "split": "train"
- },
- {
-  "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000007-003",
-  "sentiment": "mixed",
-  "theme_ids": "THEME-000009|THEME-000002",
-  "style": "mixed",
-  "language": "en",
-  "template_id": "EN-MIXED-MIX-03",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0010",
-  "split": "train"
- },
- {
-  "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000008-001",
-  "sentiment": "negative",
-  "theme_ids": "THEME-000003",
-  "style": "negation",
-  "language": "en",
-  "template_id": "EN-NEGATION-NEG-01",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0002",
-  "split": "train"
- },
- {
-  "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000008-003",
-  "sentiment": "neutral",
-  "theme_ids": "THEME-000003",
-  "style": "ambiguous",
-  "language": "en",
-  "template_id": "EN-AMBIGUOUS-NEU-03",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0002",
-  "split": "train"
- },
- {
-  "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000008-005",
-  "sentiment": "mixed",
-  "theme_ids": "THEME-000003|THEME-000008",
-  "style": "mixed",
-  "language": "en",
-  "template_id": "EN-MIXED-MIX-01",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0002",
+  "product_id": "PROD-0007",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000009-001",
   "sentiment": "positive",
-  "theme_ids": "THEME-000004",
+  "theme_ids": "THEME-000010",
   "style": "plain",
   "language": "en",
   "template_id": "EN-PLAIN-POS-04",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0012",
+  "product_id": "PROD-0008",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000009-003",
-  "sentiment": "neutral",
-  "theme_ids": "THEME-000004",
+  "sentiment": "positive",
+  "theme_ids": "THEME-000010",
   "style": "plain",
   "language": "en",
-  "template_id": "EN-PLAIN-NEU-01",
+  "template_id": "EN-PLAIN-POS-01",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0012",
+  "product_id": "PROD-0008",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000009-005",
+  "sentiment": "neutral",
+  "theme_ids": "THEME-000010",
+  "style": "plain",
+  "language": "en",
+  "template_id": "EN-PLAIN-NEU-03",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0008",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000010-001",
-  "sentiment": "negative",
-  "theme_ids": "THEME-000007",
-  "style": "plain",
-  "language": "en",
-  "template_id": "EN-PLAIN-NEG-01",
+  "sentiment": "positive",
+  "theme_ids": "THEME-000005",
+  "style": "multilingual",
+  "language": "hi-Latn",
+  "template_id": "HI-LATN-POS-02",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0006",
+  "product_id": "PROD-0010",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000010-003",
   "sentiment": "positive",
-  "theme_ids": "THEME-000007",
-  "style": "plain",
-  "language": "en",
-  "template_id": "EN-PLAIN-POS-01",
+  "theme_ids": "THEME-000005",
+  "style": "multilingual",
+  "language": "hi-Latn",
+  "template_id": "HI-LATN-POS-03",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0006",
+  "product_id": "PROD-0010",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000010-005",
-  "sentiment": "positive",
-  "theme_ids": "THEME-000007",
-  "style": "plain",
-  "language": "en",
-  "template_id": "EN-PLAIN-POS-04",
+  "sentiment": "mixed",
+  "theme_ids": "THEME-000005|THEME-000009",
+  "style": "multilingual",
+  "language": "hi-Latn",
+  "template_id": "HI-LATN-MIX-03",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0006",
+  "product_id": "PROD-0010",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000011-001",
   "sentiment": "positive",
-  "theme_ids": "THEME-000010",
-  "style": "negation",
-  "language": "en",
-  "template_id": "EN-NEGATION-POS-02",
+  "theme_ids": "THEME-000006",
+  "style": "multilingual",
+  "language": "te",
+  "template_id": "TE-POS-03",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0005",
+  "product_id": "PROD-0002",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000011-003",
+  "sentiment": "positive",
+  "theme_ids": "THEME-000006",
+  "style": "multilingual",
+  "language": "te",
+  "template_id": "TE-POS-02",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0002",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000011-005",
+  "sentiment": "positive",
+  "theme_ids": "THEME-000006",
+  "style": "multilingual",
+  "language": "te",
+  "template_id": "TE-POS-03",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0002",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000012-001",
   "sentiment": "neutral",
-  "theme_ids": "THEME-000007",
-  "style": "ambiguous",
-  "language": "en",
-  "template_id": "EN-AMBIGUOUS-NEU-03",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0009",
-  "split": "eval"
- },
- {
-  "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000012-003",
-  "sentiment": "mixed",
-  "theme_ids": "THEME-000007|THEME-000006",
-  "style": "mixed",
-  "language": "en",
-  "template_id": "EN-MIXED-MIX-01",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0009",
-  "split": "train"
- },
- {
-  "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000013-001",
-  "sentiment": "neutral",
-  "theme_ids": "THEME-000004",
+  "theme_ids": "THEME-000002",
   "style": "plain",
   "language": "en",
   "template_id": "EN-PLAIN-NEU-02",
@@ -8152,259 +8191,272 @@
  },
  {
   "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000014-001",
-  "sentiment": "negative",
-  "theme_ids": "THEME-000005",
+  "source_id": "MSG-TKT-2026-000013-001",
+  "sentiment": "positive",
+  "theme_ids": "THEME-000004",
   "style": "plain",
   "language": "en",
-  "template_id": "EN-PLAIN-NEG-01",
+  "template_id": "EN-PLAIN-POS-02",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0007",
+  "product_id": "PROD-0011",
   "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000014-001",
+  "sentiment": "positive",
+  "theme_ids": "THEME-000004",
+  "style": "plain",
+  "language": "en",
+  "template_id": "EN-PLAIN-POS-03",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0001",
+  "split": "eval"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000014-003",
-  "sentiment": "neutral",
-  "theme_ids": "THEME-000005",
-  "style": "ambiguous",
+  "sentiment": "positive",
+  "theme_ids": "THEME-000004",
+  "style": "plain",
   "language": "en",
-  "template_id": "EN-AMBIGUOUS-NEU-01",
+  "template_id": "EN-PLAIN-POS-04",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0007",
-  "split": "train"
+  "product_id": "PROD-0001",
+  "split": "eval"
  },
  {
   "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000015-001",
-  "sentiment": "mixed",
-  "theme_ids": "THEME-000005|THEME-000009",
-  "style": "mixed",
-  "language": "en",
-  "template_id": "EN-MIXED-MIX-03",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0009",
-  "split": "train"
- },
- {
-  "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000015-003",
+  "source_id": "MSG-TKT-2026-000014-005",
   "sentiment": "neutral",
-  "theme_ids": "THEME-000009",
+  "theme_ids": "THEME-000004",
   "style": "plain",
   "language": "en",
   "template_id": "EN-PLAIN-NEU-03",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0009",
+  "product_id": "PROD-0001",
   "split": "train"
  },
  {
   "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000015-005",
+  "source_id": "MSG-TKT-2026-000015-001",
   "sentiment": "negative",
   "theme_ids": "THEME-000007",
   "style": "plain",
   "language": "en",
-  "template_id": "EN-PLAIN-NEG-02",
+  "template_id": "EN-PLAIN-NEG-04",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0009",
+  "product_id": "PROD-0002",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000016-001",
-  "sentiment": "mixed",
-  "theme_ids": "THEME-000008|THEME-000002",
-  "style": "multilingual",
-  "language": "hi",
-  "template_id": "HI-MIX-03",
+  "sentiment": "positive",
+  "theme_ids": "THEME-000007",
+  "style": "plain",
+  "language": "en",
+  "template_id": "EN-PLAIN-POS-03",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0002",
+  "product_id": "PROD-0012",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000016-003",
   "sentiment": "positive",
-  "theme_ids": "THEME-000002",
-  "style": "multilingual",
-  "language": "hi",
-  "template_id": "HI-POS-02",
+  "theme_ids": "THEME-000007",
+  "style": "plain",
+  "language": "en",
+  "template_id": "EN-PLAIN-POS-03",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0002",
+  "product_id": "PROD-0012",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000016-005",
-  "sentiment": "negative",
-  "theme_ids": "THEME-000003",
-  "style": "multilingual",
-  "language": "hi",
-  "template_id": "HI-NEG-03",
+  "sentiment": "mixed",
+  "theme_ids": "THEME-000007|THEME-000004",
+  "style": "mixed",
+  "language": "en",
+  "template_id": "EN-MIXED-MIX-02",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0002",
+  "product_id": "PROD-0012",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000017-001",
-  "sentiment": "neutral",
-  "theme_ids": "THEME-000010",
-  "style": "plain",
+  "sentiment": "mixed",
+  "theme_ids": "THEME-000011|THEME-000002",
+  "style": "mixed",
   "language": "en",
-  "template_id": "EN-PLAIN-NEU-01",
+  "template_id": "EN-MIXED-MIX-01",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0002",
+  "product_id": "PROD-0011",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000017-003",
+  "sentiment": "positive",
+  "theme_ids": "THEME-000006",
+  "style": "plain",
+  "language": "en",
+  "template_id": "EN-PLAIN-POS-02",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0011",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000018-001",
   "sentiment": "neutral",
-  "theme_ids": "THEME-000006",
-  "style": "plain",
-  "language": "en",
-  "template_id": "EN-PLAIN-NEU-01",
+  "theme_ids": "THEME-000009",
+  "style": "multilingual",
+  "language": "hi",
+  "template_id": "HI-NEU-03",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0006",
+  "product_id": "PROD-0004",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000018-003",
   "sentiment": "neutral",
-  "theme_ids": "THEME-000006",
-  "style": "plain",
-  "language": "en",
-  "template_id": "EN-PLAIN-NEU-01",
+  "theme_ids": "THEME-000009",
+  "style": "multilingual",
+  "language": "hi",
+  "template_id": "HI-NEU-03",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0006",
+  "product_id": "PROD-0004",
+  "split": "eval"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000018-005",
+  "sentiment": "negative",
+  "theme_ids": "THEME-000009",
+  "style": "multilingual",
+  "language": "hi",
+  "template_id": "HI-NEG-03",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0004",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000019-001",
-  "sentiment": "neutral",
-  "theme_ids": "THEME-000011",
+  "sentiment": "positive",
+  "theme_ids": "THEME-000006",
   "style": "multilingual",
-  "language": "es",
-  "template_id": "ES-NEU-01",
+  "language": "hi-Latn",
+  "template_id": "HI-LATN-POS-02",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0012",
+  "product_id": "PROD-0002",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000019-003",
-  "sentiment": "positive",
-  "theme_ids": "THEME-000011",
+  "sentiment": "neutral",
+  "theme_ids": "THEME-000006",
   "style": "multilingual",
-  "language": "es",
-  "template_id": "ES-POS-02",
+  "language": "hi-Latn",
+  "template_id": "HI-LATN-NEU-02",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0012",
+  "product_id": "PROD-0002",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000020-001",
-  "sentiment": "neutral",
-  "theme_ids": "THEME-000004",
+  "sentiment": "positive",
+  "theme_ids": "THEME-000003",
   "style": "multilingual",
-  "language": "hi",
-  "template_id": "HI-NEU-02",
+  "language": "es",
+  "template_id": "ES-POS-03",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0009",
-  "split": "eval"
- },
- {
-  "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000020-003",
-  "sentiment": "neutral",
-  "theme_ids": "THEME-000004",
-  "style": "multilingual",
-  "language": "hi",
-  "template_id": "HI-NEU-01",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0009",
+  "product_id": "PROD-0001",
   "split": "train"
  },
  {
   "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000020-005",
-  "sentiment": "positive",
-  "theme_ids": "THEME-000004",
+  "source_id": "MSG-TKT-2026-000020-003",
+  "sentiment": "negative",
+  "theme_ids": "THEME-000003",
   "style": "multilingual",
-  "language": "hi",
-  "template_id": "HI-POS-01",
+  "language": "es",
+  "template_id": "ES-NEG-01",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0009",
+  "product_id": "PROD-0001",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000021-001",
-  "sentiment": "mixed",
-  "theme_ids": "THEME-000009|THEME-000007",
-  "style": "multilingual",
-  "language": "es",
-  "template_id": "ES-MIX-02",
+  "sentiment": "neutral",
+  "theme_ids": "THEME-000006",
+  "style": "ambiguous",
+  "language": "en",
+  "template_id": "EN-AMBIGUOUS-NEU-01",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0001",
-  "split": "train"
- },
- {
-  "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000021-003",
-  "sentiment": "mixed",
-  "theme_ids": "THEME-000002|THEME-000010",
-  "style": "multilingual",
-  "language": "es",
-  "template_id": "ES-MIX-01",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0001",
-  "split": "train"
- },
- {
-  "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000021-005",
-  "sentiment": "negative",
-  "theme_ids": "THEME-000004",
-  "style": "multilingual",
-  "language": "es",
-  "template_id": "ES-NEG-03",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0001",
+  "product_id": "PROD-0010",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000022-001",
-  "sentiment": "positive",
-  "theme_ids": "THEME-000008",
+  "sentiment": "negative",
+  "theme_ids": "THEME-000003",
   "style": "multilingual",
   "language": "hi-Latn",
-  "template_id": "HI-LATN-POS-03",
+  "template_id": "HI-LATN-NEG-02",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0001",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000022-003",
+  "sentiment": "neutral",
+  "theme_ids": "THEME-000003",
+  "style": "multilingual",
+  "language": "hi-Latn",
+  "template_id": "HI-LATN-NEU-02",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0001",
+  "split": "eval"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000022-005",
+  "sentiment": "positive",
+  "theme_ids": "THEME-000003",
+  "style": "multilingual",
+  "language": "hi-Latn",
+  "template_id": "HI-LATN-POS-01",
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0001",
@@ -8413,92 +8465,79 @@
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000023-001",
-  "sentiment": "positive",
-  "theme_ids": "THEME-000001",
+  "sentiment": "negative",
+  "theme_ids": "THEME-000006",
   "style": "multilingual",
-  "language": "te",
-  "template_id": "TE-POS-02",
+  "language": "hi",
+  "template_id": "HI-NEG-01",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0010",
+  "product_id": "PROD-0009",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000023-003",
   "sentiment": "positive",
-  "theme_ids": "THEME-000001",
+  "theme_ids": "THEME-000006",
   "style": "multilingual",
-  "language": "te",
-  "template_id": "TE-POS-02",
+  "language": "hi",
+  "template_id": "HI-POS-03",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0010",
-  "split": "train"
- },
- {
-  "source_type": "support_message",
-  "source_id": "MSG-TKT-2026-000023-005",
-  "sentiment": "positive",
-  "theme_ids": "THEME-000001",
-  "style": "multilingual",
-  "language": "te",
-  "template_id": "TE-POS-02",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0010",
+  "product_id": "PROD-0009",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000024-001",
-  "sentiment": "negative",
-  "theme_ids": "THEME-000004",
-  "style": "plain",
+  "sentiment": "neutral",
+  "theme_ids": "THEME-000010",
+  "style": "ambiguous",
   "language": "en",
-  "template_id": "EN-PLAIN-NEG-03",
+  "template_id": "EN-AMBIGUOUS-NEU-01",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0006",
+  "product_id": "PROD-0008",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000025-001",
   "sentiment": "negative",
-  "theme_ids": "THEME-000008",
-  "style": "sarcastic",
+  "theme_ids": "THEME-000002",
+  "style": "plain",
   "language": "en",
-  "template_id": "EN-SARCASTIC-NEG-04",
-  "incident_id": "INC-03",
-  "incident_phase": "post",
-  "product_id": "PROD-0001",
+  "template_id": "EN-PLAIN-NEG-02",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0005",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000026-001",
-  "sentiment": "mixed",
-  "theme_ids": "THEME-000003|THEME-000012",
-  "style": "mixed",
+  "sentiment": "positive",
+  "theme_ids": "THEME-000007",
+  "style": "plain",
   "language": "en",
-  "template_id": "EN-MIXED-MIX-01",
+  "template_id": "EN-PLAIN-POS-01",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0001",
+  "product_id": "PROD-0010",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000026-003",
-  "sentiment": "negative",
+  "sentiment": "neutral",
   "theme_ids": "THEME-000007",
   "style": "plain",
   "language": "en",
-  "template_id": "EN-PLAIN-NEG-01",
+  "template_id": "EN-PLAIN-NEU-01",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0001",
+  "product_id": "PROD-0010",
   "split": "train"
  },
  {
@@ -8876,7 +8915,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0005",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "support_message",
@@ -9136,7 +9175,7 @@
   "incident_id": "INC-04",
   "incident_phase": "pre",
   "product_id": "PROD-0002",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "support_message",
@@ -9168,26 +9207,26 @@
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000050-001",
   "sentiment": "mixed",
-  "theme_ids": "THEME-000012|THEME-000006",
+  "theme_ids": "THEME-000011|THEME-000003",
   "style": "mixed",
   "language": "en",
   "template_id": "EN-MIXED-MIX-01",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0006",
+  "product_id": "PROD-0007",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000050-003",
   "sentiment": "negative",
-  "theme_ids": "THEME-000012",
+  "theme_ids": "THEME-000011",
   "style": "plain",
   "language": "en",
   "template_id": "EN-PLAIN-NEG-03",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0006",
+  "product_id": "PROD-0007",
   "split": "train"
  },
  {
@@ -9201,7 +9240,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0007",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "support_message",
@@ -9292,7 +9331,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0002",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "support_message",
@@ -9526,7 +9565,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0007",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "support_message",
@@ -9688,39 +9727,39 @@
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000067-001",
   "sentiment": "negative",
-  "theme_ids": "THEME-000004",
+  "theme_ids": "THEME-000008",
   "style": "sarcastic",
   "language": "en",
   "template_id": "EN-SARCASTIC-NEG-01",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0004",
+  "product_id": "PROD-0003",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000067-003",
   "sentiment": "neutral",
-  "theme_ids": "THEME-000004",
+  "theme_ids": "THEME-000008",
   "style": "ambiguous",
   "language": "en",
   "template_id": "EN-AMBIGUOUS-NEU-03",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0004",
+  "product_id": "PROD-0003",
   "split": "train"
  },
  {
   "source_type": "support_message",
   "source_id": "MSG-TKT-2026-000067-005",
   "sentiment": "positive",
-  "theme_ids": "THEME-000004",
+  "theme_ids": "THEME-000008",
   "style": "plain",
   "language": "en",
   "template_id": "EN-PLAIN-POS-04",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0004",
+  "product_id": "PROD-0003",
   "split": "train"
  },
  {
@@ -9812,7 +9851,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0002",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "support_message",
@@ -9851,7 +9890,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0006",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "support_message",
@@ -10072,7 +10111,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0001",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "support_message",
@@ -10267,7 +10306,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0004",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "support_message",
@@ -10371,7 +10410,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0011",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "support_message",
@@ -10488,7 +10527,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0006",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "support_message",
@@ -10527,7 +10566,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0001",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "support_message",
@@ -10670,6 +10709,71 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0012",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000101-001",
+  "sentiment": "neutral",
+  "theme_ids": "THEME-000003",
+  "style": "ambiguous",
+  "language": "en",
+  "template_id": "EN-AMBIGUOUS-NEU-01",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0008",
+  "split": "eval"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000101-003",
+  "sentiment": "positive",
+  "theme_ids": "THEME-000003",
+  "style": "plain",
+  "language": "en",
+  "template_id": "EN-PLAIN-POS-04",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0008",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000102-001",
+  "sentiment": "negative",
+  "theme_ids": "THEME-000001",
+  "style": "multilingual",
+  "language": "hi-Latn",
+  "template_id": "HI-LATN-NEG-02",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0008",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000102-003",
+  "sentiment": "mixed",
+  "theme_ids": "THEME-000001|THEME-000007",
+  "style": "multilingual",
+  "language": "hi-Latn",
+  "template_id": "HI-LATN-MIX-02",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0008",
+  "split": "train"
+ },
+ {
+  "source_type": "support_message",
+  "source_id": "MSG-TKT-2026-000103-001",
+  "sentiment": "positive",
+  "theme_ids": "THEME-000005",
+  "style": "multilingual",
+  "language": "te",
+  "template_id": "TE-POS-03",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0008",
   "split": "train"
  },
  {
@@ -10930,7 +11034,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0001",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "survey_response",
@@ -10943,7 +11047,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0001",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "survey_response",
@@ -10982,7 +11086,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0001",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "survey_response",
@@ -11255,7 +11359,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0001",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "survey_response",
@@ -11359,7 +11463,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0001",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "survey_response",
@@ -11476,7 +11580,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0001",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "survey_response",
@@ -11541,7 +11645,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0001",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "survey_response",
@@ -12184,10 +12288,23 @@
   "source_type": "survey_response",
   "source_id": "RESP-SUR-2026-000001-117",
   "sentiment": "mixed",
-  "theme_ids": "THEME-000010|THEME-000003",
-  "style": "multilingual",
-  "language": "hi-Latn",
-  "template_id": "HI-LATN-MIX-03",
+  "theme_ids": "THEME-000009|THEME-000008",
+  "style": "mixed",
+  "language": "en",
+  "template_id": "EN-MIXED-MIX-03",
+  "incident_id": null,
+  "incident_phase": null,
+  "product_id": "PROD-0001",
+  "split": "train"
+ },
+ {
+  "source_type": "survey_response",
+  "source_id": "RESP-SUR-2026-000001-118",
+  "sentiment": "negative",
+  "theme_ids": "THEME-000010",
+  "style": "negation",
+  "language": "en",
+  "template_id": "EN-NEGATION-NEG-01",
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0001",
@@ -12399,7 +12516,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0009",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "survey_response",
@@ -12841,7 +12958,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0005",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "survey_response",
@@ -12958,7 +13075,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0007",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "survey_response",
@@ -13244,7 +13361,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0005",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "survey_response",
@@ -13517,7 +13634,7 @@
   "incident_id": "INC-04",
   "incident_phase": "pre",
   "product_id": "PROD-0002",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "survey_response",
@@ -13816,7 +13933,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0001",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "survey_response",
@@ -13835,13 +13952,13 @@
   "source_type": "survey_response",
   "source_id": "RESP-SUR-2026-000002-127",
   "sentiment": "positive",
-  "theme_ids": "THEME-000012",
-  "style": "multilingual",
-  "language": "hi-Latn",
-  "template_id": "HI-LATN-POS-01",
+  "theme_ids": "THEME-000006",
+  "style": "plain",
+  "language": "en",
+  "template_id": "EN-PLAIN-POS-01",
   "incident_id": null,
   "incident_phase": null,
-  "product_id": "PROD-0005",
+  "product_id": "PROD-0007",
   "split": "train"
  },
  {
@@ -13894,7 +14011,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0011",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "survey_response",
@@ -14024,7 +14141,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0006",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "survey_response",
@@ -14232,7 +14349,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0003",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "survey_response",
@@ -14453,7 +14570,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0001",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "survey_response",
@@ -14557,7 +14674,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0004",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "survey_response",
@@ -14609,7 +14726,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0002",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "survey_response",
@@ -14674,7 +14791,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0005",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "survey_response",
@@ -15129,7 +15246,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0010",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "survey_response",
@@ -15142,7 +15259,7 @@
   "incident_id": "INC-04",
   "incident_phase": "post",
   "product_id": "PROD-0002",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "survey_response",
@@ -15263,19 +15380,6 @@
  },
  {
   "source_type": "survey_response",
-  "source_id": "RESP-SUR-2026-000003-110",
-  "sentiment": "positive",
-  "theme_ids": "THEME-000006",
-  "style": "plain",
-  "language": "en",
-  "template_id": "EN-PLAIN-POS-04",
-  "incident_id": null,
-  "incident_phase": null,
-  "product_id": "PROD-0012",
-  "split": "train"
- },
- {
-  "source_type": "survey_response",
   "source_id": "RESP-SUR-2026-000004-001",
   "sentiment": "neutral",
   "theme_ids": "THEME-000010",
@@ -15350,7 +15454,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0005",
-  "split": "train"
+  "split": "eval"
  },
  {
   "source_type": "survey_response",
@@ -15454,7 +15558,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0011",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "survey_response",
@@ -15727,7 +15831,7 @@
   "incident_id": null,
   "incident_phase": null,
   "product_id": "PROD-0005",
-  "split": "eval"
+  "split": "train"
  },
  {
   "source_type": "survey_response",

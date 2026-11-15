@@ -42,12 +42,12 @@ function Seismograph({ alerts, selected, onSelect, onPick }: { alerts: Alert[]; 
   const [ref, w] = useWidth<HTMLDivElement>()
   const [hover, setHover] = useState<number | null>(null)
   if (!s) return <div ref={ref}><Flatline /></div>
-  const L = 92, R = 16, lane = 74, top = 22, marks = 64
+  const L = 92, R = 16, lane = 74, top = 22, marks = 92
   const h = top + lane * 3 + marks
   const x = scaleTime().domain([s.from, s.to]).range([L, w - R])
   const n = s.series.support.length
   const placed = [...alerts].sort((a, b) => a.detected_date.localeCompare(b.detected_date))
-    .map((a, i, arr) => ({ a, row: i > 0 && daysBetween(arr[i - 1].detected_date, a.detected_date) < 9 ? 1 : 0 }))
+    .map((a, i, arr) => ({ a, row: arr.slice(0, i).filter((b) => daysBetween(b.detected_date, a.detected_date) < 12).length % 3 }))
   return (
     <div ref={ref} className="relative">
       <svg width={w} height={h} className="block select-none"

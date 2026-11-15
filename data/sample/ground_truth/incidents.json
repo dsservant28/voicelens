@@ -61,7 +61,7 @@
   "volume_boost": 1.0,
   "override_prob": 0.55,
   "pre_onset_prob": 0.0,
-  "n_support_items": 1,
+  "n_support_items": 0,
   "n_review_items": 4,
   "n_survey_items": 11
  },

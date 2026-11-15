@@ -1,11 +1,11 @@
 # Validation summary - PASS_WITH_EXCEPTIONS
 
-Data `..\data\sample` · seed 20261022 · scale 0.02 · validated 2026-11-15 17:59:42  
-2,944 rows checked · 11 exceptions · 9 rows quarantined (kept in DB, excluded from analysis)
+Data `..\data\sample` · seed 20261022 · scale 0.02 · validated 2026-11-15 18:24:32  
+2,991 rows checked · 11 exceptions · 9 rows quarantined (kept in DB, excluded from analysis)
 
 ## Reproducibility
 
-Generated twice (seed 20261022, scale 0.02): 31 files, identical = **True**; matches validated data = **True** (5.7 s).
+Generated twice (seed 20261022, scale 0.02): 31 files, identical = **True**; matches validated data = **True** (3.4 s).
 
 ## File integrity (manifest reconciliation)
 
@@ -18,11 +18,11 @@ Generated twice (seed 20261022, scale 0.02): 31 files, identical = **True**; mat
 | theme | 12 | 12 | ok | ok |
 | survey_response | 403 | 403 | ok | ok |
 | review | 600 | 600 | ok | ok |
-| support_ticket | 100 | 100 | ok | ok |
-| support_message | 397 | 397 | ok | ok |
-| ticket_status_event | 420 | 420 | ok | ok |
-| sentiment_label | 354 | 354 | ok | ok |
-| feedback_theme | 435 | 435 | ok | ok |
+| support_ticket | 103 | 103 | ok | ok |
+| support_message | 411 | 411 | ok | ok |
+| ticket_status_event | 440 | 440 | ok | ok |
+| sentiment_label | 357 | 357 | ok | ok |
+| feedback_theme | 442 | 442 | ok | ok |
 
 ## Tables
 
@@ -35,11 +35,11 @@ Generated twice (seed 20261022, scale 0.02): 31 files, identical = **True**; mat
 | theme | 12 | 0 | 0 | 12 |
 | survey_response | 403 | 3 | 3 | 400 |
 | review | 600 | 5 | 3 | 595 |
-| support_ticket | 100 | 0 | 0 | 100 |
-| support_message | 397 | 0 | 0 | 397 |
-| ticket_status_event | 420 | 0 | 0 | 420 |
-| sentiment_label | 354 | 0 | 0 | 354 |
-| feedback_theme | 435 | 3 | 3 | 432 |
+| support_ticket | 103 | 0 | 0 | 103 |
+| support_message | 411 | 0 | 0 | 411 |
+| ticket_status_event | 440 | 0 | 0 | 440 |
+| sentiment_label | 357 | 0 | 0 | 357 |
+| feedback_theme | 442 | 3 | 3 | 439 |
 
 ## Exceptions by type
 
@@ -72,11 +72,11 @@ Generated twice (seed 20261022, scale 0.02): 31 files, identical = **True**; mat
 
 | Exception | Table | Key | Detail |
 |---|---|---|---|
-| DUPLICATE_RESPONSE | survey_response | RESP-SUR-2026-000001-117 | duplicate of RESP-SUR-2026-000001-099 (same text) |
-| DUPLICATE_RESPONSE | survey_response | RESP-SUR-2026-000002-127 | duplicate of RESP-SUR-2026-000002-113 (same text) |
+| DUPLICATE_RESPONSE | survey_response | RESP-SUR-2026-000001-117 | duplicate of RESP-SUR-2026-000001-032 (same text) |
+| DUPLICATE_RESPONSE | survey_response | RESP-SUR-2026-000001-118 | duplicate of RESP-SUR-2026-000001-092 (same text) |
 | DUPLICATE_REVIEW | review | REV-2026-000470 | repeated review text |
 | DUPLICATE_REVIEW | review | REV-2026-000548 | repeated review text |
-| TEST_LABEL_IN_MODEL_INPUT | review | REV-2026-000387 | label-like tag 'eval_label=negative' in model input |
-| TEST_LABEL_IN_MODEL_INPUT | review | REV-2026-000425 | label-like tag 'eval_label=negative' in model input |
-| THEME_OUTSIDE_TAXONOMY | feedback_theme | review|REV-2026-000056|THEME-000999|source_system | theme_id='THEME-000999' not found in theme |
-| THEME_OUTSIDE_TAXONOMY | feedback_theme | review|REV-2026-000146|THEME-000999|source_system | theme_id='THEME-000999' not found in theme |
+| TEST_LABEL_IN_MODEL_INPUT | review | REV-2026-000071 | label-like tag 'eval_label=neutral' in model input |
+| TEST_LABEL_IN_MODEL_INPUT | review | REV-2026-000344 | label-like tag 'eval_label=mixed' in model input |
+| THEME_OUTSIDE_TAXONOMY | feedback_theme | review|REV-2026-000522|THEME-000999|source_system | theme_id='THEME-000999' not found in theme |
+| THEME_OUTSIDE_TAXONOMY | feedback_theme | support_message|MSG-TKT-2026-000042-001|THEME-000999|source_system | theme_id='THEME-000999' not found in theme |

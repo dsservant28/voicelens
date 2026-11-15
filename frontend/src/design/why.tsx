@@ -9,7 +9,10 @@ import { WhyCtx } from './why-context'
 
 
 export function WhyProvider({ children }: { children: ReactNode }) {
-  const [stack, setStack] = useState<string[]>([])
+  const [stack, setStack] = useState<string[]>(() => {
+    const id = new URLSearchParams(window.location.search).get('why')
+    return id ? [id] : []
+  })
   const open = useCallback((id: string) => setStack((s) => (s[s.length - 1] === id ? s : [...s, id])), [])
   const close = useCallback(() => setStack([]), [])
   const back = () => setStack((s) => s.slice(0, -1))

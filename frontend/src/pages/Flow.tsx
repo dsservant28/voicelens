@@ -22,9 +22,9 @@ function Sankey() {
   const [ref, w] = useWidth<HTMLDivElement>()
   const [hov, setHov] = useState<string | null>(null)
   if (!data) return <div ref={ref}><Flatline /></div>
-  const h = 420
-  const gen = sankey<N, L>().nodeId((d) => d.name).nodeAlign((d) => d.stage).nodeWidth(14).nodePadding(22)
-    .extent([[150, 10], [w - 170, h - 10]])
+  const h = 470
+  const gen = sankey<N, L>().nodeId((d) => d.name).nodeAlign((d) => d.stage).nodeWidth(14).nodePadding(34)
+    .extent([[160, 30], [w - 190, h - 6]])
   const g = gen({ nodes: data.nodes.map((d) => ({ ...d })), links: data.links.map((d) => ({ ...d })) } as SankeyGraph<N, L>)
   const r = data.reconciliation
   return (
@@ -46,13 +46,20 @@ function Sankey() {
           return (
             <g key={n.name} onMouseEnter={() => setHov(n.name)} onMouseLeave={() => setHov(null)} className="cursor-default">
               <rect x={n.x0} y={n.y0} width={(n.x1 ?? 0) - (n.x0 ?? 0)} height={Math.max(2, (n.y1 ?? 0) - (n.y0 ?? 0))} rx={2} fill={COLOR[n.name] ?? '#94a3b8'} />
-              <text x={left ? (n.x0 ?? 0) - 8 : (n.x1 ?? 0) + 8} y={((n.y0 ?? 0) + (n.y1 ?? 0)) / 2 - 2} textAnchor={left ? 'end' : 'start'} className="text-[12px]" fill="var(--fg)">{n.name}</text>
-              <text x={left ? (n.x0 ?? 0) - 8 : (n.x1 ?? 0) + 8} y={((n.y0 ?? 0) + (n.y1 ?? 0)) / 2 + 12} textAnchor={left ? 'end' : 'start'} className="num text-[11px]" fill="var(--muted)">{fmt.int(n.value)}</text>
+              {(n.y1 ?? 0) - (n.y0 ?? 0) < 18 ? (
+                <text x={left ? (n.x0 ?? 0) - 8 : (n.x1 ?? 0) + 8} y={((n.y0 ?? 0) + (n.y1 ?? 0)) / 2 + 4} textAnchor={left ? 'end' : 'start'} className="text-[12px]" fill="var(--fg)">
+                  {n.name} <tspan className="num text-[11px]" fill="var(--muted)">{fmt.int(n.value)}</tspan></text>
+              ) : (
+                <>
+                  <text x={left ? (n.x0 ?? 0) - 8 : (n.x1 ?? 0) + 8} y={((n.y0 ?? 0) + (n.y1 ?? 0)) / 2 - 2} textAnchor={left ? 'end' : 'start'} className="text-[12px]" fill="var(--fg)">{n.name}</text>
+                  <text x={left ? (n.x0 ?? 0) - 8 : (n.x1 ?? 0) + 8} y={((n.y0 ?? 0) + (n.y1 ?? 0)) / 2 + 12} textAnchor={left ? 'end' : 'start'} className="num text-[11px]" fill="var(--muted)">{fmt.int(n.value)}</text>
+                </>
+              )}
             </g>
           )
         })}
         {['source', 'ingest gate', 'use', 'routing'].map((t, i) => (
-          <text key={t} x={150 + ((w - 320) / 3) * i} y={h - 0} className="fill-muted text-[10px] uppercase tracking-widest" textAnchor={i === 0 ? 'start' : i === 3 ? 'end' : 'middle'}>{t}</text>
+          <text key={t} x={160 + ((w - 350) / 3) * i + (i === 0 ? 0 : 7)} y={12} className="fill-muted text-[10px] uppercase tracking-widest" textAnchor={i === 0 ? 'start' : i === 3 ? 'end' : 'middle'}>{t}</text>
         ))}
       </svg>
       <div className="mt-2 flex flex-wrap gap-2 text-xs">

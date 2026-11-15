@@ -1,16 +1,16 @@
 anomaly_id,issue_type,source_type,source_id,detail,expected_decision
-ANOM-0001,LABEL_CONTRADICTS_TEXT,review,REV-2026-000398,input label=positive but text template EN-PLAIN-NEG-03 is negative; no label_note,flag_for_human_review
-ANOM-0002,LABEL_CONTRADICTS_TEXT,survey_response,RESP-SUR-2026-000001-076,input label=positive but text template EN-PLAIN-NEG-01 is negative; no label_note,flag_for_human_review
-ANOM-0003,LABEL_CONTRADICTS_TEXT,survey_response,RESP-SUR-2026-000002-049,input label=positive but text template EN-PLAIN-NEG-01 is negative; no label_note,flag_for_human_review
-ANOM-0004,DUPLICATE_RESPONSE,survey_response,RESP-SUR-2026-000001-117,"duplicate of RESP-SUR-2026-000001-099 (same customer, survey and text, +3 min)",drop_duplicate_keep_first
-ANOM-0005,DUPLICATE_RESPONSE,survey_response,RESP-SUR-2026-000002-127,"duplicate of RESP-SUR-2026-000002-113 (same customer, survey and text, +3 min)",drop_duplicate_keep_first
-ANOM-0006,DUPLICATE_RESPONSE,survey_response,RESP-SUR-2026-000003-110,"duplicate of RESP-SUR-2026-000003-024 (same customer, survey and text, +3 min)",drop_duplicate_keep_first
-ANOM-0007,PII_LEAK,review,REV-2026-000004,text contains name/email/phone of CUST-000133,redact_before_analysis
-ANOM-0008,PII_LEAK,review,REV-2026-000257,text contains name/email/phone of CUST-000034,redact_before_analysis
-ANOM-0009,PII_LEAK,survey_response,RESP-SUR-2026-000003-086,text contains name/email/phone of CUST-000177,redact_before_analysis
-ANOM-0010,THEME_OUTSIDE_TAXONOMY,review,REV-2026-000056,"feedback_theme links to THEME-000999, which is not in the taxonomy",reject_link_and_log_exception
-ANOM-0011,THEME_OUTSIDE_TAXONOMY,review,REV-2026-000146,"feedback_theme links to THEME-000999, which is not in the taxonomy",reject_link_and_log_exception
-ANOM-0012,THEME_OUTSIDE_TAXONOMY,survey_response,RESP-SUR-2026-000001-069,"feedback_theme links to THEME-000999, which is not in the taxonomy",reject_link_and_log_exception
-ANOM-0013,TEST_LABEL_IN_MODEL_INPUT,review,REV-2026-000387,eval-split label copied into input column tags,strip_tag_and_exclude_from_eval
-ANOM-0014,TEST_LABEL_IN_MODEL_INPUT,review,REV-2026-000425,eval-split label copied into input column tags,strip_tag_and_exclude_from_eval
-ANOM-0015,TEST_LABEL_IN_MODEL_INPUT,review,REV-2026-000446,eval-split label copied into input column tags,strip_tag_and_exclude_from_eval
+ANOM-0001,LABEL_CONTRADICTS_TEXT,review,REV-2026-000099,input label=positive but text template EN-PLAIN-NEG-03 is negative; no label_note,flag_for_human_review
+ANOM-0002,LABEL_CONTRADICTS_TEXT,review,REV-2026-000259,input label=positive but text template EN-PLAIN-NEG-03 is negative; no label_note,flag_for_human_review
+ANOM-0003,LABEL_CONTRADICTS_TEXT,review,REV-2026-000320,input label=positive but text template EN-PLAIN-NEG-01 is negative; no label_note,flag_for_human_review
+ANOM-0004,DUPLICATE_RESPONSE,survey_response,RESP-SUR-2026-000001-117,"duplicate of RESP-SUR-2026-000001-032 (same customer, survey and text, +3 min)",drop_duplicate_keep_first
+ANOM-0005,DUPLICATE_RESPONSE,survey_response,RESP-SUR-2026-000001-118,"duplicate of RESP-SUR-2026-000001-092 (same customer, survey and text, +3 min)",drop_duplicate_keep_first
+ANOM-0006,DUPLICATE_RESPONSE,survey_response,RESP-SUR-2026-000002-127,"duplicate of RESP-SUR-2026-000002-027 (same customer, survey and text, +3 min)",drop_duplicate_keep_first
+ANOM-0007,PII_LEAK,review,REV-2026-000060,text contains name/email/phone of CUST-000076,redact_before_analysis
+ANOM-0008,PII_LEAK,review,REV-2026-000340,text contains name/email/phone of CUST-000018,redact_before_analysis
+ANOM-0009,PII_LEAK,support_message,MSG-TKT-2026-000082-005,text contains name/email/phone of CUST-000069,redact_before_analysis
+ANOM-0010,THEME_OUTSIDE_TAXONOMY,review,REV-2026-000522,"feedback_theme links to THEME-000999, which is not in the taxonomy",reject_link_and_log_exception
+ANOM-0011,THEME_OUTSIDE_TAXONOMY,survey_response,RESP-SUR-2026-000003-107,"feedback_theme links to THEME-000999, which is not in the taxonomy",reject_link_and_log_exception
+ANOM-0012,THEME_OUTSIDE_TAXONOMY,support_message,MSG-TKT-2026-000042-001,"feedback_theme links to THEME-000999, which is not in the taxonomy",reject_link_and_log_exception
+ANOM-0013,TEST_LABEL_IN_MODEL_INPUT,review,REV-2026-000071,eval-split label copied into input column tags,strip_tag_and_exclude_from_eval
+ANOM-0014,TEST_LABEL_IN_MODEL_INPUT,review,REV-2026-000344,eval-split label copied into input column tags,strip_tag_and_exclude_from_eval
+ANOM-0015,TEST_LABEL_IN_MODEL_INPUT,review,REV-2026-000397,eval-split label copied into input column tags,strip_tag_and_exclude_from_eval

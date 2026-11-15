@@ -1,14 +1,18 @@
-import { useEffect, useRef, useState } from 'react'
+import { useCallback, useRef, useState } from 'react'
 
-/** Width of a container, kept in sync with resizes (for responsive SVG). */
+/** Width of a container, kept in sync with resizes (for responsive SVG). A callback ref, so it re-measures when the
+ *  element changes (e.g. a loading placeholder is replaced by the chart). */
 export function useWidth<T extends HTMLElement>(initial = 800) {
-  const ref = useRef<T>(null)
   const [w, setW] = useState(initial)
-  useEffect(() => {
-    if (!ref.current) return
-    const ro = new ResizeObserver(([e]) => setW(Math.max(320, Math.floor(e.contentRect.width))))
-    ro.observe(ref.current)
-    return () => ro.disconnect()
+  const ro = useRef<ResizeObserver | null>(null)
+  const ref = useCallback((el: T | null) => {
+    ro.current?.disconnect()
+    ro.current = null
+    if (!el) return
+    const set = (px: number) => setW(Math.max(320, Math.floor(px)))
+    set(el.getBoundingClientRect().width)
+    ro.current = new ResizeObserver(([e]) => set(e.contentRect.width))
+    ro.current.observe(el)
   }, [])
   return [ref, w] as const
 }

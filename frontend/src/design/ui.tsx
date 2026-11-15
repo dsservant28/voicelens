@@ -71,7 +71,7 @@ export function IdChip({ id, className = '' }: { id: string; className?: string 
   const why = useWhy()
   return (
     <span className={`group inline-flex items-center gap-1 ${className}`}>
-      <button onClick={() => why.open(id)} className="num rounded px-1 text-xs text-fg/90 underline decoration-line decoration-dotted underline-offset-4 hover:bg-panel2 hover:decoration-support">
+      <button onClick={() => why.open(id)} className="num whitespace-nowrap rounded px-1 text-xs text-fg/90 underline decoration-line decoration-dotted underline-offset-4 hover:bg-panel2 hover:decoration-support">
         {id}
       </button>
       <button onClick={() => navigator.clipboard?.writeText(id)} title="copy id"

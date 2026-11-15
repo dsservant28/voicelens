@@ -14,7 +14,7 @@
     "reviews": 600,
     "responses": 400,
     "support_messages": 400,
-    "tickets": 100,
+    "tickets": 103,
     "surveys": 4,
     "eval_items": 40,
     "anomalies_per_type": 3
@@ -73,107 +73,107 @@
     {
       "path": "csv/survey_response.csv",
       "rows": 403,
-      "sha256": "a5392ed27393282baecd452e2bae8a660172db994a03c8bb49a64862be8eec02"
+      "sha256": "91cdf6137b153316f9e41d4b5ba88ad5f7fca04fe77cf50ac8b2d8fd7d3f7713"
     },
     {
       "path": "json/survey_response.json",
       "rows": 403,
-      "sha256": "8b98dee79c3b610af20d846d9fdcd4e8f52e134d978c92ac7add615337650e49"
+      "sha256": "e41e5546a5c10381ad328f8d57598baac8ff64539c87b3413de0d6fe33241c90"
     },
     {
       "path": "csv/review.csv",
       "rows": 600,
-      "sha256": "2deee57d8f5d072a3193ab8c665becbaa7ad2a7cb83797ac614f07ce6c854991"
+      "sha256": "c7b827511846d17ce5dac21f95a6ab4f6953ca4073677f890a3b5e6ab5910b29"
     },
     {
       "path": "json/review.json",
       "rows": 600,
-      "sha256": "42386b2aabf51f0fa34717a6fe7e49f98a2f25b6139e1809716b8c842694281e"
+      "sha256": "2f78be655669f79011f264f99c4d057699f57056e378d19211459ee993004f04"
     },
     {
       "path": "csv/support_ticket.csv",
-      "rows": 100,
-      "sha256": "ae3f55dafe99f8d10d910abf171a60c0cc352ba7393c22e8298293b2d37efc86"
+      "rows": 103,
+      "sha256": "b65dc590f44d1982fa02e5925f2d6c664c3e3cb955e74f8b9f170c6b9466860f"
     },
     {
       "path": "json/support_ticket.json",
-      "rows": 100,
-      "sha256": "42e85e717ede0752dc258ea1e090acee7fbc9e5afec4b80b14c1e92089d56edf"
+      "rows": 103,
+      "sha256": "aded176f6c616ccc4a78c6b824f573353d213787c7b75e0b74fec9d89b2f699c"
     },
     {
       "path": "csv/support_message.csv",
-      "rows": 397,
-      "sha256": "de11736df89c5df6ee5e0505ffe30153a4ec879c895085049027422f2ceeea9d"
+      "rows": 411,
+      "sha256": "3fc0b1713b89d62c00e45022045a08e37155bed9339cd327a732bd9746965a17"
     },
     {
       "path": "json/support_message.json",
-      "rows": 397,
-      "sha256": "5046b84ccc61a00476f1400f4f8d33f9349d8d39518572e89bb065cef320d471"
+      "rows": 411,
+      "sha256": "e5544e5d0ba86cda1e6a83182d27af1cde10aed30a02799ac55bea92b0a43b79"
     },
     {
       "path": "csv/ticket_status_event.csv",
-      "rows": 420,
-      "sha256": "407dbbcc56296099e74c6b397a175d7dc417d12dd7f04f15df9db9d4ab377417"
+      "rows": 440,
+      "sha256": "cd75bbba63c8fae2a7989286be1039bc34c83a71ba79fb5c4271fbafc0b775a7"
     },
     {
       "path": "json/ticket_status_event.json",
-      "rows": 420,
-      "sha256": "8638171ee79d3df9e3eed1514746da3ed9e09c41ba8bc13d6b23fcbe5e9c94f7"
+      "rows": 440,
+      "sha256": "1e0979062bf96274a94b6487cd5bdc9a50bee16b18a4a8806fa2cf4f34d8cf37"
     },
     {
       "path": "csv/sentiment_label.csv",
-      "rows": 354,
-      "sha256": "07d3cdc48c16bac5c71bd79828c6479e98bf67ab7567fd535dc24c4a4cfd9bd1"
+      "rows": 357,
+      "sha256": "4d587f4702fe20d7aa5369c0f39423f0f15faad0037a6d357653da5025cee416"
     },
     {
       "path": "json/sentiment_label.json",
-      "rows": 354,
-      "sha256": "818c2638473420d641ab1623f3be33e8ac714df1996ad998a36b425732584daf"
+      "rows": 357,
+      "sha256": "b2fe04bf3d8c9dcf21e7b77cc28eebf110e04c6be711cb1e480a4b05b4bf6919"
     },
     {
       "path": "csv/feedback_theme.csv",
-      "rows": 435,
-      "sha256": "f782df1e6310f58b53b712e98340f469d972cf5a984833cde20dded3114d460b"
+      "rows": 442,
+      "sha256": "48c47855eccbdf5c7a5e45debbe78737b3a5f49eaa2da71b96b05cfdad2a2a7e"
     },
     {
       "path": "json/feedback_theme.json",
-      "rows": 435,
-      "sha256": "bd020ec516cfad282c53568de8103d9f735db1b18d3589bdcdfe81558f7ef5f0"
+      "rows": 442,
+      "sha256": "e668eaf4cf1f778a87d338bb40e2f0ac983ad3025803b20713d99a4dd08a95b7"
     },
     {
       "path": "sql/seed.sql",
-      "rows": 2944,
-      "sha256": "dba6098577cefaef5e450812ae837eccf5ca0fe471d968fb0a562f764d5fcd7f"
+      "rows": 2991,
+      "sha256": "2cd06d9bfb52410ad328c729fdba9d22beb8f320109be41c2e12fc546e2ebd15"
     },
     {
       "path": "ground_truth/labels.csv",
-      "rows": 1224,
-      "sha256": "01d1672a39837d9e079f7772a360316d3e2c6a99c4b7f63843d53b6ce4ed0151"
+      "rows": 1232,
+      "sha256": "55113f81d1c6c9fdc57ef667a844ace9d9e2e25e6d6eb8ab76a18d7969f44ac1"
     },
     {
       "path": "ground_truth/labels.json",
-      "rows": 1224,
-      "sha256": "e93d8fbe59ea1ffc146592bbecfcccd6e75a7b062e4f79ad5e20cc24ac36a665"
+      "rows": 1232,
+      "sha256": "fe71f905c119aa29a924263b4017a4060f4b3a93ce76616e22f540fc3cbe5bb2"
     },
     {
       "path": "ground_truth/incidents.csv",
       "rows": 4,
-      "sha256": "34a302070bcba25d523413bde95b82708e848663ce04e26d319d0416b5e4947e"
+      "sha256": "5f3506f0cfa1b34392312e245d17a4df01ca90b6b6305663fb7cf90da6cdf4dd"
     },
     {
       "path": "ground_truth/incidents.json",
       "rows": 4,
-      "sha256": "778438725fe90b183548bc403575b92e4dc28485c043fcc381126aabc35e1548"
+      "sha256": "af8d16ac51c8f0225d49d65477edc066c9399ad23484c4b6866496afb5341937"
     },
     {
       "path": "ground_truth/anomalies.csv",
       "rows": 15,
-      "sha256": "9e0909ce09bf4b23c420e02c50b8832f21191344ff20ab67530878a9318e49ec"
+      "sha256": "638a0b892bfed78e25a8a295e0412438a0638d8bbea908dd80e639248f140f76"
     },
     {
       "path": "ground_truth/anomalies.json",
       "rows": 15,
-      "sha256": "198608314d7b22656afc14f79657619e986ea25b79f4b5d2118acf669f98a8b7"
+      "sha256": "f0b36366a0085c280cffd2f5de97bed7c61e956581735eaea2db2ab789054af9"
     }
   ]
 }

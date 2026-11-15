@@ -123,6 +123,7 @@ function Incidents({ ev }: { ev: FullEvaluation }) {
 }
 
 type Status = 'ok' | 'pending' | 'fail'
+const MIN_REVIEWS = 20
 function Req({ s, children, where }: { s: Status; children: ReactNode; where: ReactNode }) {
   const icon = { ok: '✓', pending: '…', fail: '✗' }[s]
   const col = { ok: 'text-pos border-pos/40', pending: 'text-support border-support/40', fail: 'text-neg border-neg/40' }[s]
@@ -179,7 +180,7 @@ function Requirements({ ev }: { ev: FullEvaluation }) {
       [rep ? (rep.passed ? 'ok' : 'fail') : 'pending', <>10 · Regenerated twice, checksums compared - {rep ? (rep.passed ? `${rep.files_compared} files identical` : 'differs') : 'run pipeline with the reproducibility check'}</>, go('/flow', 'reproducibility')],
     ]],
     ['Acceptance criteria', [
-      [hr.reviewed > 0 ? 'ok' : 'pending', <>Evaluation set has human-reviewed labels - {hr.reviewed}/{hr.sample_size} reviewed{hr.reviewed ? `, model vs human ${fmt.pct(hr.model_vs_human?.accuracy)}` : ''}</>, go('/review', 'Review')],
+      [hr.reviewed >= MIN_REVIEWS ? 'ok' : 'pending', <>Evaluation set has human-reviewed labels - {hr.reviewed}/{hr.sample_size} blind-reviewed{hr.reviewed >= MIN_REVIEWS ? `, model vs human ${fmt.pct(hr.model_vs_human?.accuracy)}` : ` (≥ ${MIN_REVIEWS} needed for a meaningful number)`}</>, go('/review', 'Review')],
       ['ok', <>Sentiment / theme metrics measurable - accuracy {fmt.pct(ev.splits.eval.sentiment_all.accuracy)}, theme F1 {fmt.num(ev.splits.eval.themes.micro_f1, 3)}</>, 'metrics ↓'],
       [edge('PII_LEAK')?.recall === 1 ? 'ok' : 'fail', <>Privacy-safe synthetic text - PII redacted before analysis ({edge('PII_LEAK')?.detected}/{edge('PII_LEAK')?.planted} leaks caught)</>, '[EMAIL] chips'],
       ['ok', 'Trends can be traced to source records (reconciled counts)', go('/', 'click a trace')],
@@ -240,22 +241,22 @@ export function Proof() {
       <div className="grid gap-5 xl:grid-cols-[1.4fr_1fr]">
         <Panel title="Edge cases · planted vs caught">
           <table className="w-full text-sm">
-            <thead className="text-left text-[11px] uppercase tracking-wider text-muted"><tr><th className="pb-2">Issue type</th><th className="pb-2 text-right">Caught</th><th className="pb-2 text-right">Precision</th><th className="pb-2">Expected decision</th><th className="pb-2 text-right">Taken</th></tr></thead>
+            <thead className="text-left text-[11px] uppercase tracking-wider text-muted"><tr><th className="pb-2">Issue type</th><th className="pb-2 text-right">Caught</th><th className="pb-2 text-right">Precision</th><th className="pb-2 pl-6">Expected decision</th><th className="pb-2 text-right">Taken</th></tr></thead>
             <tbody>{ev.edge_cases.map((x) => (
               <tr key={x.issue_type} className="border-t border-line" title={x.check}>
                 <td className="num py-2 text-xs">{x.issue_type}</td><td className="num py-2 text-right">{x.detected}/{x.planted}</td>
-                <td className="num py-2 text-right">{fmt.pct(x.precision, 0)}</td><td className="py-2 text-xs text-muted">{x.expected_decision.replaceAll('_', ' ')}</td>
+                <td className="num py-2 text-right">{fmt.pct(x.precision, 0)}</td><td className="py-2 pl-6 text-xs text-muted">{x.expected_decision.replaceAll('_', ' ')}</td>
                 <td className={`num py-2 text-right ${x.decision_correct === x.planted ? 'text-pos' : 'text-neg'}`}>{x.decision_correct}/{x.planted}</td></tr>
             ))}</tbody>
           </table>
         </Panel>
         <Panel title="Human-reviewed evaluation set">
-          {ev.human_review.reviewed ? (
+          {ev.human_review.reviewed >= MIN_REVIEWS ? (
             <div className="space-y-1 text-sm">
               <div><b className="num text-2xl text-support">{fmt.pct(ev.human_review.model_vs_human?.accuracy)}</b> model agreement with human labels</div>
               <div className="text-muted">n = {ev.human_review.reviewed} of {ev.human_review.sample_size} blind-reviewed · human vs gold rule {fmt.pct(ev.human_review.human_vs_gold)}</div>
             </div>
-          ) : <p className="text-sm text-muted">No human reviews in the latest computation. {go('/review', 'Review the blind sample')}</p>}
+          ) : <p className="text-sm text-muted">{ev.human_review.reviewed} of {ev.human_review.sample_size} blind-reviewed so far - at least {MIN_REVIEWS} are needed before the agreement number means anything. {go('/review', 'Review the blind sample')}</p>}
           <div className="mt-3 text-xs text-muted">Lead channel correct for {ev.incidents.lead_channel_correct}/{ev.incidents.detected} detected incidents - the signal reaches
             <span style={{ color: CHANNEL.support.color }}> support</span> first.</div>
         </Panel>

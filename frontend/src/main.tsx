@@ -13,7 +13,12 @@ import { Pulse } from './pages/Pulse'
 import { Review } from './pages/Review'
 
 const qc = new QueryClient({ defaultOptions: { queries: { refetchOnWindowFocus: false, retry: 1 } } })
-try { document.documentElement.dataset.theme = localStorage.getItem('vl-theme') ?? 'dark' } catch { /* private mode */ }
+// Deep links: ?theme=light|dark (persisted), ?why=<ID> (opens the Why? drawer), ?tab=uncertain (Review page).
+const qTheme = new URLSearchParams(window.location.search).get('theme')
+try {
+  if (qTheme === 'light' || qTheme === 'dark') localStorage.setItem('vl-theme', qTheme)
+  document.documentElement.dataset.theme = localStorage.getItem('vl-theme') ?? 'dark'
+} catch { document.documentElement.dataset.theme = qTheme ?? 'dark' }
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

@@ -1,10 +1,10 @@
 {
   "status": "PASS_WITH_EXCEPTIONS",
-  "validated_at": "2026-11-15 17:59:42",
+  "validated_at": "2026-11-15 18:24:32",
   "data_dir": "..\\data\\sample",
   "seed": 20261022,
   "scale": 0.02,
-  "total_rows": 2944,
+  "total_rows": 2991,
   "total_exceptions": 11,
   "quarantined_rows": 9,
   "file_integrity": [
@@ -66,40 +66,40 @@
     },
     {
       "table": "support_ticket",
-      "rows_manifest": 100,
-      "rows_file": 100,
+      "rows_manifest": 103,
+      "rows_file": 103,
       "checksum_ok": true,
       "columns_ok": true,
       "ok": true
     },
     {
       "table": "support_message",
-      "rows_manifest": 397,
-      "rows_file": 397,
+      "rows_manifest": 411,
+      "rows_file": 411,
       "checksum_ok": true,
       "columns_ok": true,
       "ok": true
     },
     {
       "table": "ticket_status_event",
-      "rows_manifest": 420,
-      "rows_file": 420,
+      "rows_manifest": 440,
+      "rows_file": 440,
       "checksum_ok": true,
       "columns_ok": true,
       "ok": true
     },
     {
       "table": "sentiment_label",
-      "rows_manifest": 354,
-      "rows_file": 354,
+      "rows_manifest": 357,
+      "rows_file": 357,
       "checksum_ok": true,
       "columns_ok": true,
       "ok": true
     },
     {
       "table": "feedback_theme",
-      "rows_manifest": 435,
-      "rows_file": 435,
+      "rows_manifest": 442,
+      "rows_file": 442,
       "checksum_ok": true,
       "columns_ok": true,
       "ok": true
@@ -157,38 +157,38 @@
     },
     {
       "table": "support_ticket",
-      "rows": 100,
+      "rows": 103,
       "rows_with_exceptions": 0,
       "quarantined_rows": 0,
-      "clean_rows": 100
+      "clean_rows": 103
     },
     {
       "table": "support_message",
-      "rows": 397,
+      "rows": 411,
       "rows_with_exceptions": 0,
       "quarantined_rows": 0,
-      "clean_rows": 397
+      "clean_rows": 411
     },
     {
       "table": "ticket_status_event",
-      "rows": 420,
+      "rows": 440,
       "rows_with_exceptions": 0,
       "quarantined_rows": 0,
-      "clean_rows": 420
+      "clean_rows": 440
     },
     {
       "table": "sentiment_label",
-      "rows": 354,
+      "rows": 357,
       "rows_with_exceptions": 0,
       "quarantined_rows": 0,
-      "clean_rows": 354
+      "clean_rows": 357
     },
     {
       "table": "feedback_theme",
-      "rows": 435,
+      "rows": 442,
       "rows_with_exceptions": 3,
       "quarantined_rows": 3,
-      "clean_rows": 432
+      "clean_rows": 439
     }
   ],
   "checks": [
@@ -312,7 +312,7 @@
     "files_compared": 31,
     "runs_identical": true,
     "differing_files": [],
-    "seconds": 5.7,
+    "seconds": 3.4,
     "matches_validated_data": true,
     "differing_from_validated_data": [],
     "passed": true

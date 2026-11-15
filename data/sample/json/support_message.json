@@ -3,39 +3,31 @@
   "message_id": "MSG-TKT-2026-000001-001",
   "ticket_id": "TKT-2026-000001",
   "sender": "customer",
-  "text": "La facturación es excelente, pero el soporte al cliente es terrible.",
-  "language": "es",
+  "text": "Five stars: my refund arrived within two days.",
+  "language": "en",
   "sent_at": "2026-04-06 02:49:20"
  },
  {
   "message_id": "MSG-TKT-2026-000001-002",
   "ticket_id": "TKT-2026-000001",
   "sender": "agent",
-  "text": "Sorry for the trouble. Could you share your order number?",
+  "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-04-06 10:54:01"
+  "sent_at": "2026-04-07 01:56:45"
  },
  {
   "message_id": "MSG-TKT-2026-000001-003",
   "ticket_id": "TKT-2026-000001",
   "sender": "customer",
-  "text": "Muy contento con el cobro, funciona de maravilla.",
-  "language": "es",
-  "sent_at": "2026-04-07 06:16:49"
- },
- {
-  "message_id": "MSG-TKT-2026-000001-004",
-  "ticket_id": "TKT-2026-000001",
-  "sender": "agent",
-  "text": "This should now be resolved. Please let us know if anything else comes up.",
+  "text": "Mixed feelings about StreamNest Premium: the return and refund were completely hassle free, yet I was billed for a plan I never chose.",
   "language": "en",
-  "sent_at": "2026-04-08 08:24:49"
+  "sent_at": "2026-04-07 11:55:51"
  },
  {
   "message_id": "MSG-TKT-2026-000002-001",
   "ticket_id": "TKT-2026-000002",
   "sender": "customer",
-  "text": "Using VaultBox Plus for a while now. I contacted support through chat.",
+  "text": "I am still waiting for my refund after a month, although it still works perfectly after months of daily use.",
   "language": "en",
   "sent_at": "2026-04-07 05:00:50"
  },
@@ -43,31 +35,31 @@
   "message_id": "MSG-TKT-2026-000002-002",
   "ticket_id": "TKT-2026-000002",
   "sender": "agent",
-  "text": "This should now be resolved. Please let us know if anything else comes up.",
+  "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-04-08 09:24:43"
+  "sent_at": "2026-04-07 09:57:34"
  },
  {
   "message_id": "MSG-TKT-2026-000002-003",
   "ticket_id": "TKT-2026-000002",
   "sender": "customer",
-  "text": "Using VaultBox Plus for a while now. Support asked for my order number.",
+  "text": "Honestly, the discount made it a real bargain. Great job.",
   "language": "en",
-  "sent_at": "2026-04-09 08:18:15"
+  "sent_at": "2026-04-08 01:50:55"
  },
  {
   "message_id": "MSG-TKT-2026-000002-004",
   "ticket_id": "TKT-2026-000002",
   "sender": "agent",
-  "text": "Thanks for reaching out. I'm looking into this now.",
+  "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-04-10 12:21:01"
+  "sent_at": "2026-04-09 05:58:43"
  },
  {
   "message_id": "MSG-TKT-2026-000003-001",
   "ticket_id": "TKT-2026-000003",
   "sender": "customer",
-  "text": "The password reset worked in seconds. Really happy with StreamNest Premium.",
+  "text": "Using Nestly Home for a while now. I contacted support through chat.",
   "language": "en",
   "sent_at": "2026-04-07 10:13:00"
  },
@@ -75,49 +67,57 @@
   "message_id": "MSG-TKT-2026-000003-002",
   "ticket_id": "TKT-2026-000003",
   "sender": "agent",
-  "text": "This should now be resolved. Please let us know if anything else comes up.",
+  "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-04-07 19:25:30"
+  "sent_at": "2026-04-08 08:36:02"
  },
  {
   "message_id": "MSG-TKT-2026-000003-003",
   "ticket_id": "TKT-2026-000003",
   "sender": "customer",
-  "text": "The password reset worked in seconds, but I was charged twice for the same order.",
+  "text": "The support agent solved my problem in one call, but I can never find the settings I need.",
   "language": "en",
-  "sent_at": "2026-04-08 13:03:39"
+  "sent_at": "2026-04-08 14:38:16"
  },
  {
   "message_id": "MSG-TKT-2026-000003-004",
   "ticket_id": "TKT-2026-000003",
   "sender": "agent",
-  "text": "This should now be resolved. Please let us know if anything else comes up.",
+  "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-04-09 15:09:25"
+  "sent_at": "2026-04-09 00:49:22"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000003-005",
+  "ticket_id": "TKT-2026-000003",
+  "sender": "customer",
+  "text": "Billing added fees nobody explained, although support replied within minutes and was very kind.",
+  "language": "en",
+  "sent_at": "2026-04-10 01:02:05"
  },
  {
   "message_id": "MSG-TKT-2026-000004-001",
   "ticket_id": "TKT-2026-000004",
   "sender": "customer",
-  "text": "Mixed feelings about StreamNest Premium: two-factor login is quick and reassuring, yet support kept me on hold for an hour.",
-  "language": "en",
+  "text": "Interface se khush hoon par billing third class hai.",
+  "language": "hi-Latn",
   "sent_at": "2026-04-10 15:40:39"
  },
  {
   "message_id": "MSG-TKT-2026-000004-002",
   "ticket_id": "TKT-2026-000004",
   "sender": "agent",
-  "text": "Thanks for reaching out. I'm looking into this now.",
+  "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-04-11 00:14:22"
+  "sent_at": "2026-04-11 11:47:59"
  },
  {
   "message_id": "MSG-TKT-2026-000004-003",
   "ticket_id": "TKT-2026-000004",
   "sender": "customer",
-  "text": "Even my parents figured it out quickly, but I keep getting locked out of my account.",
-  "language": "en",
-  "sent_at": "2026-04-11 04:01:42"
+  "text": "Login bilkul bekaar hai, very disappointed.",
+  "language": "hi-Latn",
+  "sent_at": "2026-04-12 12:52:09"
  },
  {
   "message_id": "MSG-TKT-2026-000004-004",
@@ -125,45 +125,61 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-04-11 23:02:23"
+  "sent_at": "2026-04-13 15:43:31"
  },
  {
   "message_id": "MSG-TKT-2026-000005-001",
   "ticket_id": "TKT-2026-000005",
   "sender": "customer",
-  "text": "Price bilkul bekaar hai, very disappointed.",
-  "language": "hi-Latn",
+  "text": "Just noting that refunds are processed within ten working days.",
+  "language": "en",
   "sent_at": "2026-04-11 19:29:37"
  },
  {
   "message_id": "MSG-TKT-2026-000005-002",
   "ticket_id": "TKT-2026-000005",
   "sender": "agent",
-  "text": "Sorry for the trouble. Could you share your order number?",
+  "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-04-12 14:00:47"
+  "sent_at": "2026-04-12 09:11:24"
  },
  {
   "message_id": "MSG-TKT-2026-000005-003",
   "ticket_id": "TKT-2026-000005",
   "sender": "customer",
-  "text": "Velto Watch ka price ekdum third class hai.",
-  "language": "hi-Latn",
-  "sent_at": "2026-04-13 12:16:59"
+  "text": "Just noting that the refund goes back to the original payment method.",
+  "language": "en",
+  "sent_at": "2026-04-12 14:29:40"
  },
  {
   "message_id": "MSG-TKT-2026-000005-004",
   "ticket_id": "TKT-2026-000005",
   "sender": "agent",
-  "text": "This should now be resolved. Please let us know if anything else comes up.",
+  "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-04-14 05:03:41"
+  "sent_at": "2026-04-13 11:23:42"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000005-005",
+  "ticket_id": "TKT-2026-000005",
+  "sender": "customer",
+  "text": "Can't complain about the refund, no issues whatsoever.",
+  "language": "en",
+  "sent_at": "2026-04-13 21:40:33"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000005-006",
+  "ticket_id": "TKT-2026-000005",
+  "sender": "agent",
+  "text": "I've escalated this to our specialist team.",
+  "language": "en",
+  "sent_at": "2026-04-14 03:48:30"
  },
  {
   "message_id": "MSG-TKT-2026-000006-001",
   "ticket_id": "TKT-2026-000006",
   "sender": "customer",
-  "text": "Just noting that the settings are under the profile icon.",
+  "text": "Mixed feelings about VaultBox Plus: the discount made it a real bargain, yet I was billed for a plan I never chose.",
   "language": "en",
   "sent_at": "2026-04-14 10:37:10"
  },
@@ -171,40 +187,32 @@
   "message_id": "MSG-TKT-2026-000006-002",
   "ticket_id": "TKT-2026-000006",
   "sender": "agent",
-  "text": "Sorry for the trouble. Could you share your order number?",
+  "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-04-15 13:41:39"
+  "sent_at": "2026-04-15 01:04:42"
  },
  {
   "message_id": "MSG-TKT-2026-000006-003",
   "ticket_id": "TKT-2026-000006",
   "sender": "customer",
-  "text": "Can't complain about the interface, no issues whatsoever.",
+  "text": "Five stars: the welcome guide made getting started easy.",
   "language": "en",
-  "sent_at": "2026-04-16 10:52:34"
+  "sent_at": "2026-04-15 19:04:57"
  },
  {
   "message_id": "MSG-TKT-2026-000006-004",
   "ticket_id": "TKT-2026-000006",
   "sender": "agent",
-  "text": "This should now be resolved. Please let us know if anything else comes up.",
+  "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-04-16 22:39:46"
- },
- {
-  "message_id": "MSG-TKT-2026-000006-005",
-  "ticket_id": "TKT-2026-000006",
-  "sender": "customer",
-  "text": "Mixed feelings about Orbix Router: the interface is clean and easy to use, yet I explained the issue three times to three different agents.",
-  "language": "en",
-  "sent_at": "2026-04-17 12:15:45"
+  "sent_at": "2026-04-16 21:21:01"
  },
  {
   "message_id": "MSG-TKT-2026-000007-001",
   "ticket_id": "TKT-2026-000007",
   "sender": "customer",
-  "text": "I would not call the refund acceptable.",
-  "language": "en",
+  "text": "Customer support theek-thaak hai.",
+  "language": "hi-Latn",
   "sent_at": "2026-04-14 13:03:30"
  },
  {
@@ -213,29 +221,37 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-04-15 15:19:34"
+  "sent_at": "2026-04-15 07:38:28"
  },
  {
   "message_id": "MSG-TKT-2026-000007-003",
   "ticket_id": "TKT-2026-000007",
   "sender": "customer",
-  "text": "Mixed feelings about QuickDrop Express: the return and refund were completely hassle free, yet I was billed for a plan I never chose.",
-  "language": "en",
-  "sent_at": "2026-04-16 20:06:38"
+  "text": "Customer support bilkul bekaar hai, very disappointed.",
+  "language": "hi-Latn",
+  "sent_at": "2026-04-15 20:37:42"
  },
  {
   "message_id": "MSG-TKT-2026-000007-004",
   "ticket_id": "TKT-2026-000007",
   "sender": "agent",
-  "text": "This should now be resolved. Please let us know if anything else comes up.",
+  "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-04-17 00:34:20"
+  "sent_at": "2026-04-16 04:49:10"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000007-005",
+  "ticket_id": "TKT-2026-000007",
+  "sender": "customer",
+  "text": "Customer support ke baare mein kuch khaas nahi kehna.",
+  "language": "hi-Latn",
+  "sent_at": "2026-04-16 09:15:11"
  },
  {
   "message_id": "MSG-TKT-2026-000008-001",
   "ticket_id": "TKT-2026-000008",
   "sender": "customer",
-  "text": "The app is not good, not even close.",
+  "text": "Really frustrated: the menus are confusing and badly organised.",
   "language": "en",
   "sent_at": "2026-04-16 17:28:32"
  },
@@ -245,45 +261,37 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-04-17 01:15:28"
+  "sent_at": "2026-04-17 02:55:33"
  },
  {
   "message_id": "MSG-TKT-2026-000008-003",
   "ticket_id": "TKT-2026-000008",
   "sender": "customer",
-  "text": "Not sure how I feel about the app yet.",
+  "text": "Using Aurelo Speaker for a while now. The settings are under the profile icon.",
   "language": "en",
-  "sent_at": "2026-04-17 13:34:12"
+  "sent_at": "2026-04-18 03:03:47"
  },
  {
   "message_id": "MSG-TKT-2026-000008-004",
   "ticket_id": "TKT-2026-000008",
   "sender": "agent",
-  "text": "Sorry for the trouble. Could you share your order number?",
+  "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-04-18 08:39:52"
+  "sent_at": "2026-04-19 05:31:51"
  },
  {
   "message_id": "MSG-TKT-2026-000008-005",
   "ticket_id": "TKT-2026-000008",
   "sender": "customer",
-  "text": "The app runs smoothly even on my old phone, but the login page rejects my correct password.",
+  "text": "Just noting that the settings are under the profile icon.",
   "language": "en",
-  "sent_at": "2026-04-18 15:14:49"
- },
- {
-  "message_id": "MSG-TKT-2026-000008-006",
-  "ticket_id": "TKT-2026-000008",
-  "sender": "agent",
-  "text": "This should now be resolved. Please let us know if anything else comes up.",
-  "language": "en",
-  "sent_at": "2026-04-19 12:07:06"
+  "sent_at": "2026-04-20 07:07:08"
  },
  {
   "message_id": "MSG-TKT-2026-000009-001",
   "ticket_id": "TKT-2026-000009",
   "sender": "customer",
-  "text": "Five stars: the chat agent went above and beyond.",
+  "text": "Five stars: setup took less than five minutes.",
   "language": "en",
   "sent_at": "2026-04-17 20:48:20"
  },
@@ -291,79 +299,127 @@
   "message_id": "MSG-TKT-2026-000009-002",
   "ticket_id": "TKT-2026-000009",
   "sender": "agent",
-  "text": "Thanks for reaching out. I'm looking into this now.",
+  "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-04-18 13:37:32"
+  "sent_at": "2026-04-19 00:18:54"
  },
  {
   "message_id": "MSG-TKT-2026-000009-003",
   "ticket_id": "TKT-2026-000009",
   "sender": "customer",
-  "text": "I contacted support through chat.",
+  "text": "The welcome guide made getting started easy. Really happy with Velto Watch.",
   "language": "en",
-  "sent_at": "2026-04-18 14:48:36"
+  "sent_at": "2026-04-19 14:02:09"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000009-004",
+  "ticket_id": "TKT-2026-000009",
+  "sender": "agent",
+  "text": "This should now be resolved. Please let us know if anything else comes up.",
+  "language": "en",
+  "sent_at": "2026-04-20 04:46:13"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000009-005",
+  "ticket_id": "TKT-2026-000009",
+  "sender": "customer",
+  "text": "Just noting that setup asks for your email and a password.",
+  "language": "en",
+  "sent_at": "2026-04-21 10:31:48"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000009-006",
+  "ticket_id": "TKT-2026-000009",
+  "sender": "agent",
+  "text": "Thanks for reaching out. I'm looking into this now.",
+  "language": "en",
+  "sent_at": "2026-04-22 10:45:59"
  },
  {
   "message_id": "MSG-TKT-2026-000010-001",
   "ticket_id": "TKT-2026-000010",
   "sender": "customer",
-  "text": "Simple tasks take far too many steps. Very disappointed with FitLoop Annual.",
-  "language": "en",
+  "text": "QuickDrop Express ka product quality ekdum mast hai yaar.",
+  "language": "hi-Latn",
   "sent_at": "2026-04-19 10:10:17"
  },
  {
   "message_id": "MSG-TKT-2026-000010-002",
   "ticket_id": "TKT-2026-000010",
   "sender": "agent",
-  "text": "Thank you for your patience while we investigate.",
+  "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-04-19 13:09:26"
+  "sent_at": "2026-04-20 01:26:49"
  },
  {
   "message_id": "MSG-TKT-2026-000010-003",
   "ticket_id": "TKT-2026-000010",
   "sender": "customer",
-  "text": "The interface is clean and easy to use. Really happy with FitLoop Annual.",
-  "language": "en",
-  "sent_at": "2026-04-19 21:37:57"
+  "text": "Product quality super hai, sabko recommend karunga.",
+  "language": "hi-Latn",
+  "sent_at": "2026-04-20 09:13:55"
  },
  {
   "message_id": "MSG-TKT-2026-000010-004",
   "ticket_id": "TKT-2026-000010",
   "sender": "agent",
-  "text": "I've escalated this to our specialist team.",
+  "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-04-20 18:34:10"
+  "sent_at": "2026-04-20 22:47:50"
  },
  {
   "message_id": "MSG-TKT-2026-000010-005",
   "ticket_id": "TKT-2026-000010",
   "sender": "customer",
-  "text": "Five stars: even my parents figured it out quickly.",
-  "language": "en",
-  "sent_at": "2026-04-21 12:24:50"
+  "text": "Product quality se khush hoon par refund third class hai.",
+  "language": "hi-Latn",
+  "sent_at": "2026-04-21 11:19:45"
  },
  {
   "message_id": "MSG-TKT-2026-000011-001",
   "ticket_id": "TKT-2026-000011",
   "sender": "customer",
-  "text": "Can't complain about the setup, no issues whatsoever.",
-  "language": "en",
+  "text": "ధర అద్భుతంగా ఉంది, అందరికీ సిఫార్సు చేస్తాను.",
+  "language": "te",
   "sent_at": "2026-04-20 22:15:12"
  },
  {
   "message_id": "MSG-TKT-2026-000011-002",
   "ticket_id": "TKT-2026-000011",
   "sender": "agent",
-  "text": "This should now be resolved. Please let us know if anything else comes up.",
+  "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-04-21 17:00:23"
+  "sent_at": "2026-04-22 03:49:40"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000011-003",
+  "ticket_id": "TKT-2026-000011",
+  "sender": "customer",
+  "text": "ధర తో చాలా సంతోషంగా ఉన్నాను.",
+  "language": "te",
+  "sent_at": "2026-04-22 18:37:03"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000011-004",
+  "ticket_id": "TKT-2026-000011",
+  "sender": "agent",
+  "text": "Sorry for the trouble. Could you share your order number?",
+  "language": "en",
+  "sent_at": "2026-04-23 20:08:20"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000011-005",
+  "ticket_id": "TKT-2026-000011",
+  "sender": "customer",
+  "text": "ధర అద్భుతంగా ఉంది, అందరికీ సిఫార్సు చేస్తాను.",
+  "language": "te",
+  "sent_at": "2026-04-24 13:28:13"
  },
  {
   "message_id": "MSG-TKT-2026-000012-001",
   "ticket_id": "TKT-2026-000012",
   "sender": "customer",
-  "text": "Not sure how I feel about the interface yet.",
+  "text": "Using StreamNest Premium for a while now. I receive the invoice by email.",
   "language": "en",
   "sent_at": "2026-04-21 00:18:14"
  },
@@ -371,23 +427,15 @@
   "message_id": "MSG-TKT-2026-000012-002",
   "ticket_id": "TKT-2026-000012",
   "sender": "agent",
-  "text": "Sorry for the trouble. Could you share your order number?",
+  "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-04-21 01:19:05"
- },
- {
-  "message_id": "MSG-TKT-2026-000012-003",
-  "ticket_id": "TKT-2026-000012",
-  "sender": "customer",
-  "text": "The interface is clean and easy to use, but cheaper alternatives do exactly the same thing.",
-  "language": "en",
-  "sent_at": "2026-04-22 02:35:50"
+  "sent_at": "2026-04-21 10:24:35"
  },
  {
   "message_id": "MSG-TKT-2026-000013-001",
   "ticket_id": "TKT-2026-000013",
   "sender": "customer",
-  "text": "Using StreamNest Premium for a while now. Support asked for my order number.",
+  "text": "Honestly, the support agent solved my problem in one call. Great job.",
   "language": "en",
   "sent_at": "2026-04-22 01:40:04"
  },
@@ -395,15 +443,15 @@
   "message_id": "MSG-TKT-2026-000013-002",
   "ticket_id": "TKT-2026-000013",
   "sender": "agent",
-  "text": "I've escalated this to our specialist team.",
+  "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-04-22 12:48:20"
+  "sent_at": "2026-04-22 19:15:27"
  },
  {
   "message_id": "MSG-TKT-2026-000014-001",
   "ticket_id": "TKT-2026-000014",
   "sender": "customer",
-  "text": "The item arrived broken and feels cheap. Very disappointed with Aurelo Speaker.",
+  "text": "The support agent solved my problem in one call, would recommend Lumo Wallet.",
   "language": "en",
   "sent_at": "2026-04-24 08:54:53"
  },
@@ -413,21 +461,45 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-04-24 20:20:48"
+  "sent_at": "2026-04-24 13:03:10"
  },
  {
   "message_id": "MSG-TKT-2026-000014-003",
   "ticket_id": "TKT-2026-000014",
   "sender": "customer",
-  "text": "The build quality is... well, it's the build quality.",
+  "text": "Five stars: the support agent solved my problem in one call.",
   "language": "en",
-  "sent_at": "2026-04-25 05:13:08"
+  "sent_at": "2026-04-25 03:05:57"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000014-004",
+  "ticket_id": "TKT-2026-000014",
+  "sender": "agent",
+  "text": "Sorry for the trouble. Could you share your order number?",
+  "language": "en",
+  "sent_at": "2026-04-25 12:51:12"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000014-005",
+  "ticket_id": "TKT-2026-000014",
+  "sender": "customer",
+  "text": "Just noting that I contacted support through chat.",
+  "language": "en",
+  "sent_at": "2026-04-25 21:25:13"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000014-006",
+  "ticket_id": "TKT-2026-000014",
+  "sender": "agent",
+  "text": "Thank you for your patience while we investigate.",
+  "language": "en",
+  "sent_at": "2026-04-26 14:15:51"
  },
  {
   "message_id": "MSG-TKT-2026-000015-001",
   "ticket_id": "TKT-2026-000015",
   "sender": "customer",
-  "text": "Mixed feelings about Orbix Router: it still works perfectly after months of daily use, yet the refund was rejected for no reason.",
+  "text": "Simple tasks take far too many steps. I expected much better from TrekTrack.",
   "language": "en",
   "sent_at": "2026-04-29 00:02:58"
  },
@@ -435,87 +507,55 @@
   "message_id": "MSG-TKT-2026-000015-002",
   "ticket_id": "TKT-2026-000015",
   "sender": "agent",
-  "text": "I've escalated this to our specialist team.",
+  "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-04-29 02:08:41"
- },
- {
-  "message_id": "MSG-TKT-2026-000015-003",
-  "ticket_id": "TKT-2026-000015",
-  "sender": "customer",
-  "text": "Just noting that refunds are processed within ten working days.",
-  "language": "en",
-  "sent_at": "2026-04-30 06:08:47"
- },
- {
-  "message_id": "MSG-TKT-2026-000015-004",
-  "ticket_id": "TKT-2026-000015",
-  "sender": "agent",
-  "text": "Thank you for your patience while we investigate.",
-  "language": "en",
-  "sent_at": "2026-05-01 08:54:43"
- },
- {
-  "message_id": "MSG-TKT-2026-000015-005",
-  "ticket_id": "TKT-2026-000015",
-  "sender": "customer",
-  "text": "Simple tasks take far too many steps. This is unacceptable.",
-  "language": "en",
-  "sent_at": "2026-05-02 02:35:08"
- },
- {
-  "message_id": "MSG-TKT-2026-000015-006",
-  "ticket_id": "TKT-2026-000015",
-  "sender": "agent",
-  "text": "Thanks for reaching out. I'm looking into this now.",
-  "language": "en",
-  "sent_at": "2026-05-02 04:37:52"
+  "sent_at": "2026-04-29 01:21:45"
  },
  {
   "message_id": "MSG-TKT-2026-000016-001",
   "ticket_id": "TKT-2026-000016",
   "sender": "customer",
-  "text": "लॉगिन के साथ अनुभव अच्छा रहा, लेकिन बिलिंग बेकार है।",
-  "language": "hi",
+  "text": "Even my parents figured it out quickly, would recommend ParcelPal Same-Day.",
+  "language": "en",
   "sent_at": "2026-04-29 04:35:33"
  },
  {
   "message_id": "MSG-TKT-2026-000016-002",
   "ticket_id": "TKT-2026-000016",
   "sender": "agent",
-  "text": "This should now be resolved. Please let us know if anything else comes up.",
+  "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-04-29 11:43:32"
+  "sent_at": "2026-04-29 22:25:44"
  },
  {
   "message_id": "MSG-TKT-2026-000016-003",
   "ticket_id": "TKT-2026-000016",
   "sender": "customer",
-  "text": "बिलिंग से मैं बहुत खुश हूँ।",
-  "language": "hi",
-  "sent_at": "2026-04-30 11:16:59"
+  "text": "I found every setting without a manual, would recommend ParcelPal Same-Day.",
+  "language": "en",
+  "sent_at": "2026-04-30 22:12:35"
  },
  {
   "message_id": "MSG-TKT-2026-000016-004",
   "ticket_id": "TKT-2026-000016",
   "sender": "agent",
-  "text": "Sorry for the trouble. Could you share your order number?",
+  "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-05-01 07:38:32"
+  "sent_at": "2026-05-01 02:39:04"
  },
  {
   "message_id": "MSG-TKT-2026-000016-005",
   "ticket_id": "TKT-2026-000016",
   "sender": "customer",
-  "text": "ऐप बिल्कुल बेकार है, बहुत निराशा हुई।",
-  "language": "hi",
-  "sent_at": "2026-05-02 01:28:43"
+  "text": "I explained the issue three times to three different agents, although even my parents figured it out quickly.",
+  "language": "en",
+  "sent_at": "2026-05-02 05:36:10"
  },
  {
   "message_id": "MSG-TKT-2026-000017-001",
   "ticket_id": "TKT-2026-000017",
   "sender": "customer",
-  "text": "The setup guide has six steps.",
+  "text": "Same-day delivery actually arrived the same day, but the invoice was wrong again this month.",
   "language": "en",
   "sent_at": "2026-05-03 08:38:40"
  },
@@ -525,110 +565,126 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-05-04 03:34:16"
+  "sent_at": "2026-05-04 03:18:28"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000017-003",
+  "ticket_id": "TKT-2026-000017",
+  "sender": "customer",
+  "text": "Honestly, it is great value for money. Great job.",
+  "language": "en",
+  "sent_at": "2026-05-04 14:41:22"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000017-004",
+  "ticket_id": "TKT-2026-000017",
+  "sender": "agent",
+  "text": "This should now be resolved. Please let us know if anything else comes up.",
+  "language": "en",
+  "sent_at": "2026-05-05 17:07:30"
  },
  {
   "message_id": "MSG-TKT-2026-000018-001",
   "ticket_id": "TKT-2026-000018",
   "sender": "customer",
-  "text": "The price is listed per month.",
-  "language": "en",
+  "text": "रिफंड सामान्य है।",
+  "language": "hi",
   "sent_at": "2026-05-03 11:20:16"
  },
  {
   "message_id": "MSG-TKT-2026-000018-002",
   "ticket_id": "TKT-2026-000018",
   "sender": "agent",
-  "text": "Sorry for the trouble. Could you share your order number?",
+  "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-05-03 22:01:46"
+  "sent_at": "2026-05-04 16:57:54"
  },
  {
   "message_id": "MSG-TKT-2026-000018-003",
   "ticket_id": "TKT-2026-000018",
   "sender": "customer",
-  "text": "There are three price tiers.",
+  "text": "रिफंड सामान्य है।",
+  "language": "hi",
+  "sent_at": "2026-05-05 21:58:33"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000018-004",
+  "ticket_id": "TKT-2026-000018",
+  "sender": "agent",
+  "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-05-04 20:16:48"
+  "sent_at": "2026-05-06 19:55:53"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000018-005",
+  "ticket_id": "TKT-2026-000018",
+  "sender": "customer",
+  "text": "रिफंड बिल्कुल बेकार है, बहुत निराशा हुई।",
+  "language": "hi",
+  "sent_at": "2026-05-07 01:28:05"
  },
  {
   "message_id": "MSG-TKT-2026-000019-001",
   "ticket_id": "TKT-2026-000019",
   "sender": "customer",
-  "text": "El tiempo de entrega es normal, nada especial.",
-  "language": "es",
+  "text": "TrekTrack ka price ekdum mast hai yaar.",
+  "language": "hi-Latn",
   "sent_at": "2026-05-04 23:25:51"
  },
  {
   "message_id": "MSG-TKT-2026-000019-002",
   "ticket_id": "TKT-2026-000019",
   "sender": "agent",
-  "text": "Thank you for your patience while we investigate.",
+  "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-05-05 22:55:24"
+  "sent_at": "2026-05-05 21:45:23"
  },
  {
   "message_id": "MSG-TKT-2026-000019-003",
   "ticket_id": "TKT-2026-000019",
   "sender": "customer",
-  "text": "Muy contento con el tiempo de entrega, funciona de maravilla.",
-  "language": "es",
-  "sent_at": "2026-05-06 02:22:02"
- },
- {
-  "message_id": "MSG-TKT-2026-000019-004",
-  "ticket_id": "TKT-2026-000019",
-  "sender": "agent",
-  "text": "Sorry for the trouble. Could you share your order number?",
-  "language": "en",
-  "sent_at": "2026-05-06 12:49:11"
+  "text": "Price normal hai, kuch special nahi.",
+  "language": "hi-Latn",
+  "sent_at": "2026-05-06 14:18:35"
  },
  {
   "message_id": "MSG-TKT-2026-000020-001",
   "ticket_id": "TKT-2026-000020",
   "sender": "customer",
-  "text": "कस्टमर सपोर्ट के बारे में कुछ खास कहने को नहीं है।",
-  "language": "hi",
+  "text": "La app de Lumo Wallet es genial, lo recomiendo.",
+  "language": "es",
   "sent_at": "2026-05-05 06:13:25"
  },
  {
   "message_id": "MSG-TKT-2026-000020-002",
   "ticket_id": "TKT-2026-000020",
   "sender": "agent",
-  "text": "Sorry for the trouble. Could you share your order number?",
+  "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-05-06 01:26:18"
+  "sent_at": "2026-05-05 07:54:46"
  },
  {
   "message_id": "MSG-TKT-2026-000020-003",
   "ticket_id": "TKT-2026-000020",
   "sender": "customer",
-  "text": "कस्टमर सपोर्ट ठीक-ठाक है।",
-  "language": "hi",
-  "sent_at": "2026-05-06 19:04:32"
+  "text": "La app es terrible, muy decepcionado.",
+  "language": "es",
+  "sent_at": "2026-05-06 08:31:08"
  },
  {
   "message_id": "MSG-TKT-2026-000020-004",
   "ticket_id": "TKT-2026-000020",
   "sender": "agent",
-  "text": "Sorry for the trouble. Could you share your order number?",
+  "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-05-07 22:28:54"
- },
- {
-  "message_id": "MSG-TKT-2026-000020-005",
-  "ticket_id": "TKT-2026-000020",
-  "sender": "customer",
-  "text": "कस्टमर सपोर्ट के साथ मेरा अनुभव बहुत अच्छा रहा।",
-  "language": "hi",
-  "sent_at": "2026-05-08 11:20:58"
+  "sent_at": "2026-05-06 10:05:38"
  },
  {
   "message_id": "MSG-TKT-2026-000021-001",
   "ticket_id": "TKT-2026-000021",
   "sender": "customer",
-  "text": "Me gusta el reembolso, aunque la interfaz deja mucho que desear.",
-  "language": "es",
+  "text": "The price is... well, it's the price.",
+  "language": "en",
   "sent_at": "2026-05-06 08:46:08"
  },
  {
@@ -637,37 +693,13 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-05-07 14:16:06"
- },
- {
-  "message_id": "MSG-TKT-2026-000021-003",
-  "ticket_id": "TKT-2026-000021",
-  "sender": "customer",
-  "text": "La facturación es excelente, pero la configuración inicial es terrible.",
-  "language": "es",
-  "sent_at": "2026-05-08 13:51:09"
- },
- {
-  "message_id": "MSG-TKT-2026-000021-004",
-  "ticket_id": "TKT-2026-000021",
-  "sender": "agent",
-  "text": "Thanks for reaching out. I'm looking into this now.",
-  "language": "en",
-  "sent_at": "2026-05-09 01:56:48"
- },
- {
-  "message_id": "MSG-TKT-2026-000021-005",
-  "ticket_id": "TKT-2026-000021",
-  "sender": "customer",
-  "text": "El soporte al cliente de Lumo Wallet deja mucho que desear.",
-  "language": "es",
-  "sent_at": "2026-05-09 07:26:20"
+  "sent_at": "2026-05-06 17:45:23"
  },
  {
   "message_id": "MSG-TKT-2026-000022-001",
   "ticket_id": "TKT-2026-000022",
   "sender": "customer",
-  "text": "Login super hai, sabko recommend karunga.",
+  "text": "Yaar app ka bahut bura haal hai, totally fed up.",
   "language": "hi-Latn",
   "sent_at": "2026-05-07 20:42:42"
  },
@@ -675,16 +707,40 @@
   "message_id": "MSG-TKT-2026-000022-002",
   "ticket_id": "TKT-2026-000022",
   "sender": "agent",
-  "text": "This should now be resolved. Please let us know if anything else comes up.",
+  "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-05-08 01:05:17"
+  "sent_at": "2026-05-07 21:53:41"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000022-003",
+  "ticket_id": "TKT-2026-000022",
+  "sender": "customer",
+  "text": "App normal hai, kuch special nahi.",
+  "language": "hi-Latn",
+  "sent_at": "2026-05-08 02:16:16"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000022-004",
+  "ticket_id": "TKT-2026-000022",
+  "sender": "agent",
+  "text": "Thank you for your patience while we investigate.",
+  "language": "en",
+  "sent_at": "2026-05-09 01:29:05"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000022-005",
+  "ticket_id": "TKT-2026-000022",
+  "sender": "customer",
+  "text": "App bahut achha hai, full satisfied.",
+  "language": "hi-Latn",
+  "sent_at": "2026-05-09 12:59:56"
  },
  {
   "message_id": "MSG-TKT-2026-000023-001",
   "ticket_id": "TKT-2026-000023",
   "sender": "customer",
-  "text": "డెలివరీ తో చాలా సంతోషంగా ఉన్నాను.",
-  "language": "te",
+  "text": "कीमत के साथ मेरा अनुभव बहुत खराब रहा।",
+  "language": "hi",
   "sent_at": "2026-05-07 22:25:23"
  },
  {
@@ -693,37 +749,29 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-05-08 02:28:14"
+  "sent_at": "2026-05-09 04:09:54"
  },
  {
   "message_id": "MSG-TKT-2026-000023-003",
   "ticket_id": "TKT-2026-000023",
   "sender": "customer",
-  "text": "డెలివరీ తో చాలా సంతోషంగా ఉన్నాను.",
-  "language": "te",
-  "sent_at": "2026-05-08 11:38:22"
+  "text": "कीमत शानदार है, सबको सलाह दूँगा।",
+  "language": "hi",
+  "sent_at": "2026-05-09 12:09:29"
  },
  {
   "message_id": "MSG-TKT-2026-000023-004",
   "ticket_id": "TKT-2026-000023",
   "sender": "agent",
-  "text": "Thank you for your patience while we investigate.",
+  "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-05-09 09:48:04"
- },
- {
-  "message_id": "MSG-TKT-2026-000023-005",
-  "ticket_id": "TKT-2026-000023",
-  "sender": "customer",
-  "text": "డెలివరీ తో చాలా సంతోషంగా ఉన్నాను.",
-  "language": "te",
-  "sent_at": "2026-05-09 22:50:48"
+  "sent_at": "2026-05-10 06:56:07"
  },
  {
   "message_id": "MSG-TKT-2026-000024-001",
   "ticket_id": "TKT-2026-000024",
   "sender": "customer",
-  "text": "Really frustrated: the agent closed my ticket without fixing anything.",
+  "text": "The setup is... well, it's the setup.",
   "language": "en",
   "sent_at": "2026-05-12 14:22:12"
  },
@@ -733,13 +781,13 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-05-13 02:21:23"
+  "sent_at": "2026-05-13 19:06:22"
  },
  {
   "message_id": "MSG-TKT-2026-000025-001",
   "ticket_id": "TKT-2026-000025",
   "sender": "customer",
-  "text": "Fantastic, I keep getting locked out of my account. Ten out of ten, would suffer again.",
+  "text": "Billing added fees nobody explained. This is unacceptable.",
   "language": "en",
   "sent_at": "2026-05-13 06:49:47"
  },
@@ -747,15 +795,15 @@
   "message_id": "MSG-TKT-2026-000025-002",
   "ticket_id": "TKT-2026-000025",
   "sender": "agent",
-  "text": "This should now be resolved. Please let us know if anything else comes up.",
+  "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-05-13 15:06:46"
+  "sent_at": "2026-05-13 20:23:11"
  },
  {
   "message_id": "MSG-TKT-2026-000026-001",
   "ticket_id": "TKT-2026-000026",
   "sender": "customer",
-  "text": "The app runs smoothly even on my old phone, but my card shows a double charge for one subscription.",
+  "text": "The interface is clean and easy to use. Really happy with QuickDrop Express.",
   "language": "en",
   "sent_at": "2026-05-15 05:43:09"
  },
@@ -763,17 +811,17 @@
   "message_id": "MSG-TKT-2026-000026-002",
   "ticket_id": "TKT-2026-000026",
   "sender": "agent",
-  "text": "Sorry for the trouble. Could you share your order number?",
+  "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-05-15 20:23:19"
+  "sent_at": "2026-05-15 17:01:35"
  },
  {
   "message_id": "MSG-TKT-2026-000026-003",
   "ticket_id": "TKT-2026-000026",
   "sender": "customer",
-  "text": "I can never find the settings I need. Very disappointed with Lumo Wallet.",
+  "text": "The settings are under the profile icon.",
   "language": "en",
-  "sent_at": "2026-05-16 04:52:48"
+  "sent_at": "2026-05-16 15:44:07"
  },
  {
   "message_id": "MSG-TKT-2026-000027-001",
@@ -957,7 +1005,7 @@
   "sender": "customer",
   "text": "I contacted support through chat.",
   "language": "en",
-  "sent_at": "2026-05-30 08:24:43"
+  "sent_at": "2026-05-29 07:38:33"
  },
  {
   "message_id": "MSG-TKT-2026-000032-002",
@@ -965,7 +1013,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-05-31 00:25:40"
+  "sent_at": "2026-05-29 23:39:30"
  },
  {
   "message_id": "MSG-TKT-2026-000032-003",
@@ -973,7 +1021,7 @@
   "sender": "customer",
   "text": "The agent closed my ticket without fixing anything. This is unacceptable.",
   "language": "en",
-  "sent_at": "2026-05-31 13:25:18"
+  "sent_at": "2026-05-30 12:39:08"
  },
  {
   "message_id": "MSG-TKT-2026-000033-001",
@@ -981,7 +1029,7 @@
   "sender": "customer",
   "text": "I found every setting without a manual, but it stopped working after two weeks.",
   "language": "en",
-  "sent_at": "2026-05-30 10:57:23"
+  "sent_at": "2026-05-30 08:24:43"
  },
  {
   "message_id": "MSG-TKT-2026-000033-002",
@@ -989,7 +1037,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-05-31 12:27:11"
+  "sent_at": "2026-05-31 09:54:31"
  },
  {
   "message_id": "MSG-TKT-2026-000033-003",
@@ -997,7 +1045,7 @@
   "sender": "customer",
   "text": "The materials are sturdy and well finished, would recommend Aurelo Speaker.",
   "language": "en",
-  "sent_at": "2026-05-31 19:15:12"
+  "sent_at": "2026-05-31 16:42:32"
  },
  {
   "message_id": "MSG-TKT-2026-000034-001",
@@ -1005,7 +1053,7 @@
   "sender": "customer",
   "text": "Can't complain about the refund, no issues whatsoever.",
   "language": "en",
-  "sent_at": "2026-06-03 02:30:51"
+  "sent_at": "2026-05-30 10:57:23"
  },
  {
   "message_id": "MSG-TKT-2026-000034-002",
@@ -1013,7 +1061,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-06-03 19:42:18"
+  "sent_at": "2026-05-31 04:08:50"
  },
  {
   "message_id": "MSG-TKT-2026-000034-003",
@@ -1021,7 +1069,7 @@
   "sender": "customer",
   "text": "Mixed feelings about StreamNest Premium: the return and refund were completely hassle free, yet simple tasks take far too many steps.",
   "language": "en",
-  "sent_at": "2026-06-03 21:29:50"
+  "sent_at": "2026-05-31 05:56:22"
  },
  {
   "message_id": "MSG-TKT-2026-000034-004",
@@ -1029,7 +1077,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-06-04 17:33:29"
+  "sent_at": "2026-06-01 02:00:01"
  },
  {
   "message_id": "MSG-TKT-2026-000034-005",
@@ -1037,7 +1085,7 @@
   "sender": "customer",
   "text": "The refund is not bad at all, to be honest.",
   "language": "en",
-  "sent_at": "2026-06-04 22:09:19"
+  "sent_at": "2026-06-01 06:35:51"
  },
  {
   "message_id": "MSG-TKT-2026-000035-001",
@@ -1045,7 +1093,7 @@
   "sender": "customer",
   "text": "పేమెంట్ అద్భుతంగా ఉంది, కానీ రీఫండ్ అస్సలు బాగాలేదు.",
   "language": "te",
-  "sent_at": "2026-06-03 19:29:32"
+  "sent_at": "2026-06-03 02:30:51"
  },
  {
   "message_id": "MSG-TKT-2026-000035-002",
@@ -1053,7 +1101,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-06-04 08:42:39"
+  "sent_at": "2026-06-03 15:43:58"
  },
  {
   "message_id": "MSG-TKT-2026-000035-003",
@@ -1061,7 +1109,7 @@
   "sender": "customer",
   "text": "పేమెంట్ అస్సలు బాగాలేదు.",
   "language": "te",
-  "sent_at": "2026-06-04 13:56:17"
+  "sent_at": "2026-06-03 20:57:36"
  },
  {
   "message_id": "MSG-TKT-2026-000036-001",
@@ -1069,7 +1117,7 @@
   "sender": "customer",
   "text": "Honestly, pairing the device worked the first time. Great job.",
   "language": "en",
-  "sent_at": "2026-06-04 20:31:51"
+  "sent_at": "2026-06-03 19:29:32"
  },
  {
   "message_id": "MSG-TKT-2026-000036-002",
@@ -1077,7 +1125,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-06-05 06:11:56"
+  "sent_at": "2026-06-04 05:09:37"
  },
  {
   "message_id": "MSG-TKT-2026-000037-001",
@@ -1085,7 +1133,7 @@
   "sender": "customer",
   "text": "Mixed feelings about StreamNest Premium: logging in with my fingerprint is effortless, yet the price went up again without warning.",
   "language": "en",
-  "sent_at": "2026-06-06 15:51:46"
+  "sent_at": "2026-06-04 20:31:51"
  },
  {
   "message_id": "MSG-TKT-2026-000037-002",
@@ -1093,7 +1141,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-06-06 17:45:06"
+  "sent_at": "2026-06-04 22:25:11"
  },
  {
   "message_id": "MSG-TKT-2026-000037-003",
@@ -1101,7 +1149,7 @@
   "sender": "customer",
   "text": "Mixed feelings about StreamNest Premium: the password reset worked in seconds, yet they promised a refund and then went silent.",
   "language": "en",
-  "sent_at": "2026-06-06 23:23:30"
+  "sent_at": "2026-06-05 04:03:35"
  },
  {
   "message_id": "MSG-TKT-2026-000038-001",
@@ -1109,7 +1157,7 @@
   "sender": "customer",
   "text": "Just noting that the setup guide has six steps.",
   "language": "en",
-  "sent_at": "2026-06-06 23:14:05"
+  "sent_at": "2026-06-06 15:51:46"
  },
  {
   "message_id": "MSG-TKT-2026-000038-002",
@@ -1117,7 +1165,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-06-07 18:28:02"
+  "sent_at": "2026-06-07 11:05:43"
  },
  {
   "message_id": "MSG-TKT-2026-000038-003",
@@ -1125,7 +1173,7 @@
   "sender": "customer",
   "text": "Activation got stuck on the first screen. I expected much better from StreamNest Premium.",
   "language": "en",
-  "sent_at": "2026-06-07 23:02:56"
+  "sent_at": "2026-06-07 15:40:37"
  },
  {
   "message_id": "MSG-TKT-2026-000038-004",
@@ -1133,7 +1181,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-06-09 03:22:36"
+  "sent_at": "2026-06-08 20:00:17"
  },
  {
   "message_id": "MSG-TKT-2026-000038-005",
@@ -1141,7 +1189,7 @@
   "sender": "customer",
   "text": "The setup failed three times before it worked. Very disappointed with StreamNest Premium.",
   "language": "en",
-  "sent_at": "2026-06-10 03:29:39"
+  "sent_at": "2026-06-09 20:07:20"
  },
  {
   "message_id": "MSG-TKT-2026-000039-001",
@@ -1149,7 +1197,7 @@
   "sender": "customer",
   "text": "Support asked for my order number.",
   "language": "en",
-  "sent_at": "2026-06-07 07:39:56"
+  "sent_at": "2026-06-06 23:14:05"
  },
  {
   "message_id": "MSG-TKT-2026-000039-002",
@@ -1157,7 +1205,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-06-07 19:23:45"
+  "sent_at": "2026-06-07 10:57:54"
  },
  {
   "message_id": "MSG-TKT-2026-000040-001",
@@ -1165,7 +1213,7 @@
   "sender": "customer",
   "text": "They promised a refund and then went silent, although the price is very fair for what you get.",
   "language": "en",
-  "sent_at": "2026-06-07 16:18:41"
+  "sent_at": "2026-06-07 07:39:56"
  },
  {
   "message_id": "MSG-TKT-2026-000040-002",
@@ -1173,7 +1221,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-06-07 20:07:36"
+  "sent_at": "2026-06-07 11:28:51"
  },
  {
   "message_id": "MSG-TKT-2026-000040-003",
@@ -1181,7 +1229,7 @@
   "sender": "customer",
   "text": "Even my parents figured it out quickly. Really happy with VaultBox Plus.",
   "language": "en",
-  "sent_at": "2026-06-07 23:35:09"
+  "sent_at": "2026-06-07 14:56:24"
  },
  {
   "message_id": "MSG-TKT-2026-000041-001",
@@ -1189,7 +1237,7 @@
   "sender": "customer",
   "text": "Fantastic, my card shows a double charge for one subscription. Ten out of ten, would suffer again.",
   "language": "en",
-  "sent_at": "2026-06-08 17:10:34"
+  "sent_at": "2026-06-07 16:18:41"
  },
  {
   "message_id": "MSG-TKT-2026-000041-002",
@@ -1197,7 +1245,7 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-06-09 03:05:33"
+  "sent_at": "2026-06-08 02:13:40"
  },
  {
   "message_id": "MSG-TKT-2026-000041-003",
@@ -1205,7 +1253,7 @@
   "sender": "customer",
   "text": "The payment went through exactly once. Really happy with VaultBox Plus.",
   "language": "en",
-  "sent_at": "2026-06-10 07:37:34"
+  "sent_at": "2026-06-09 06:45:41"
  },
  {
   "message_id": "MSG-TKT-2026-000041-004",
@@ -1213,7 +1261,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-06-11 05:18:46"
+  "sent_at": "2026-06-10 04:26:53"
  },
  {
   "message_id": "MSG-TKT-2026-000041-005",
@@ -1221,7 +1269,7 @@
   "sender": "customer",
   "text": "Really frustrated: my card shows a double charge for one subscription.",
   "language": "en",
-  "sent_at": "2026-06-11 14:17:29"
+  "sent_at": "2026-06-10 13:25:36"
  },
  {
   "message_id": "MSG-TKT-2026-000041-006",
@@ -1229,7 +1277,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-06-12 08:50:05"
+  "sent_at": "2026-06-11 07:58:12"
  },
  {
   "message_id": "MSG-TKT-2026-000042-001",
@@ -1237,7 +1285,7 @@
   "sender": "customer",
   "text": "Using FitLoop Annual for a while now. The main menu has five tabs.",
   "language": "en",
-  "sent_at": "2026-06-10 13:49:02"
+  "sent_at": "2026-06-08 17:10:34"
  },
  {
   "message_id": "MSG-TKT-2026-000042-002",
@@ -1245,7 +1293,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-06-10 20:33:35"
+  "sent_at": "2026-06-08 23:55:07"
  },
  {
   "message_id": "MSG-TKT-2026-000042-003",
@@ -1253,7 +1301,7 @@
   "sender": "customer",
   "text": "Mixed feelings about FitLoop Annual: even my parents figured it out quickly, yet I am still waiting for my refund after a month.",
   "language": "en",
-  "sent_at": "2026-06-11 12:57:39"
+  "sent_at": "2026-06-09 16:19:11"
  },
  {
   "message_id": "MSG-TKT-2026-000042-004",
@@ -1261,7 +1309,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-06-12 13:54:24"
+  "sent_at": "2026-06-10 17:15:56"
  },
  {
   "message_id": "MSG-TKT-2026-000043-001",
@@ -1269,7 +1317,7 @@
   "sender": "customer",
   "text": "The app crashes every time I open it. I expected much better from TrekTrack.",
   "language": "en",
-  "sent_at": "2026-06-11 12:01:02"
+  "sent_at": "2026-06-10 13:49:02"
  },
  {
   "message_id": "MSG-TKT-2026-000043-002",
@@ -1277,7 +1325,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-06-11 22:52:32"
+  "sent_at": "2026-06-11 00:40:32"
  },
  {
   "message_id": "MSG-TKT-2026-000043-003",
@@ -1285,7 +1333,7 @@
   "sender": "customer",
   "text": "Really frustrated: screens take forever to load.",
   "language": "en",
-  "sent_at": "2026-06-12 21:31:25"
+  "sent_at": "2026-06-11 23:19:25"
  },
  {
   "message_id": "MSG-TKT-2026-000043-004",
@@ -1293,7 +1341,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-06-13 02:22:05"
+  "sent_at": "2026-06-12 04:10:05"
  },
  {
   "message_id": "MSG-TKT-2026-000043-005",
@@ -1301,7 +1349,7 @@
   "sender": "customer",
   "text": "The app crashes every time I open it. I expected much better from TrekTrack.",
   "language": "en",
-  "sent_at": "2026-06-13 04:08:15"
+  "sent_at": "2026-06-12 05:56:15"
  },
  {
   "message_id": "MSG-TKT-2026-000043-006",
@@ -1309,7 +1357,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-06-13 16:21:57"
+  "sent_at": "2026-06-12 18:09:57"
  },
  {
   "message_id": "MSG-TKT-2026-000044-001",
@@ -1317,7 +1365,7 @@
   "sender": "customer",
   "text": "Delivery time super hai, sabko recommend karunga.",
   "language": "hi-Latn",
-  "sent_at": "2026-06-12 14:44:47"
+  "sent_at": "2026-06-11 12:01:02"
  },
  {
   "message_id": "MSG-TKT-2026-000044-002",
@@ -1325,7 +1373,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-06-13 19:54:49"
+  "sent_at": "2026-06-12 17:11:04"
  },
  {
   "message_id": "MSG-TKT-2026-000044-003",
@@ -1333,7 +1381,7 @@
   "sender": "customer",
   "text": "Delivery time theek-thaak hai.",
   "language": "hi-Latn",
-  "sent_at": "2026-06-14 08:50:25"
+  "sent_at": "2026-06-13 06:06:40"
  },
  {
   "message_id": "MSG-TKT-2026-000045-001",
@@ -1341,7 +1389,7 @@
   "sender": "customer",
   "text": "रिफंड के बारे में कुछ खास कहने को नहीं है।",
   "language": "hi",
-  "sent_at": "2026-06-12 15:31:26"
+  "sent_at": "2026-06-12 14:44:47"
  },
  {
   "message_id": "MSG-TKT-2026-000045-002",
@@ -1349,7 +1397,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-06-12 18:55:16"
+  "sent_at": "2026-06-12 18:08:37"
  },
  {
   "message_id": "MSG-TKT-2026-000045-003",
@@ -1357,7 +1405,7 @@
   "sender": "customer",
   "text": "रिफंड से मैं बहुत परेशान हूँ।",
   "language": "hi",
-  "sent_at": "2026-06-13 19:23:44"
+  "sent_at": "2026-06-13 18:37:05"
  },
  {
   "message_id": "MSG-TKT-2026-000045-004",
@@ -1365,7 +1413,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-06-15 00:29:07"
+  "sent_at": "2026-06-14 23:42:28"
  },
  {
   "message_id": "MSG-TKT-2026-000045-005",
@@ -1373,7 +1421,7 @@
   "sender": "customer",
   "text": "रिफंड शानदार है, सबको सलाह दूँगा।",
   "language": "hi",
-  "sent_at": "2026-06-15 22:14:19"
+  "sent_at": "2026-06-15 21:27:40"
  },
  {
   "message_id": "MSG-TKT-2026-000045-006",
@@ -1381,7 +1429,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-06-16 22:46:16"
+  "sent_at": "2026-06-16 21:59:37"
  },
  {
   "message_id": "MSG-TKT-2026-000046-001",
@@ -1389,7 +1437,7 @@
   "sender": "customer",
   "text": "The interface is not bad at all, to be honest.",
   "language": "en",
-  "sent_at": "2026-06-13 16:55:00"
+  "sent_at": "2026-06-12 15:31:26"
  },
  {
   "message_id": "MSG-TKT-2026-000046-002",
@@ -1397,7 +1445,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-06-13 18:38:39"
+  "sent_at": "2026-06-12 17:15:05"
  },
  {
   "message_id": "MSG-TKT-2026-000046-003",
@@ -1405,7 +1453,7 @@
   "sender": "customer",
   "text": "Five stars: the interface is clean and easy to use.",
   "language": "en",
-  "sent_at": "2026-06-13 23:00:12"
+  "sent_at": "2026-06-12 21:36:38"
  },
  {
   "message_id": "MSG-TKT-2026-000046-004",
@@ -1413,7 +1461,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-06-14 08:12:47"
+  "sent_at": "2026-06-13 06:49:13"
  },
  {
   "message_id": "MSG-TKT-2026-000047-001",
@@ -1421,7 +1469,7 @@
   "sender": "customer",
   "text": "Wow, the app freezes in the middle of checkout. Exactly what I wanted from Velto Watch.",
   "language": "en",
-  "sent_at": "2026-06-18 06:39:50"
+  "sent_at": "2026-06-13 16:55:00"
  },
  {
   "message_id": "MSG-TKT-2026-000047-002",
@@ -1429,7 +1477,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-06-19 03:21:19"
+  "sent_at": "2026-06-14 13:36:29"
  },
  {
   "message_id": "MSG-TKT-2026-000047-003",
@@ -1437,7 +1485,7 @@
   "sender": "customer",
   "text": "Just noting that the app takes a few seconds to start.",
   "language": "en",
-  "sent_at": "2026-06-20 09:13:02"
+  "sent_at": "2026-06-15 19:28:12"
  },
  {
   "message_id": "MSG-TKT-2026-000047-004",
@@ -1445,7 +1493,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-06-20 12:19:04"
+  "sent_at": "2026-06-15 22:34:14"
  },
  {
   "message_id": "MSG-TKT-2026-000047-005",
@@ -1453,7 +1501,7 @@
   "sender": "customer",
   "text": "The app is not good, not even close.",
   "language": "en",
-  "sent_at": "2026-06-21 11:29:53"
+  "sent_at": "2026-06-16 21:45:03"
  },
  {
   "message_id": "MSG-TKT-2026-000047-006",
@@ -1461,7 +1509,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-06-21 14:48:05"
+  "sent_at": "2026-06-17 01:03:15"
  },
  {
   "message_id": "MSG-TKT-2026-000048-001",
@@ -1469,7 +1517,7 @@
   "sender": "customer",
   "text": "The app freezes in the middle of checkout. I expected much better from TrekTrack.",
   "language": "en",
-  "sent_at": "2026-06-19 22:23:56"
+  "sent_at": "2026-06-18 06:39:50"
  },
  {
   "message_id": "MSG-TKT-2026-000048-002",
@@ -1477,7 +1525,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-06-21 03:06:27"
+  "sent_at": "2026-06-19 11:22:21"
  },
  {
   "message_id": "MSG-TKT-2026-000048-003",
@@ -1485,7 +1533,7 @@
   "sender": "customer",
   "text": "The app is not good, not even close.",
   "language": "en",
-  "sent_at": "2026-06-21 20:24:12"
+  "sent_at": "2026-06-20 04:40:06"
  },
  {
   "message_id": "MSG-TKT-2026-000049-001",
@@ -1493,7 +1541,7 @@
   "sender": "customer",
   "text": "Just noting that I contacted support through chat.",
   "language": "en",
-  "sent_at": "2026-06-20 17:22:58"
+  "sent_at": "2026-06-19 22:23:56"
  },
  {
   "message_id": "MSG-TKT-2026-000049-002",
@@ -1501,15 +1549,15 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-06-20 18:28:28"
+  "sent_at": "2026-06-19 23:29:26"
  },
  {
   "message_id": "MSG-TKT-2026-000050-001",
   "ticket_id": "TKT-2026-000050",
   "sender": "customer",
-  "text": "The payment went through exactly once, but the price went up again without warning.",
+  "text": "The express slot was honoured to the minute, but screens take forever to load.",
   "language": "en",
-  "sent_at": "2026-06-26 08:10:41"
+  "sent_at": "2026-06-20 17:22:58"
  },
  {
   "message_id": "MSG-TKT-2026-000050-002",
@@ -1517,15 +1565,15 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-06-26 10:46:37"
+  "sent_at": "2026-06-20 19:58:54"
  },
  {
   "message_id": "MSG-TKT-2026-000050-003",
   "ticket_id": "TKT-2026-000050",
   "sender": "customer",
-  "text": "Really frustrated: my card shows a double charge for one subscription.",
+  "text": "Really frustrated: the delivery slot was missed twice in a row.",
   "language": "en",
-  "sent_at": "2026-06-27 00:27:44"
+  "sent_at": "2026-06-21 09:40:01"
  },
  {
   "message_id": "MSG-TKT-2026-000050-004",
@@ -1533,7 +1581,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-06-28 05:30:01"
+  "sent_at": "2026-06-22 14:42:18"
  },
  {
   "message_id": "MSG-TKT-2026-000051-001",
@@ -1541,7 +1589,7 @@
   "sender": "customer",
   "text": "They promised a refund and then went silent. I expected much better from Aurelo Speaker.",
   "language": "en",
-  "sent_at": "2026-06-27 07:45:09"
+  "sent_at": "2026-06-26 08:10:41"
  },
  {
   "message_id": "MSG-TKT-2026-000051-002",
@@ -1549,7 +1597,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-06-27 20:33:36"
+  "sent_at": "2026-06-26 20:59:08"
  },
  {
   "message_id": "MSG-TKT-2026-000051-003",
@@ -1557,7 +1605,7 @@
   "sender": "customer",
   "text": "They refunded me without any argument, would recommend Aurelo Speaker.",
   "language": "en",
-  "sent_at": "2026-06-28 10:41:00"
+  "sent_at": "2026-06-27 11:06:32"
  },
  {
   "message_id": "MSG-TKT-2026-000051-004",
@@ -1565,7 +1613,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-06-28 21:57:47"
+  "sent_at": "2026-06-27 22:23:19"
  },
  {
   "message_id": "MSG-TKT-2026-000051-005",
@@ -1573,7 +1621,7 @@
   "sender": "customer",
   "text": "My refund arrived within two days. Really happy with Aurelo Speaker.",
   "language": "en",
-  "sent_at": "2026-06-28 23:24:26"
+  "sent_at": "2026-06-27 23:49:58"
  },
  {
   "message_id": "MSG-TKT-2026-000051-006",
@@ -1581,7 +1629,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-06-29 02:19:39"
+  "sent_at": "2026-06-28 02:45:11"
  },
  {
   "message_id": "MSG-TKT-2026-000052-001",
@@ -1589,7 +1637,7 @@
   "sender": "customer",
   "text": "Two-factor login is quick and reassuring, but support kept me on hold for an hour.",
   "language": "en",
-  "sent_at": "2026-06-29 18:02:27"
+  "sent_at": "2026-06-27 07:45:09"
  },
  {
   "message_id": "MSG-TKT-2026-000052-002",
@@ -1597,7 +1645,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-06-30 23:57:02"
+  "sent_at": "2026-06-28 13:39:44"
  },
  {
   "message_id": "MSG-TKT-2026-000052-003",
@@ -1605,7 +1653,7 @@
   "sender": "customer",
   "text": "Just noting that the main menu has five tabs.",
   "language": "en",
-  "sent_at": "2026-07-01 20:13:21"
+  "sent_at": "2026-06-29 09:56:03"
  },
  {
   "message_id": "MSG-TKT-2026-000052-004",
@@ -1613,7 +1661,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-07-02 17:09:07"
+  "sent_at": "2026-06-30 06:51:49"
  },
  {
   "message_id": "MSG-TKT-2026-000052-005",
@@ -1621,7 +1669,7 @@
   "sender": "customer",
   "text": "Mixed feelings about VaultBox Plus: they refunded me without any argument, yet the invoice was wrong again this month.",
   "language": "en",
-  "sent_at": "2026-07-03 05:39:56"
+  "sent_at": "2026-06-30 19:22:38"
  },
  {
   "message_id": "MSG-TKT-2026-000052-006",
@@ -1629,7 +1677,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-07-03 11:47:13"
+  "sent_at": "2026-07-01 01:29:55"
  },
  {
   "message_id": "MSG-TKT-2026-000053-001",
@@ -1637,7 +1685,7 @@
   "sender": "customer",
   "text": "ధర తో చాలా సంతోషంగా ఉన్నాను.",
   "language": "te",
-  "sent_at": "2026-06-29 21:34:24"
+  "sent_at": "2026-06-29 18:02:27"
  },
  {
   "message_id": "MSG-TKT-2026-000053-002",
@@ -1645,7 +1693,7 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-06-30 14:16:02"
+  "sent_at": "2026-06-30 10:44:05"
  },
  {
   "message_id": "MSG-TKT-2026-000053-003",
@@ -1653,7 +1701,7 @@
   "sender": "customer",
   "text": "ధర బాగుంది, కానీ రీఫండ్ చాలా ఘోరంగా ఉంది.",
   "language": "te",
-  "sent_at": "2026-07-01 03:53:05"
+  "sent_at": "2026-07-01 00:21:08"
  },
  {
   "message_id": "MSG-TKT-2026-000053-004",
@@ -1661,7 +1709,7 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-07-01 16:32:06"
+  "sent_at": "2026-07-01 13:00:09"
  },
  {
   "message_id": "MSG-TKT-2026-000053-005",
@@ -1669,7 +1717,7 @@
   "sender": "customer",
   "text": "ధర మామూలుగా ఉంది.",
   "language": "te",
-  "sent_at": "2026-07-02 04:09:08"
+  "sent_at": "2026-07-02 00:37:11"
  },
  {
   "message_id": "MSG-TKT-2026-000054-001",
@@ -1677,7 +1725,7 @@
   "sender": "customer",
   "text": "The price went up again without warning, although the support agent solved my problem in one call.",
   "language": "en",
-  "sent_at": "2026-06-30 05:37:17"
+  "sent_at": "2026-06-29 21:34:24"
  },
  {
   "message_id": "MSG-TKT-2026-000054-002",
@@ -1685,7 +1733,7 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-06-30 13:32:42"
+  "sent_at": "2026-06-30 05:29:49"
  },
  {
   "message_id": "MSG-TKT-2026-000054-003",
@@ -1693,7 +1741,7 @@
   "sender": "customer",
   "text": "Just noting that the refund goes back to the original payment method.",
   "language": "en",
-  "sent_at": "2026-07-01 15:25:33"
+  "sent_at": "2026-07-01 07:22:40"
  },
  {
   "message_id": "MSG-TKT-2026-000054-004",
@@ -1701,7 +1749,7 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-07-02 00:24:07"
+  "sent_at": "2026-07-01 16:21:14"
  },
  {
   "message_id": "MSG-TKT-2026-000054-005",
@@ -1709,7 +1757,7 @@
   "sender": "customer",
   "text": "I can never find the settings I need. I expected much better from FitLoop Annual.",
   "language": "en",
-  "sent_at": "2026-07-02 15:13:53"
+  "sent_at": "2026-07-02 07:11:00"
  },
  {
   "message_id": "MSG-TKT-2026-000055-001",
@@ -1717,7 +1765,7 @@
   "sender": "customer",
   "text": "The refund is not good, not even close.",
   "language": "en",
-  "sent_at": "2026-06-30 05:56:04"
+  "sent_at": "2026-06-30 05:37:17"
  },
  {
   "message_id": "MSG-TKT-2026-000055-002",
@@ -1725,7 +1773,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-07-01 08:47:11"
+  "sent_at": "2026-07-01 08:28:24"
  },
  {
   "message_id": "MSG-TKT-2026-000056-001",
@@ -1733,7 +1781,7 @@
   "sender": "customer",
   "text": "कीमत शानदार है, लेकिन बिलिंग बिल्कुल बेकार है।",
   "language": "hi",
-  "sent_at": "2026-06-30 18:21:57"
+  "sent_at": "2026-06-30 05:56:04"
  },
  {
   "message_id": "MSG-TKT-2026-000056-002",
@@ -1741,7 +1789,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-07-01 18:36:08"
+  "sent_at": "2026-07-01 06:10:15"
  },
  {
   "message_id": "MSG-TKT-2026-000056-003",
@@ -1749,7 +1797,7 @@
   "sender": "customer",
   "text": "ऐप के साथ मेरा अनुभव बहुत खराब रहा।",
   "language": "hi",
-  "sent_at": "2026-07-02 08:32:09"
+  "sent_at": "2026-07-01 20:06:16"
  },
  {
   "message_id": "MSG-TKT-2026-000057-001",
@@ -1757,7 +1805,7 @@
   "sender": "customer",
   "text": "Really frustrated: the payment was taken two times and nobody can explain why.",
   "language": "en",
-  "sent_at": "2026-07-03 11:57:53"
+  "sent_at": "2026-06-30 18:21:57"
  },
  {
   "message_id": "MSG-TKT-2026-000057-002",
@@ -1765,7 +1813,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-07-04 17:08:10"
+  "sent_at": "2026-07-01 23:32:14"
  },
  {
   "message_id": "MSG-TKT-2026-000057-003",
@@ -1773,7 +1821,7 @@
   "sender": "customer",
   "text": "Really frustrated: I was charged twice for the same order.",
   "language": "en",
-  "sent_at": "2026-07-05 19:55:37"
+  "sent_at": "2026-07-03 02:19:41"
  },
  {
   "message_id": "MSG-TKT-2026-000057-004",
@@ -1781,7 +1829,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-07-07 00:47:42"
+  "sent_at": "2026-07-04 07:11:46"
  },
  {
   "message_id": "MSG-TKT-2026-000058-001",
@@ -1789,7 +1837,7 @@
   "sender": "customer",
   "text": "El cobro es aceptable.",
   "language": "es",
-  "sent_at": "2026-07-03 22:04:38"
+  "sent_at": "2026-07-03 11:57:53"
  },
  {
   "message_id": "MSG-TKT-2026-000058-002",
@@ -1797,7 +1845,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-07-05 00:52:20"
+  "sent_at": "2026-07-04 14:45:35"
  },
  {
   "message_id": "MSG-TKT-2026-000058-003",
@@ -1805,7 +1853,7 @@
   "sender": "customer",
   "text": "El cobro de TrekTrack es genial, lo recomiendo.",
   "language": "es",
-  "sent_at": "2026-07-05 21:31:25"
+  "sent_at": "2026-07-05 11:24:40"
  },
  {
   "message_id": "MSG-TKT-2026-000058-004",
@@ -1813,7 +1861,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-07-06 07:14:06"
+  "sent_at": "2026-07-05 21:07:21"
  },
  {
   "message_id": "MSG-TKT-2026-000059-001",
@@ -1821,7 +1869,7 @@
   "sender": "customer",
   "text": "Billing achha hai but customer support bilkul bekaar hai.",
   "language": "hi-Latn",
-  "sent_at": "2026-07-05 10:21:49"
+  "sent_at": "2026-07-03 22:04:38"
  },
  {
   "message_id": "MSG-TKT-2026-000059-002",
@@ -1829,7 +1877,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-07-06 13:26:50"
+  "sent_at": "2026-07-05 01:09:39"
  },
  {
   "message_id": "MSG-TKT-2026-000059-003",
@@ -1837,7 +1885,7 @@
   "sender": "customer",
   "text": "VaultBox Plus ka price ekdum mast hai yaar.",
   "language": "hi-Latn",
-  "sent_at": "2026-07-07 12:16:22"
+  "sent_at": "2026-07-05 23:59:11"
  },
  {
   "message_id": "MSG-TKT-2026-000059-004",
@@ -1845,7 +1893,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-07-07 16:28:38"
+  "sent_at": "2026-07-06 04:11:27"
  },
  {
   "message_id": "MSG-TKT-2026-000059-005",
@@ -1853,7 +1901,7 @@
   "sender": "customer",
   "text": "Customer support theek-thaak hai.",
   "language": "hi-Latn",
-  "sent_at": "2026-07-08 21:33:29"
+  "sent_at": "2026-07-07 09:16:18"
  },
  {
   "message_id": "MSG-TKT-2026-000060-001",
@@ -1861,7 +1909,7 @@
   "sender": "customer",
   "text": "La configuración inicial es excelente, estoy muy satisfecho.",
   "language": "es",
-  "sent_at": "2026-07-07 14:02:15"
+  "sent_at": "2026-07-05 10:21:49"
  },
  {
   "message_id": "MSG-TKT-2026-000060-002",
@@ -1869,7 +1917,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-07-07 20:03:56"
+  "sent_at": "2026-07-05 16:23:30"
  },
  {
   "message_id": "MSG-TKT-2026-000060-003",
@@ -1877,7 +1925,7 @@
   "sender": "customer",
   "text": "La configuración inicial es normal, nada especial.",
   "language": "es",
-  "sent_at": "2026-07-08 23:45:42"
+  "sent_at": "2026-07-06 20:05:16"
  },
  {
   "message_id": "MSG-TKT-2026-000060-004",
@@ -1885,7 +1933,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-07-09 17:53:49"
+  "sent_at": "2026-07-07 14:13:23"
  },
  {
   "message_id": "MSG-TKT-2026-000060-005",
@@ -1893,7 +1941,7 @@
   "sender": "customer",
   "text": "La configuración inicial está bien, pero el reembolso es un desastre.",
   "language": "es",
-  "sent_at": "2026-07-09 20:43:19"
+  "sent_at": "2026-07-07 17:02:53"
  },
  {
   "message_id": "MSG-TKT-2026-000061-001",
@@ -1901,7 +1949,7 @@
   "sender": "customer",
   "text": "I contacted support through chat.",
   "language": "en",
-  "sent_at": "2026-07-10 16:02:09"
+  "sent_at": "2026-07-07 14:02:15"
  },
  {
   "message_id": "MSG-TKT-2026-000061-002",
@@ -1909,7 +1957,7 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-07-11 18:05:40"
+  "sent_at": "2026-07-08 16:05:46"
  },
  {
   "message_id": "MSG-TKT-2026-000061-003",
@@ -1917,7 +1965,7 @@
   "sender": "customer",
   "text": "Support replied within minutes and was very kind, but the price went up again without warning.",
   "language": "en",
-  "sent_at": "2026-07-12 20:02:41"
+  "sent_at": "2026-07-09 18:02:47"
  },
  {
   "message_id": "MSG-TKT-2026-000062-001",
@@ -1925,7 +1973,7 @@
   "sender": "customer",
   "text": "Really frustrated: I was billed for a plan I never chose.",
   "language": "en",
-  "sent_at": "2026-07-11 09:30:55"
+  "sent_at": "2026-07-10 16:02:09"
  },
  {
   "message_id": "MSG-TKT-2026-000062-002",
@@ -1933,7 +1981,7 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-07-12 08:42:26"
+  "sent_at": "2026-07-11 15:13:40"
  },
  {
   "message_id": "MSG-TKT-2026-000062-003",
@@ -1941,7 +1989,7 @@
   "sender": "customer",
   "text": "I keep getting locked out of my account, although the invoice was clear and easy to understand.",
   "language": "en",
-  "sent_at": "2026-07-12 13:01:27"
+  "sent_at": "2026-07-11 19:32:41"
  },
  {
   "message_id": "MSG-TKT-2026-000062-004",
@@ -1949,7 +1997,7 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-07-12 22:57:26"
+  "sent_at": "2026-07-12 05:28:40"
  },
  {
   "message_id": "MSG-TKT-2026-000062-005",
@@ -1957,7 +2005,7 @@
   "sender": "customer",
   "text": "Using Lumo Wallet for a while now. The bill is generated on the first of each month.",
   "language": "en",
-  "sent_at": "2026-07-14 01:37:08"
+  "sent_at": "2026-07-13 08:08:22"
  },
  {
   "message_id": "MSG-TKT-2026-000063-001",
@@ -1965,7 +2013,7 @@
   "sender": "customer",
   "text": "Same-day delivery actually arrived the same day, but the casing cracked on the first day.",
   "language": "en",
-  "sent_at": "2026-07-11 15:30:33"
+  "sent_at": "2026-07-11 09:30:55"
  },
  {
   "message_id": "MSG-TKT-2026-000063-002",
@@ -1973,7 +2021,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-07-12 16:57:44"
+  "sent_at": "2026-07-12 10:58:06"
  },
  {
   "message_id": "MSG-TKT-2026-000063-003",
@@ -1981,7 +2029,7 @@
   "sender": "customer",
   "text": "It still works perfectly after months of daily use, would recommend QuickDrop Express.",
   "language": "en",
-  "sent_at": "2026-07-13 13:02:54"
+  "sent_at": "2026-07-13 07:03:16"
  },
  {
   "message_id": "MSG-TKT-2026-000063-004",
@@ -1989,7 +2037,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-07-14 01:43:33"
+  "sent_at": "2026-07-13 19:43:55"
  },
  {
   "message_id": "MSG-TKT-2026-000063-005",
@@ -1997,7 +2045,7 @@
   "sender": "customer",
   "text": "Mixed feelings about QuickDrop Express: the chat agent went above and beyond, yet the delivery was handled carelessly and the box was crushed.",
   "language": "en",
-  "sent_at": "2026-07-14 10:34:42"
+  "sent_at": "2026-07-14 04:35:04"
  },
  {
   "message_id": "MSG-TKT-2026-000063-006",
@@ -2005,7 +2053,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-07-15 12:48:47"
+  "sent_at": "2026-07-15 06:49:09"
  },
  {
   "message_id": "MSG-TKT-2026-000064-001",
@@ -2013,7 +2061,7 @@
   "sender": "customer",
   "text": "The delivery slot was missed twice in a row, although the discount made it a real bargain.",
   "language": "en",
-  "sent_at": "2026-07-14 21:03:35"
+  "sent_at": "2026-07-11 15:30:33"
  },
  {
   "message_id": "MSG-TKT-2026-000064-002",
@@ -2021,7 +2069,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-07-15 03:11:27"
+  "sent_at": "2026-07-11 21:38:25"
  },
  {
   "message_id": "MSG-TKT-2026-000065-001",
@@ -2029,7 +2077,7 @@
   "sender": "customer",
   "text": "Setup? It is what it is.",
   "language": "en",
-  "sent_at": "2026-07-15 03:23:16"
+  "sent_at": "2026-07-14 21:03:35"
  },
  {
   "message_id": "MSG-TKT-2026-000065-002",
@@ -2037,7 +2085,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-07-15 14:11:04"
+  "sent_at": "2026-07-15 07:51:23"
  },
  {
   "message_id": "MSG-TKT-2026-000066-001",
@@ -2045,7 +2093,7 @@
   "sender": "customer",
   "text": "Really frustrated: they promised a refund and then went silent.",
   "language": "en",
-  "sent_at": "2026-07-15 12:14:23"
+  "sent_at": "2026-07-15 03:23:16"
  },
  {
   "message_id": "MSG-TKT-2026-000066-002",
@@ -2053,7 +2101,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-07-16 03:42:09"
+  "sent_at": "2026-07-15 18:51:02"
  },
  {
   "message_id": "MSG-TKT-2026-000066-003",
@@ -2061,7 +2109,7 @@
   "sender": "customer",
   "text": "The refund is not bad at all, to be honest.",
   "language": "en",
-  "sent_at": "2026-07-16 09:23:29"
+  "sent_at": "2026-07-16 00:32:22"
  },
  {
   "message_id": "MSG-TKT-2026-000066-004",
@@ -2069,7 +2117,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-07-17 09:00:24"
+  "sent_at": "2026-07-17 00:09:17"
  },
  {
   "message_id": "MSG-TKT-2026-000066-005",
@@ -2077,15 +2125,15 @@
   "sender": "customer",
   "text": "Just noting that the refund goes back to the original payment method.",
   "language": "en",
-  "sent_at": "2026-07-18 14:32:06"
+  "sent_at": "2026-07-18 05:40:59"
  },
  {
   "message_id": "MSG-TKT-2026-000067-001",
   "ticket_id": "TKT-2026-000067",
   "sender": "customer",
-  "text": "Oh great, the agent closed my ticket without fixing anything. Just perfect.",
+  "text": "Oh great, the login page rejects my correct password. Just perfect.",
   "language": "en",
-  "sent_at": "2026-07-23 01:33:35"
+  "sent_at": "2026-07-15 12:14:23"
  },
  {
   "message_id": "MSG-TKT-2026-000067-002",
@@ -2093,15 +2141,15 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-07-24 03:07:42"
+  "sent_at": "2026-07-16 13:48:30"
  },
  {
   "message_id": "MSG-TKT-2026-000067-003",
   "ticket_id": "TKT-2026-000067",
   "sender": "customer",
-  "text": "Not sure how I feel about the support team yet.",
+  "text": "Not sure how I feel about the login yet.",
   "language": "en",
-  "sent_at": "2026-07-25 00:02:22"
+  "sent_at": "2026-07-17 10:43:10"
  },
  {
   "message_id": "MSG-TKT-2026-000067-004",
@@ -2109,15 +2157,15 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-07-25 10:19:23"
+  "sent_at": "2026-07-17 21:00:11"
  },
  {
   "message_id": "MSG-TKT-2026-000067-005",
   "ticket_id": "TKT-2026-000067",
   "sender": "customer",
-  "text": "Five stars: support replied within minutes and was very kind.",
+  "text": "Five stars: the password reset worked in seconds.",
   "language": "en",
-  "sent_at": "2026-07-25 18:20:54"
+  "sent_at": "2026-07-18 05:01:42"
  },
  {
   "message_id": "MSG-TKT-2026-000067-006",
@@ -2125,7 +2173,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-07-26 21:15:08"
+  "sent_at": "2026-07-19 07:55:56"
  },
  {
   "message_id": "MSG-TKT-2026-000068-001",
@@ -2133,7 +2181,7 @@
   "sender": "customer",
   "text": "The chat agent went above and beyond. Really happy with CrateFresh Weekly.",
   "language": "en",
-  "sent_at": "2026-07-28 05:55:35"
+  "sent_at": "2026-07-17 08:13:42"
  },
  {
   "message_id": "MSG-TKT-2026-000068-002",
@@ -2141,7 +2189,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-07-28 08:55:04"
+  "sent_at": "2026-07-17 11:13:11"
  },
  {
   "message_id": "MSG-TKT-2026-000069-001",
@@ -2149,7 +2197,7 @@
   "sender": "customer",
   "text": "Just noting that I receive the invoice by email.",
   "language": "en",
-  "sent_at": "2026-08-01 13:31:29"
+  "sent_at": "2026-07-23 01:33:35"
  },
  {
   "message_id": "MSG-TKT-2026-000069-002",
@@ -2157,7 +2205,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-08-02 02:36:32"
+  "sent_at": "2026-07-23 14:38:38"
  },
  {
   "message_id": "MSG-TKT-2026-000070-001",
@@ -2165,7 +2213,7 @@
   "sender": "customer",
   "text": "The setup is... well, it's the setup.",
   "language": "en",
-  "sent_at": "2026-08-04 02:31:36"
+  "sent_at": "2026-07-28 05:55:35"
  },
  {
   "message_id": "MSG-TKT-2026-000070-002",
@@ -2173,7 +2221,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-08-05 08:14:01"
+  "sent_at": "2026-07-29 11:38:00"
  },
  {
   "message_id": "MSG-TKT-2026-000070-003",
@@ -2181,7 +2229,7 @@
   "sender": "customer",
   "text": "The setup could be better, could be worse.",
   "language": "en",
-  "sent_at": "2026-08-05 13:03:33"
+  "sent_at": "2026-07-29 16:27:32"
  },
  {
   "message_id": "MSG-TKT-2026-000070-004",
@@ -2189,7 +2237,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-08-06 14:02:35"
+  "sent_at": "2026-07-30 17:26:34"
  },
  {
   "message_id": "MSG-TKT-2026-000070-005",
@@ -2197,7 +2245,7 @@
   "sender": "customer",
   "text": "Honestly, setup took less than five minutes. Great job.",
   "language": "en",
-  "sent_at": "2026-08-07 00:12:36"
+  "sent_at": "2026-07-31 03:36:35"
  },
  {
   "message_id": "MSG-TKT-2026-000071-001",
@@ -2205,7 +2253,7 @@
   "sender": "customer",
   "text": "The setup is... well, it's the setup.",
   "language": "en",
-  "sent_at": "2026-08-06 19:19:48"
+  "sent_at": "2026-08-01 13:31:29"
  },
  {
   "message_id": "MSG-TKT-2026-000071-002",
@@ -2213,7 +2261,7 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-08-07 10:20:16"
+  "sent_at": "2026-08-02 04:31:57"
  },
  {
   "message_id": "MSG-TKT-2026-000071-003",
@@ -2221,7 +2269,7 @@
   "sender": "customer",
   "text": "Mixed feelings about TrekTrack: the welcome guide made getting started easy, yet the invoice was wrong again this month.",
   "language": "en",
-  "sent_at": "2026-08-08 03:14:08"
+  "sent_at": "2026-08-02 21:25:49"
  },
  {
   "message_id": "MSG-TKT-2026-000071-004",
@@ -2229,7 +2277,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-08-09 03:27:34"
+  "sent_at": "2026-08-03 21:39:15"
  },
  {
   "message_id": "MSG-TKT-2026-000071-005",
@@ -2237,7 +2285,7 @@
   "sender": "customer",
   "text": "The setup failed three times before it worked. I expected much better from TrekTrack.",
   "language": "en",
-  "sent_at": "2026-08-09 19:03:03"
+  "sent_at": "2026-08-04 13:14:44"
  },
  {
   "message_id": "MSG-TKT-2026-000071-006",
@@ -2245,7 +2293,7 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-08-10 06:27:36"
+  "sent_at": "2026-08-05 00:39:17"
  },
  {
   "message_id": "MSG-TKT-2026-000072-001",
@@ -2253,7 +2301,7 @@
   "sender": "customer",
   "text": "Interface? It is what it is.",
   "language": "en",
-  "sent_at": "2026-08-09 19:44:19"
+  "sent_at": "2026-08-04 02:31:36"
  },
  {
   "message_id": "MSG-TKT-2026-000072-002",
@@ -2261,7 +2309,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-08-10 17:54:03"
+  "sent_at": "2026-08-05 00:41:20"
  },
  {
   "message_id": "MSG-TKT-2026-000073-001",
@@ -2269,7 +2317,7 @@
   "sender": "customer",
   "text": "Can't complain about the refund, no issues whatsoever.",
   "language": "en",
-  "sent_at": "2026-08-10 11:47:19"
+  "sent_at": "2026-08-06 19:19:48"
  },
  {
   "message_id": "MSG-TKT-2026-000073-002",
@@ -2277,7 +2325,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-08-10 23:25:29"
+  "sent_at": "2026-08-07 06:57:58"
  },
  {
   "message_id": "MSG-TKT-2026-000074-001",
@@ -2285,7 +2333,7 @@
   "sender": "customer",
   "text": "Oh great, I keep getting locked out of my account. Just perfect.",
   "language": "en",
-  "sent_at": "2026-08-11 10:53:34"
+  "sent_at": "2026-08-09 19:44:19"
  },
  {
   "message_id": "MSG-TKT-2026-000074-002",
@@ -2293,7 +2341,7 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-08-12 15:54:38"
+  "sent_at": "2026-08-11 00:45:23"
  },
  {
   "message_id": "MSG-TKT-2026-000074-003",
@@ -2301,7 +2349,7 @@
   "sender": "customer",
   "text": "The login is not bad at all, to be honest.",
   "language": "en",
-  "sent_at": "2026-08-13 12:33:30"
+  "sent_at": "2026-08-11 21:24:15"
  },
  {
   "message_id": "MSG-TKT-2026-000075-001",
@@ -2309,7 +2357,7 @@
   "sender": "customer",
   "text": "Not sure how I feel about the build quality yet.",
   "language": "en",
-  "sent_at": "2026-08-16 05:24:42"
+  "sent_at": "2026-08-10 11:47:19"
  },
  {
   "message_id": "MSG-TKT-2026-000075-002",
@@ -2317,7 +2365,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-08-16 07:08:11"
+  "sent_at": "2026-08-10 13:30:48"
  },
  {
   "message_id": "MSG-TKT-2026-000075-003",
@@ -2325,7 +2373,7 @@
   "sender": "customer",
   "text": "Mixed feelings about CrateFresh Weekly: it still works perfectly after months of daily use, yet support kept me on hold for an hour.",
   "language": "en",
-  "sent_at": "2026-08-16 10:28:10"
+  "sent_at": "2026-08-10 16:50:47"
  },
  {
   "message_id": "MSG-TKT-2026-000075-004",
@@ -2333,7 +2381,7 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-08-17 10:41:48"
+  "sent_at": "2026-08-11 17:04:25"
  },
  {
   "message_id": "MSG-TKT-2026-000075-005",
@@ -2341,7 +2389,7 @@
   "sender": "customer",
   "text": "The materials are sturdy and well finished, but I am still waiting for my refund after a month.",
   "language": "en",
-  "sent_at": "2026-08-18 10:26:32"
+  "sent_at": "2026-08-12 16:49:09"
  },
  {
   "message_id": "MSG-TKT-2026-000076-001",
@@ -2349,7 +2397,7 @@
   "sender": "customer",
   "text": "रिफंड सामान्य है।",
   "language": "hi",
-  "sent_at": "2026-08-18 21:22:08"
+  "sent_at": "2026-08-11 10:53:34"
  },
  {
   "message_id": "MSG-TKT-2026-000076-002",
@@ -2357,7 +2405,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-08-19 00:02:38"
+  "sent_at": "2026-08-11 13:34:04"
  },
  {
   "message_id": "MSG-TKT-2026-000076-003",
@@ -2365,7 +2413,7 @@
   "sender": "customer",
   "text": "रिफंड के बारे में कुछ खास कहने को नहीं है।",
   "language": "hi",
-  "sent_at": "2026-08-19 22:24:06"
+  "sent_at": "2026-08-12 11:55:32"
  },
  {
   "message_id": "MSG-TKT-2026-000076-004",
@@ -2373,7 +2421,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-08-20 21:05:33"
+  "sent_at": "2026-08-13 10:36:59"
  },
  {
   "message_id": "MSG-TKT-2026-000076-005",
@@ -2381,7 +2429,7 @@
   "sender": "customer",
   "text": "रिफंड ठीक-ठाक है।",
   "language": "hi",
-  "sent_at": "2026-08-21 12:20:52"
+  "sent_at": "2026-08-14 01:52:18"
  },
  {
   "message_id": "MSG-TKT-2026-000077-001",
@@ -2389,7 +2437,7 @@
   "sender": "customer",
   "text": "I would not call the login acceptable.",
   "language": "en",
-  "sent_at": "2026-08-20 05:11:31"
+  "sent_at": "2026-08-16 05:24:42"
  },
  {
   "message_id": "MSG-TKT-2026-000077-002",
@@ -2397,7 +2445,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-08-21 03:51:36"
+  "sent_at": "2026-08-17 04:04:47"
  },
  {
   "message_id": "MSG-TKT-2026-000077-003",
@@ -2405,7 +2453,7 @@
   "sender": "customer",
   "text": "The password reset worked in seconds, but it is far too expensive for what it does.",
   "language": "en",
-  "sent_at": "2026-08-21 16:11:54"
+  "sent_at": "2026-08-17 16:25:05"
  },
  {
   "message_id": "MSG-TKT-2026-000077-004",
@@ -2413,7 +2461,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-08-22 05:50:39"
+  "sent_at": "2026-08-18 06:03:50"
  },
  {
   "message_id": "MSG-TKT-2026-000077-005",
@@ -2421,7 +2469,7 @@
   "sender": "customer",
   "text": "Love it when the login page rejects my correct password. Truly a premium experience.",
   "language": "en",
-  "sent_at": "2026-08-23 07:39:18"
+  "sent_at": "2026-08-19 07:52:29"
  },
  {
   "message_id": "MSG-TKT-2026-000078-001",
@@ -2429,7 +2477,7 @@
   "sender": "customer",
   "text": "Muy contento con la configuración inicial, funciona de maravilla.",
   "language": "es",
-  "sent_at": "2026-08-21 07:02:36"
+  "sent_at": "2026-08-18 21:22:08"
  },
  {
   "message_id": "MSG-TKT-2026-000078-002",
@@ -2437,7 +2485,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-08-21 09:21:07"
+  "sent_at": "2026-08-18 23:40:39"
  },
  {
   "message_id": "MSG-TKT-2026-000078-003",
@@ -2445,7 +2493,7 @@
   "sender": "customer",
   "text": "Sobre la configuración inicial: funciona como se espera.",
   "language": "es",
-  "sent_at": "2026-08-21 16:48:36"
+  "sent_at": "2026-08-19 07:08:08"
  },
  {
   "message_id": "MSG-TKT-2026-000078-004",
@@ -2453,7 +2501,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-08-22 14:23:58"
+  "sent_at": "2026-08-20 04:43:30"
  },
  {
   "message_id": "MSG-TKT-2026-000079-001",
@@ -2461,7 +2509,7 @@
   "sender": "customer",
   "text": "It is far too expensive for what it does, although the welcome guide made getting started easy.",
   "language": "en",
-  "sent_at": "2026-08-21 16:37:55"
+  "sent_at": "2026-08-20 05:11:31"
  },
  {
   "message_id": "MSG-TKT-2026-000079-002",
@@ -2469,7 +2517,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-08-22 19:31:36"
+  "sent_at": "2026-08-21 08:05:12"
  },
  {
   "message_id": "MSG-TKT-2026-000079-003",
@@ -2477,7 +2525,7 @@
   "sender": "customer",
   "text": "Just noting that the app was updated to version 5 last week.",
   "language": "en",
-  "sent_at": "2026-08-23 18:22:32"
+  "sent_at": "2026-08-22 06:56:08"
  },
  {
   "message_id": "MSG-TKT-2026-000080-001",
@@ -2485,7 +2533,7 @@
   "sender": "customer",
   "text": "रिफंड से मैं बहुत परेशान हूँ।",
   "language": "hi",
-  "sent_at": "2026-08-24 03:19:22"
+  "sent_at": "2026-08-21 07:02:36"
  },
  {
   "message_id": "MSG-TKT-2026-000080-002",
@@ -2493,7 +2541,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-08-25 05:24:29"
+  "sent_at": "2026-08-22 09:07:43"
  },
  {
   "message_id": "MSG-TKT-2026-000080-003",
@@ -2501,7 +2549,7 @@
   "sender": "customer",
   "text": "रिफंड के साथ अनुभव अच्छा रहा, लेकिन लॉगिन बेकार है।",
   "language": "hi",
-  "sent_at": "2026-08-25 18:03:06"
+  "sent_at": "2026-08-22 21:46:20"
  },
  {
   "message_id": "MSG-TKT-2026-000080-004",
@@ -2509,7 +2557,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-08-26 02:47:19"
+  "sent_at": "2026-08-23 06:30:33"
  },
  {
   "message_id": "MSG-TKT-2026-000081-001",
@@ -2517,7 +2565,7 @@
   "sender": "customer",
   "text": "The build quality feels premium and solid. Really happy with Orbix Router.",
   "language": "en",
-  "sent_at": "2026-08-24 12:48:25"
+  "sent_at": "2026-08-21 16:37:55"
  },
  {
   "message_id": "MSG-TKT-2026-000081-002",
@@ -2525,7 +2573,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-08-25 02:47:07"
+  "sent_at": "2026-08-22 06:36:37"
  },
  {
   "message_id": "MSG-TKT-2026-000081-003",
@@ -2533,7 +2581,7 @@
   "sender": "customer",
   "text": "Can't complain about the build quality, no issues whatsoever.",
   "language": "en",
-  "sent_at": "2026-08-25 19:53:23"
+  "sent_at": "2026-08-22 23:42:53"
  },
  {
   "message_id": "MSG-TKT-2026-000081-004",
@@ -2541,7 +2589,7 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-08-26 00:04:36"
+  "sent_at": "2026-08-23 03:54:06"
  },
  {
   "message_id": "MSG-TKT-2026-000081-005",
@@ -2549,7 +2597,7 @@
   "sender": "customer",
   "text": "Just noting that it is about the size of a paperback book.",
   "language": "en",
-  "sent_at": "2026-08-26 06:03:00"
+  "sent_at": "2026-08-23 09:52:30"
  },
  {
   "message_id": "MSG-TKT-2026-000081-006",
@@ -2557,7 +2605,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-08-26 23:25:41"
+  "sent_at": "2026-08-24 03:15:11"
  },
  {
   "message_id": "MSG-TKT-2026-000082-001",
@@ -2565,7 +2613,7 @@
   "sender": "customer",
   "text": "The build quality feels premium and solid, would recommend QuickDrop Express.",
   "language": "en",
-  "sent_at": "2026-08-24 21:32:08"
+  "sent_at": "2026-08-24 03:19:22"
  },
  {
   "message_id": "MSG-TKT-2026-000082-002",
@@ -2573,7 +2621,7 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-08-26 01:49:43"
+  "sent_at": "2026-08-25 07:36:57"
  },
  {
   "message_id": "MSG-TKT-2026-000082-003",
@@ -2581,7 +2629,7 @@
   "sender": "customer",
   "text": "The invoice was wrong again this month, although the materials are sturdy and well finished.",
   "language": "en",
-  "sent_at": "2026-08-27 04:46:44"
+  "sent_at": "2026-08-26 10:33:58"
  },
  {
   "message_id": "MSG-TKT-2026-000082-004",
@@ -2589,15 +2637,15 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-08-28 04:05:21"
+  "sent_at": "2026-08-27 09:52:35"
  },
  {
   "message_id": "MSG-TKT-2026-000082-005",
   "ticket_id": "TKT-2026-000082",
   "sender": "customer",
-  "text": "Mixed feelings about QuickDrop Express: the build quality feels premium and solid, yet the delivery slot was missed twice in a row.",
+  "text": "Mixed feelings about QuickDrop Express: the build quality feels premium and solid, yet the delivery slot was missed twice in a row. You can reach me at vikram.joshi69@example.com or +1-555-0187. - Vikram Joshi",
   "language": "en",
-  "sent_at": "2026-08-28 23:42:13"
+  "sent_at": "2026-08-28 05:29:27"
  },
  {
   "message_id": "MSG-TKT-2026-000083-001",
@@ -2605,7 +2653,7 @@
   "sender": "customer",
   "text": "Can't complain about the app, no issues whatsoever.",
   "language": "en",
-  "sent_at": "2026-08-29 09:38:11"
+  "sent_at": "2026-08-24 12:48:25"
  },
  {
   "message_id": "MSG-TKT-2026-000083-002",
@@ -2613,7 +2661,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-08-29 19:00:07"
+  "sent_at": "2026-08-24 22:10:21"
  },
  {
   "message_id": "MSG-TKT-2026-000083-003",
@@ -2621,7 +2669,7 @@
   "sender": "customer",
   "text": "Just noting that the app takes a few seconds to start.",
   "language": "en",
-  "sent_at": "2026-08-30 00:13:52"
+  "sent_at": "2026-08-25 03:24:06"
  },
  {
   "message_id": "MSG-TKT-2026-000083-004",
@@ -2629,7 +2677,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-08-30 16:15:16"
+  "sent_at": "2026-08-25 19:25:30"
  },
  {
   "message_id": "MSG-TKT-2026-000083-005",
@@ -2637,7 +2685,7 @@
   "sender": "customer",
   "text": "The app takes a few seconds to start.",
   "language": "en",
-  "sent_at": "2026-08-31 09:22:26"
+  "sent_at": "2026-08-26 12:32:40"
  },
  {
   "message_id": "MSG-TKT-2026-000084-001",
@@ -2645,7 +2693,7 @@
   "sender": "customer",
   "text": "Using Aurelo Speaker for a while now. The estimated delivery date moved by one day.",
   "language": "en",
-  "sent_at": "2026-09-01 17:38:50"
+  "sent_at": "2026-08-24 21:32:08"
  },
  {
   "message_id": "MSG-TKT-2026-000084-002",
@@ -2653,7 +2701,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-09-01 21:05:29"
+  "sent_at": "2026-08-25 00:58:47"
  },
  {
   "message_id": "MSG-TKT-2026-000084-003",
@@ -2661,7 +2709,7 @@
   "sender": "customer",
   "text": "The package is a week overdue with no update. This is unacceptable.",
   "language": "en",
-  "sent_at": "2026-09-02 20:55:04"
+  "sent_at": "2026-08-26 00:48:22"
  },
  {
   "message_id": "MSG-TKT-2026-000084-004",
@@ -2669,7 +2717,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-09-03 05:08:25"
+  "sent_at": "2026-08-26 09:01:43"
  },
  {
   "message_id": "MSG-TKT-2026-000084-005",
@@ -2677,7 +2725,7 @@
   "sender": "customer",
   "text": "Same-day delivery actually arrived the same day. Really happy with Aurelo Speaker.",
   "language": "en",
-  "sent_at": "2026-09-04 08:21:32"
+  "sent_at": "2026-08-27 12:14:50"
  },
  {
   "message_id": "MSG-TKT-2026-000084-006",
@@ -2685,7 +2733,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-09-04 12:09:45"
+  "sent_at": "2026-08-27 16:03:03"
  },
  {
   "message_id": "MSG-TKT-2026-000085-001",
@@ -2693,7 +2741,7 @@
   "sender": "customer",
   "text": "The app is not bad at all, to be honest.",
   "language": "en",
-  "sent_at": "2026-09-06 03:36:18"
+  "sent_at": "2026-08-29 09:38:11"
  },
  {
   "message_id": "MSG-TKT-2026-000085-002",
@@ -2701,7 +2749,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-09-06 15:03:21"
+  "sent_at": "2026-08-29 21:05:14"
  },
  {
   "message_id": "MSG-TKT-2026-000085-003",
@@ -2709,7 +2757,7 @@
   "sender": "customer",
   "text": "The app is not bad at all, to be honest.",
   "language": "en",
-  "sent_at": "2026-09-07 13:24:22"
+  "sent_at": "2026-08-30 19:26:15"
  },
  {
   "message_id": "MSG-TKT-2026-000086-001",
@@ -2717,7 +2765,7 @@
   "sender": "customer",
   "text": "Billing added fees nobody explained. Very disappointed with StreamNest Premium.",
   "language": "en",
-  "sent_at": "2026-09-07 20:35:06"
+  "sent_at": "2026-09-01 17:38:50"
  },
  {
   "message_id": "MSG-TKT-2026-000086-002",
@@ -2725,7 +2773,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-09-08 13:39:52"
+  "sent_at": "2026-09-02 10:43:36"
  },
  {
   "message_id": "MSG-TKT-2026-000086-003",
@@ -2733,7 +2781,7 @@
   "sender": "customer",
   "text": "The bill is generated on the first of each month.",
   "language": "en",
-  "sent_at": "2026-09-09 17:26:12"
+  "sent_at": "2026-09-03 14:29:56"
  },
  {
   "message_id": "MSG-TKT-2026-000086-004",
@@ -2741,7 +2789,7 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-09-09 23:26:30"
+  "sent_at": "2026-09-03 20:30:14"
  },
  {
   "message_id": "MSG-TKT-2026-000086-005",
@@ -2749,7 +2797,7 @@
   "sender": "customer",
   "text": "The bill is generated on the first of each month.",
   "language": "en",
-  "sent_at": "2026-09-10 10:34:48"
+  "sent_at": "2026-09-04 07:38:32"
  },
  {
   "message_id": "MSG-TKT-2026-000087-001",
@@ -2757,7 +2805,7 @@
   "sender": "customer",
   "text": "Just noting that I contacted support through chat.",
   "language": "en",
-  "sent_at": "2026-09-08 10:55:05"
+  "sent_at": "2026-09-06 03:36:18"
  },
  {
   "message_id": "MSG-TKT-2026-000087-002",
@@ -2765,7 +2813,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-09-09 01:47:42"
+  "sent_at": "2026-09-06 18:28:55"
  },
  {
   "message_id": "MSG-TKT-2026-000087-003",
@@ -2773,7 +2821,7 @@
   "sender": "customer",
   "text": "I contacted support through chat.",
   "language": "en",
-  "sent_at": "2026-09-09 04:11:20"
+  "sent_at": "2026-09-06 20:52:33"
  },
  {
   "message_id": "MSG-TKT-2026-000088-001",
@@ -2781,7 +2829,7 @@
   "sender": "customer",
   "text": "Just noting that the main menu has five tabs.",
   "language": "en",
-  "sent_at": "2026-09-10 20:25:49"
+  "sent_at": "2026-09-07 20:35:06"
  },
  {
   "message_id": "MSG-TKT-2026-000088-002",
@@ -2789,7 +2837,7 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-09-11 12:47:05"
+  "sent_at": "2026-09-08 12:56:22"
  },
  {
   "message_id": "MSG-TKT-2026-000089-001",
@@ -2797,7 +2845,7 @@
   "sender": "customer",
   "text": "The login is not bad at all, to be honest.",
   "language": "en",
-  "sent_at": "2026-09-11 18:03:47"
+  "sent_at": "2026-09-08 10:55:05"
  },
  {
   "message_id": "MSG-TKT-2026-000089-002",
@@ -2805,7 +2853,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-09-11 19:41:34"
+  "sent_at": "2026-09-08 12:32:52"
  },
  {
   "message_id": "MSG-TKT-2026-000089-003",
@@ -2813,7 +2861,7 @@
   "sender": "customer",
   "text": "Not sure how I feel about the login yet.",
   "language": "en",
-  "sent_at": "2026-09-12 22:36:07"
+  "sent_at": "2026-09-09 15:27:25"
  },
  {
   "message_id": "MSG-TKT-2026-000089-004",
@@ -2821,7 +2869,7 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-09-13 07:28:35"
+  "sent_at": "2026-09-10 00:19:53"
  },
  {
   "message_id": "MSG-TKT-2026-000090-001",
@@ -2829,7 +2877,7 @@
   "sender": "customer",
   "text": "Honestly, the interface is clean and easy to use. Great job.",
   "language": "en",
-  "sent_at": "2026-09-14 20:53:37"
+  "sent_at": "2026-09-10 20:25:49"
  },
  {
   "message_id": "MSG-TKT-2026-000090-002",
@@ -2837,7 +2885,7 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-09-15 10:58:58"
+  "sent_at": "2026-09-11 10:31:10"
  },
  {
   "message_id": "MSG-TKT-2026-000091-001",
@@ -2845,7 +2893,7 @@
   "sender": "customer",
   "text": "The invoice was clear and easy to understand. Really happy with VaultBox Plus.",
   "language": "en",
-  "sent_at": "2026-09-15 05:16:48"
+  "sent_at": "2026-09-11 18:03:47"
  },
  {
   "message_id": "MSG-TKT-2026-000091-002",
@@ -2853,7 +2901,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-09-16 07:38:48"
+  "sent_at": "2026-09-12 20:25:47"
  },
  {
   "message_id": "MSG-TKT-2026-000091-003",
@@ -2861,7 +2909,7 @@
   "sender": "customer",
   "text": "Using VaultBox Plus for a while now. The bill is generated on the first of each month.",
   "language": "en",
-  "sent_at": "2026-09-16 17:23:04"
+  "sent_at": "2026-09-13 06:10:03"
  },
  {
   "message_id": "MSG-TKT-2026-000091-004",
@@ -2869,7 +2917,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-09-17 20:12:32"
+  "sent_at": "2026-09-14 08:59:31"
  },
  {
   "message_id": "MSG-TKT-2026-000091-005",
@@ -2877,7 +2925,7 @@
   "sender": "customer",
   "text": "The bill is generated on the first of each month.",
   "language": "en",
-  "sent_at": "2026-09-18 06:40:04"
+  "sent_at": "2026-09-14 19:27:03"
  },
  {
   "message_id": "MSG-TKT-2026-000092-001",
@@ -2885,7 +2933,7 @@
   "sender": "customer",
   "text": "The welcome guide made getting started easy. Really happy with VaultBox Plus.",
   "language": "en",
-  "sent_at": "2026-09-17 00:30:26"
+  "sent_at": "2026-09-13 13:27:15"
  },
  {
   "message_id": "MSG-TKT-2026-000092-002",
@@ -2893,7 +2941,7 @@
   "sender": "agent",
   "text": "Sorry for the trouble. Could you share your order number?",
   "language": "en",
-  "sent_at": "2026-09-17 13:46:36"
+  "sent_at": "2026-09-14 02:43:25"
  },
  {
   "message_id": "MSG-TKT-2026-000092-003",
@@ -2901,7 +2949,7 @@
   "sender": "customer",
   "text": "Just noting that setup asks for your email and a password.",
   "language": "en",
-  "sent_at": "2026-09-18 06:58:57"
+  "sent_at": "2026-09-14 19:55:46"
  },
  {
   "message_id": "MSG-TKT-2026-000092-004",
@@ -2909,7 +2957,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-09-18 20:01:25"
+  "sent_at": "2026-09-15 08:58:14"
  },
  {
   "message_id": "MSG-TKT-2026-000092-005",
@@ -2917,7 +2965,7 @@
   "sender": "customer",
   "text": "Five stars: the welcome guide made getting started easy.",
   "language": "en",
-  "sent_at": "2026-09-19 01:51:50"
+  "sent_at": "2026-09-15 14:48:39"
  },
  {
   "message_id": "MSG-TKT-2026-000093-001",
@@ -2925,7 +2973,7 @@
   "sender": "customer",
   "text": "Honestly, support replied within minutes and was very kind. Great job.",
   "language": "en",
-  "sent_at": "2026-09-20 08:09:58"
+  "sent_at": "2026-09-14 20:53:37"
  },
  {
   "message_id": "MSG-TKT-2026-000093-002",
@@ -2933,7 +2981,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-09-20 11:57:02"
+  "sent_at": "2026-09-15 00:40:41"
  },
  {
   "message_id": "MSG-TKT-2026-000093-003",
@@ -2941,7 +2989,7 @@
   "sender": "customer",
   "text": "The agent closed my ticket without fixing anything. I expected much better from FitLoop Annual.",
   "language": "en",
-  "sent_at": "2026-09-20 15:50:15"
+  "sent_at": "2026-09-15 04:33:54"
  },
  {
   "message_id": "MSG-TKT-2026-000093-004",
@@ -2949,7 +2997,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-09-21 17:00:25"
+  "sent_at": "2026-09-16 05:44:04"
  },
  {
   "message_id": "MSG-TKT-2026-000093-005",
@@ -2957,7 +3005,7 @@
   "sender": "customer",
   "text": "I keep getting locked out of my account, although the chat agent went above and beyond.",
   "language": "en",
-  "sent_at": "2026-09-22 07:52:33"
+  "sent_at": "2026-09-16 20:36:12"
  },
  {
   "message_id": "MSG-TKT-2026-000093-006",
@@ -2965,7 +3013,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-09-22 11:55:08"
+  "sent_at": "2026-09-17 00:38:47"
  },
  {
   "message_id": "MSG-TKT-2026-000094-001",
@@ -2973,7 +3021,7 @@
   "sender": "customer",
   "text": "Honestly, the support agent solved my problem in one call. Great job.",
   "language": "en",
-  "sent_at": "2026-09-22 19:51:55"
+  "sent_at": "2026-09-15 05:16:48"
  },
  {
   "message_id": "MSG-TKT-2026-000094-002",
@@ -2981,7 +3029,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-09-23 23:12:26"
+  "sent_at": "2026-09-16 08:37:19"
  },
  {
   "message_id": "MSG-TKT-2026-000094-003",
@@ -2989,7 +3037,7 @@
   "sender": "customer",
   "text": "Using Nestly Home for a while now. Support asked for my order number.",
   "language": "en",
-  "sent_at": "2026-09-24 16:12:58"
+  "sent_at": "2026-09-17 01:37:51"
  },
  {
   "message_id": "MSG-TKT-2026-000094-004",
@@ -2997,7 +3045,7 @@
   "sender": "agent",
   "text": "Thank you for your patience while we investigate.",
   "language": "en",
-  "sent_at": "2026-09-25 06:42:57"
+  "sent_at": "2026-09-17 16:07:50"
  },
  {
   "message_id": "MSG-TKT-2026-000095-001",
@@ -3005,7 +3053,7 @@
   "sender": "customer",
   "text": "పేమెంట్ తో చాలా సంతోషంగా ఉన్నాను.",
   "language": "te",
-  "sent_at": "2026-09-22 22:36:23"
+  "sent_at": "2026-09-17 00:30:26"
  },
  {
   "message_id": "MSG-TKT-2026-000095-002",
@@ -3013,7 +3061,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-09-23 04:33:33"
+  "sent_at": "2026-09-17 06:27:36"
  },
  {
   "message_id": "MSG-TKT-2026-000095-003",
@@ -3021,7 +3069,7 @@
   "sender": "customer",
   "text": "పేమెంట్ చాలా ఘోరంగా ఉంది, చాలా నిరాశ చెందాను.",
   "language": "te",
-  "sent_at": "2026-09-23 08:58:51"
+  "sent_at": "2026-09-17 10:52:54"
  },
  {
   "message_id": "MSG-TKT-2026-000095-004",
@@ -3029,7 +3077,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-09-24 11:58:17"
+  "sent_at": "2026-09-18 13:52:20"
  },
  {
   "message_id": "MSG-TKT-2026-000096-001",
@@ -3037,7 +3085,7 @@
   "sender": "customer",
   "text": "The interface is... well, it's the interface.",
   "language": "en",
-  "sent_at": "2026-09-25 00:03:02"
+  "sent_at": "2026-09-20 08:09:58"
  },
  {
   "message_id": "MSG-TKT-2026-000096-002",
@@ -3045,7 +3093,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-09-25 22:31:31"
+  "sent_at": "2026-09-21 06:38:27"
  },
  {
   "message_id": "MSG-TKT-2026-000097-001",
@@ -3053,7 +3101,7 @@
   "sender": "customer",
   "text": "The casing cracked on the first day, although the express slot was honoured to the minute.",
   "language": "en",
-  "sent_at": "2026-09-26 03:13:54"
+  "sent_at": "2026-09-22 19:51:55"
  },
  {
   "message_id": "MSG-TKT-2026-000097-002",
@@ -3061,7 +3109,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-09-26 22:40:48"
+  "sent_at": "2026-09-23 15:18:49"
  },
  {
   "message_id": "MSG-TKT-2026-000097-003",
@@ -3069,7 +3117,7 @@
   "sender": "customer",
   "text": "Really frustrated: cheaper alternatives do exactly the same thing.",
   "language": "en",
-  "sent_at": "2026-09-27 17:26:22"
+  "sent_at": "2026-09-24 10:04:23"
  },
  {
   "message_id": "MSG-TKT-2026-000098-001",
@@ -3077,7 +3125,7 @@
   "sender": "customer",
   "text": "Mixed feelings about Velto Watch: the chat agent went above and beyond, yet the delivery slot was missed twice in a row.",
   "language": "en",
-  "sent_at": "2026-09-26 04:20:08"
+  "sent_at": "2026-09-22 22:36:23"
  },
  {
   "message_id": "MSG-TKT-2026-000098-002",
@@ -3085,7 +3133,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-09-26 13:04:49"
+  "sent_at": "2026-09-23 07:21:04"
  },
  {
   "message_id": "MSG-TKT-2026-000098-003",
@@ -3093,7 +3141,7 @@
   "sender": "customer",
   "text": "The interface is clean and easy to use. Really happy with Velto Watch.",
   "language": "en",
-  "sent_at": "2026-09-27 09:13:08"
+  "sent_at": "2026-09-24 03:29:23"
  },
  {
   "message_id": "MSG-TKT-2026-000098-004",
@@ -3101,7 +3149,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-09-28 10:38:06"
+  "sent_at": "2026-09-25 04:54:21"
  },
  {
   "message_id": "MSG-TKT-2026-000099-001",
@@ -3109,7 +3157,7 @@
   "sender": "customer",
   "text": "They refunded me without any argument, but I was charged twice for the same order.",
   "language": "en",
-  "sent_at": "2026-09-26 18:20:52"
+  "sent_at": "2026-09-25 00:03:02"
  },
  {
   "message_id": "MSG-TKT-2026-000099-002",
@@ -3117,7 +3165,7 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-09-27 10:23:18"
+  "sent_at": "2026-09-25 16:05:28"
  },
  {
   "message_id": "MSG-TKT-2026-000099-003",
@@ -3125,7 +3173,7 @@
   "sender": "customer",
   "text": "The bill is generated on the first of each month.",
   "language": "en",
-  "sent_at": "2026-09-28 05:35:24"
+  "sent_at": "2026-09-26 11:17:34"
  },
  {
   "message_id": "MSG-TKT-2026-000099-004",
@@ -3133,7 +3181,7 @@
   "sender": "agent",
   "text": "I've escalated this to our specialist team.",
   "language": "en",
-  "sent_at": "2026-09-29 09:42:55"
+  "sent_at": "2026-09-27 15:25:05"
  },
  {
   "message_id": "MSG-TKT-2026-000099-005",
@@ -3141,7 +3189,7 @@
   "sender": "customer",
   "text": "Five stars: support replied within minutes and was very kind.",
   "language": "en",
-  "sent_at": "2026-09-30 03:02:03"
+  "sent_at": "2026-09-28 08:44:13"
  },
  {
   "message_id": "MSG-TKT-2026-000100-001",
@@ -3149,7 +3197,7 @@
   "sender": "customer",
   "text": "Honestly, my refund arrived within two days. Great job.",
   "language": "en",
-  "sent_at": "2026-09-27 11:14:43"
+  "sent_at": "2026-09-26 03:13:54"
  },
  {
   "message_id": "MSG-TKT-2026-000100-002",
@@ -3157,7 +3205,7 @@
   "sender": "agent",
   "text": "Thanks for reaching out. I'm looking into this now.",
   "language": "en",
-  "sent_at": "2026-09-27 21:54:41"
+  "sent_at": "2026-09-26 13:53:52"
  },
  {
   "message_id": "MSG-TKT-2026-000100-003",
@@ -3165,7 +3213,7 @@
   "sender": "customer",
   "text": "The refund was rejected for no reason. Very disappointed with ParcelPal Same-Day.",
   "language": "en",
-  "sent_at": "2026-09-28 04:29:46"
+  "sent_at": "2026-09-26 20:28:57"
  },
  {
   "message_id": "MSG-TKT-2026-000100-004",
@@ -3173,6 +3221,70 @@
   "sender": "agent",
   "text": "This should now be resolved. Please let us know if anything else comes up.",
   "language": "en",
-  "sent_at": "2026-09-28 15:55:56"
+  "sent_at": "2026-09-27 07:55:07"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000101-001",
+  "ticket_id": "TKT-2026-000101",
+  "sender": "customer",
+  "text": "The app is... well, it's the app.",
+  "language": "en",
+  "sent_at": "2026-09-26 04:20:08"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000101-002",
+  "ticket_id": "TKT-2026-000101",
+  "sender": "agent",
+  "text": "Thank you for your patience while we investigate.",
+  "language": "en",
+  "sent_at": "2026-09-26 09:06:56"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000101-003",
+  "ticket_id": "TKT-2026-000101",
+  "sender": "customer",
+  "text": "Five stars: the latest update made everything much faster.",
+  "language": "en",
+  "sent_at": "2026-09-26 21:28:32"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000102-001",
+  "ticket_id": "TKT-2026-000102",
+  "sender": "customer",
+  "text": "Yaar delivery ka bahut bura haal hai, totally fed up.",
+  "language": "hi-Latn",
+  "sent_at": "2026-09-26 18:20:52"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000102-002",
+  "ticket_id": "TKT-2026-000102",
+  "sender": "agent",
+  "text": "This should now be resolved. Please let us know if anything else comes up.",
+  "language": "en",
+  "sent_at": "2026-09-27 12:57:30"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000102-003",
+  "ticket_id": "TKT-2026-000102",
+  "sender": "customer",
+  "text": "Delivery mast hai, lekin interface ne pareshan kar diya.",
+  "language": "hi-Latn",
+  "sent_at": "2026-09-28 09:33:32"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000103-001",
+  "ticket_id": "TKT-2026-000103",
+  "sender": "customer",
+  "text": "ప్రొడక్ట్ క్వాలిటీ అద్భుతంగా ఉంది, అందరికీ సిఫార్సు చేస్తాను.",
+  "language": "te",
+  "sent_at": "2026-09-27 11:14:43"
+ },
+ {
+  "message_id": "MSG-TKT-2026-000103-002",
+  "ticket_id": "TKT-2026-000103",
+  "sender": "agent",
+  "text": "Thank you for your patience while we investigate.",
+  "language": "en",
+  "sent_at": "2026-09-27 16:25:20"
  }
 ]

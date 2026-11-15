@@ -1,6 +1,6 @@
 # Validation summary - PASS_WITH_EXCEPTIONS
 
-Data `C:\CandidateWorkspace\voicelens\data\output` · seed 20261022 · scale 1.0 · validated 2026-11-15 16:37:42  
+Data `C:\CandidateWorkspace\voicelens\data\output` · seed 20261022 · scale 1.0 · validated 2026-11-15 17:07:01  
 145,976 rows checked · 132 exceptions · 120 rows quarantined (kept in DB, excluded from analysis)
 
 ## Reproducibility

@@ -1,6 +1,6 @@
 # VoiceLens evaluation
 
-Run `RUN-000001` · rules `f38106526d6c` · evaluated 2026-11-15 16:38:25. Rules were tuned on TRAIN only; EVAL is the honest number.
+Run `RUN-000001` · rules `784da669f0f0` · evaluated 2026-11-15 17:07:40. Rules were tuned on TRAIN only; EVAL is the honest number.
 
 ## Sentiment
 

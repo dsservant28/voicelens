@@ -17,6 +17,14 @@ ACTION_STATUS = ["OPEN", "IN_PROGRESS", "DONE", "DISMISSED"]
 ISSUE_TYPES = ["LABEL_CONTRADICTS_TEXT", "DUPLICATE_RESPONSE", "PII_LEAK", "THEME_OUTSIDE_TAXONOMY",
                "TEST_LABEL_IN_MODEL_INPUT"]
 STYLES = ["plain", "mixed", "sarcastic", "negation", "ambiguous", "multilingual"]
+SOURCE_TAGS = ["verified_purchase", "promo", "beta_user"]          # allowed values inside `tags` (';'-separated)
+# Legal (from_status, to_status) pairs; None = first event. Used by the validator's lifecycle check.
+TRANSITIONS = {
+    "ticket_status_event": {(None, "OPEN"), ("OPEN", "IN_PROGRESS"), ("IN_PROGRESS", "RESOLVED"),
+                            ("RESOLVED", "CLOSED"), ("RESOLVED", "REOPENED"), ("REOPENED", "IN_PROGRESS")},
+    "action_item_event": {(None, "OPEN"), ("OPEN", "IN_PROGRESS"), ("OPEN", "DISMISSED"), ("IN_PROGRESS", "DONE"),
+                          ("IN_PROGRESS", "DISMISSED")},
+}
 
 ID_PATTERNS = {
     "customer_id": r"^CUST-\d{6}$", "product_id": r"^PROD-\d{4}$", "channel_id": r"^CHAN-\d{2}$",
@@ -287,9 +295,17 @@ ENTITIES: dict[str, dict] = {
         "effective_dates": "detected_at.", "lifecycle": "OPEN -> RESOLVED | ACCEPTED",
         "fields": [
             f("exception_id", "id", unique=True, rule="EXC-000001"),
-            f("source_type", "str"), f("source_id", "id"),
+            f("table_name", "str", rule="table the offending row lives in"),
+            f("record_key", "str", rule="PK of the offending row ('|'-joined if composite)"),
+            f("source_type", "enum", req=False, allowed=SOURCE_TYPES, rule="feedback item the row is about (null for master data)"),
+            f("source_id", "id", req=False, rule="polymorphic, as in sentiment_label"),
             f("exception_type", "str", rule="validation check name or one of the 5 issue types"),
-            f("detail", "str"), f("detected_by", "enum", allowed=["validation", "analysis"]),
+            f("check_name", "str", rule="the check that raised it (validate/checks.py or analysis rule id)"),
+            f("check_category", "enum", allowed=["validity", "integrity", "temporal", "reconciliation", "lifecycle",
+                                                 "duplicate", "leakage", "privacy", "label_quality"]),
+            f("disposition", "enum", allowed=["QUARANTINE", "FLAG"],
+              rule="QUARANTINE = row kept in DB but excluded from analysis; FLAG = kept and shown on data-quality page"),
+            f("detail", "str", rule="expected vs actual"), f("detected_by", "enum", allowed=["validation", "analysis"]),
             f("detected_at", "datetime"),
             f("resolution_status", "enum", allowed=["OPEN", "RESOLVED", "ACCEPTED"]),
         ],

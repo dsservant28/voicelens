@@ -343,10 +343,15 @@ Exception path: every failed check / detected anomaly becomes a row; nothing cra
 | Field | Type | Required | Allowed values | Unit | Unique | FK | Validation rule |
 |---|---|---|---|---|---|---|---|
 | exception_id | id | yes |  |  | yes |  | EXC-000001 |
-| source_type | str | yes |  |  |  |  |  |
-| source_id | id | yes |  |  |  |  |  |
+| table_name | str | yes |  |  |  |  | table the offending row lives in |
+| record_key | str | yes |  |  |  |  | PK of the offending row ('|'-joined if composite) |
+| source_type | enum | no | review, survey_response, support_message |  |  |  | feedback item the row is about (null for master data) |
+| source_id | id | no |  |  |  |  | polymorphic, as in sentiment_label |
 | exception_type | str | yes |  |  |  |  | validation check name or one of the 5 issue types |
-| detail | str | yes |  |  |  |  |  |
+| check_name | str | yes |  |  |  |  | the check that raised it (validate/checks.py or analysis rule id) |
+| check_category | enum | yes | validity, integrity, temporal, reconciliation, lifecycle, duplicate, leakage, privacy, label_quality |  |  |  |  |
+| disposition | enum | yes | QUARANTINE, FLAG |  |  |  | QUARANTINE = row kept in DB but excluded from analysis; FLAG = kept and shown on data-quality page |
+| detail | str | yes |  |  |  |  | expected vs actual |
 | detected_by | enum | yes | validation, analysis |  |  |  |  |
 | detected_at | datetime | yes |  |  |  |  |  |
 | resolution_status | enum | yes | OPEN, RESOLVED, ACCEPTED |  |  |  |  |

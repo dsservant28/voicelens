@@ -52,13 +52,13 @@ function StatusStrip() {
   const nav = useNavigate()
   const q = useQuality().data?.summary
   const ev = useEvaluation().data
-  const cell = 'flex items-center gap-2 px-4 hover:bg-panel2 cursor-pointer h-full'
+  const cell = 'flex shrink-0 items-center gap-1.5 px-3 hover:bg-panel2 cursor-pointer h-full'
   return (
-    <footer className="flex h-9 items-stretch divide-x divide-line border-t border-line bg-panel text-xs text-muted">
+    <footer className="flex h-9 items-stretch divide-x divide-line overflow-hidden whitespace-nowrap border-t border-line bg-panel text-xs text-muted">
       <div className={cell} onClick={() => nav('/flow')}>
         <span className={`h-2 w-2 rounded-full ${q?.status === 'FAIL' ? 'bg-neg' : 'bg-pos'}`} />
-        Validation <b className="num text-fg">{q?.status?.replaceAll('_', ' ') ?? '…'}</b>
-        <span className="num">· {fmt.int(q?.total_exceptions)} exceptions · {fmt.int(q?.quarantined_rows)} quarantined</span>
+        Validation <b className="num text-fg">{q?.status === 'PASS_WITH_EXCEPTIONS' ? 'PASS*' : q?.status ?? '…'}</b>
+        <span className="num">{fmt.int(q?.total_exceptions)} exc · {fmt.int(q?.quarantined_rows)} quarantined</span>
       </div>
       <div className={cell} onClick={() => nav('/proof')}>
         Eval accuracy <b className="num text-fg">{fmt.pct(ev?.splits.eval.sentiment_all.accuracy)}</b>
@@ -68,7 +68,7 @@ function StatusStrip() {
         Incidents <b className="num text-fg">{ev ? `${ev.incidents.detected}/${ev.incidents.incidents}` : '…'}</b>
         <span className="num">· {ev?.incidents.false_alarms ?? '…'} false alarms · TTD {fmt.num(ev?.incidents.mean_time_to_detect_days, 1)} d</span>
       </div>
-      <div className="ml-auto flex items-center gap-3 px-4">
+      <div className="ml-auto hidden shrink-0 items-center gap-3 px-3 2xl:flex">
         {CHANNELS.map((c) => (
           <span key={c.key} className="flex items-center gap-1.5">
             <svg width="18" height="6"><line x1="0" y1="3" x2="18" y2="3" stroke={c.color} strokeWidth="2" strokeDasharray={c.dash} /></svg>

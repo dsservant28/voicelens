@@ -45,3 +45,17 @@ Owner-written. One entry per decision. Format: Decision · Options considered ·
 - **Choice and why:** several examples per type make per-type detection recall measurable; unrelated rows stay valid.
 - **Trade-off:** NOT VALID FKs mean the DB does not stop bad rows from loading; the validator is responsible for catching them.
 - **Requirement link:** required edge cases, exception path, separate ground truth.
+
+## D-007 — Ingest gate quarantines, never crashes
+- **Decision:** `validate/checks.py` runs 13 contract-driven checks; every failing row becomes an `app.data_exception` row with a disposition: QUARANTINE (kept in the DB, excluded from analysis) or FLAG (kept, shown on the data-quality page).
+- **Options considered:** fail the whole load on the first error; silently drop bad rows; quarantine with an audit trail.
+- **Choice and why:** _(owner)_ bad rows stay visible and traceable; one bad record never blocks thousands of good ones.
+- **Trade-off:** downstream queries must anti-join quarantined keys.
+- **Requirement link:** Step 8 validation, exception path, traceability.
+
+## D-008 — Contract-generated DB schema, COPY load, FKs NOT VALID, no ground truth in DB
+- **Decision:** SQLAlchemy tables are generated from the contract (`db/models.py`), schemas `raw` (inputs) and `app` (pipeline-owned). Load = drop/recreate + PostgreSQL COPY (idempotent). FKs added `NOT VALID` after load: planted bad links load and are reported, while any NEW bad insert is rejected. Ground truth stays in files, read only by `evaluate/`.
+- **Options considered:** hand-written ORM classes + row INSERTs; Alembic migrations.
+- **Choice and why:** _(owner)_ one definition for docs, checks and DDL; COPY loads 36k rows in ~3 s.
+- **Trade-off:** no migration history (drop/recreate is fine for a generated dataset).
+- **Requirement link:** Step 9 schema export, no label leakage.
